@@ -94,7 +94,7 @@ namespace SyncTrayzor.Pages
         {
             lock (cultureLock)
             {
-                culture = configuration.UseComputerCulture ? Thread.CurrentThread.CurrentUICulture : null;
+                culture = configuration.UseComputerCulture ? CultureInfo.CurrentUICulture : CultureInfo.GetCultureInfoByIetfLanguageTag("en-US");
             }
         }
 
@@ -104,6 +104,12 @@ namespace SyncTrayzor.Pages
             {
                 var configuration = configurationProvider.Load();
 
+                string language;
+                lock (cultureLock)
+                {
+                    language = culture!.Name;
+                }
+
                 var settings = new CefSettings()
                 {
                     RemoteDebuggingPort = AppSettings.Instance.CefRemoteDebuggingPort,
@@ -111,6 +117,8 @@ namespace SyncTrayzor.Pages
                     CachePath = pathsProvider.CefCachePath,
                     IgnoreCertificateErrors = true,
                     LogSeverity = LogSeverity.Disable,
+                    AcceptLanguageList = language,
+                    Locale = language
                 };
 
                 // System proxy settings (which also specify a proxy for localhost) shouldn't affect us
@@ -365,12 +373,6 @@ namespace SyncTrayzor.Pages
             headers.Remove("Cache-Control");
             headers.Remove("If-None-Match");
             headers.Remove("If-Modified-Since");
-
-            lock (cultureLock)
-            {
-                if (culture != null)
-                    headers["Accept-Language"] = $"{culture.Name};q=0.8,en;q=0.6";
-            }
 
             request.Headers = headers;
 
