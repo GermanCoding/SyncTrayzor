@@ -908,10 +908,4 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Pozostaw otwarte okno podręczne aktywności (kliknij prawym przyciskiem myszy okno podręczne, aby je zamknąć)</value>
   </data>
-  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

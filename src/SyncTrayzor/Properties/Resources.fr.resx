@@ -901,10 +901,4 @@ SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
     <value>Syncthing est arrêté</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
   </data>
-  <data name="ConsoleView_PauseButton" xml:space="preserve">
-    <value></value>
-  </data>
-  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
-    <value></value>
-  </data>
 </root>

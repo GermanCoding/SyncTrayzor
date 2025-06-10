@@ -909,7 +909,4 @@ SyncTrayzor gaat nu afsluiten. Onze excuses.</value>
     <value>Syncthing is gestopt</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
   </data>
-  <data name="ShellView_Menu_Help" xml:space="preserve">
-    <value></value>
-  </data>
 </root>
