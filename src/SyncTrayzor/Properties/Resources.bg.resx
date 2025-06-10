@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
-                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
+                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
-              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
-              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required" />
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string" />
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,391 +117,207 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="AboutView_CreatedByAuthor" xml:space="preserve">
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
     <value>Създаден от Antony Male.</value>
-  </data><data name="AboutView_DonateAgain_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
     <value>Дарете отново</value>
-  </data><data name="AboutView_DonateThanks" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
     <value>Благодарим за дарението!</value>
-  </data><data name="AboutView_Donate_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
     <value>Дарете сега</value>
-  </data><data name="AboutView_Donate_Text" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Намирате SyncTrayzor  за полезен?
 Моля, допринесете в кампанията ми за дарения.</value>
-  </data><data name="AboutView_DownloadNewVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Отвори страницата за изтегляне</value>
     <comment>Clickable link allowing the user to download the latest version of SyncTrayzor</comment>
-  </data><data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
     <value>Има нова версия: {0}</value>
     <comment>Prompt showing the user that a new version of SynTrayzor is available
 {0}: Latest version of SyncTrayzor </comment>
-  </data><data name="AboutView_ReleasedLicense" xml:space="preserve">
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
     <value>Разпространено под MIT лиценз.</value>
-  </data><data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
     <value>Покажи лицените на Отворен Код</value>
-  </data><data name="AboutView_SyncthingVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
     <value>Версия на Syncthing: {0}</value>
     <comment>Information showing the user the current version of Syncthing
 {0}: Current Syncthing version</comment>
-  </data><data name="AboutView_UnknownVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
     <value>Непозната</value>
     <comment>Shown within AboutView_SyncthingVersion if Syncthing's version couldn't be determined</comment>
-  </data><data name="AboutView_Version" xml:space="preserve">
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
     <value>Версия: {0}</value>
     <comment>Information showing the user the current version of SyncTrayzor
 {0}: Current SyncTrayzor version</comment>
-  </data><data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
     <value>Имате {0:p:1 файлов конфликт|{} конфликтни файла}</value>
     <comment>Text shown at the start of the alert bar, when the user has conflicted files.
 {0}: The number of conflicts</comment>
-  </data><data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
     <value>Оправете сега.</value>
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
-  </data><data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
     <value>{0:p:Следната папка има неуспешен файлов трансфер|Следните папки имат неуспешни файлови трансфери}: {0:list:{}|, }.</value>
     <comment>Text show in a bar alert at the top of the screen when there are 1 or more folders with failing transfers. 
 {0}: List of folders with failing file transfers</comment>
-  </data><data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
     <value>Моля, вижте Syncthing GUI или конзолата за допълнителна информация.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
     <value>The area below may be blank when using Intel Xe graphics cards. Please disable hardware rendering under File -⁠&gt; Settings if you encounter this.</value>
     <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
     <value>Dismiss</value>
-  </data><data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>Следното {0:p:устройство е сложено|устройства са сложени} на пауза, защото {0:p:е|са} свързани в мрежа, която отчита размера на обменените данни: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
-  </data><data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
     <value>Изберете</value>
     <comment>Button shown next to each conflicted file, allowing the user to choose that version of the file as the one they want to keep (and deleting the other versions)</comment>
-  </data><data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
     <value>Покажи в папка</value>
-  </data><data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
     <value>Моля, изберете версията на файла, която желаете да запазите. Другите версии ще бъдат изтрити.</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
     <value>Избор на новия конфликт</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
     <value>Избира се конфликтът, който е създаден последно</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
     <value>Избор на най-новия</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
     <value>Изибира се 'Оригиналният' файл ако 'Последно промен'-ата дата е най-нова, или конфликтът, който е създаден последно</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
     <value>Избор на оригинала</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
     <value>Взема се 'Оригинал'-ният файл от всеки конфликт и изтрива всички конфликтни файлове</value>
-  </data><data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
     <value>Премести изтритите файлове в кожчето за боклук, вместо да ги изтриеш завинаги</value>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
     <value>Разрешаването на този конфликт е неуспешно: {0}</value>
     <comment>Content of the dialog shown when resolving a conflict failed.
 
 {0}: Exception message</comment>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
     <value>Операцията е неуспешна</value>
-  </data><data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
     <value>Създаден е конфликт</value>
     <comment>Header shown above the list of times at which each confliction version of the file was created, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
     <value>Името на конфликтния файл</value>
     <comment>Header shown above a list of file names of each conflicting version of the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_File" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
     <value>Файл</value>
     <comment>Header shown above the filename of each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
     <value>Папка</value>
     <comment>Header shown above the folder containing each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
     <value>Последна промяна</value>
     <comment>Header shown above the 'Last Modified' column. This is used both in the main body (to show when the original file in the conflict was last modified), and above each version of the conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
     <value>Modified By</value>
     <comment>Header shown above the 'Modified by' entry, which contains the name of the device which last modified the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
     <value>Оригинален файл</value>
     <comment>Header shown above the 'Original File' entry, which contains the name of the original file in the conflict, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
     <value>Размер</value>
-  </data><data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
     <value>Откажи</value>
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
     <value>Сканиране...</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
     <value>Използвайте shift / control за избор на множество опции</value>
-  </data><data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
     <value>Няма открити конфликти. Добра работа!</value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
-  </data><data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
     <value>(Все още) Няма открити конфликти...</value>
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
-  </data><data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
     <value>Syncthing не е включен в момента. Моля, стартирайте Syncthing.</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
-  </data><data name="ConflictResolutionView_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
     <value>Диспечер на конфликтите</value>
     <comment>Shown in the title bar of the Conflict Resolver window</comment>
-  </data><data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
     <value>Избрахте {0} конфликта. Изберете как да ги оправите. Другите версии ще бъдат изтрити.</value>
-  </data><data name="ConsoleView_ClearButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
     <value>Изчисти</value>
-  </data><data name="ConsoleView_PauseButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
     <value>Пауза</value>
-  </data><data name="ConsoleView_ResumeButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
     <value>Продължи</value>
-  </data><data name="ConsoleView_SettingsButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
     <value>Настройки</value>
-  </data><data name="ConsoleView_Title" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
     <value>Syncthing конзола</value>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
     <value>Сигурен ли сте, че желаете да спрете всички Syncthing процеси, дори тези, които не са управлявани от SyncTrayzor?
 
 Рискувате да равалите базата данни на Syncthing. Направете това САМО ако не можете да стартирате Syncthing, защото друг Syncthing процес е активен в момента.</value>
     <comment>Body for the dialog show when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
     <value>Сигрени ли сте?</value>
     <comment>Title for the dialog shown when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
     <value>Failed to start Syncthing.
 
 Please read the log to determine the cause.
@@ -512,10 +328,12 @@ If "FATAL: Cannot open database" appears, please close any other open instances 
 "FATAL: Cannot Open Database" should remain in English
 
 The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to ShellView_Menu_Syncthing_KillAll, while "Syncthing -&gt;Start" corresponds to ShellView_Menu_Syncthing_Start</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
     <value>Неуспешно стартиране на Syncthing</value>
     <comment>Title of the dialog shown when Syncthing couldn't be started (and exited with an error)</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
     <value>Неуспешно стартиране на Syncthing: {0}
 
 Това може да е, защото Windows е настроен да забранява изпълняването на файлове в AppData, или защото имате инсталирано anti-malware приложение(пр. CryptoPrevent), което забранява изпълняването на файлове в AppData.
@@ -524,480 +342,662 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Content of dialog shown when Syncthing couldn't start because of group policy settings (probably)
 {0}: Exact exception message
 {1}: Path to Syncthing executable</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
     <value>Грешла при стартиране на Syncthing</value>
     <comment>Title of dialog shown when Syncthing couldn't start because of group policy settings (probably)</comment>
-  </data><data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
     <value>Неуспешно стартиране на Syncthing: {0}. Моля, разгледайте съдържанието на Syncthing конзолата за допълнителна информация.</value>
-  </data><data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
     <value>Syncthing не стартира правилно</value>
-  </data><data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
     <value>Изтегляне</value>
     <comment>Header for section containing downloading files</comment>
-  </data><data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
     <value>(изтрит)</value>
     <comment>Show after the 'x minutes ago' text if the update was a deletion</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
     <value>Изтегляне на {0}/{1} ({2}/сек)</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download
 {2}: The current download rate, e.g. 2.0MB</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
     <value>Изтегляне на {0}/{1}</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download</comment>
-  </data><data name="FileTransfersTrayView_Error" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
     <value>Грешка: {0}</value>
-  </data><data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
     <value>Наскоро актуализиран</value>
     <comment>Header for section containing files that were recently downloaded or deleted</comment>
-  </data><data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
     <value>Приемане: {0}/сек</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
     <value>No recent file downloads</value>
-  </data><data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
     <value>Изпращане: {0}/сек</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
     <value>Папка: {0}
 Пълен път: {1}</value>
-  </data><data name="Generic_Copy" xml:space="preserve">
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
     <value>_Копие</value>
-  </data><data name="Generic_Cut" xml:space="preserve">
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
     <value>_Изрязано</value>
-  </data><data name="Generic_Dialog_Cancel" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Откажи</value>
     <comment>'Cancel' button shown in various dialogs</comment>
-  </data><data name="Generic_Dialog_Close" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
     <value>Затвори</value>
     <comment>'Close' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_No" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
     <value>Не</value>
     <comment>'No' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_OK" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>ОК</value>
     <comment>'OK' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Save" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
     <value>Запази</value>
     <comment>'Save' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Yes" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
     <value>Да</value>
     <comment>'Yes' button shown on various dialogs</comment>
-  </data><data name="Generic_Paste" xml:space="preserve">
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
     <value>_Поставено</value>
-  </data><data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Не ми напомняй повече</value>
     <comment>When a new version is available, the user receives a prompt. This button allows the user to say they want want to be prompted to upgrade to this particular version again</comment>
-  </data><data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
     <value>Отвори страницата за изтегляне</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to download the new version</comment>
-  </data><data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
     <value>Инсталирай сега</value>
-  </data><data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
     <value>Напомни ми по-късно</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to say they want to be prompted the next time they start SyncTrayzor</comment>
-  </data><data name="NewVersionAlertView_Changelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
     <value>Списък с промени:</value>
-  </data><data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
     <value>'Не ми напомняй повече' ще заглуши подсещанията за тази верса. Може да забраните за постоянно подсещанията за нова версия, в секцията Настройки. Отидете в Помощ -&gt; За Програмта, за да проверите ръчно за нова версия.</value>
     <comment>When a new version is available, the user receives a prompt. This message tells the user how to permanently disable new version prompts. 'The Settings page' corresponds to ShellView_Menu_File. 'Help -&gt;About' corresponds to ShellView_Menu_Help_About.</comment>
-  </data><data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
     <value>Излезе версия {0} на SyncTrayzor!</value>
     <comment>When a new version is available, the user receives a prompt. This text appears at the top of that prompt</comment>
-  </data><data name="NewVersionAlertView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
     <value>Нова актулизация за SyncTrayzor</value>
     <comment>When a new version is available, the user receives a prompt. This is the title of that prompt.</comment>
-  </data><data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
     <value>Разгледай списъка с промени</value>
-  </data><data name="NewVersionInstalledView_Message" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
     <value>Версия {0} на SyncTrayzor е успешно инсталирана.</value>
-  </data><data name="NewVersionInstalledView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
     <value>SyncTrayzor е акутализиран</value>
-  </data><data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
     <value>Уведоми ме ако има нова версия на SyncTrayzor</value>
-  </data><data name="SettingsView_Alerts_Description" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
     <value>Уведомленията ще бъдат показани в горното поле на SyncTrayzor и ще добавят триъгълен знак за внимание в иконата на програмта.</value>
-  </data><data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>Disable balloon messages entirely on the 'Folders' tab</value>
-  </data><data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>Анимирай иконата в tray-a:</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
     <value>Неуспешно задаване на настройките за автоматично стартирване. Това вероятно се дължи на антивирусен софтуер.</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
     <value>Неуспешно задаване на автоматино стартирване</value>
-  </data><data name="SettingsView_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
     <value>Минимизирай в tray</value>
     <comment>Setting allowing the user to indicate that the 'close' button on the top right of the window should put Syncthing down into the tray, rather than closing the application</comment>
-  </data><data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
     <value>Забрани хардуерния rendering</value>
-  </data><data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
     <value>Уведоми ме за конфликтни файлове</value>
-  </data><data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
     <value>Уведоми ме за неуспешни файлови трансфери</value>
-  </data><data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
     <value>Ниво на доклада:</value>
     <comment>Label shown before SyncTrayzor logging level ComboBox</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Дебъгване</value>
     <comment>Name for the Debug log level (which provides lots of debug info)</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
     <value>Информация (по подразбиране)</value>
     <comment>Name for the Info log level</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
     <value>трейс</value>
     <comment>Name for the Trace log level (which provides the most debug info)</comment>
-  </data><data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
     <value>Покажи log-a на SyncTrayzor</value>
     <comment>Text on button which will open Explorer at the location of SyncTrayzor's log file</comment>
-  </data><data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
     <value>Покажи log-a на SyncTrayzor</value>
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
-  </data><data name="SettingsView_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
     <value>Сложете устройства, които се свързват от мрежа с ограничен трафик, в режим Пауза.</value>
-  </data><data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
     <value>Трябва да използвате Windows 8 или по-нова версия, за да може да използвате тази опция.</value>
-  </data><data name="SettingsView_MinimizeToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
     <value>Минимизирай в tray</value>
     <comment>Setting allowing the user to indicate that the 'minimize' button on the top right of the window should put Syncthing down into the tray, rather than minimizing the application</comment>
-  </data><data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
     <value>Прикрий идентификатора на устройството в log-а</value>
-  </data><data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
     <value>Покажи tray иконата само при затваряне</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
     <value>Трябва да рестартирате SyncTrayzor, за да бъдат приложени тези настройки.
 
 Желаете ли да рестартирате SyncTrayzor сега?</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
     <value>Рестартирай SyncTrayzor?</value>
-  </data><data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
     <value>Трябва да рестартирате SyncTrayzor, за да бъдат приложени тези настройки.</value>
-  </data><data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
     <value>Рестартирай Syncthing?</value>
-  </data><data name="SettingsView_Section_Advanced" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
     <value>Допълнителни</value>
     <comment>Section header for advanced settings</comment>
-  </data><data name="SettingsView_Section_Alerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
     <value>Уведомления</value>
-  </data><data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
     <value>Мрежи с ограничен трафик</value>
-  </data><data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
     <value>Стартирай при вписване</value>
     <comment>Section header for settings to do with automatically starting SyncTrayzor when the user logs in</comment>
-  </data><data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>Section header for settings to do with configuring SyncTrayzor</comment>
-  </data><data name="SettingsView_Section_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>Section header for settings to do with configuring Syncthing</comment>
-  </data><data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
     <value>Tray икона</value>
-  </data><data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
     <value>Показвай уведомления за свързващи се или губещи връзка устройства</value>
-  </data><data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>Показвай уведомления със съобщения "Добави ново устройство/ папка"</value>
-  </data><data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
     <value>Показвай статуса за синхронизация дори след като всичко е синхронизирано</value>
-  </data><data name="SettingsView_StartMinimized" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Стартирай минимизиран</value>
     <comment>Setting allowing the user to specify that, when SyncTrayzor is started automatically on login, it should start in the tray, rather than being visible to the user</comment>
-  </data><data name="SettingsView_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
     <value>Стартирай автоматично при вписване</value>
     <comment>Setting allowing the user to specify that SyncTrayzor should be started when the user logs in</comment>
-  </data><data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
     <value>Досъпът отказан. Моля стартирайте SyncTrazyor като Администратор, за да бъдат приложени тези промени.</value>
     <comment>Message displayed instead of SettingsView_StartOnLogin SettingsView_StartMinimized when the user doesn't have permission to edit the registry</comment>
-  </data><data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
     <value>Стартирай Syncthing, когато SyncTrayzor стартира</value>
     <comment>Setting allowing the user to specify that Syncthing should be start automatically when SyncTrayzor starts</comment>
-  </data><data name="SettingsView_SyncthingAddress" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
     <value>Адрес на връзка с GUI-то:</value>
-  </data><data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
     <value>SyncTrayzor променя "Адрес за възка с GUI-to", който е зададен в настройките на Syncthing. Тук може да зададете, каквото стойност желаете.</value>
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
-  </data><data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
     <value>Ръчно настроения път до Syncthing:</value>
-  </data><data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
     <value>Ако е нагласено, замени пътя по подразбиране до Syncthing базата данни и конфигурации</value>
-  </data><data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Ръчно настроен път за Syncthing</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
     <value>Забрани автоматичното актуализиране на Syncthing</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
     <value>Забрани автоматичното актуалзирна на Syncthing. Това е полезно ако нова версия на Syncthing развали взаимодействието със SyncTrayzor. В такъв случай ще трябва ръчно да върнете старта версия на syncthing.exe в папката за настройки на SyncTrayzor</value>
-  </data><data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Syncthing Environment променливи:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
     <value>Приорите на Syncthing процесът:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
     <value>Над нормален</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
     <value>Под нормален</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
     <value>Нисък</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
     <value>Нормаелн</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Tab_Folders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
     <value>Папки</value>
-  </data><data name="SettingsView_Tab_Logging" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
     <value>Логове</value>
-  </data><data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>'SyncTrayzor' settings tab</comment>
-  </data><data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>'Syncthing' settings tab</comment>
-  </data><data name="SettingsView_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
     <value>Настройки</value>
     <comment>Title of the 'settings' dialog</comment>
-  </data><data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
     <value>Всичката обменена информация</value>
-  </data><data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
     <value>Никога</value>
-  </data><data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
     <value>Синхронизиране</value>
-  </data><data name="SettingsView_UseComputerCulture" xml:space="preserve">
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
     <value>Когато е възможно, използвай езика на компютъра ми</value>
-  </data><data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>Трябва да има формата 'устройство:порт', пр. 'localhost:8384'</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user enters a value which is not a value URL</comment>
-  </data><data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
     <value>Не трябва да бъде празен</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user makes this field empty</comment>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
     <value>Не може да използвате флагът {0}</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
     <value>Флаговете за командния ред трябва да започват с '-'</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
     <value>Трябва да бъде във формата '-флаг' или '-флаг=стойност' или '-флаг="стойност с интервали"'</value>
-  </data><data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
     <value>Трябва да бъде във формата 'ПРОМЕНЛИВА=стойност' или 'ПРОМЕНЛИВА="стойност1 стойнсот2"'</value>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
     <value>Активирали сте системни наблюдатели за една или повече Syncthing папки, поради което техните Syncthing еквиваленти са деактивирани.</value>
     <comment>Text shown below the list of folders in the settings if the filesystem watcher for one or more folders has been enabled in Syncthing, meaning that SyncTrayzor's filesystem watcher for the corresponding folder(s) will be disabled</comment>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
     <value>Бележка:</value>
     <comment>Text shown in bold just before SettingsView_WatchedFolderEnabledInSyncthing</comment>
-  </data><data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
     <value>Наблюдавана: Тази папка ще бъде следена за промени, което означава, че може да заложите по-дълъг интервал за проверка в Syncthing.
 
 Известия: Ще получите уведомление 'Синхронизиран', когато файлове в папката бъдат актуализирани.</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
     <value>Папка</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
     <value>Уведомления</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
     <value>Наблюдавана</value>
-  </data><data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
     <value>Папките не са налични. Моля стартирайте Syncthing</value>
-  </data><data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
     <value>Допълнителни параметри за Syncthing командата</value>
-  </data><data name="ShellView_Donate" xml:space="preserve">
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
     <value>Дарете</value>
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
-  </data><data name="ShellView_Menu_File" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
     <value>_Файл</value>
-  </data><data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>_Диспечър на конфликите</value>
-  </data><data name="ShellView_Menu_File_Exit" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>_Изход</value>
-  </data><data name="ShellView_Menu_File_Settings" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
     <value>_Настройки</value>
-  </data><data name="ShellView_Menu_Help" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>_Помощ</value>
-  </data><data name="ShellView_Menu_Help_About" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
     <value>_За програмата</value>
-  </data><data name="ShellView_Menu_Syncthing" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
     <value>_Syncthing</value>
-  </data><data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
     <value>Спри _всички Syncthing процеси</value>
-  </data><data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
     <value>_Отвори в браузър</value>
-  </data><data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>_Опресни браузъра</value>
-  </data><data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
     <value>Р_естартирай</value>
-  </data><data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>_Стартирай</value>
-  </data><data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
     <value>Сп_ри</value>
-  </data><data name="ShellView_Menu_View" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
     <value>Ра_згледай</value>
-  </data><data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>Syncthing _Конзола</value>
-  </data><data name="ShellView_Menu_Zoom" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
     <value>_Увеличаване в браузъра</value>
-  </data><data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
     <value>Увели_чи</value>
-  </data><data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
     <value>На_мали</value>
-  </data><data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>Норма_лно</value>
-  </data><data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Описание:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
     <value>Уебсайт:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
     <value>Лиценз:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
     <value>Техт на лиценза:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
     <value>Име:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
     <value>Бележки:</value>
-  </data><data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
     <value>SyncTrayzor е създаден използвайки множество компоненти с отворен код, и не би съществувал без тях.
 Информация за всяка компонента и нейният лиценз, са показани по-долу.</value>
-  </data><data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
     <value>Външни компоненти</value>
-  </data><data name="TimeAgo_Days" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
     <value>Преди {0:p:1 ден|{} дена}</value>
-  </data><data name="TimeAgo_Hours" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
     <value>Преди {0:p:1 час|{} часа}</value>
-  </data><data name="TimeAgo_JustNow" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
     <value>Току що</value>
-  </data><data name="TimeAgo_Minutes" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
     <value>Преди {0:p:1 минута|{} минути}</value>
-  </data><data name="TimeAgo_Years" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
     <value>Преди {0:p:1 година|{} години}</value>
-  </data><data name="TranslatorAttributation" xml:space="preserve">
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
     <value>&lt;Бълграски&gt; превод от &lt;Милка Петкова&gt;</value>
     <comment>Shown on the 'about' page, this is space for you to attribute yourself. E.g. your local language equivalent of "Kingon translation by My Name". Add yourself to this field if you contribute to the translation for this language.</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
     <value>{0} се свърза</value>
     <comment>Message of tray icon balloon show when another device connects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
     <value>Устройство се свърза</value>
     <comment>Title of tray icon balloon when another device connected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
     <value>{0} прекъсна връзката</value>
     <comment>Message of tray icon balloon show when another device disconnects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
     <value>Устройство прекрати връзката</value>
     <comment>Title of tray icon balloon when another device disconnected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
     <value>Устройство {0} ({1}) желае да се свърже. Отвори SyncTrayzor, за да добавите новото устройство.</value>
     <comment>Balloon shown when device is rejected.
 {0}: Device ID
 {1}: Device Address</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
     <value>Връзка с устройството?</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
     <value>{0:p:1 изтрит файл|{} изтрити файла}</value>
     <comment>{0}: Number of files that were deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
     <value>{0:p:1 изтрит файл|{} изтрити файла} ({1:p:1 проблем|{} проблема})</value>
     <comment>{0}: Number of files that were deleted
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
     <value>{0}: Изтри {1}</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
     <value>{0}: Неуспя да изтрие {1} ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be deleted
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
     <value>{0}: Неуспя да актуализира {1} ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be updated
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
     <value>{0}: Приключи синхронизацията</value>
     <comment>Content of the balloon message shown when a folder finished synchronization
 
 {0}:The name of the folder which finished synchronizing</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
     <comment>{0}: Folder that finished syncing
 {1}: List of things that happened. Can be a single TrayIcon_Balloon_FinishedSyncing_UpdatedFile or TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures, a single TrayIcon_Balloon_FinishedSyncing_DeletedFile or TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures, or one of each (e.g. output might be 'MyFolder: Updated 2 files', 'MyFolder: Updated 1 file; Deleted 2 files', or 'MyFolder: Updated 2 files (1 failure); Deleted 2 files')</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
     <value>Приключена синхронизация</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
     <value>{0:p:1 обновен файл|{} обновени файла}</value>
     <comment>{0}: Number of files that were updated</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
     <value>{0:p:1 обновен файл|{} обновени файла} ({1:p:1 проблем|{} проблема})</value>
     <comment>{0}: Number of files that were updated
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
     <value>{0}: Обнови{1}</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was updated</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
     <value>{0} желае да сподели папка {1}. Отвори SyncTrayzor, за да добавиш новата папка</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
     <value>Сподели папката?</value>
-  </data><data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
     <value>_Затваряне в трея</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
-  </data><data name="TrayIcon_Menu_Exit" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
     <value>_Изход</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
-  </data><data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
     <value>Отваряне на _Папка</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
-  </data><data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>_Rescan All Folders</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
-  </data><data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
     <value>_Рестартирване на Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
-  </data><data name="TrayIcon_Menu_Restore" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
     <value>_Отваряне на SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
-  </data><data name="TrayIcon_Menu_Settings" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
     <value>На_стройки</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
-  </data><data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
     <value>_Стартирай Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
-  </data><data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
     <value>С_при Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
-  </data><data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
     <value>Опа! Нещо лошо се случи.
 SyncTrayzor ще трябва да се затвори. Извинявайте за това.</value>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
     <value>Може да бъдете помолени да предадете log файла.</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
     <value>Може да намерите log файла на SyncTrayzor тук.</value>
     <comment>Clickable text to open the location of the log file</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
     <value>и добавте следната информация:</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
     <value>Моля отворете доклад за проблем на</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
-  </data><data name="UnhandledExceptionView_Title" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
     <value>Грешка!</value>
     <comment>Title of the dialog shown when an unhandled exception occurs</comment>
-  </data><data name="ViewerView_BrowseToFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
     <value>Отвори</value>
     <comment>Shown on a button next to the 'Folder Path' input in Syncthing's UI</comment>
-  </data><data name="ViewerView_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
     <value>Отвори папка</value>
     <comment>Button shown in the web interface, alongside the native 'rescan' and 'edit' buttons. Allows the folder to be opened in Explorer</comment>
-  </data><data name="ViewerView_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
     <value>Стартирай Syncthing</value>
     <comment>Link show in the centre of the screen when Syncthing is stopped, allowing the user to start syncthing</comment>
-  </data><data name="ViewerView_SyncthingStarting" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
     <value>Syncthing стартира...</value>
     <comment>Text shown in the centre of the screen when Syncthing is starting, but there's no UI to display yet</comment>
-  </data><data name="ViewerView_SyncthingStopped" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>Syncthing спря</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
-  </data></root>
+  </data>
+</root>
