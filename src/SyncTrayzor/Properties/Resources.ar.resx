@@ -1002,4 +1002,7 @@ SyncTrayzor  سوف يقوم بالاغلاق. ناسف لذلك</value>
     <value>توقف Syncthing </value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
   </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value></value>
+  </data>
 </root>
