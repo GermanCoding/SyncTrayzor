@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
-                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
+                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
-              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
-              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required" />
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string" />
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,391 +117,207 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="AboutView_CreatedByAuthor" xml:space="preserve">
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
     <value>Vytvoril Anthony Male.</value>
-  </data><data name="AboutView_DonateAgain_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
     <value>Znovu prispieť</value>
-  </data><data name="AboutView_DonateThanks" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
     <value>Ďakujem za príspevok!</value>
-  </data><data name="AboutView_Donate_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
     <value>Prispieť teraz</value>
-  </data><data name="AboutView_Donate_Text" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Je pre Vás SyncTrayzor užitočný?
 Prosím prispejte na charitatívnu kampaň.</value>
-  </data><data name="AboutView_DownloadNewVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Otvoriť stránku na stiahnutie</value>
     <comment>Clickable link allowing the user to download the latest version of SyncTrayzor</comment>
-  </data><data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
     <value>Nová verzia je k dispozícii: {0}</value>
     <comment>Prompt showing the user that a new version of SynTrayzor is available
 {0}: Latest version of SyncTrayzor </comment>
-  </data><data name="AboutView_ReleasedLicense" xml:space="preserve">
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
     <value>Vydané pod licenciou MIT.</value>
-  </data><data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
     <value>Zobraz licencie Open Source</value>
-  </data><data name="AboutView_SyncthingVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
     <value>Syncthing Verzia: {0}</value>
     <comment>Information showing the user the current version of Syncthing
 {0}: Current Syncthing version</comment>
-  </data><data name="AboutView_UnknownVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
     <value>Neznáme</value>
     <comment>Shown within AboutView_SyncthingVersion if Syncthing's version couldn't be determined</comment>
-  </data><data name="AboutView_Version" xml:space="preserve">
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
     <value>Verzia: {0}</value>
     <comment>Information showing the user the current version of SyncTrayzor
 {0}: Current SyncTrayzor version</comment>
-  </data><data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
     <value>Máte {0:p:1 conflicted file|{} súborov s konfliktom}.</value>
     <comment>Text shown at the start of the alert bar, when the user has conflicted files.
 {0}: The number of conflicts</comment>
-  </data><data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
     <value>Vyriešiť teraz.</value>
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
-  </data><data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
     <value>Nasledovný/é {0:p:priečinok má|priečinky majú} zlyhané prenosy súborov {0:list:{}|, }.</value>
     <comment>Text show in a bar alert at the top of the screen when there are 1 or more folders with failing transfers. 
 {0}: List of folders with failing file transfers</comment>
-  </data><data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
     <value>Ďalšie informácie nájdete v GUI Syncthing, alebo v konzole programu.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
     <value>The area below may be blank when using Intel Xe graphics cards. Please disable hardware rendering under File -⁠&gt; Settings if you encounter this.</value>
     <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
     <value>Dismiss</value>
-  </data><data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>Nasledovné {0:p:device has|devices have} boli pozastavené pretože{0:p:it|they} pripojené prostredníctvom účtovaného pripojenia: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
-  </data><data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
     <value>Vybrať</value>
     <comment>Button shown next to each conflicted file, allowing the user to choose that version of the file as the one they want to keep (and deleting the other versions)</comment>
-  </data><data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
     <value>Zobraziť v priečinku</value>
-  </data><data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
     <value>Prosím vyberte verziu súboru na ponechanie. Ostatné verzie budú vymazané.</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
     <value>Vybrať najnovší konflikt</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
     <value>Chooses the conflict which was created most recently</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
     <value>Vybrať najnovší</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
     <value>Vyberie 'pôvodný' súbor pre každý konflikt ak je jeho 'naposledy zmenený' čas novší, alebo konflikt, ktorý bol vytvorený najnovšie.</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
     <value>Vybrať originál</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
     <value>Vyberie 'pôvodný' súbor pre každý konflikt a zmaže ostatné súbory</value>
-  </data><data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
     <value>Presunúť vymazané súbory do Koša, namiesto ich okamžitého vymazania.</value>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
     <value>Riešenie konfliktu zlyhalo: {0}</value>
     <comment>Content of the dialog shown when resolving a conflict failed.
 
 {0}: Exception message</comment>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
     <value>Operácia zlyhala</value>
-  </data><data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
     <value>Konflikt vytvorený</value>
     <comment>Header shown above the list of times at which each confliction version of the file was created, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
     <value>Konflikt mena súboru</value>
     <comment>Header shown above a list of file names of each conflicting version of the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_File" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
     <value>Súbor</value>
     <comment>Header shown above the filename of each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
     <value>Priečinok</value>
     <comment>Header shown above the folder containing each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
     <value>Naposledy upravené</value>
     <comment>Header shown above the 'Last Modified' column. This is used both in the main body (to show when the original file in the conflict was last modified), and above each version of the conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
     <value>Modified By</value>
     <comment>Header shown above the 'Modified by' entry, which contains the name of the device which last modified the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
     <value>Pôvodný súbor</value>
     <comment>Header shown above the 'Original File' entry, which contains the name of the original file in the conflict, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
     <value>Veľkosť</value>
-  </data><data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
     <value>Zrušiť</value>
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
     <value>Skenujem...</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
     <value>Use shift / control to select multiple items</value>
-  </data><data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
     <value>Dobrá práca! Žiadne konflikty neboli nájdené. </value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
-  </data><data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
     <value>Žiadne konflikty neboli nájdené (zatiaľ)...</value>
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
-  </data><data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
     <value>Syncthing nieje spustený. Prosím zapnite Syncthing.</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
-  </data><data name="ConflictResolutionView_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
     <value>Riešenie problémov</value>
     <comment>Shown in the title bar of the Conflict Resolver window</comment>
-  </data><data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
     <value>Označili ste {0} konfliktov. Vyberte postup. Ostatné verzie súborov budú vymazané.</value>
-  </data><data name="ConsoleView_ClearButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
     <value>Vyčistiť</value>
-  </data><data name="ConsoleView_PauseButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
     <value>Pauza</value>
-  </data><data name="ConsoleView_ResumeButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
     <value>Pokračovať</value>
-  </data><data name="ConsoleView_SettingsButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
     <value>Nastavenia</value>
-  </data><data name="ConsoleView_Title" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
     <value>Konzola Syncthing</value>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
     <value>Ste si istý, že chcete ukončiť všetky procesy Syncthing vrátane tých, ktoré niesú spravované aplikáciou SyncTrayzor?
 
 Riskujete poškodenie databázy Syncthing. Túto možnosť vyberte LEN v prípade, ak nieje možné spustiť Syncthing, nakoľko je spustený iný proces Syncthing nespravovaný SyncTrayzorom.</value>
     <comment>Body for the dialog show when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
     <value>Ste si istý?</value>
     <comment>Title for the dialog shown when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
     <value>Failed to start Syncthing.
 
 Please read the log to determine the cause.
@@ -512,10 +328,12 @@ If "FATAL: Cannot open database" appears, please close any other open instances 
 "FATAL: Cannot Open Database" should remain in English
 
 The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to ShellView_Menu_Syncthing_KillAll, while "Syncthing -&gt;Start" corresponds to ShellView_Menu_Syncthing_Start</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
     <value>Syncthing sa nedokázal spustiť</value>
     <comment>Title of the dialog shown when Syncthing couldn't be started (and exited with an error)</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
     <value>Syncthing sa nedá spustiť: {0}
 
 Toto môže byť spôsobené nastavením systému, ktoré znemožňuje spúšťanie aplikácii v AppData, alebo nainštalovaným anti-malware softvéru 3. strany (napr. CryptoPrevent), ktoré zabraňuje spúšťaniu aplikácii v AppData.
@@ -524,482 +342,664 @@ Toto môže byť spôsobené nastavením systému, ktoré znemožňuje spúšťa
     <comment>Content of dialog shown when Syncthing couldn't start because of group policy settings (probably)
 {0}: Exact exception message
 {1}: Path to Syncthing executable</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
     <value>Problém pri štarte Syncthing</value>
     <comment>Title of dialog shown when Syncthing couldn't start because of group policy settings (probably)</comment>
-  </data><data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
     <value>Syncthing sa nedá spustiť: {0}. Pre zistenie príčiny nahliadnite do konzoly.</value>
-  </data><data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
     <value>Syncthing nebol správne spustený</value>
-  </data><data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
     <value>Sťahovanie</value>
     <comment>Header for section containing downloading files</comment>
-  </data><data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
     <value>(zmazané)</value>
     <comment>Show after the 'x minutes ago' text if the update was a deletion</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
     <value>Sťahovanie {0}/{1} ({2}/s)</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download
 {2}: The current download rate, e.g. 2.0MB</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
     <value>Sťahovanie {0}/{1}</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download</comment>
-  </data><data name="FileTransfersTrayView_Error" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
     <value>Chyba: {0}</value>
-  </data><data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
     <value>Naposledy aktualizované</value>
     <comment>Header for section containing files that were recently downloaded or deleted</comment>
-  </data><data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
     <value>Dnu: {0}/s</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
     <value>No recent file downloads</value>
-  </data><data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
     <value>Von: {0}/s</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
     <value>Priečinok: {0}
 Cesta: {1}</value>
-  </data><data name="Generic_Copy" xml:space="preserve">
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
     <value>_Kopírovať</value>
-  </data><data name="Generic_Cut" xml:space="preserve">
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
     <value>Vys_trihnúť</value>
-  </data><data name="Generic_Dialog_Cancel" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Zrušiť</value>
     <comment>'Cancel' button shown in various dialogs</comment>
-  </data><data name="Generic_Dialog_Close" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
     <value>Zatvoriť</value>
     <comment>'Close' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_No" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
     <value>Nie</value>
     <comment>'No' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_OK" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>OK</value>
     <comment>'OK' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Save" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
     <value>Uložiť</value>
     <comment>'Save' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Yes" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
     <value>Áno</value>
     <comment>'Yes' button shown on various dialogs</comment>
-  </data><data name="Generic_Paste" xml:space="preserve">
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
     <value>_Vložiť</value>
-  </data><data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Znovu ma neupozorňovať</value>
     <comment>When a new version is available, the user receives a prompt. This button allows the user to say they want want to be prompted to upgrade to this particular version again</comment>
-  </data><data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
     <value>Otvoriť stránku na stiahnutie</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to download the new version</comment>
-  </data><data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
     <value>Nainštalovať teraz</value>
-  </data><data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
     <value>Upozorni ma neskôr</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to say they want to be prompted the next time they start SyncTrayzor</comment>
-  </data><data name="NewVersionAlertView_Changelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
     <value>Zoznam zmien:</value>
-  </data><data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
     <value>'Znovu ma neupozorňovať' vypne upozorňovanie nových komponentov programu pre túto verziu. Trvalé vypnutie upozornení je možné na stránke Nastavenia. Navštívte Pomocník -&gt; O programe pre manuálnu kontrolu nových verzií programu.</value>
     <comment>When a new version is available, the user receives a prompt. This message tells the user how to permanently disable new version prompts. 'The Settings page' corresponds to ShellView_Menu_File. 'Help -&gt;About' corresponds to ShellView_Menu_Help_About.</comment>
-  </data><data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
     <value>SyncTrayzor verzia {0} je dostupná!</value>
     <comment>When a new version is available, the user receives a prompt. This text appears at the top of that prompt</comment>
-  </data><data name="NewVersionAlertView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
     <value>Aktualizácia SyncTrayzor je dostupná</value>
     <comment>When a new version is available, the user receives a prompt. This is the title of that prompt.</comment>
-  </data><data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
     <value>Zobraziť zoznam zmien</value>
-  </data><data name="NewVersionInstalledView_Message" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
     <value>Verzia {0} SyncTrayzor bola nainštalovaná.</value>
-  </data><data name="NewVersionInstalledView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
     <value>SyncTrayzor bol aktualizovaný</value>
-  </data><data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
     <value>Upozorniť v prípade dostupnosti novej verzie SyncTrayzor</value>
-  </data><data name="SettingsView_Alerts_Description" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
     <value>Výstrahy sú zobrazené na lište v hornej časti SyncTrayzor. Ďalej je zobrazený výstražný trojuholník na ikone na hlavnom paneli.</value>
-  </data><data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>Disable balloon messages entirely on the 'Folders' tab</value>
-  </data><data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>Animovaná ikona v systémovej lište:</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
     <value>Unable to set your auto-start settings. This is probably due to anti-virus software.</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
     <value>Unable to set auto-start</value>
-  </data><data name="SettingsView_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
     <value>Zavrieť na lištu</value>
     <comment>Setting allowing the user to indicate that the 'close' button on the top right of the window should put Syncthing down into the tray, rather than closing the application</comment>
-  </data><data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
     <value>Vypnúť hardvérové vykresľovanie</value>
-  </data><data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
     <value>Upozorniť ma na konfliktné súbory</value>
-  </data><data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
     <value>Upozorniť ma na zlyhané prenosy</value>
-  </data><data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
     <value>Log Level:</value>
     <comment>Label shown before SyncTrayzor logging level ComboBox</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
     <comment>Name for the Debug log level (which provides lots of debug info)</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
     <value>Info (Default)</value>
     <comment>Name for the Info log level</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
     <value>Trace</value>
     <comment>Name for the Trace log level (which provides the most debug info)</comment>
-  </data><data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
     <value>Zobraziť log SyncTrayzor</value>
     <comment>Text on button which will open Explorer at the location of SyncTrayzor's log file</comment>
-  </data><data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
     <value>Zobraziť log Syncthing</value>
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
-  </data><data name="SettingsView_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
     <value>Pozastaviť zariadenia, ktoré sa pripájajú pomocou siete s dátovým limitom.</value>
-  </data><data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
     <value>Na využitie nasledovnej funkcie musíte používať Windows 8 a novší.</value>
-  </data><data name="SettingsView_MinimizeToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
     <value>Minimalizovať na lištu</value>
     <comment>Setting allowing the user to indicate that the 'minimize' button on the top right of the window should put Syncthing down into the tray, rather than minimizing the application</comment>
-  </data><data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
     <value>Nezobrazovať pravé ID zariadení v logu</value>
-  </data><data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
     <value>Zobraziť ikonu na lište pri zavretí</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
     <value>Aby sa nastavenia korektne aplikovali je nutné reštartovať SyncTrayzor.
 
 Chcete SyncTrayzor reštartovať teraz?</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
     <value>Reštartovať SyncTrayzor?</value>
-  </data><data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
     <value>Aby sa nastavenia korektne aplikovali je nutné reštartovať Syncthing.
 
 Chcete Syncthing reštartovať teraz?</value>
-  </data><data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
     <value>Reštartovať Syncthing?</value>
-  </data><data name="SettingsView_Section_Advanced" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
     <value>Pokročilé</value>
     <comment>Section header for advanced settings</comment>
-  </data><data name="SettingsView_Section_Alerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
     <value>Výstrahy</value>
-  </data><data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
     <value>Pripojenia s dátovým limitom</value>
-  </data><data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
     <value>Zapnúť po príhlásení</value>
     <comment>Section header for settings to do with automatically starting SyncTrayzor when the user logs in</comment>
-  </data><data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>Section header for settings to do with configuring SyncTrayzor</comment>
-  </data><data name="SettingsView_Section_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>Section header for settings to do with configuring Syncthing</comment>
-  </data><data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
     <value>Ikona na lište</value>
-  </data><data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
     <value>Zobrazovať notifikácie "Zariadenie pripojené / odpojené"</value>
-  </data><data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>Zobrazovať notifikácie "Pridať nové zariadenie / priečinok"</value>
-  </data><data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
     <value>Zobraziť notifikáciu "Synchronizované" aj v prípade, že neboli aktualizované súbory</value>
-  </data><data name="SettingsView_StartMinimized" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Spustiť minimalizovaný</value>
     <comment>Setting allowing the user to specify that, when SyncTrayzor is started automatically on login, it should start in the tray, rather than being visible to the user</comment>
-  </data><data name="SettingsView_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
     <value>Automatický štart po prihlásení</value>
     <comment>Setting allowing the user to specify that SyncTrayzor should be started when the user logs in</comment>
-  </data><data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
     <value>Povolenie zamietnuté. Prosím spustite SyncTrayzor ako Administrátor na zmenu týchto nastavení.</value>
     <comment>Message displayed instead of SettingsView_StartOnLogin SettingsView_StartMinimized when the user doesn't have permission to edit the registry</comment>
-  </data><data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
     <value>Spustiť Syncthing pri štarte SyncTrayzor</value>
     <comment>Setting allowing the user to specify that Syncthing should be start automatically when SyncTrayzor starts</comment>
-  </data><data name="SettingsView_SyncthingAddress" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
     <value>Adresa načúvania GUI:</value>
-  </data><data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
     <value>SyncTrayzor nahrádza "Adresu načúvania GUI" uvedenú v konfigurácii Syncthing. Napriek tomu, ju môžete zmeniť na akúkoľvek hodnotu.</value>
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
-  </data><data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
     <value>Užívateľská domovská cesta Syncthing-u:</value>
-  </data><data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
     <value>Keď je nastavené, tak prepíše predvolenú cestu pre databazu a konfiguraciu Syncthing-u</value>
-  </data><data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Syncthing Custom Path</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
     <value>Vypnúť automatickú aktualizáciu Syncthing</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
     <value>Nepovoliť automatické aktualizácie Syncthing. Toto nastavenie je užitočné, v prípade, ak nová verzia Syncthing má problémy s kompatibilitou s programom SyncTrayzor. Ak sa tak stane, bude nutné manuálne zameniť súbor syncthing.exe v konfiguračnom priečinku SyncTrayzoru</value>
-  </data><data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Premenné prostredia Syncthing:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
     <value>Priorita procesu Syncthing:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
     <value>Zvýšená</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
     <value>Znížená</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
     <value>Nízka</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
     <value>Normálna</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Tab_Folders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
     <value>Priečinky</value>
-  </data><data name="SettingsView_Tab_Logging" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
     <value>Logging</value>
-  </data><data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>'SyncTrayzor' settings tab</comment>
-  </data><data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>'Syncthing' settings tab</comment>
-  </data><data name="SettingsView_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
     <value>Nastavenia</value>
     <comment>Title of the 'settings' dialog</comment>
-  </data><data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
     <value>Nejaké dátové prenosy</value>
-  </data><data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
     <value>Nikdy</value>
-  </data><data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
     <value>Synchronizujem</value>
-  </data><data name="SettingsView_UseComputerCulture" xml:space="preserve">
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
     <value>Používať jazyk môjho počítača, ak je k dispozícii</value>
-  </data><data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>Syntax musí byť 'host:port', napríklad 'localhost:8384'</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user enters a value which is not a value URL</comment>
-  </data><data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
     <value>Nemalo by byť prázdne</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user makes this field empty</comment>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
     <value>Príznak {0} nemôže byť zadaný</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
     <value>Príznaky v príkazovom riadku musia začínať s '-'</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
     <value>Syntax musí byť vo formáte '-flag' or '-flag=hodnota' or '-flag="hodnota s medzerami"'</value>
-  </data><data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
     <value>Musí byť vo formáte 'VAR=hodnota' alebo 'VAR="hod1 hod2"'</value>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
     <value>You have enabled filesystem watchers for one or more folders in Syncthing, and so the corresponding watchers in SyncTrayzor have been disabled.</value>
     <comment>Text shown below the list of folders in the settings if the filesystem watcher for one or more folders has been enabled in Syncthing, meaning that SyncTrayzor's filesystem watcher for the corresponding folder(s) will be disabled</comment>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
     <value>Note:</value>
     <comment>Text shown in bold just before SettingsView_WatchedFolderEnabledInSyncthing</comment>
-  </data><data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
     <value>Sledované: Priečinok bude sledovaný na zmeny, čo znamená, že môžete nastaviť dlhší interval kontrol v Syncthing.
 
 Upozornenia: V prípade zmeny súborov v priečinku budete dostávať notifikáciu "Synchronizované"</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
     <value>Priečinok</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
     <value>Upozornenia</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
     <value>Sledované</value>
-  </data><data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
     <value>Priečinky nie sú dostupné. Prosím zapnite Syncthing</value>
-  </data><data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
     <value>Premenné Syncthing príkazového riadku</value>
-  </data><data name="ShellView_Donate" xml:space="preserve">
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
     <value>Prispieť</value>
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
-  </data><data name="ShellView_Menu_File" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
     <value>_Súbor</value>
-  </data><data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>_Riešenie problémov</value>
-  </data><data name="ShellView_Menu_File_Exit" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>_Koniec</value>
-  </data><data name="ShellView_Menu_File_Settings" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
     <value>_Nastavenia</value>
-  </data><data name="ShellView_Menu_Help" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>Pomo_cník</value>
-  </data><data name="ShellView_Menu_Help_About" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
     <value>_O programe</value>
-  </data><data name="ShellView_Menu_Syncthing" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
     <value>_Syncthing</value>
-  </data><data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
     <value>Ukončiť _všetky procesy Syncthing</value>
-  </data><data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
     <value>Otvoriť v _externom prehliadači</value>
-  </data><data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>O_bnoviť prehliadač</value>
-  </data><data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
     <value>R_eštart</value>
-  </data><data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>Š_tart</value>
-  </data><data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
     <value>Sto_p</value>
-  </data><data name="ShellView_Menu_View" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
     <value>_Zobraziť</value>
-  </data><data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>_Konzola Syncthing</value>
-  </data><data name="ShellView_Menu_Zoom" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
     <value>_Priblížiť prehliadač</value>
-  </data><data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
     <value>Pr_iblížiť</value>
-  </data><data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
     <value>_Oddialiť</value>
-  </data><data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>_Reset</value>
-  </data><data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Popis:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
     <value>Domovská stránka:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
     <value>Licencia:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
     <value>Text licencie:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
     <value>Meno:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
     <value>Poznámky:</value>
-  </data><data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
     <value>SyncTrayzor je vytvorený pomocou mnohých open-source komponentov a jeho existencia bez nich by nebola možná.
 Detaily o každom z nich a ich text licencie sú uvedené nižšie.</value>
-  </data><data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
     <value>Komponenty tretích strán</value>
-  </data><data name="TimeAgo_Days" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
     <value>pred {0:p:1 dňom|{} dňami}</value>
-  </data><data name="TimeAgo_Hours" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
     <value>pred {0:p:1 hodinou|{} hodinami}</value>
-  </data><data name="TimeAgo_JustNow" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
     <value>Práve teraz</value>
-  </data><data name="TimeAgo_Minutes" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
     <value>pred {0:p:1 minútou|{} minútami}</value>
-  </data><data name="TimeAgo_Years" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
     <value>pred {0:p:1 rokom|{} rokmi}</value>
-  </data><data name="TranslatorAttributation" xml:space="preserve">
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
     <value>Do slovenského jazyka preložil Lukáš Černý</value>
     <comment>Shown on the 'about' page, this is space for you to attribute yourself. E.g. your local language equivalent of "Kingon translation by My Name". Add yourself to this field if you contribute to the translation for this language.</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
     <value>{0} pripojené</value>
     <comment>Message of tray icon balloon show when another device connects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
     <value>Zariadenie pripojené</value>
     <comment>Title of tray icon balloon when another device connected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
     <value>{0} odpojené</value>
     <comment>Message of tray icon balloon show when another device disconnects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
     <value>Zariadenie odpojené</value>
     <comment>Title of tray icon balloon when another device disconnected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
     <value>Zariadenie {0} ({1}) sa chce pripojiť. Otvorte SyncTrayzor aby bolo možné pridať nové zariadenie</value>
     <comment>Balloon shown when device is rejected.
 {0}: Device ID
 {1}: Device Address</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
     <value>Pripojiť zariadenie?</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
     <value>Vymazané {0:p:1 súbor|{} súbory}</value>
     <comment>{0}: Number of files that were deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
     <value>Vymazané {0:p:1 súbor|{} súbory} ({1:p:1 zlyhanie|{} zlyhania})</value>
     <comment>{0}: Number of files that were deleted
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
     <value>{0}: Vymazané {1}</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
     <value>{0}: Nepodarilo sa zmazať {1} ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be deleted
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
     <value>{0}: Nepodarilo sa aktualizovať {1} ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be updated
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
     <value>{0}: Synchronizácia ukončená</value>
     <comment>Content of the balloon message shown when a folder finished synchronization
 
 {0}:The name of the folder which finished synchronizing</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
     <comment>{0}: Folder that finished syncing
 {1}: List of things that happened. Can be a single TrayIcon_Balloon_FinishedSyncing_UpdatedFile or TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures, a single TrayIcon_Balloon_FinishedSyncing_DeletedFile or TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures, or one of each (e.g. output might be 'MyFolder: Updated 2 files', 'MyFolder: Updated 1 file; Deleted 2 files', or 'MyFolder: Updated 2 files (1 failure); Deleted 2 files')</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
     <value>Synchronizácia ukončená</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
     <value>Aktualizované {0:p:1 súbor|{} súbory}</value>
     <comment>{0}: Number of files that were updated</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
     <value>Aktualizované {0:p:1 súbor|{} súbory} ({1:p:1 zlyhanie|{} zlyhania})</value>
     <comment>{0}: Number of files that were updated
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
     <value>{0}: Aktualizované {1}</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was updated</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
     <value>{0} chce zdieľať priečinok {1}. Otvorte SyncTrayozor aby bolo možné pridať nový priečinok</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
     <value>Zdieľať priečinok?</value>
-  </data><data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
     <value>_Zavrieť na lištu</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
-  </data><data name="TrayIcon_Menu_Exit" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
     <value>_Ukončiť program</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
-  </data><data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
     <value>Otvoriť _priečinok</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
-  </data><data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>_Rescan All Folders</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
-  </data><data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
     <value>_Reštartovať Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
-  </data><data name="TrayIcon_Menu_Restore" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
     <value>_Otvoriť SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
-  </data><data name="TrayIcon_Menu_Settings" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
     <value>_Nastavenia</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
-  </data><data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
     <value>_Spustiť Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
-  </data><data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
     <value>Zas_taviť Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
-  </data><data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
     <value>Hups! Niečo sa pokazilo!
 SyncTrayzor sa musí zavrieť. Ospravedlňujeme sa</value>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
     <value>Môžete byť požiadaní o poskytnutie log súboru.</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
     <value>Log programu SyncTrayzor nájdete tu:</value>
     <comment>Clickable text to open the location of the log file</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
     <value>a zahrňte nasledovné informácie:</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
     <value>Prosím otvorte tiket na</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
-  </data><data name="UnhandledExceptionView_Title" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
     <value>Chyba!</value>
     <comment>Title of the dialog shown when an unhandled exception occurs</comment>
-  </data><data name="ViewerView_BrowseToFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
     <value>Prehliadať</value>
     <comment>Shown on a button next to the 'Folder Path' input in Syncthing's UI</comment>
-  </data><data name="ViewerView_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
     <value>Otvoriť priečinok</value>
     <comment>Button shown in the web interface, alongside the native 'rescan' and 'edit' buttons. Allows the folder to be opened in Explorer</comment>
-  </data><data name="ViewerView_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
     <value>Zapnúť Syncthing</value>
     <comment>Link show in the centre of the screen when Syncthing is stopped, allowing the user to start syncthing</comment>
-  </data><data name="ViewerView_SyncthingStarting" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
     <value>Syncting sa spúšťa...</value>
     <comment>Text shown in the centre of the screen when Syncthing is starting, but there's no UI to display yet</comment>
-  </data><data name="ViewerView_SyncthingStopped" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>Syncthing je pozastavený</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
-  </data></root>
+  </data>
+</root>
