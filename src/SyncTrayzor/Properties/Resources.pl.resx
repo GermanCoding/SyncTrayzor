@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  
   <xs:schema id="root">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xs:element ns1:IsDataSet="true" name="root">
@@ -908,5 +907,11 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Pozostaw otwarte okno podręczne aktywności (kliknij prawym przyciskiem myszy okno podręczne, aby je zamknąć)</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value></value>
   </data>
 </root>
