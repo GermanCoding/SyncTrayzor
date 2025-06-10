@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  
   <xs:schema id="root">
     <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xs:element ns1:IsDataSet="true" name="root">
@@ -819,5 +818,107 @@ SyncTrayzor  سوف يقوم بالاغلاق. ناسف لذلك</value>
   <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>توقف Syncthing </value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value></value>
   </data>
 </root>
