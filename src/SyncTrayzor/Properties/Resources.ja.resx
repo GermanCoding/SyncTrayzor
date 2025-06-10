@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -60,45 +60,45 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element msdata:IsDataSet="true" name="root">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
-                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
+                <xsd:element msdata:Ordinal="2" minOccurs="0" name="comment" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
-              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
-              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required" />
+              <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string" />
+              <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string"/>
+                <xsd:element msdata:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -117,392 +117,208 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<data name="AboutView_CreatedByAuthor" xml:space="preserve">
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
     <value>Antony Male により作成されました。</value>
-  </data><data name="AboutView_DonateAgain_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
     <value>再度寄付する</value>
-  </data><data name="AboutView_DonateThanks" xml:space="preserve">
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
     <value>ありがとう！寄付に感謝します。</value>
-  </data><data name="AboutView_Donate_Link" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
     <value>今すぐ寄付</value>
-  </data><data name="AboutView_Donate_Text" xml:space="preserve">
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>SyncTrayzor が役立っていますか？
 私の慈善募金運動に寄付をお願いします。</value>
-  </data><data name="AboutView_DownloadNewVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>ダウンロード ページを開く</value>
     <comment>Clickable link allowing the user to download the latest version of SyncTrayzor</comment>
-  </data><data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
     <value>新しいバージョンが利用可能: {0}</value>
     <comment>Prompt showing the user that a new version of SynTrayzor is available
 {0}: Latest version of SyncTrayzor </comment>
-  </data><data name="AboutView_ReleasedLicense" xml:space="preserve">
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
     <value>MIT ライセンスの下で公開されています。</value>
-  </data><data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
     <value>オープンソース ライセンスを表示</value>
-  </data><data name="AboutView_SyncthingVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
     <value>Syncthing バージョン: {0}</value>
     <comment>Information showing the user the current version of Syncthing
 {0}: Current Syncthing version</comment>
-  </data><data name="AboutView_UnknownVersion" xml:space="preserve">
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
     <value>不明</value>
     <comment>Shown within AboutView_SyncthingVersion if Syncthing's version couldn't be determined</comment>
-  </data><data name="AboutView_Version" xml:space="preserve">
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
     <value>バージョン: {0}</value>
     <comment>Information showing the user the current version of SyncTrayzor
 {0}: Current SyncTrayzor version</comment>
-  </data><data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
     <value>{0:p:{} 個|}の競合しているファイルがあります。</value>
     <comment>Text shown at the start of the alert bar, when the user has conflicted files.
 {0}: The number of conflicts</comment>
-  </data><data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
     <value>今すぐ解決します。</value>
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
-  </data><data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
     <value>次の{0:p:フォルダーは|フォルダーは}失敗したファイル転送があります: {0:list:{}|, }.</value>
     <comment>Text show in a bar alert at the top of the screen when there are 1 or more folders with failing transfers. 
 {0}: List of folders with failing file transfers</comment>
-  </data><data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
     <value>手掛かりを探すには Syncthing GUI またはコンソールを確認してください。</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
     <value>Intel Xe グラフィックス カードを使用している場合、下の領域が空白になることがあります。その場合は、[ファイル] -⁠&gt; [設定] からハードウェア レンダリングを無効にしてください。</value>
     <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data><data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
     <value>閉じる</value>
-  </data><data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>次の{0:p:デバイスは|デバイスは}、{0:p:それ|それら}が従量制課金接続のネットワークに接続されているため、一時停止されています: {0:list:{}|, }</value>
     <comment>{0}: List of paused devices</comment>
-  </data><data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
     <value>選択</value>
     <comment>Button shown next to each conflicted file, allowing the user to choose that version of the file as the one they want to keep (and deleting the other versions)</comment>
-  </data><data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
     <value>フォルダーを表示</value>
-  </data><data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
     <value>残したいファイルのバージョンを選択してください。もう一方のバージョンは削除されます。</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
     <value>最も新しい競合を選択</value>
-  </data><data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
     <value>最も最近に生じた競合を選択します</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
     <value>最新を選択</value>
-  </data><data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
     <value>もし最終更新日時が最新ならば「オリジナル」のファイルを、そうでなければ最も最近に生じた競合を選択します</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
     <value>オリジナルを選択</value>
-  </data><data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
     <value>それぞれの競合から「オリジナル」のファイルを選び、すべての競合ファイルを削除します</value>
-  </data><data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
     <value>削除されるファイルを完全に削除せずに、ごみ箱に移動する</value>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
     <value>この競合の解決に失敗しました: {0}</value>
     <comment>Content of the dialog shown when resolving a conflict failed.
 
 {0}: Exception message</comment>
-  </data><data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
     <value>操作失敗</value>
-  </data><data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
     <value>競合の日時</value>
     <comment>Header shown above the list of times at which each confliction version of the file was created, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
     <value>競合しているファイル名</value>
     <comment>Header shown above a list of file names of each conflicting version of the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_File" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
     <value>ファイル</value>
     <comment>Header shown above the filename of each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
     <value>フォルダー</value>
     <comment>Header shown above the folder containing each conflicted file in the main body of the window</comment>
-  </data><data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
     <value>最終更新日時</value>
     <comment>Header shown above the 'Last Modified' column. This is used both in the main body (to show when the original file in the conflict was last modified), and above each version of the conflict</comment>
-  </data><data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
     <value>変更したデバイス</value>
     <comment>Header shown above the 'Modified by' entry, which contains the name of the device which last modified the file, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
     <value>元のファイル</value>
     <comment>Header shown above the 'Original File' entry, which contains the name of the original file in the conflict, and is shown when the user selects a conflict</comment>
-  </data><data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
     <value>サイズ</value>
-  </data><data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
     <value>キャンセル</value>
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
     <value>スキャンしています…</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
-  </data><data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
     <value>複数の項目を選択するには Shift / Ctrl キーを使用してください</value>
-  </data><data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
     <value>競合は見つかりませんでした。Good job!</value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
-  </data><data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
     <value>競合は(まだ)見つかっていません…</value>
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
-  </data><data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
     <value>Syncthing は実行されていません。Syncthing を起動してください。</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
-  </data><data name="ConflictResolutionView_Title" xml:space="preserve">
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
     <value>競合の解決</value>
     <comment>Shown in the title bar of the Conflict Resolver window</comment>
-  </data><data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
     <value>{0} 個の競合を選択しています。どのように解決したいかを選択してください。もう一方のバージョンは削除されます。</value>
-  </data><data name="ConsoleView_ClearButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
     <value>クリア</value>
-  </data><data name="ConsoleView_PauseButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
     <value>一時停止</value>
-  </data><data name="ConsoleView_ResumeButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
     <value>再開</value>
-  </data><data name="ConsoleView_SettingsButton" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
     <value>設定</value>
-  </data><data name="ConsoleView_Title" xml:space="preserve">
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
     <value>Syncthing コンソール</value>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
     <value>すべての Syncthing プロセスを強制終了してもよろしいですか？
 これには SyncTrayzor によって管理されていないものも含まれます。
 
 この操作は Syncthing のデータベースを破壊する恐れがあります。別の Syncthing プロセスが現在実行されているために Syncthing が起動できない時のみに行ってください。</value>
     <comment>Body for the dialog show when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
     <value>本当によろしいですか？</value>
     <comment>Title for the dialog shown when the user clicks on ShellView_Menu_Syncthing_KillAll</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
     <value>Syncthing の起動に失敗しました。
 
 原因を究明するには、ログを確認してください。
@@ -513,10 +329,12 @@
 "FATAL: Cannot Open Database" should remain in English
 
 The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to ShellView_Menu_Syncthing_KillAll, while "Syncthing -&gt;Start" corresponds to ShellView_Menu_Syncthing_Start</comment>
-  </data><data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
     <value>Syncthing 起動失敗</value>
     <comment>Title of the dialog shown when Syncthing couldn't be started (and exited with an error)</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
     <value>Syncthing を起動できませんでした: {0}
 
 これは、 AppData フォルダ内のファイルの実行を禁止するようにセットアップされた Windows や、 AppData フォルダ内のファイルの実行を拒むマルウェア対策ソフトウェア (例えば CryptoPrevent) がインストールされていることが原因の可能性があります。
@@ -525,482 +343,664 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Content of dialog shown when Syncthing couldn't start because of group policy settings (probably)
 {0}: Exact exception message
 {1}: Path to Syncthing executable</comment>
-  </data><data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
     <value>Syncthing 起動エラー</value>
     <comment>Title of dialog shown when Syncthing couldn't start because of group policy settings (probably)</comment>
-  </data><data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
     <value>Syncthing を起動できません: {0} 手掛かりを探すには Syncthing のコンソール出力を確認してください。</value>
-  </data><data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
     <value>Syncthing は正しく起動しませんでした</value>
-  </data><data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
     <value>ダウンロード中</value>
     <comment>Header for section containing downloading files</comment>
-  </data><data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
     <value>(削除済)</value>
     <comment>Show after the 'x minutes ago' text if the update was a deletion</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
     <value>ダウンロード中 {0}/{1} ({2}/s)</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download
 {2}: The current download rate, e.g. 2.0MB</comment>
-  </data><data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
     <value>ダウンロード中 {0}/{1}</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download</comment>
-  </data><data name="FileTransfersTrayView_Error" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
     <value>エラー: {0}</value>
-  </data><data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
     <value>最近の更新</value>
     <comment>Header for section containing files that were recently downloaded or deleted</comment>
-  </data><data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
     <value>受信: {0}/s</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
     <value>最近のファイル ダウンロードはありません</value>
-  </data><data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
     <value>送信: {0}/s</value>
     <comment>{0}: a value such as '1.2kb'</comment>
-  </data><data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
     <value>フォルダー: {0}
 完全なパス: {1}</value>
-  </data><data name="Generic_Copy" xml:space="preserve">
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
     <value>コピー(_C)</value>
-  </data><data name="Generic_Cut" xml:space="preserve">
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
     <value>切り取り(_T)</value>
-  </data><data name="Generic_Dialog_Cancel" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>キャンセル</value>
     <comment>'Cancel' button shown in various dialogs</comment>
-  </data><data name="Generic_Dialog_Close" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
     <value>閉じる</value>
     <comment>'Close' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_No" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
     <value>いいえ</value>
     <comment>'No' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_OK" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>OK</value>
     <comment>'OK' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Save" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
     <value>保存</value>
     <comment>'Save' button shown on various dialogs</comment>
-  </data><data name="Generic_Dialog_Yes" xml:space="preserve">
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
     <value>はい</value>
     <comment>'Yes' button shown on various dialogs</comment>
-  </data><data name="Generic_Paste" xml:space="preserve">
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
     <value>貼り付け(_P)</value>
-  </data><data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>再度通知しない</value>
     <comment>When a new version is available, the user receives a prompt. This button allows the user to say they want want to be prompted to upgrade to this particular version again</comment>
-  </data><data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
     <value>ダウンロード ページを開く</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to download the new version</comment>
-  </data><data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
     <value>今すぐインストール</value>
-  </data><data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
     <value>後で通知する</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to say they want to be prompted the next time they start SyncTrayzor</comment>
-  </data><data name="NewVersionAlertView_Changelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
     <value>更新履歴:</value>
-  </data><data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
     <value>「再度通知しない」を選択すると、このバージョンについての通知を無視します。設定画面で新しいバージョンの通知を恒久的に無効にできます。手動で新しいバージョンの確認を行うには、ヘルプ → バージョン情報を見てください。</value>
     <comment>When a new version is available, the user receives a prompt. This message tells the user how to permanently disable new version prompts. 'The Settings page' corresponds to ShellView_Menu_File. 'Help -&gt;About' corresponds to ShellView_Menu_Help_About.</comment>
-  </data><data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
     <value>SyncTrayzor バージョン {0} が利用できます！</value>
     <comment>When a new version is available, the user receives a prompt. This text appears at the top of that prompt</comment>
-  </data><data name="NewVersionAlertView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
     <value>SyncTrayzor の更新が利用できます</value>
     <comment>When a new version is available, the user receives a prompt. This is the title of that prompt.</comment>
-  </data><data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
     <value>更新履歴を表示</value>
-  </data><data name="NewVersionInstalledView_Message" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
     <value>SyncTrayzor バージョン {0} は正常にインストールされました。</value>
-  </data><data name="NewVersionInstalledView_Title" xml:space="preserve">
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
     <value>SyncTrayzor が更新されました</value>
-  </data><data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
     <value>SyncTrayzor の新しいバージョンが利用可能なとき通知する</value>
-  </data><data name="SettingsView_Alerts_Description" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
     <value>アラートは SyncTrayzor 上部のバーに表示され、また通知領域アイコン上には三角形の警告を表示します。</value>
-  </data><data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>バルーン メッセージは「フォルダー」タブの設定で完全に無効化できます。</value>
-  </data><data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>通知領域アイコンのアニメーション:</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
     <value>自動起動を設定できません。これはおそらくウィルス対策ソフトウェアが原因です。</value>
-  </data><data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
     <value>自動起動設定不可</value>
-  </data><data name="SettingsView_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
     <value>閉じるとき通知領域に格納する</value>
     <comment>Setting allowing the user to indicate that the 'close' button on the top right of the window should put Syncthing down into the tray, rather than closing the application</comment>
-  </data><data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
     <value>ハードウェア レンダリングを無効化</value>
-  </data><data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
     <value>ファイルの競合を警告する</value>
-  </data><data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
     <value>ファイルの転送失敗を警告する</value>
-  </data><data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
     <value>ログ レベル:</value>
     <comment>Label shown before SyncTrayzor logging level ComboBox</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>デバッグ</value>
     <comment>Name for the Debug log level (which provides lots of debug info)</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
     <value>情報 (デフォルト)</value>
     <comment>Name for the Info log level</comment>
-  </data><data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
     <value>トレース</value>
     <comment>Name for the Trace log level (which provides the most debug info)</comment>
-  </data><data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
     <value>SyncTrayzor のログ ファイルを表示</value>
     <comment>Text on button which will open Explorer at the location of SyncTrayzor's log file</comment>
-  </data><data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
     <value>Syncthing のログ ファイルを表示</value>
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
-  </data><data name="SettingsView_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
     <value>従量制課金接続のネットワークによって接続されているデバイスを一時停止する</value>
-  </data><data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
     <value>この機能を使用するには Windows 8 以降を使用している必要があります。</value>
-  </data><data name="SettingsView_MinimizeToTray" xml:space="preserve">
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
     <value>最小化するとき通知領域へ格納する</value>
     <comment>Setting allowing the user to indicate that the 'minimize' button on the top right of the window should put Syncthing down into the tray, rather than minimizing the application</comment>
-  </data><data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
     <value>ログ ビューにはデバイス ID の一部のみ表示する</value>
-  </data><data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
     <value>閉じたときのみ通知領域アイコンを表示する</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
     <value>これらの設定を反映するには、SyncTrayzor を再起動する必要があります。
 
 今すぐ SyncTrayzor を再起動しますか？</value>
-  </data><data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
     <value>SyncTrayzor を再起動しますか？</value>
-  </data><data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
     <value>これらの設定を反映するには、Syncthing を再起動する必要があります。
 
 今すぐ Syncthing を再起動しますか？</value>
-  </data><data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
     <value>Syncthing を再起動しますか？</value>
-  </data><data name="SettingsView_Section_Advanced" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
     <value>高度な設定</value>
     <comment>Section header for advanced settings</comment>
-  </data><data name="SettingsView_Section_Alerts" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
     <value>アラート</value>
-  </data><data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
     <value>従量制課金接続のネットワーク</value>
-  </data><data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
     <value>ログイン時の起動</value>
     <comment>Section header for settings to do with automatically starting SyncTrayzor when the user logs in</comment>
-  </data><data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>Section header for settings to do with configuring SyncTrayzor</comment>
-  </data><data name="SettingsView_Section_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>Section header for settings to do with configuring Syncthing</comment>
-  </data><data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
     <value>通知領域アイコン</value>
-  </data><data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
     <value>「デバイスが接続/切断されました」バルーン メッセージを表示</value>
-  </data><data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>「新しいデバイス/フォルダーを追加」バルーン メッセージを表示</value>
-  </data><data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
     <value>更新されたファイルがない時でも「同期完了」バルーン メッセージを表示する</value>
-  </data><data name="SettingsView_StartMinimized" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>起動時に最小化する</value>
     <comment>Setting allowing the user to specify that, when SyncTrayzor is started automatically on login, it should start in the tray, rather than being visible to the user</comment>
-  </data><data name="SettingsView_StartOnLogin" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
     <value>ログインしたときに自動的に起動する</value>
     <comment>Setting allowing the user to specify that SyncTrayzor should be started when the user logs in</comment>
-  </data><data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
     <value>アクセスが拒否されました。これらの設定を変更するには、SyncTrayzor を管理者として実行してください。</value>
     <comment>Message displayed instead of SettingsView_StartOnLogin SettingsView_StartMinimized when the user doesn't have permission to edit the registry</comment>
-  </data><data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
     <value>SyncTrayzor の起動時に Syncthing を起動する</value>
     <comment>Setting allowing the user to specify that Syncthing should be start automatically when SyncTrayzor starts</comment>
-  </data><data name="SettingsView_SyncthingAddress" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
     <value>GUI 待ち受けアドレス:</value>
-  </data><data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
     <value>Syncthing の設定で指定した「GUI 待ち受けアドレス」は SyncTrayzor によってオーバーライドされます。しかしながら、ここで好きな値を設定できます。</value>
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
-  </data><data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
     <value>Syncthing カスタム ホーム パス:</value>
-  </data><data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
     <value>セットされた場合、Syncthing のデータベースと設定のためのデフォルト パスをオーバーライドします。</value>
-  </data><data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Syncthing カスタム パス</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
     <value>Syncthing を自動アップグレードしない</value>
-  </data><data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
     <value>Syncthing が自動アップグレードされないようにします。SyncTrayzor と新しいバージョンの Syncthing の間の互換性が失われたときに有益です。SyncTrayzor の設定フォルダー内の syncthing.exe をダウングレードする必要があります。</value>
-  </data><data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Syncthing 環境変数:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
     <value>Syncthing プロセスの優先度:</value>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
     <value>通常以上</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
     <value>通常以下</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
     <value>低</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
     <value>通常</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
-  </data><data name="SettingsView_Tab_Folders" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
     <value>フォルダー</value>
-  </data><data name="SettingsView_Tab_Logging" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
     <value>ログ</value>
-  </data><data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
     <comment>'SyncTrayzor' settings tab</comment>
-  </data><data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
     <comment>'Syncthing' settings tab</comment>
-  </data><data name="SettingsView_Title" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
     <value>設定</value>
     <comment>Title of the 'settings' dialog</comment>
-  </data><data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
     <value>すべてのデータ転送</value>
-  </data><data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
     <value>しない</value>
-  </data><data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
     <value>同期中</value>
-  </data><data name="SettingsView_UseComputerCulture" xml:space="preserve">
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
     <value>利用できる場合は、このコンピューターの言語を使用する</value>
-  </data><data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>「ホスト:ポート番号」の形式である必要があります。例: 「localhost:8384」</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user enters a value which is not a value URL</comment>
-  </data><data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
     <value>空にすべきではありません</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user makes this field empty</comment>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
     <value>フラグ {0} を指定してはいけません</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
     <value>コマンドラインのフラグは「-」で始まる必要があります</value>
-  </data><data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
     <value>「-フラグ」または「-フラグ=値」または「-フラグ="スペース が 含まれる 値"」の形式である必要があります</value>
-  </data><data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
     <value>「変数=値」または「変数="値1 値2"」の形式である必要があります</value>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
     <value>いくつかのフォルダーでは、 Syncthing 側でファイルシステム監視が有効にされているために SyncTrayzor 側の該当する監視は無効にされています。</value>
     <comment>Text shown below the list of folders in the settings if the filesystem watcher for one or more folders has been enabled in Syncthing, meaning that SyncTrayzor's filesystem watcher for the corresponding folder(s) will be disabled</comment>
-  </data><data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
     <value>注記:</value>
     <comment>Text shown in bold just before SettingsView_WatchedFolderEnabledInSyncthing</comment>
-  </data><data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
     <value>監視: フォルダー内の変更を監視します。そのため Syncthing のポーリング間隔をより長く設定することができます。
 
 通知: フォルダー内のファイルが更新されたとき、「同期完了」バルーン メッセージを表示します。</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
     <value>フォルダー</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
     <value>通知</value>
-  </data><data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
     <value>監視</value>
-  </data><data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
     <value>フォルダーを利用できません。Syncthing を起動してください。</value>
-  </data><data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
     <value>Syncthing コマンド ライン フラグ</value>
-  </data><data name="ShellView_Donate" xml:space="preserve">
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
     <value>寄付する</value>
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
-  </data><data name="ShellView_Menu_File" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
     <value>ファイル(_F)</value>
-  </data><data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>競合の解決(_C)</value>
-  </data><data name="ShellView_Menu_File_Exit" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>終了(_E)</value>
-  </data><data name="ShellView_Menu_File_Settings" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
     <value>設定(_S)</value>
-  </data><data name="ShellView_Menu_Help" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>ヘルプ(_H)</value>
-  </data><data name="ShellView_Menu_Help_About" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
     <value>バージョン情報(_A)</value>
-  </data><data name="ShellView_Menu_Syncthing" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
     <value>_Syncthing</value>
-  </data><data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
     <value>すべての Syncthing プロセスの強制終了(_A)</value>
-  </data><data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
     <value>外部のブラウザーで開く(_O)</value>
-  </data><data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>ブラウザーを最新の情報に更新(_R)</value>
-  </data><data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
     <value>再起動(_E)</value>
-  </data><data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>起動(_S)</value>
-  </data><data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
     <value>停止(_T)</value>
-  </data><data name="ShellView_Menu_View" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
     <value>表示(_V)</value>
-  </data><data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>Syncthing コンソール(_C)</value>
-  </data><data name="ShellView_Menu_Zoom" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
     <value>ブラウザーを拡大(_Z)</value>
-  </data><data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
     <value>拡大(_I)</value>
-  </data><data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
     <value>縮小(_O)</value>
-  </data><data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>元に戻す(_R)</value>
-  </data><data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>説明:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
     <value>ホーム ページ:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
     <value>ライセンス:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
     <value>ライセンス文書:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
     <value>名称:</value>
-  </data><data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
     <value>注記:</value>
-  </data><data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
     <value>SyncTrayzor は、多くのオープンソース コンポーネントを用いて作られており、これらなくしては存在しなかったでしょう。
 各コンポーネントの詳細とライセンス文書を以下に示します。</value>
-  </data><data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
     <value>サード パーティー コンポーネント</value>
-  </data><data name="TimeAgo_Days" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
     <value>{0:p:{}|} 日前</value>
-  </data><data name="TimeAgo_Hours" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
     <value>{0:p:{}|} 時間前</value>
-  </data><data name="TimeAgo_JustNow" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
     <value>たった今</value>
-  </data><data name="TimeAgo_Minutes" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
     <value>{0:p:{}|} 分前</value>
-  </data><data name="TimeAgo_Years" xml:space="preserve">
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
     <value>{0:p:{}|} 年前</value>
-  </data><data name="TranslatorAttributation" xml:space="preserve">
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
     <value>Japanese translation by n13i</value>
     <comment>Shown on the 'about' page, this is space for you to attribute yourself. E.g. your local language equivalent of "Kingon translation by My Name". Add yourself to this field if you contribute to the translation for this language.</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
     <value>{0} が接続されました</value>
     <comment>Message of tray icon balloon show when another device connects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
     <value>デバイスが接続されました</value>
     <comment>Title of tray icon balloon when another device connected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
     <value>{0} が切断されました</value>
     <comment>Message of tray icon balloon show when another device disconnects
 {0}: device name</comment>
-  </data><data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
     <value>デバイスが切断されました</value>
     <comment>Title of tray icon balloon when another device disconnected</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
     <value>デバイス {0} ({1}) が接続を要求しています。新しいデバイスを追加するには SyncTrayzor を開いてください</value>
     <comment>Balloon shown when device is rejected.
 {0}: Device ID
 {1}: Device Address</comment>
-  </data><data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
     <value>デバイスを接続しますか？</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
     <value>{0:p:{}|} 個のファイルを削除しました</value>
     <comment>{0}: Number of files that were deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
     <value>{0:p:{}|} 個のファイルを削除しました (失敗 {1:p:{}|})</value>
     <comment>{0}: Number of files that were deleted
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
     <value>{0}: {1} を削除しました</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was deleted</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
     <value>{0}: {1} の削除に失敗しました ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be deleted
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
     <value>{0}: {1} の更新に失敗しました ({2})</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be updated
 {2}: Failure reason</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
     <value>{0}: 同期完了</value>
     <comment>Content of the balloon message shown when a folder finished synchronization
 
 {0}:The name of the folder which finished synchronizing</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
     <comment>{0}: Folder that finished syncing
 {1}: List of things that happened. Can be a single TrayIcon_Balloon_FinishedSyncing_UpdatedFile or TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures, a single TrayIcon_Balloon_FinishedSyncing_DeletedFile or TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures, or one of each (e.g. output might be 'MyFolder: Updated 2 files', 'MyFolder: Updated 1 file; Deleted 2 files', or 'MyFolder: Updated 2 files (1 failure); Deleted 2 files')</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
     <value>同期完了</value>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
     <value>{0:p:{}|} 個のファイルを更新しました</value>
     <comment>{0}: Number of files that were updated</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
     <value>{0:p:{}|} 個のファイルを更新しました (失敗 {1:p:{}|})</value>
     <comment>{0}: Number of files that were updated
 {1}: Number of failures</comment>
-  </data><data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
     <value>{0}: {1} を更新しました</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that was updated</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
     <value>{0} が {1} フォルダーの共有を要求しています。新しいフォルダーを追加するには SyncTrayzor を開いてください</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
-  </data><data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
     <value>フォルダーを共有しますか？</value>
-  </data><data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
     <value>通知領域に格納する(_C)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
-  </data><data name="TrayIcon_Menu_Exit" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
     <value>終了(_E)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
-  </data><data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
     <value>フォルダーを開く(_F)</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
-  </data><data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>すべてのフォルダーを再スキャン(_R)</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
-  </data><data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
     <value>Syncthing を再起動(_R)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
-  </data><data name="TrayIcon_Menu_Restore" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
     <value>SyncTrayzor を開く(_O)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
-  </data><data name="TrayIcon_Menu_Settings" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
     <value>設定(_I)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
-  </data><data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
     <value>Syncthing を起動(_S)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
-  </data><data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
     <value>Syncthing を停止(_T)</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
-  </data><data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
     <value>ああっ！何だか良くないことが起こりました。
 SyncTrayzor は閉じられなければならなくなりました。申し訳ありません</value>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
     <value>ログ ファイルを提供するように求められる場合があります。</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
-  </data><data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
     <value>SyncTrayzor のログ ファイルはここで見つかります。</value>
     <comment>Clickable text to open the location of the log file</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
     <value>でオープンし、以下の情報を掲載してください:</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
-  </data><data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
     <value>issue を</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
-  </data><data name="UnhandledExceptionView_Title" xml:space="preserve">
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
     <value>エラー！</value>
     <comment>Title of the dialog shown when an unhandled exception occurs</comment>
-  </data><data name="ViewerView_BrowseToFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
     <value>ブラウズ</value>
     <comment>Shown on a button next to the 'Folder Path' input in Syncthing's UI</comment>
-  </data><data name="ViewerView_OpenFolder" xml:space="preserve">
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
     <value>フォルダーを開く</value>
     <comment>Button shown in the web interface, alongside the native 'rescan' and 'edit' buttons. Allows the folder to be opened in Explorer</comment>
-  </data><data name="ViewerView_StartSyncthing" xml:space="preserve">
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
     <value>Syncthing を起動</value>
     <comment>Link show in the centre of the screen when Syncthing is stopped, allowing the user to start syncthing</comment>
-  </data><data name="ViewerView_SyncthingStarting" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
     <value>Syncthing を起動しています...</value>
     <comment>Text shown in the centre of the screen when Syncthing is starting, but there's no UI to display yet</comment>
-  </data><data name="ViewerView_SyncthingStopped" xml:space="preserve">
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>Syncthing は停止しています</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
-  </data></root>
+  </data>
+</root>
