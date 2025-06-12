@@ -99,7 +99,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <comment>Shown within AboutView_SyncthingVersion if Syncthing's version couldn't be determined</comment>
   </data>
   <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
-    <value>Sie haben {0:p:1 Konfliktierende Datei|{} Konfliktierende Dateien}.</value>
+    <value>Es gibt {0:p:1 konfliktierende Datei|{} konfliktierende Dateien}.</value>
     <comment>Text shown at the start of the alert bar, when the user has conflicted files.
 {0}: The number of conflicts</comment>
   </data>
@@ -117,11 +117,11 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
   <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Der untere Abschnitt könnte leer sein, falls eine Intel Xe Grafikkarte eingesetzt wurde. Bitte deaktiviere Hardware Rendering unter Datei -&gt; Einstellungen falls dies auftritt.</value>
+    <value>Der untere Abschnitt könnte leer sein, sofern eine „Intel Xe“-Grafikkarte genutzt wird. Bitte das Hardware-Rendering unter Datei -&gt; Einstellungen deaktivieren, falls dies der Fall ist.</value>
     <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
   </data>
   <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Verwerfen</value>
+    <value>Abweisen</value>
   </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value> {0:p:Das folgende Gerät wurde|Die folgenden Geräte wurden} pausiert, da {0:p:es|sie} über eine getaktete Verbindung vebunden {0:p:ist|sind}: {0:list:{}|, }.</value>
@@ -135,7 +135,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Im Ordner zeigen</value>
   </data>
   <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
-    <value>Bitte die Version wählen, die sie behalten möchten. Die anderen Versionen werden gelöscht.</value>
+    <value>Bitte die Dateiversion wählen, die erhalten bleiben soll. Die anderen Versionen werden gelöscht.</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
     <value>Neusten Konflikt auswählen</value>
@@ -147,19 +147,19 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Neueste auswählen</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
-    <value>Wählt die Originaldatei, wenn ihr Änderungsdatum am neuesten ist, ansonsten die neueste konfligierende Datei.</value>
+    <value>Wählt die „Original“-Datei, wenn ihr Änderungsdatum am neuesten ist, ansonsten die neueste konfligierende Datei.</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
     <value>Original auswählen</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
-    <value>Behält die Originaldatei jedes Konflikts und löscht alle konfligierenden Dateien</value>
+    <value>Behält die „Original“-Datei jedes Konflikts und löscht alle konfligierenden Dateien</value>
   </data>
   <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
     <value>Verschiebe gelöschte Dateien in den Papierkorb anstatt sie permanent zu löschen.</value>
   </data>
   <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
-    <value>Das beheben dieses Problems ist fehlgeschlagen: {0}</value>
+    <value>Das Lösen dieses Konflikts ist fehlgeschlagen: {0}</value>
     <comment>Content of the dialog shown when resolving a conflict failed.
 
 {0}: Exception message</comment>
@@ -203,22 +203,22 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
-    <value>Scannen...</value>
+    <value>Wird gescannt …</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
-    <value>Verwende Shift / Strg, um mehrere Elemente zu markieren</value>
+    <value>Strg-/Umschalttaste verwenden, um mehrere Elemente zu markieren</value>
   </data>
   <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
-    <value>Keine Konflikte gefunden. Gut so!</value>
+    <value>Keine Konflikte gefunden. Gut gemacht!</value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
   </data>
   <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
-    <value>Noch keine Konflikte gefunden...</value>
+    <value>Noch keine Konflikte gefunden …</value>
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
   </data>
   <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
-    <value>Syncthing ist nicht aktiv. Bitte starten.</value>
+    <value>Syncthing ist nicht aktiv. Bitte Syncthing starten.</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
   </data>
   <data name="ConflictResolutionView_Title" xml:space="preserve">
@@ -226,7 +226,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <comment>Shown in the title bar of the Conflict Resolver window</comment>
   </data>
   <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
-    <value>Sie haben {0} Konflikte ausgewählt. Wählen Sie aus, wie diese gelöst werden sollen. Die jeweils verbleibenden Versionen werden dabei gelöscht.</value>
+    <value>Es wurden {0} Konflikte ausgewählt. Bitte auswählen, wie diese gelöst werden sollen. Die anderen Versionen werden gelöscht.</value>
   </data>
   <data name="ConsoleView_ClearButton" xml:space="preserve">
     <value>Leeren</value>
@@ -241,7 +241,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Einstellungen</value>
   </data>
   <data name="ConsoleView_Title" xml:space="preserve">
-    <value>Syncthing Konsole</value>
+    <value>Syncthing-Konsole</value>
   </data>
   <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
     <value>Sollen wirklich alle Syncthing-Prozesse beendet werden, auch wenn sie nicht von SyncTrayzor verwaltet werden?
@@ -284,7 +284,7 @@ Bitte die Einstellung entsprechend anpassen bzw. „{1}“ in die Whitelist eint
     <comment>Title of dialog shown when Syncthing couldn't start because of group policy settings (probably)</comment>
   </data>
   <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
-    <value>Syncthing konnte nicht gestartet werden: {0}. Bitte beachten Sie die Hinweise in der Konsole von Syncthing.</value>
+    <value>Syncthing konnte nicht gestartet werden: {0}. Bitte die Ausgabe der Syncthing-Konsole ansehen, um Hinweise zu erhalten.</value>
   </data>
   <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
     <value>Syncthing wurde nicht ordnungsgemäß gestartet</value>
@@ -395,7 +395,7 @@ Pfad: {1}</value>
     <value>Änderungshistorie anzeigen</value>
   </data>
   <data name="NewVersionInstalledView_Message" xml:space="preserve">
-    <value>SyncTrayzor wurde erfolgreich auf Version {0} aktualisiert.</value>
+    <value>SyncTrayzor Version {0} wurde erfolgreich installiert.</value>
   </data>
   <data name="NewVersionInstalledView_Title" xml:space="preserve">
     <value>SyncTrayzor aktualisiert</value>
@@ -413,20 +413,20 @@ Pfad: {1}</value>
     <value>Animiere Symbol im Infobereich:</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
-    <value>Konnte Autostart-Einstellungen nicht speichern. Das liegt vermutlich an einem Antivirusprogramm.</value>
+    <value>Die Autostart-Einstellungen konnten nicht gespeichert werden. Dies liegt wahrscheinlich an einem Antivirusprogramm.</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
-    <value>Konnte Autostart nicht speichern</value>
+    <value>Autostart wurde nicht gespeichert</value>
   </data>
   <data name="SettingsView_CloseToTray" xml:space="preserve">
     <value>Beim Schließen im Infobereich anzeigen</value>
     <comment>Setting allowing the user to indicate that the 'close' button on the top right of the window should put Syncthing down into the tray, rather than closing the application</comment>
   </data>
   <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
-    <value>Hardware rendering deaktivieren</value>
+    <value>Hardware-Rendering deaktivieren</value>
   </data>
   <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
-    <value>Warne mich bei Dateikonflikten</value>
+    <value>Bei Dateikonflikten warnen</value>
   </data>
   <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
     <value>Warne mich bei fehlgeschlagenen Dateiübertragungen</value>
@@ -436,11 +436,11 @@ Pfad: {1}</value>
     <comment>Name for the Info log level</comment>
   </data>
   <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
-    <value>SyncTrayzor log-Datei zeigen</value>
+    <value>SyncTrayzor-Logdatei anzeigen</value>
     <comment>Text on button which will open Explorer at the location of SyncTrayzor's log file</comment>
   </data>
   <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
-    <value>Syncthing log-Datei zeigen</value>
+    <value>Syncthing-Logdatei anzeigen</value>
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
   </data>
   <data name="SettingsView_MeteredNetworks" xml:space="preserve">
@@ -462,7 +462,7 @@ Pfad: {1}</value>
   <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
     <value>SyncTrayzor muss neu gestartet werden, damit die Änderungen wirksam werden.
 
-Wollen Sie jetzt SyncTrayzor neu starten?</value>
+Soll SyncTrayzor jetzt neu gestartet werden?</value>
   </data>
   <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
     <value>SyncTrayzor neu starten?</value>
@@ -470,7 +470,7 @@ Wollen Sie jetzt SyncTrayzor neu starten?</value>
   <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
     <value>Syncthing muss neu gestartet werden, damit die Änderungen wirksam werden.
 
-Wollen Sie Syncthing jetzt neu starten?</value>
+Soll Syncthing jetzt neu gestartet werden?</value>
   </data>
   <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
     <value>Syncthing neu starten?</value>
@@ -490,10 +490,10 @@ Wollen Sie Syncthing jetzt neu starten?</value>
     <comment>Section header for settings to do with automatically starting SyncTrayzor when the user logs in</comment>
   </data>
   <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
-    <value>Infobereich-Icon</value>
+    <value>Infobereichsymbol</value>
   </data>
   <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
-    <value>Benachrichtigungen im Infobereich über verbundene/getrennte Geräte anzeigen</value>
+    <value>Ballonmeldungen „Gerät verbunden/getrennt“ anzeigen</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>Benachrichtigungen im Infobereich über neu hinzugefügte Geräte/Ordner anzeigen</value>
@@ -537,7 +537,7 @@ Wollen Sie Syncthing jetzt neu starten?</value>
     <value>Syncthing nicht automatisch aktualisieren</value>
   </data>
   <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
-    <value>Verhindert, dass Syncthing sich automatisch aktualisiert. Dies kann dabei helfen, die Kompatibilität von SyncTrayzor zu erhalten. Im Fehlerfall muss sonst die syncthing.exe im "config"-Verzeichnis von SyncTrayzor ersetzt werden.</value>
+    <value>Verhindert, dass Syncthing sich automatisch aktualisiert. Dies kann dabei helfen, die Kompatibilität mit SyncTrayzor zu erhalten. Im Fehlerfall muss sonst die syncthing.exe im „config“-Ordner von SyncTrayzor ersetzt werden.</value>
   </data>
   <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Umgebungsvariablen von Syncthing:</value>
@@ -558,7 +558,7 @@ Wollen Sie Syncthing jetzt neu starten?</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
   </data>
   <data name="SettingsView_Tab_Folders" xml:space="preserve">
-    <value>Verzeichnisse</value>
+    <value>Ordner</value>
   </data>
   <data name="SettingsView_Tab_Logging" xml:space="preserve">
     <value>Protokollierung</value>
@@ -577,7 +577,7 @@ Wollen Sie Syncthing jetzt neu starten?</value>
     <value>Synchronisierung</value>
   </data>
   <data name="SettingsView_UseComputerCulture" xml:space="preserve">
-    <value>Benutze meine Systemssprache, falls möglich</value>
+    <value>Die Systemssprache verwenden, falls verfügbar</value>
   </data>
   <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>Muss die Form „host:port“ haben, z. B. „localhost:8384“</value>
@@ -588,19 +588,19 @@ Wollen Sie Syncthing jetzt neu starten?</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user makes this field empty</comment>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
-    <value>Sie dürfen die Option {0} nicht angeben</value>
+    <value>Die Option {0} darf nicht angegeben werden</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
-    <value>Kommandozeilen-Argumente müssen mit '-' beginnen</value>
+    <value>Kommandozeilen-Argumente müssen mit „-“ beginnen</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
-    <value>Muss im Format '-flag', '-flag=value' oder '-flag="value with spaces"' sein</value>
+    <value>Muss im Format „-option“, „-option=wert“ oder „-option="wert mit leerzeichen"“ sein</value>
   </data>
   <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
-    <value>Muss im Format 'VAR=value' oder 'VAR="val1 val2"' sein</value>
+    <value>Muss im Format „VAR=wert“ oder „VAR="wert1 wert2"“ sein</value>
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
-    <value>Dateisystemüberwachung für einen oder mehrere Ordner durch Syncthing ist aktiv. Die Überwachung durch SyncTrayzor wurde daher für die jeweiligen Ordner deaktiviert.</value>
+    <value>Dateisystemüberwachung für einen oder mehrere Ordner durch Syncthing ist aktiv, weshalb die Überwachung durch SyncTrayzor für die jeweiligen Ordner deaktiviert wurde.</value>
     <comment>Text shown below the list of folders in the settings if the filesystem watcher for one or more folders has been enabled in Syncthing, meaning that SyncTrayzor's filesystem watcher for the corresponding folder(s) will be disabled</comment>
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
@@ -613,7 +613,7 @@ Wollen Sie Syncthing jetzt neu starten?</value>
 Benachrichtigungen: Es wird eine Ballonmeldung „Synchronisiert“ angezeigt, wenn Dateien in diesem Ordner aktualisiert werden.</value>
   </data>
   <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
-    <value>Verzeichnis</value>
+    <value>Ordner</value>
   </data>
   <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
     <value>Benachrichtigungen</value>
@@ -659,7 +659,7 @@ Benachrichtigungen: Es wird eine Ballonmeldung „Synchronisiert“ angezeigt, w
     <value>Oberfläche aktualisieren</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>_Neustart</value>
+    <value>_Neu starten</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>_Starten</value>
@@ -674,13 +674,13 @@ Benachrichtigungen: Es wird eine Ballonmeldung „Synchronisiert“ angezeigt, w
     <value>Syncthing-_Konsole</value>
   </data>
   <data name="ShellView_Menu_Zoom" xml:space="preserve">
-    <value>_Webseitenzoom</value>
+    <value>Browser zoomen</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>Hineinzoomen</value>
+    <value>Vergr_ößern</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>Herauszoomen</value>
+    <value>Ver_kleinern</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>_Zurücksetzen</value>
@@ -825,7 +825,7 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>_Syncthing neustarten</value>
+    <value>_Syncthing neu starten</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
@@ -853,15 +853,15 @@ SyncTrayzor wird nun geschlossen.</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
-    <value>Sie können SyncTrayzors Protokolldateien hier finden.</value>
+    <value>SyncTrayzors Protokolldateien befinden sich hier.</value>
     <comment>Clickable text to open the location of the log file</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
-    <value>und fügen Sie die folgenden Informationen hinzu:</value>
+    <value>und folgende Informationen hinzufügen:</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
-    <value>Bitte eröffnen Sie einen Support-Fall bei</value>
+    <value>Bitte ein Problem melden unter</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
   </data>
   <data name="UnhandledExceptionView_Title" xml:space="preserve">
@@ -873,7 +873,7 @@ SyncTrayzor wird nun geschlossen.</value>
     <comment>Shown on a button next to the 'Folder Path' input in Syncthing's UI</comment>
   </data>
   <data name="ViewerView_OpenFolder" xml:space="preserve">
-    <value>Verzeichnis öffnen</value>
+    <value>Ordner öffnen</value>
     <comment>Button shown in the web interface, alongside the native 'rescan' and 'edit' buttons. Allows the folder to be opened in Explorer</comment>
   </data>
   <data name="ViewerView_StartSyncthing" xml:space="preserve">
@@ -881,7 +881,7 @@ SyncTrayzor wird nun geschlossen.</value>
     <comment>Link show in the centre of the screen when Syncthing is stopped, allowing the user to start syncthing</comment>
   </data>
   <data name="ViewerView_SyncthingStarting" xml:space="preserve">
-    <value>Syncthing startet...</value>
+    <value>Syncthing startet …</value>
     <comment>Text shown in the centre of the screen when Syncthing is starting, but there's no UI to display yet</comment>
   </data>
   <data name="ViewerView_SyncthingStopped" xml:space="preserve">
@@ -893,5 +893,17 @@ SyncTrayzor wird nun geschlossen.</value>
   </data>
   <data name="AboutView_Version" xml:space="preserve">
     <value>Version: {0}</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Protokollstufe:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>Verfolgen</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Aktivitäts-Popup geöffnet lassen (Popup per Rechtsklick schließen)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Debug</value>
   </data>
 </root>
