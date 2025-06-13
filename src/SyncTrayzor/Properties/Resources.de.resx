@@ -65,7 +65,7 @@
     <value>Erneut spenden</value>
   </data>
   <data name="AboutView_DonateThanks" xml:space="preserve">
-    <value>Danke für ihre Spende!</value>
+    <value>Danke fürs Spenden.</value>
   </data>
   <data name="AboutView_Donate_Link" xml:space="preserve">
     <value>Jetzt spenden</value>
@@ -108,7 +108,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
   </data>
   <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
-    <value>{0:p:Der folgende Ordner beinhaltet einen fehlgeschlagenen Kopiervorgang|Die folgenden Ordner beinhalten fehlschlagende Kopiervorgänge} {0:list:{}|, }</value>
+    <value>{0:p:Folgender Ordner beinhaltet einen fehlgeschlagenen Kopiervorgang|Folgende Ordner beinhalten fehlschlagende Kopiervorgänge} {0:list:{}|, }.</value>
     <comment>Text show in a bar alert at the top of the screen when there are 1 or more folders with failing transfers. 
 {0}: List of folders with failing file transfers</comment>
   </data>
@@ -124,7 +124,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Abweisen</value>
   </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
-    <value> {0:p:Das folgende Gerät wurde|Die folgenden Geräte wurden} pausiert, da {0:p:es|sie} über eine getaktete Verbindung vebunden {0:p:ist|sind}: {0:list:{}|, }.</value>
+    <value>{0:p:Das folgende Gerät wurde|Die folgenden Geräte wurden} pausiert, da {0:p:es|sie} über eine getaktete Verbindung vebunden {0:p:ist|sind}: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
   </data>
   <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
@@ -156,7 +156,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Behält die „Original“-Datei jedes Konflikts und löscht alle konfligierenden Dateien</value>
   </data>
   <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
-    <value>Verschiebe gelöschte Dateien in den Papierkorb anstatt sie permanent zu löschen.</value>
+    <value>Gelöschte Dateien in den Papierkorb verschieben, anstatt sie endgültig zu löschen.</value>
   </data>
   <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
     <value>Das Lösen dieses Konflikts ist fehlgeschlagen: {0}</value>
@@ -322,7 +322,7 @@ Bitte die Einstellung entsprechend anpassen bzw. „{1}“ in die Whitelist eint
     <comment>{0}: a value such as '1.2kb'</comment>
   </data>
   <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
-    <value>Keine kürzlich abgeschlossenen Downloads</value>
+    <value>Keine kürzlichen Datei-Downloads</value>
   </data>
   <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
     <value>Ausgehend: {0}/s</value>
@@ -407,7 +407,7 @@ Pfad: {1}</value>
     <value>Meldungen werden in der oberen Leiste von SyncTrayzor und in der Taskleiste mit einem Warndreieck in dem Benachrichtigungssymbol dargestellt.</value>
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
-    <value>Deaktiviere Quickinfos vollständig auf dem 'Ordner'-Tab</value>
+    <value>Quickinfos auf dem „Ordner“-Tab komplett deaktivieren</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>Animiere Symbol im Infobereich:</value>
@@ -493,7 +493,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <value>Infobereichsymbol</value>
   </data>
   <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
-    <value>Ballonmeldungen „Gerät verbunden/getrennt“ anzeigen</value>
+    <value>QuickInfo „Gerät verbunden/getrennt“ anzeigen</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>Benachrichtigungen im Infobereich über neu hinzugefügte Geräte/Ordner anzeigen</value>
@@ -610,7 +610,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
   <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
     <value>Überwacht: Der Ordner wird auf Änderungen überwacht, d. h. es kann ein längeres Abfrageintervall in Syncthing eingestellt werden.
 
-Benachrichtigungen: Es wird eine Ballonmeldung „Synchronisiert“ angezeigt, wenn Dateien in diesem Ordner aktualisiert werden.</value>
+Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn Dateien in diesem Ordner aktualisiert werden.</value>
   </data>
   <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
     <value>Ordner</value>
@@ -644,10 +644,10 @@ Benachrichtigungen: Es wird eine Ballonmeldung „Synchronisiert“ angezeigt, w
     <value>_Einstellungen</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
-    <value>_Hilfe</value>
+    <value>Hilfe</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>_Info</value>
+    <value>_Über</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
     <value>Alle _Syncthing-Prozesse beenden</value>
@@ -846,7 +846,7 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
     <value>Hoppla! Irgendwas ist schief gelaufen.
-SyncTrayzor wird nun geschlossen.</value>
+SyncTrayzor wird nun geschlossen. Entschuldigung</value>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
     <value>Es wird eventuell nach einer Protokolldatei gefragt.</value>
@@ -905,5 +905,32 @@ SyncTrayzor wird nun geschlossen.</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Homepage:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
   </data>
 </root>
