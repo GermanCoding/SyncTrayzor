@@ -65,14 +65,14 @@
     <value>Adományozás megint</value>
   </data>
   <data name="AboutView_DonateThanks" xml:space="preserve">
-    <value>Köszönjük az adományozást.</value>
+    <value>Köszönöm szépen! Nagyra értékelem a támogatását.</value>
   </data>
   <data name="AboutView_Donate_Link" xml:space="preserve">
     <value>Adományozás</value>
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Hasznosnak találja a SyncTrayzort?
-Kérem, adományozzon az én jótékonysági alapítványom számára.</value>
+Kérem, adakozzon a jótékonysági kampányomhoz.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Letöltési weblap megnyitása</value>
@@ -146,22 +146,22 @@ Kérem, adományozzon az én jótékonysági alapítványom számára.</value>
     <value>A legfrissebb ütközés kiválasztása</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
-    <value>A legutolhára létrehozott ütközés kiválasztása</value>
+    <value>A legutóbb létrehozott ütközés kiválasztása</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
     <value>Legfrissebb kiválasztása</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
-    <value>Ha az eredeti fájl utolsó módosítása a legfrissebb, akkor azt tartjuk meg, egyébként a legutóbb létrehozott ütköző fájlt.</value>
+    <value>Ha az eredeti fájl utolsó módosítása a legfrissebb, akkor azt tartjuk meg, egyébként a legutóbb létrehozott ütköző fájlt</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
     <value>Eredeti kiválasztása</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
-    <value>Minden ütközésnél az eredetit tartjuk meg, a többit töröljük.</value>
+    <value>Minden ütközésnél az eredetit tartjuk meg, a többit töröljük</value>
   </data>
   <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
-    <value>A törölt fájlok végleges törlés helyett a lomtárba kerüljenek..</value>
+    <value>A törölt fájlok végleges törlés helyett a lomtárba kerüljenek</value>
   </data>
   <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
     <value>A következő ütközés feloldása sikertelen: {0}</value>
@@ -208,7 +208,7 @@ Kérem, adományozzon az én jótékonysági alapítványom számára.</value>
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
-    <value>Vizsgálat</value>
+    <value>Vizsgálat...</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
@@ -338,10 +338,10 @@ Kérjük, állítsa be a rendszert úgy, hogy '{1}' futtatható legyen</value>
 Útvonal: {1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
-    <value>_Másolás</value>
+    <value>Másolás</value>
   </data>
   <data name="Generic_Cut" xml:space="preserve">
-    <value>_Kivágás</value>
+    <value>Kivágás</value>
   </data>
   <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Mégsem</value>
@@ -360,11 +360,11 @@ Kérjük, állítsa be a rendszert úgy, hogy '{1}' futtatható legyen</value>
     <comment>'Save' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Dialog_Yes" xml:space="preserve">
-    <value>Igen.</value>
+    <value>Igen</value>
     <comment>'Yes' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Paste" xml:space="preserve">
-    <value>_Beillesztés</value>
+    <value>Beillesztés</value>
   </data>
   <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Ne figyelmeztessen többé</value>
@@ -510,7 +510,7 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Tálcaikon</value>
   </data>
   <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
-    <value>Az "Eszköz kapcsolódott/kapcsolódott" értesítő mutatása</value>
+    <value>„Eszköz csatlakoztatva/leválasztva” értesítési buborékok megjelenítése</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
     <value>"Új eszköz/mappa hozzáadása" értesítők mutatása</value>
@@ -554,7 +554,7 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Syncthing automatikus frissítésének tiltása</value>
   </data>
   <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
-    <value>Ez akkor lehet hasznos, ha egy új Syncthing frissítés nem fér össze a SyncTrayzorral. Ekkor vissza kell térni a SyncTrayzor mappában lévő Syncthing korábbi változatához.</value>
+    <value>Ez akkor lehet hasznos, ha egy új Syncthing frissítés nem fér össze a SyncTrayzorral. Ekkor vissza kell térni a SyncTrayzor mappában lévő Syncthing korábbi változatához</value>
   </data>
   <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Syncthing környezeti változók:</value>
@@ -598,7 +598,7 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Szinkronizáláskor</value>
   </data>
   <data name="SettingsView_UseComputerCulture" xml:space="preserve">
-    <value>Használja a számítógépen beállított nyelvet, ha elérhető.</value>
+    <value>Használja a számítógépen beállított nyelvet, ha elérhető</value>
   </data>
   <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>A kötelező formátum: 'host:port', pl. 'localhost:8384'</value>
@@ -656,7 +656,7 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Fájl</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
-    <value>_Ütközés feloldó</value>
+    <value>Ütközés feloldó</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>Kilépés</value>
@@ -680,7 +680,7 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Böngésző frissítése</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>_Újraindítás</value>
+    <value>Újraindítás</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>Indítás</value>
@@ -689,22 +689,22 @@ Indítsuk újra a Syncthinget most?</value>
     <value>Leállítás</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
-    <value>_Nézet</value>
+    <value>Nézet</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
-    <value>Syncthing _konzol</value>
+    <value>Syncthing konzol</value>
   </data>
   <data name="ShellView_Menu_Zoom" xml:space="preserve">
-    <value>Böngésző _nagyítása</value>
+    <value>Böngésző nagyítása</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>_Nagyítás</value>
+    <value>Nagyítás</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>_Kicsinyítés</value>
+    <value>Kicsinyítés</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
-    <value>_Alapméret</value>
+    <value>Alapméret</value>
   </data>
   <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Leírás:</value>
@@ -836,39 +836,39 @@ Alább ezeknek az összetevőknek a részletei, licensz szövegei láthatók.</v
     <value>Osszuk meg a mappát?</value>
   </data>
   <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
-    <value>_Bezárás a tálcára</value>
+    <value>Bezárás a tálcára</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>_Kilépés</value>
+    <value>Kilépés</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
-    <value>_Mappa megnyitása</value>
+    <value>Mappa megnyitása</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
-    <value>Minden mappa _újraolvasása</value>
+    <value>Minden mappa újraolvasása</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>Syncthing _újraindítása</value>
+    <value>Syncthing újraindítása</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>SyncTrayzor _megnyitása</value>
+    <value>SyncTrayzor megnyitása</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
-    <value>_Beállítások</value>
+    <value>Beállítások</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
-    <value>Syncthing _indítása</value>
+    <value>Syncthing indítása</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
   </data>
   <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
-    <value>Syncthing _leállítása</value>
+    <value>Syncthing leállítása</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
@@ -876,7 +876,7 @@ Alább ezeknek az összetevőknek a részletei, licensz szövegei láthatók.</v
 A SyncTrayzor ki fog lépni. Bocsánat</value>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
-    <value>Megadható egy naplófájl.</value>
+    <value>Előfordulhat, hogy naplófájlt kérnek Öntől.</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
@@ -888,7 +888,7 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
-    <value>Kérjük, indítson új témát: </value>
+    <value>Kérjük, nyisson egy hibajegyet</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
   </data>
   <data name="UnhandledExceptionView_Title" xml:space="preserve">
@@ -923,5 +923,20 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
   </data>
   <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Az aktivitásablak nyitva marad (jobb kattintással zárható)</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
   </data>
 </root>
