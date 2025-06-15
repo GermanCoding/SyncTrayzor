@@ -499,10 +499,10 @@ Voulez-vous redémarrer Syncthing ?</value>
     <value>Icône de la zone de notification</value>
   </data>
   <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
-    <value>Montrer les notifications de connexion/déconnexion des appareils.</value>
+    <value>Montrer les notifications de connexion/déconnexion des appareils</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
-    <value>Montrer les notifications d'ajout de nouveaux partages ou d'appareils.</value>
+    <value>Montrer les notifications d'ajout de nouveaux partages ou appareils</value>
   </data>
   <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
     <value>Montrer les notifications de synchronisation même si aucun fichier n'a été mis à jour</value>
@@ -590,7 +590,7 @@ Voulez-vous redémarrer Syncthing ?</value>
     <value>Utiliser la langue de mon ordinateur si celle-ci est disponible</value>
   </data>
   <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
-    <value>Doit être de la forme 'host:port'. Ex: 'localhost:8384'</value>
+    <value>Doit être de la forme 'host:port'. Ex : 'localhost:8384'</value>
     <comment>Validation message (shown in red) below the SettingsView_SyncthingAddress field when the user enters a value which is not a value URL</comment>
   </data>
   <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
@@ -799,7 +799,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <value>Synchronisation terminée</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
-    <value>{0:p:1 fichier|{} fichiers} mis à jour.</value>
+    <value>{0:p:1 fichier|{} fichiers} mis à jour</value>
     <comment>{0}: Number of files that were updated</comment>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
@@ -858,7 +858,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
-    <value>Oops! Quelque chose s'est très mal passé.
+    <value>Oops ! Quelque chose s'est très mal passé.
 SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
@@ -874,7 +874,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately after the link to github, and also prompts the user to include the stack trace shown directly below this text</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
-    <value>Merci de signaler le bogue à l'adresse suivante : </value>
+    <value>Merci de signaler le bogue sur</value>
     <comment>When an unhandled exception occurs, the user is prompted to visit the Github issues page. This text appears immediately before the link to github</comment>
   </data>
   <data name="UnhandledExceptionView_Title" xml:space="preserve">

@@ -62,7 +62,7 @@
     <value>作者：Antony Male。</value>
   </data>
   <data name="AboutView_DonateAgain_Link" xml:space="preserve">
-    <value>再次捐款</value>
+    <value>再次捐赠</value>
   </data>
   <data name="AboutView_DonateThanks" xml:space="preserve">
     <value>感谢您的捐赠。</value>
@@ -71,8 +71,8 @@
     <value>现在捐赠</value>
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
-    <value>SyncTrayzor对您有帮助吗？
-如果有还请捐款给我。</value>
+    <value>觉得 SyncTrayzor 有用吗？
+请为我的慈善筹款活动捐款。</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>打开下载页面</value>
@@ -104,7 +104,7 @@
 {0}: Current SyncTrayzor version</comment>
   </data>
   <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
-    <value>你有{0:p:1 个冲突的文件{} 个冲突的文件}.</value>
+    <value>您有 {0:p:1 个冲突文件|{} 个冲突文件}。</value>
     <comment>Text shown at the start of the alert bar, when the user has conflicted files.
 {0}: The number of conflicts</comment>
   </data>
@@ -113,23 +113,23 @@
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
   </data>
   <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
-    <value>以下 {0:p:个文件夹有|个文件夹有} 文件传送失败: {0:list:{}|, }。</value>
+    <value>以下文件夹存在失败的文件传输：{0:list:{}|、}。</value>
     <comment>Text show in a bar alert at the top of the screen when there are 1 or more folders with failing transfers. 
 {0}: List of folders with failing file transfers</comment>
   </data>
   <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
-    <value>请从Syncthing用户界面或控制台找到线索。</value>
+    <value>请查看 Syncthing GUI 或控制台以获取线索。</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
   <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>如果使用INTER XE显卡，下方区域将显示空白。遇到此种情况，请在文件-&gt;设置中禁用硬件渲染。</value>
+    <value>使用 Intel Xe 显卡时，下方区域可能显示为空白。如果遇到这种情况，请在“文件”-⁠&gt;“设置”中禁用硬件渲染。</value>
     <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
   </data>
   <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>撤销</value>
+    <value>关闭</value>
   </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
-    <value>以下 {0:p:个设备|个设备} 文件传送已被暂停因为{0:p:它|它们}正在使用计费网络：{0:list:{}|, }。</value>
+    <value>以下设备因使用按流量计费的网络连接已被暂停：{0:list:{}|、}。</value>
     <comment>{0}: List of paused devices</comment>
   </data>
   <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
@@ -137,10 +137,10 @@
     <comment>Button shown next to each conflicted file, allowing the user to choose that version of the file as the one they want to keep (and deleting the other versions)</comment>
   </data>
   <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
-    <value>在文件夹内显示</value>
+    <value>在文件夹中显示</value>
   </data>
   <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
-    <value>请选择你要保留的版本。其他版本将会被删除。</value>
+    <value>请选择要保留的文件版本。其他版本将被删除。</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
     <value>选择最新冲突</value>
@@ -149,22 +149,22 @@
     <value>选择最近创建的冲突</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
-    <value>选择最新的</value>
+    <value>选择最新</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
-    <value>选择“原始”文件，如果其“上次修改”日期是最新的，或最近创建的冲突</value>
+    <value>如果“原始”文件的“最后修改”日期是最新的，则选择该文件；否则选择最近创建的冲突文件</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
-    <value>选择原始的</value>
+    <value>选择原始</value>
   </data>
   <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
-    <value>从每个冲突中获取“原始”文件，并删除所有冲突的文件</value>
+    <value>从每个冲突中获取“原始”文件，并删除所有冲突文件</value>
   </data>
   <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
-    <value>移动文件到回收站而不是永久删除。</value>
+    <value>将已删除的文件移至回收站，而不是永久删除</value>
   </data>
   <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
-    <value>解决文件冲突失败: {0}</value>
+    <value>解决此冲突失败：{0}</value>
     <comment>Content of the dialog shown when resolving a conflict failed.
 
 {0}: Exception message</comment>
@@ -173,7 +173,7 @@
     <value>操作失败</value>
   </data>
   <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
-    <value>发现冲突</value>
+    <value>冲突创建时间</value>
     <comment>Header shown above the list of times at which each confliction version of the file was created, and is shown when the user selects a conflict</comment>
   </data>
   <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
@@ -193,7 +193,7 @@
     <comment>Header shown above the 'Last Modified' column. This is used both in the main body (to show when the original file in the conflict was last modified), and above each version of the conflict</comment>
   </data>
   <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
-    <value>修改自</value>
+    <value>修改设备</value>
     <comment>Header shown above the 'Modified by' entry, which contains the name of the device which last modified the file, and is shown when the user selects a conflict</comment>
   </data>
   <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
@@ -208,33 +208,33 @@
     <comment>Text on the 'Cancel' button, shown next to the 'Scanning' progress bar at the top of the page when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
-    <value>正在扫描……</value>
+    <value>正在扫描…</value>
     <comment>Text shown next to the 'Scanning' progress bar at the top of the page, when scanning is in progress</comment>
   </data>
   <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
-    <value>使用 Shift 或 Control 键来选中多项</value>
+    <value>使用 Shift/Ctrl 选择多个项目</value>
   </data>
   <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
-    <value>没有发现文件冲突！太棒了！</value>
+    <value>未发现冲突，状态良好！</value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
   </data>
   <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
-    <value>还未找到冲突……</value>
+    <value>尚未发现冲突…</value>
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
   </data>
   <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
-    <value>Syncthing 未在运行。请启动 Syncthing。</value>
+    <value>Syncthing 未运行。请启动 Syncthing。</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
   </data>
   <data name="ConflictResolutionView_Title" xml:space="preserve">
-    <value>解决冲突</value>
+    <value>冲突解决器</value>
     <comment>Shown in the title bar of the Conflict Resolver window</comment>
   </data>
   <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
-    <value>您已选择{0}个冲突。选择你想如何解决它们。其他版本将被删除。</value>
+    <value>您已选择 {0} 个冲突。请选择您想要解决这些冲突的方式。其他版本将被删除。</value>
   </data>
   <data name="ConsoleView_ClearButton" xml:space="preserve">
-    <value>清空</value>
+    <value>清除</value>
   </data>
   <data name="ConsoleView_PauseButton" xml:space="preserve">
     <value>暂停</value>
@@ -246,7 +246,7 @@
     <value>设置</value>
   </data>
   <data name="ConsoleView_Title" xml:space="preserve">
-    <value>Syncthing控制台</value>
+    <value>Syncthing 控制台</value>
   </data>
   <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
     <value>是否确定要终止所有 Syncthing 进程，甚至是那些不受 SyncTrayzor 管理的进程？
@@ -303,7 +303,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Show after the 'x minutes ago' text if the update was a deletion</comment>
   </data>
   <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
-    <value>正在下载 {0}/{1} ({2}/s)</value>
+    <value>正在下载 {0}/{1}（{2}/秒）</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download
@@ -323,14 +323,14 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Header for section containing files that were recently downloaded or deleted</comment>
   </data>
   <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
-    <value>传入：{0}/s</value>
+    <value>传入：{0}/秒</value>
     <comment>{0}: a value such as '1.2kb'</comment>
   </data>
   <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
     <value>无最近文件下载</value>
   </data>
   <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
-    <value>传出：{0}/s</value>
+    <value>传出：{0}/秒</value>
     <comment>{0}: a value such as '1.2kb'</comment>
   </data>
   <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
@@ -338,10 +338,10 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
 完整路径：{1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
-    <value>复制(_C)</value>
+    <value>复制</value>
   </data>
   <data name="Generic_Cut" xml:space="preserve">
-    <value>剪切(_T)</value>
+    <value>剪切</value>
   </data>
   <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -368,7 +368,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>'Yes' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Paste" xml:space="preserve">
-    <value>粘贴(_P)</value>
+    <value>粘贴</value>
   </data>
   <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>不要再提醒我</value>
@@ -413,19 +413,19 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>SyncTrayzor 有新版本可用时发出提醒</value>
   </data>
   <data name="SettingsView_Alerts_Description" xml:space="preserve">
-    <value>警告将在SyncTrayzor顶部显示，并在任务栏显示警告三角形。</value>
+    <value>警报提示会显示在 SyncTrayzor 顶部栏，并在托盘图标上显示警告三角形。</value>
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
-    <value>在“文件夹”选项卡上完全禁用气球消息。</value>
+    <value>在“文件夹”‌标签页上完全禁用提示消息</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
-    <value>通知栏图标动画：</value>
+    <value>托盘图标动画：</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
-    <value>无法为您设置自动启动。可能有防病毒软件阻止。</value>
+    <value>无法设置自动启动设置。这可能是由于防病毒软件造成的。</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
-    <value>无法设定自动启动</value>
+    <value>无法设置自动启动</value>
   </data>
   <data name="SettingsView_CloseToTray" xml:space="preserve">
     <value>关闭到托盘</value>
@@ -435,13 +435,13 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>禁用硬件渲染</value>
   </data>
   <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
-    <value>出现文件冲突时发出警告</value>
+    <value>提醒我有冲突文件</value>
   </data>
   <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
-    <value>文件传送失败时发出警告</value>
+    <value>‌文件传输失败的警报</value>
   </data>
   <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
-    <value>日志级别:</value>
+    <value>日志级别：</value>
     <comment>Label shown before SyncTrayzor logging level ComboBox</comment>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
@@ -449,7 +449,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Name for the Debug log level (which provides lots of debug info)</comment>
   </data>
   <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
-    <value>信息 (默认)</value>
+    <value>信息（默认）</value>
     <comment>Name for the Info log level</comment>
   </data>
   <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
@@ -465,10 +465,10 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
   </data>
   <data name="SettingsView_MeteredNetworks" xml:space="preserve">
-    <value>在设备连接到计费网络时暂停传送</value>
+    <value>暂停通过按流量计费的网络连接的设备</value>
   </data>
   <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
-    <value>您必须使用Windows 8或以上来使用这个功能。</value>
+    <value>您必须使用 Windows 8 或更高版本才能使用此功能。</value>
   </data>
   <data name="SettingsView_MinimizeToTray" xml:space="preserve">
     <value>最小化到托盘</value>
@@ -501,10 +501,10 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Section header for advanced settings</comment>
   </data>
   <data name="SettingsView_Section_Alerts" xml:space="preserve">
-    <value>警告</value>
+    <value>警报</value>
   </data>
   <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
-    <value>计费网络</value>
+    <value>按流量计费的网络</value>
   </data>
   <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
     <value>‌登录时启动</value>
@@ -517,7 +517,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>显示“设备已连接/已断开连接”提示消息</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
-    <value>显示 “添加新设备/目录” 的气泡消息</value>
+    <value>显示“添加新设备/文件夹”提示消息</value>
   </data>
   <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
     <value>即使没有文件更新，也显示“已同步”提示消息</value>
@@ -546,10 +546,10 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
-    <value>自定义 Syncthing 根目录：</value>
+    <value>Syncthing 自定义主目录路径：</value>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
-    <value>本设定将改写Syncthing默认的数据库及设置路径</value>
+    <value>如果设置，则覆盖 Syncthing 数据库和配置的默认路径</value>
   </data>
   <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Syncthing 自定义路径</value>
@@ -564,22 +564,22 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>Syncthing 环境变量：</value>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
-    <value>Syncthing进程优先级：</value>
+    <value>Syncthing 进程优先级：</value>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
-    <value>高于标准</value>
+    <value>高于正常优先级</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
-    <value>低于标准</value>
+    <value>低于正常优先级</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
-    <value>低</value>
+    <value>低优先级</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
-    <value>普通</value>
+    <value>正常优先级</value>
     <comment>Should match value in Task Manager, if you right-click a process -&gt;'Set Priority'</comment>
   </data>
   <data name="SettingsView_Tab_Folders" xml:space="preserve">
@@ -593,13 +593,13 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Title of the 'settings' dialog</comment>
   </data>
   <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
-    <value>所有数据传输</value>
+    <value>任何数据传输</value>
   </data>
   <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
     <value>永不</value>
   </data>
   <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
-    <value>同步中</value>
+    <value>正在同步</value>
   </data>
   <data name="SettingsView_UseComputerCulture" xml:space="preserve">
     <value>在可用的情况下使用本计算机的语言</value>
@@ -619,13 +619,13 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>命令行标志必须以“-”开头</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
-    <value>必须使用此格式：  '-flag' 或 '-flag=value' 或 '-flag="value with spaces"'</value>
+    <value>必须采用 -flag 或 -flag=值 或 -flag="含空格的值" 的格式</value>
   </data>
   <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
-    <value>必须采用 VAR=value 或 VAR="val1 val2" 格式</value>
+    <value>必须采用 VAR=值 或 VAR="值1 值2" 格式</value>
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
-    <value>您已经为 Syncthing 中的一个或多个文件夹启用文件系统监视器，因此 SyncTrayzor 中的相应监视器已禁用。</value>
+    <value>您已在 Syncthing 中为一个或多个文件夹启用文件系统监视器，因此 SyncTrayzor 中的相应监视器已禁用。</value>
     <comment>Text shown below the list of folders in the settings if the filesystem watcher for one or more folders has been enabled in Syncthing, meaning that SyncTrayzor's filesystem watcher for the corresponding folder(s) will be disabled</comment>
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
@@ -650,7 +650,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>文件夹不可用。请启动 Syncthing</value>
   </data>
   <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
-    <value>Syncthing 命令行选项</value>
+    <value>Syncthing 命令行标志</value>
   </data>
   <data name="ShellView_Donate" xml:space="preserve">
     <value>捐赠</value>
@@ -660,40 +660,40 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>文件</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
-    <value>解决冲突(_C)</value>
+    <value>冲突解决器</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>退出(_E)</value>
+    <value>退出</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>设置(_S)</value>
+    <value>设置</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>帮助</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>关于(_A)</value>
+    <value>关于</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>终止所有 Syncthing 进程(_A)</value>
+    <value>终止所有 Syncthing 进程</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>在外部浏览器中打开(_O)</value>
+    <value>在外部浏览器中打开</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>刷新浏览器</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>重启(_E)</value>
+    <value>重启</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>启动(_S)</value>
+    <value>启动</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>停止(_T)</value>
+    <value>停止</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
-    <value>查看(_V)</value>
+    <value>查看</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>Syncthing 控制台</value>
@@ -702,10 +702,10 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>缩放浏览器</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>放大(_I)</value>
+    <value>放大</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>缩小(_O)</value>
+    <value>缩小</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>重置</value>
@@ -773,7 +773,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Title of tray icon balloon when another device disconnected</comment>
   </data>
   <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
-    <value>设备 {0} ({1}) 请求连接。打开SyncTrayzor以添加新设备</value>
+    <value>设备 {0}（{1}）想要连接。打开 SyncTrayzor 添加新设备</value>
     <comment>Balloon shown when device is rejected.
 {0}: Device ID
 {1}: Device Address</comment>
@@ -786,7 +786,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>{0}: Number of files that were deleted</comment>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
-    <value>已删除 {0:p:1 文件|{} 文件} ({1:p:1 失败|{} 失败})</value>
+    <value>已删除 {0:p:1 个文件|{} 个文件}（{1:p:1 个失败|{} 个失败}）</value>
     <comment>{0}: Number of files that were deleted
 {1}: Number of failures</comment>
   </data>
@@ -796,13 +796,13 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
 {1}: File that was deleted</comment>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
-    <value>{0}: 删除失败 {1} ({2})</value>
+    <value>{0}：无法删除 {1}（{2}）</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be deleted
 {2}: Failure reason</comment>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
-    <value>{0}: 更新失败 {1} ({2})</value>
+    <value>{0}：无法更新 {1}（{2}）</value>
     <comment>{0}: ID of folder which finished synchronizing
 {1}: File that failed to be updated
 {2}: Failure reason</comment>
@@ -821,7 +821,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>{0}: Number of files that were updated</comment>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
-    <value>已更新 {0:p:1 文件|{} 文件} ({1:p:1 文件|{} 文件})</value>
+    <value>已更新 {0:p:1 个文件|{} 个文件}（{1:p:1 个失败|{} 个失败}）</value>
     <comment>{0}: Number of files that were updated
 {1}: Number of failures</comment>
   </data>
@@ -831,36 +831,36 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
 {1}: File that was updated</comment>
   </data>
   <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
-    <value>{0} 想分享目录 {1}。 请打开 SyncTrayzor 来添加新目录。</value>
+    <value>{0} 想要分享文件夹 {1}。打开 SyncTrayzor 添加新文件夹</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
   </data>
   <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
-    <value>分享目录？</value>
+    <value>分享文件夹？</value>
   </data>
   <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
     <value>关闭到托盘</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>退出(_E)</value>
+    <value>退出</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
-    <value>打开文件夹(_F)</value>
+    <value>打开文件夹</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
-    <value>重新扫描所有文件夹(_R)</value>
+    <value>重新扫描所有文件夹</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>重启 Syncthing(_R)</value>
+    <value>重启 Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>打开 SyncTrayzor(_O)</value>
+    <value>打开 SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
@@ -868,11 +868,11 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
-    <value>启动 Syncthing(_S)</value>
+    <value>启动 Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
   </data>
   <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
-    <value>停止 Syncthing(_T)</value>
+    <value>停止 Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
@@ -884,7 +884,7 @@ SyncTrayzor 将不得不关闭。很抱歉</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
-    <value>您可以在此处找到 SyncTrayzor 的日志文件</value>
+    <value>您可以在此处找到 SyncTrayzor 的日志文件。</value>
     <comment>Clickable text to open the location of the log file</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
@@ -923,7 +923,7 @@ SyncTrayzor 将不得不关闭。很抱歉</value>
     <value>Syncthing</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
-    <value>{0}: {1:列表:{}|; }</value>
+    <value>{0}：{1:list:{}|；}</value>
   </data>
   <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
@@ -936,5 +936,8 @@ SyncTrayzor 将不得不关闭。很抱歉</value>
   </data>
   <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>保持活动弹窗打开（右键单击弹窗即可关闭）</value>
   </data>
 </root>

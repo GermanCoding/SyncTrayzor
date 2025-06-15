@@ -653,40 +653,40 @@ Indítsuk újra a Syncthinget most?</value>
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
   </data>
   <data name="ShellView_Menu_File" xml:space="preserve">
-    <value>_Fájl</value>
+    <value>Fájl</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>_Ütközés feloldó</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>_Kilépés</value>
+    <value>Kilépés</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>_Beállítások</value>
+    <value>Beállítások</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
-    <value>Sú_gó</value>
+    <value>Súgó</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>_Névjegy</value>
+    <value>Névjegy</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>_Minden Syncthing folyamat bezárása</value>
+    <value>Minden Syncthing folyamat bezárása</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>Megnyitás _külső böngészőben</value>
+    <value>Megnyitás külső böngészőben</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
-    <value>Böngésző _frissítése</value>
+    <value>Böngésző frissítése</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
     <value>_Újraindítás</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>_Indítás</value>
+    <value>Indítás</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>_Leállítás</value>
+    <value>Leállítás</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
     <value>_Nézet</value>
@@ -914,5 +914,14 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
   <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>A Syncthing leállt</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
   </data>
 </root>
