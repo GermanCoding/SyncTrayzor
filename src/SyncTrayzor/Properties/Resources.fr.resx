@@ -335,10 +335,10 @@ Veuillez ajuster vos paramètres/whitelist pour permettre l'exécution de {1}</v
 Chemin complet : {1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
-    <value>_Copier</value>
+    <value>Copier</value>
   </data>
   <data name="Generic_Cut" xml:space="preserve">
-    <value>Co_uper</value>
+    <value>Couper</value>
   </data>
   <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Annuler</value>
@@ -361,7 +361,7 @@ Chemin complet : {1}</value>
     <comment>'Yes' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Paste" xml:space="preserve">
-    <value>Co_ller</value>
+    <value>Coller</value>
   </data>
   <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Ne plus me le rappeler</value>
@@ -642,7 +642,7 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>_Fichier</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
-    <value>_Solveur de conflits</value>
+    <value>Résolveur de conflits</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>_Quitter</value>
@@ -666,7 +666,7 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>_Rafraîchir la fenêtre du navigateur</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>R_edémarrer</value>
+    <value>Redémarrer</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>_Démarrer</value>
@@ -675,7 +675,7 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>A_rrêter</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
-    <value>_Vue</value>
+    <value>Vue</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>_Console Syncthing</value>
@@ -684,10 +684,10 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>Zoom</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>Zoom a_vant</value>
+    <value>Zoom avant</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>Zoom a_rrière</value>
+    <value>Zoom arrière</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
     <value>_Normal</value>
@@ -830,7 +830,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
-    <value>Ouvrir le _partage</value>
+    <value>Ouvrir le partage</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
@@ -838,7 +838,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>_Redémarrer Syncthing</value>
+    <value>Redémarrer Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
