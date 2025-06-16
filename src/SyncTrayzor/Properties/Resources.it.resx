@@ -302,10 +302,10 @@ Modificare le impostazioni / whitelist '{1}' per consentirne l'esecuzione</value
 Percorso completo: {1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
-    <value>_Copia</value>
+    <value>Copia</value>
   </data>
   <data name="Generic_Cut" xml:space="preserve">
-    <value>_Taglia</value>
+    <value>Taglia</value>
   </data>
   <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Annulla</value>
@@ -324,7 +324,7 @@ Percorso completo: {1}</value>
     <comment>'Yes' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Paste" xml:space="preserve">
-    <value>_Incolla</value>
+    <value>Incolla</value>
   </data>
   <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Non ricordarmelo</value>
@@ -598,52 +598,52 @@ Notifiche: Riceverai una notifica 'Sincronizzato' quando i file in questa direct
     <value>_Risolutore conflitti</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>_Esci</value>
+    <value>Esci</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>_Impostazioni</value>
+    <value>Impostazioni</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
-    <value>Ai_uto</value>
+    <value>Aiuto</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>I_nfo</value>
+    <value>Info</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>T_ermina tutti i processi Syncthing</value>
+    <value>Termina tutti i processi Syncthing</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>A_pri nel browser esterno</value>
+    <value>Apri nel browser esterno</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
-    <value>A_ggiorna browser</value>
+    <value>Aggiorna browser</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>_Riavvia</value>
+    <value>Riavvia</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>_Avvia</value>
+    <value>Avvia</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>Fer_ma</value>
+    <value>Ferma</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
-    <value>M_ostra</value>
+    <value>Mostra</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
-    <value>Consolle</value>
+    <value>Consolle Syncthing</value>
   </data>
   <data name="ShellView_Menu_Zoom" xml:space="preserve">
-    <value>_Ingrandimento browser</value>
+    <value>Ingrandimento browser</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>In_grandisci</value>
+    <value>Ingrandisci</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>Ri_duci</value>
+    <value>Riduci</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
-    <value>Re_set</value>
+    <value>Reset</value>
   </data>
   <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Descrizione:</value>
@@ -772,11 +772,11 @@ I dettagli di ogni componente e la sua licenza sono indicati di seguito.</value>
     <value>Condividere la directory?</value>
   </data>
   <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
-    <value>_Riduci ad icona</value>
+    <value>Riduci ad icona</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>_Esci</value>
+    <value>Esci</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
@@ -788,11 +788,11 @@ I dettagli di ogni componente e la sua licenza sono indicati di seguito.</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>_Riavvia Syncthing</value>
+    <value>Riavvia Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>_Apri SyncTrayzor</value>
+    <value>Apri SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
@@ -800,11 +800,11 @@ I dettagli di ogni componente e la sua licenza sono indicati di seguito.</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
-    <value>_Avvia Syncthing</value>
+    <value>Avvia Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
   </data>
   <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
-    <value>_Ferma Syncthing</value>
+    <value>Ferma Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
@@ -850,5 +850,45 @@ SyncTrayzor dovrà essere terminato. Ci scusiamo.</value>
   <data name="ViewerView_SyncthingStopped" xml:space="preserve">
     <value>Syncthing è stato terminato</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>In: {0}/s</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Impossibile avviare Syncthing.
+
+Leggere il registro per determinarne la causa.
+
+Se viene visualizzato il messaggio "FATAL: Cannot open database", chiudere tutte le altre istanze aperte di Syncthing. Se SyncTrayzor si è bloccato in precedenza, potrebbero esserci ancora processi zombie di Syncthing attivi. Utilizzare l'opzione di menu "Syncthing -&gt; Termina tutti i processi di Syncthing" per arrestarli, quindi utilizzare "Syncthing -&gt; Avvia" per riavviare Syncthing.</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Out: {0}/s</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
   </data>
 </root>
