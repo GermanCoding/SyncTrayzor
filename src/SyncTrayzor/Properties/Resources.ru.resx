@@ -533,7 +533,7 @@
     <value>Остановить автообновления Syncthing. Использовать если новая версия Syncthing несовместима с SyncTrayzor. Вам нужно разместить старую версию syncthing.exe в папке настроек SyncTrayzor.</value>
   </data>
   <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
-    <value>Переменные окружения Syncthing</value>
+    <value>Переменные окружения Syncthing:</value>
   </data>
   <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
     <value>Приоритет процесса Syncthing:</value>
@@ -625,40 +625,40 @@
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
   </data>
   <data name="ShellView_Menu_File" xml:space="preserve">
-    <value>_Файл</value>
+    <value>Файл</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>_Разрешение конфликтов</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>В_ыход</value>
+    <value>Выход</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>_Настройки</value>
+    <value>Настройки</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
-    <value>_Помощь</value>
+    <value>Помощь</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>_О программе</value>
+    <value>О программе</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>Убить все _процессы Syncthing</value>
+    <value>Убить все процессы Syncthing</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>Открыть во _внешнем браузере</value>
+    <value>Открыть во внешнем браузере</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
-    <value>Обновить _браузер</value>
+    <value>Обновить браузер</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
     <value>_Перезапустить</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>_Запустить</value>
+    <value>Запустить</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>С_топ</value>
+    <value>Стоп</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
     <value>_Вид</value>

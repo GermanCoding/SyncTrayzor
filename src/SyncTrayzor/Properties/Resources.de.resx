@@ -333,10 +333,10 @@ Bitte die Einstellung entsprechend anpassen bzw. „{1}“ in die Whitelist eint
 Pfad: {1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
-    <value>_Kopieren</value>
+    <value>Kopieren</value>
   </data>
   <data name="Generic_Cut" xml:space="preserve">
-    <value>Au_sschneiden</value>
+    <value>Ausschneiden</value>
   </data>
   <data name="Generic_Dialog_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -359,7 +359,7 @@ Pfad: {1}</value>
     <comment>'Yes' button shown on various dialogs</comment>
   </data>
   <data name="Generic_Paste" xml:space="preserve">
-    <value>_Einfügen</value>
+    <value>Einfügen</value>
   </data>
   <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
     <value>Nicht erneut erinnern</value>
@@ -635,13 +635,13 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>_Datei</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
-    <value>_Konfliktlöser</value>
+    <value>Konfliktlöser</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>_Beenden</value>
+    <value>Beenden</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>_Einstellungen</value>
+    <value>Einstellungen</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>Hilfe</value>
@@ -650,16 +650,16 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>_Über</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>Alle _Syncthing-Prozesse beenden</value>
+    <value>Alle Syncthing-Prozesse beenden</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>In e_xternem Browser öffnen</value>
+    <value>In externem Browser öffnen</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>Oberfläche aktualisieren</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
-    <value>_Neu starten</value>
+    <value>Neu starten</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
     <value>_Starten</value>
@@ -668,7 +668,7 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>_Anhalten</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
-    <value>_Ansicht</value>
+    <value>Ansicht</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
     <value>Syncthing-_Konsole</value>
@@ -677,13 +677,13 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>Browser zoomen</value>
   </data>
   <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
-    <value>Vergr_ößern</value>
+    <value>Vergrößern</value>
   </data>
   <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
-    <value>Ver_kleinern</value>
+    <value>Verkleinern</value>
   </data>
   <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
-    <value>_Zurücksetzen</value>
+    <value>Zurücksetzen</value>
   </data>
   <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Beschreibung:</value>
@@ -813,11 +813,11 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>_Beenden</value>
+    <value>Beenden</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
-    <value>_Ordner öffnen</value>
+    <value>Ordner öffnen</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
@@ -825,11 +825,11 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
-    <value>_Syncthing neu starten</value>
+    <value>Syncthing neu starten</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>_SyncTrayzor öffnen</value>
+    <value>SyncTrayzor öffnen</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
@@ -837,11 +837,11 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
-    <value>_Syncthing starten</value>
+    <value>Syncthing starten</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
   </data>
   <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
-    <value>Syncthing s_toppen</value>
+    <value>Syncthing stoppen</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">

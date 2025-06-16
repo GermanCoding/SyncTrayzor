@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,205 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Syncthing Sürümü: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Antony Male tarafından oluşturuldu.</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>MIT lisansı altında yayımlandı.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Açık Kaynak Lisanslarını Göster</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Sürüm: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Yardım</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Tüm Syncthing işlemlerini sonlandır</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Harici tarayıcıda aç</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Tarayıcıyı yenile</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>İndirme Sayfasını Aç</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Bana Sonra Hatırlat</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>İndirme Sayfasını Aç</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Yeni sürüm mevcut: {0}</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Bana Bir Daha Hatırlatma</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Değişiklik Günlüğü:</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>SyncTrayzor {0} sürümü mevcut!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>SyncTrayzor Güncellemesi Mevcut</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Synctrayzor'un yeni bir sürümü mevcutsa uyar</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Tepsiye kapat</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Günlük görünümünde cihaz kimliklerini gizle</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Tepsi simgesini yalnızca kapanışta göster</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Oturum açmada başlat</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Simge Durumunda Başlat</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>İzin reddedildi. Bu ayarları değiştirmek için lütfen Synctrayzor'u Yönetici olarak başlatın.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>SyncTrayzor başladığında Syncthing'i başlat</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>GKA Dinleme Adresi:</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Syncthing Çevresel Değişkenleri:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Klasörler mevcut değil. Lütfen Syncthing'i başlatın</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Bilinmiyor</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Gerçekten mi?</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Syncthing'i başlatırken hata oldu</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>'Bana Bir Daha Hatırlatma' bu sürüm için hatırlatıcıları susturacaktır. Ayarlar sayfasından yeni sürüm uyarılarını kalıcı olarak etkisizleştirebilirsiniz. Yeni bir sürümü el ile denetlemek için Yardım -&gt; Hakkında sayfasını ziyaret edin.</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>İzlenen: Klasör değişiklikler için izlenecek, yani Syncthing'de daha uzun bir yoklama aralığı ayarlayabilirsiniz.
+
+Bildirimler: Bu klasördeki dosyalar güncellendiğinde, 'Eşitlendi' balon iletileri alacaksınız.</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor, Syncthing'in yapılandırmasında belirtilen "GKA Dinleme Adresi"ni geçersiz kılar. Ancak, burada istediğiniz değere ayarlayabilirsiniz.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>SyncTrayzor tarafından yönetilmeyenler de olmak üzere, tüm Syncthing işlemlerini sonlandırmak istediğinize emin misiniz?
+
+Bu, Syncthing'in veritabanını bozma riskini taşır. Bunu SADECE başka bir Syncthing işlemi şu anda çalıştığından Syncthing'i başlatamıyorsanız yapın.</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Tepsiye simge durumuna küçült</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Otomatik olarak oturum açmada başlat</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Syncthing başlatılamıyor: {0}
+
+Bunun nedeni Windows'un, AppData'da dosyaların çalıştırılmasını yasaklamak için ayarlanmış olması veya AppData'da dosyaları çalıştırmayı önleyen yüklü kötü amaçlı yazılım önleme programına (örn. CryptoPrevent) sahip olmanız olabilir.
+
+Lütfen '{1}' dosyasını çalıştırmaya izin vermek için ayarlarınızı / beyaz listelerinizi ayarlayın</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Syncthing başlatmak için başarısız oldu</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Syncthing'i başlatma başarısız oldu.
+
+Nedenini belirlemek için lütfen günlüğü okuyun.
+
+Eğer "ÖNEMLİ: Veritabanı açılamıyor" görünürse, lütfen diğer açık Syncthing örneklerini kapatın. Eğer SyncTrayzor daha önceden çöktüyse, hala zombi Syncthing işlemleri canlı olabilir. Lütfen bunları durdurmak için "Syncthing -&gt; Tüm Syncthing işlemlerini sonlandır" menü seçeneğini kullanın, ardından tekrar Syncthing'i başlatmak için "Syncthing -&gt; Başlat"ı kullanın.</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>'Anamakine:b.noktası' biçimine sahip olmak zorundadır, örn. 'localhost:8384'</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Boş olmamalı</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Lisans:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Lisans Metni:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Ad:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Ana Sayfa:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Notlar:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Tanım:</value>
+  </data>
 </root>
