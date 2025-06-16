@@ -68,7 +68,7 @@
     <value>Syncthing</value>
   </data>
   <data name="AboutView_CreatedByAuthor" xml:space="preserve">
-    <value>Antony Male tarafından oluşturuldu.</value>
+    <value>Antony Male tarafından yaratıldı.</value>
   </data>
   <data name="AboutView_ReleasedLicense" xml:space="preserve">
     <value>MIT lisansı altında yayımlandı.</value>
@@ -258,5 +258,541 @@ Eğer "ÖNEMLİ: Veritabanı açılamıyor" görünürse, lütfen diğer açık 
   </data>
   <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
     <value>Tanım:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Üçüncü Taraf Bileşenler</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor, birçok açık kaynaklı bileşen kullanılarak oluşturulmuştur ve bunlar olmadan var olmayacaktır.
+Her bir bileşen ve lisans metni hakkındaki ayrıntılar aşağıda gösterilmiştir.</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Eşitleme Bitti</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Tepsiye Kapat</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>A_yarlar</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Syncthing'i Başlat</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Syncthing'i Durdur</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Eyvah! Bir şeyler kötü gitti.
+SyncTrayzor kapatılmak zorunda kalacak. Bunun için üzgünüz</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Bir günlük dosyası vermeniz istenebilir.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Lütfen şu adreste bir sorun konusu açın:</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Hata!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing Başlatılıyor...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing Durduruldu</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Evet</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Tepsi Simgesi</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} bağlandı</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} bağlantısı kesildi</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Cihaz Bağlantısı Kesildi</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Yeniden Başlat</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>Syncthing otomatik yükseltmeyi durdur</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>Değişiklik Günlüğünü Görüntüle</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>Tarayıcı Yakınlaştır</value>
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
+    <value>SyncTrayzor {0} sürümü başarılı olarak yüklendi.</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor Güncellendi</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+    <value>Syncthing başlatılamıyor: {0}. Lütfen ipuçları için Syncthing'in konsol çıktısına bakın.</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Syncthing doğru olarak başlatılmadı</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Yapıştır</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>İndiriliyor</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(silindi)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>{0}/{1} indiriliyor</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Son Olarak Güncellenen</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>Gelen: {0}/s</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Son dosya indirmeleri yok</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 gün|{} gün} önce</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 saat|{} saat} önce</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Şu anda</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 dakika|{} dakika} önce</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Hata: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Klasör: {0}
+Tam Yol: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>{0:p:1 dosya|{} dosya} silindi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: {1} silindi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: {1} güncellendi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>{0:p:1 dosya|{} dosya} güncellendi</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>Hiçbir dosya güncellenmese bile "Eşitlendi" balon iletilerini göster</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Donanım işlemeyi etkisizleştir</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Syncthing yeniden başlatılsın mı?</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+    <value>{0} işaretini belirtemezsiniz</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+    <value>Komut satırı işaretleri '-' ile başlamak zorundadır</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+    <value>'-flag' veya '-flag=değer' veya '-flag="boşluklara sahip değer"' biçiminde olmak zorundadır</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>Klasörler</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>Syncthing İşlem Önceliği:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>Normalin Üzeri</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>Normalin Altı</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 dosya|{} dosya} silindi ({1:p:1 başarısız|{} başarısız})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: {1} dosyasını silme başarısız oldu ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: {1} dosyasını güncelleme başarısız oldu ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 dosya|{} dosya} güncellendi ({1:p:1 başarısız|{} başarısız})</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>Çakışan Dosya Adı</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>Son Değiştirilme</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>Orijinal Dosya</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>Değiştiren</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>Bulunan çakışmalar yok. Aferin!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>Bulunan çakışmalar yok (henüz)...</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>Çakışma Çözücü</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>Çakışma Çözücü</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>İşlem Başarısız Oldu</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>{0:p:1 çakışan dosyanız|{} çakışan dosyanız} var.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>Şimdi çöz.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>Çakışan dosyalarda beni uyar</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+    <value>Lütfen ipuçları için Syncthing GKA veya Konsoluna bakın.</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>Uyarılar SyncTrayzor'un üst kısmındaki bir çubukta gösterilir ve tepsi simgesinde bir uyarı üçgeni gösterir.</value>
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+    <value>Başarısız olan dosya aktarımları uyarısı</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>Uyarılar</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>Klasörde Göster</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>Şimdi bağış yapın</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>SyncTrayzor'u yararlı buldunuz mu?
+Lütfen hayır kurumu bağış toplama kampanyama bağış yapın.</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>Silinen dosyaları kalıcı olarak silmek yerine geri dönüşüm kutusuna taşı</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>Boyut</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>Lütfen saklamak istediğiniz dosyanın sürümünü seçin. Diğer sürümler silinecektir.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>Şu {0:p:cihaz|cihazlar}, tarifeli bir ağ kullanılarak bağlandığından {0:p:duraklatıldı|duraklatıldı}: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>Tarifeli bir ağ üzerinden bağlanan cihazları duraklat</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>Bu özelliği kullanmak için Windows 8 veya üzerini kullanmak zorundasınız.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>Tarifeli Ağlar</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>'Klasörler' sekmesindeki balon iletileri tamamen etkisizleştir</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>Gözat</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>Harika! Bağış yaptığınız için teşekkürler.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>"Yeni Cihaz / Klasör Ekle" balon iletileri göster</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>{0} ({1}) cihazı bağlanmak istiyor. Yeni cihaz eklemek için SyncTrayzor'u açın</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>Cihaz bağlansın mı?</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>{0}, {1} klasörünü paylaşmak istiyor . Yeni klasör eklemek için SyncTrayzor'u açın</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>Klasör paylaşılsın mı?</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>Tepsi simgesini hareketlendir:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>Herhangi bir veri aktarımı</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>Asla</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>Eşitleniyor</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+    <value>Syncthing Özel Ana Yol:</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>Eğer ayarlandıysa, Syncthing'in veritabanı ve yapılandırması için varsayılan yolu geçersiz kılar</value>
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+    <value>Syncthing Komut Satırı İşaretleri</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value>En Yeni Çakışmayı Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value>En son oluşan çakışmayı seçer</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>En Yenisini Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>'Son Değiştirilme' tarihi en yeniyse veya en son oluşan çakışma ise 'Orijinal' dosyayı seçer</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>Orijinali Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>'Orijinal' dosyayı her çakışmadan alır ve tüm çakışan dosyaları siler</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>{0} çakışma seçtiniz. Bunları nasıl çözmek istediğinizi seçin. Diğer sürümler silinecektir.</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>Tekrar bağış yap</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>Bağış yap</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Günlük Seviyesi:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Hata Ayıklama</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>Bilgi (Varsayılan)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>İzleme</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>Syncthing'de bir veya daha fazla klasör için dosya sistemi izleyicilerini etkinleştirdiniz ve böylece SyncTrayzor'daki ilgili izleyiciler etkisizleştirildi.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>Not:</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>Birden çok öğeyi seçmek için shift / ctrl tuşu kullan</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>Otomatik başlatma ayarlarınız ayarlanamıyor. Bu muhtemelen antivirüs yazılımından dolayı kaynaklanmaktadır.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>Otomatik başlatma ayarlanamıyor</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value>Syncthing Özel Yolu</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>Intel Xe grafik kartları kullanılırken aşağıdaki alan boş olabilir. Lütfen bununla karşılaşırsanız Dosya -⁠&gt; Ayarlar altında donanım işlemeyi etkisizleştirin.</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>Vazgeç</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Etkinlik açılır penceresini açık tut (kapatmak için açılır pencereye sağ tıklayın)</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Syncthing'i Yeniden Başlat</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Klasörü Aç</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Görüntüle</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Kullanılabilir olduğunda bilgisayarımın dilini kullan</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>Şimdi Yükle</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Eşitleme Bitti</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>Syncthing Konsolu</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Cihaz Bağlandı</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Hayır</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>SyncTrayzor'u Aç</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>Syncthing'i otomatik yükseltmede durdurun. Bu, Syncthing'in yeni sürümünün SyncTrayzor ile uyumluluğunu bozuyorsa yararlıdır. SyncTrayzor'un yapılandırma klasöründe syncthing.exe dosyası sürümünü düşürmeniz gerekecektir</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>ve aşağıdaki bilgileri ekleyin:</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>Türkçe çevirisini yapan Burak Yavuz (BouRock)</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>Bu ayarların etkili olması için SyncTrayzor'u yeniden başlatmak zorundasınız.
+
+SyncTrayzor'u şimdi yeniden başlatmak istiyor musunuz?</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>Syncthing Günlük Dosyasını Göster</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>Tüm Klasörleri Yeniden Tara</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>İzlenen</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>Bu ayarların etkili olması için Syncthing'i yeniden başlatmak zorundasınız.
+
+Syncthing'i şimdi yeniden başlatmak istiyor musunuz?</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>Bildirimler</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Kes</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Giden: {0}/s</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>SyncTrayzor yeniden başlatılsın mı?</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>{0}/{1} indiriliyor ({2}/s)</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Günlükleme</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>Duraklat</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>Bu çakışmayı çözme başarısız oldu: {0}</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>Düşük</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>Syncthing Konsolu</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>SyncTrayzor'un günlük dosyasını burada bulabilirsiniz.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>SyncTrayzor Günlük Dosyasını Göster</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>Çakışma Oluştu</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>Taranıyor...</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing çalışmıyor. Lütfen Syncthing'i başlatın.</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+    <value>Şu {0:p:klasör|klasörler} başarısız dosya aktarımına sahip: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>"Cihaz Bağlandı/Bağlantısı Kesildi" balon iletilerini göster</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Yakınlaştır</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Klasörü Aç</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Syncthing'i Başlat</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Uzaklaştır</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>'VAR=değer' veya 'VAR="değer1 değer2"' biçiminde olmak zorundadır</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 yıl|{} yıl} önce</value>
   </data>
 </root>
