@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,288 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Versiune nouă disponibilă: {0}</value>
+  </data>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Creat de Antony Male.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Deschide pagina de descărcare</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>Lansată sub licența MIT.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Afișează licențele open source</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Versiunea Syncthing: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Versiunea: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Anulează</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Închide</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Salvează</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Fișier</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Ieșire</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Ajutor</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Reîmprospătare browser</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Nu-mi reaminti din nou</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>Deschide pagina de descărcare</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Jurnalul modificărilor:</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>Versiunea SyncTrayzor {0} este disponibilă!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>Actualizare SyncTrayzor disponibilă</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Alertă dacă este disponibilă o nouă versiune a SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Ascunde la minimizare</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Minimizare în tray</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Afișează pictograma tăvii doar la închidere</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Pornește la conectare</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Pornește minimizat</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>Adresa de ascultare GUI:</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>Pornește Syncthing odată cu SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Variabile de mediu Syncthing:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Dosare indisponibile. Pornește Syncthing</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor înlocuiește „Adresa de ascultare GUI” specificată în configurația Syncthing. Cu toate acestea, aici o poți seta la orice valoare dorești.</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Necunoscut</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Într-adevăr?</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Pornirea Syncthing a eșuat</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Suncthing nu poate porni: {0}
+
+Acest lucru s-ar putea întâmpla din cauza SO Windows, dacă este configurat să interzică fișierele în AppData sau pentru că ai instalat anti-malware (de exemplu, CryptoPrevent), care împiedică executarea fișierelor în AppData.
+
+Ajustează setările/Lista albă pentru a permite executarea „{1}”</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Eroare la pornirea Syncthing</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Nu ar trebui să fie gol</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Descriere:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Pagina principală:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor este construit folosind multe componente open-source și nu ar exista fără ele.
+Detalii despre fiecare componentă și textul său de licență sunt prezentate mai jos.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Componente terțe</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Sincronizare terminată</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Sincronizare terminată</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Ascunde la minimizare</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Hopa! Ceva a mers prost.
+SyncTrayzor va trebui să se închidă. Îmi pare rău pentru asta</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Ți se poate solicita să furnizezi un fișier jurnal.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Deschide o problemă la</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Eroare!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing pornește...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing este oprit</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Nu</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Pictograma în tava sistemului</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>Afișează notificările „Dispozitiv conectat/deconectat”</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Dispozitiv conectat</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} deconectat</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Dispozitiv deconectat</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>Despre</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Oprește toate procesele Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Deschide în browser extern</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Pornește</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Oprește</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Ieșire</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>Deschide SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Pornește Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Oprește Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Repornește</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Repornește Syncthing</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Textul licenței:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>„Nu-mi reaminti din nou” va opri memento-urile pentru această versiune. Poți dezactiva permanent alertele despre versiuni noi în Setări. Accesează Ajutor -&gt; Despre verificarea manuală a unei noi versiuni.</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Amintește-mi mai târziu</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>Avansat</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>Trebuie să aibă forma „gazdă: port”, de ex. „localhost: 8384”</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Pornește automat la conectare</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Nume:</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>Acces refuzat. Pornește SyncTrayzor ca administrator pentru a schimba aceste setări.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Licență:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>Urmărit: dosarul va fi urmărit pentru modificări, ceea ce înseamnă că poți seta un interval de verificare mai lung în Syncthing.
+
+Notificări: vei primi notificare „Sincronizat” atunci când fișierele din acest dosar sunt actualizate.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>Ești sigur că dorești să oprești toate procesele Syncthing, chiar și pe cele care nu sunt gestionate de Synctrayzor?
+
+Riști deteriorarea bazei de date a Sincthing. Fă acest lucru DOAR dacă nu poți porni Syncthing, deoarece în prezent rulează un alt proces Syncthing .</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} conectat</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Nu a reușit să pornirea Syncthing.
+
+Verifică jurnalul pentru a determina cauza.
+
+Dacă apare „FATAL: nu se poate deschide baza de date”, închide alte instanțe deschise ale Syncthing. Dacă SyncTrayzor s-a oprit anterior, mai pot exista procese Syncthing zombie. Utilizează meniul „Syncthing -&gt; Oprește toate procesele Syncthing” pentru a le opri, apoi utilizează „Syncthing-&gt; Pornește” pentru a porni din nou Syncthing.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>și să incluzi următoarele informații:</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>Ok</value>
+  </data>
 </root>
