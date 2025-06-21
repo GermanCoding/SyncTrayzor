@@ -647,7 +647,7 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>Hilfe</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>_Über</value>
+    <value>Über</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
     <value>Alle Syncthing-Prozesse beenden</value>
@@ -662,10 +662,10 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>Neu starten</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>_Starten</value>
+    <value>Starten</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>_Anhalten</value>
+    <value>Anhalten</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
     <value>Ansicht</value>
