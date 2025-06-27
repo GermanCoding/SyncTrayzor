@@ -908,7 +908,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
     <value>Pause</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
-    <value>{0}: {1:list:{}|; }</value>
+    <value>{0} : {1:list:{}|; }</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
     <value>Trace</value>

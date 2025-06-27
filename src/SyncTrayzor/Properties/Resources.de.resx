@@ -531,7 +531,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <value>Ändert das Verzeichnis, in welchem sich Syncthings Datenbank und Konfiguration befinden</value>
   </data>
   <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
-    <value>Benutzerdefinierter Syncthing-Pfad</value>
+    <value>Benutzerdefinierter Pfad für Syncthing</value>
   </data>
   <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
     <value>Syncthing nicht automatisch aktualisieren</value>
@@ -833,7 +833,7 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
-    <value>_Einstellungen</value>
+    <value>Einstellungen</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
