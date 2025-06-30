@@ -276,7 +276,7 @@ Her bir bileşen ve lisans metni hakkındaki ayrıntılar aşağıda gösterilmi
     <value>Çıkış</value>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
-    <value>A_yarlar</value>
+    <value>Ayarlar</value>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
     <value>Syncthing'i Başlat</value>

@@ -645,22 +645,22 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>Résolveur de conflits</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
-    <value>_Quitter</value>
+    <value>Quitter</value>
   </data>
   <data name="ShellView_Menu_File_Settings" xml:space="preserve">
-    <value>_Paramètres</value>
+    <value>Paramètres</value>
   </data>
   <data name="ShellView_Menu_Help" xml:space="preserve">
     <value>_Aide</value>
   </data>
   <data name="ShellView_Menu_Help_About" xml:space="preserve">
-    <value>_À propos</value>
+    <value>À propos</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>Arrêter _tous les processus Syncthing</value>
+    <value>Arrêter tous les processus Syncthing</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
-    <value>_Ouvrir dans le navigateur externe</value>
+    <value>Ouvrir dans le navigateur externe</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
     <value>_Rafraîchir la fenêtre du navigateur</value>
@@ -669,10 +669,10 @@ Notifications : Une notification sera affichée à chaque fois que des fichiers 
     <value>Redémarrer</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
-    <value>_Démarrer</value>
+    <value>Démarrer</value>
   </data>
   <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
-    <value>A_rrêter</value>
+    <value>Arrêter</value>
   </data>
   <data name="ShellView_Menu_View" xml:space="preserve">
     <value>Vue</value>
@@ -826,7 +826,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>_Quitter</value>
+    <value>Quitter</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
@@ -842,7 +842,7 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>_Ouvrir SyncTrayzor</value>
+    <value>Ouvrir SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
@@ -850,11 +850,11 @@ Les détails de chaque composant ainsi que l'énoncé de la licence correspondan
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
-    <value>_Démarrer Syncthing</value>
+    <value>Démarrer Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to start Syncthing. Only available if Syncthing isn't running</comment>
   </data>
   <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
-    <value>A_rrêter Syncthing</value>
+    <value>Arrêter Syncthing</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
@@ -908,7 +908,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
     <value>Pause</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
-    <value>{0}: {1:list:{}|; }</value>
+    <value>{0} : {1:list:{}|; }</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
     <value>Trace</value>
