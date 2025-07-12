@@ -18,12 +18,12 @@ jobs:
       arch: ${{ matrix.os == 'windows-latest' && 'x64' || (matrix.os == 'windows-11-arm' && 'arm64' || 'unknown') }}
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       with:
         fetch-depth: 0
         
     - name: Install .NET Core
-      uses: actions/setup-dotnet@v4
+      uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9 # v4
       with:
         dotnet-version: 8.0.x
         
@@ -36,7 +36,7 @@ jobs:
       run: task build-portable
 
     - name: Upload portable dist
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
       with:
         name: SyncTrayzorPortable-${{ env.arch }}.zip
         path: ./release/SyncTrayzorPortable-${{ env.arch }}.zip
@@ -45,7 +45,7 @@ jobs:
       run: task build-installer
 
     - name: Upload installer dist
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
       with:
         name: SyncTrayzorSetup-${{ env.arch }}.exe
         path: ./release/SyncTrayzorSetup-${{ env.arch }}.exe
@@ -58,12 +58,12 @@ jobs:
       discussions: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
 
       - name: Download all build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           path: "${{ github.workspace }}/release"
           merge-multiple: true
@@ -87,7 +87,7 @@ jobs:
           SYNCTRAYZOR_PRIVATE_KEY_PASSPHRASE: "${{ secrets.SYNCTRAYZOR_PRIVATE_KEY_PASSPHRASE }}"
 
       - name: Upload signature file
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: sha512sum.txt.asc
           path: release/sha512sum.txt.asc
@@ -100,14 +100,14 @@ jobs:
 
       - name: Get Changelog Entry
         id: changelog_reader
-        uses: mindsers/changelog-reader-action@v2
+        uses: mindsers/changelog-reader-action@32aa5b4c155d76c94e4ec883a223c947b2f02656 # v2
         with:
           validation_level: warn
           version: ${{ steps.tag_name.outputs.current_version }}
           path: ./CHANGELOG.md
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8 # v2
         with:
           files: |
             release/**
