@@ -3,7 +3,7 @@
   "extends": [
     "config:best-practices"
   ],
-  "baseBranches": [
+  "baseBranchPatterns": [
     "main"
   ],
   "labels": [
