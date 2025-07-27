@@ -61,7 +61,7 @@
         
         <TextBlock DockPanel.Dock="Top" Margin="0,5">
             <Hyperlink Command="{s:Action ShowHomepage}">
-                <TextBlock Text="{Binding HomepageUrl}"/>
+                <TextBlock Text="Github"/>
             </Hyperlink>
         </TextBlock>
         
