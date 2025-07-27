@@ -195,7 +195,7 @@ If you want to manually upgrade (e.g. to a beta version) you should download Syn
 Building from Source
 --------------------
 
-You'll need the [VC++ redist](https://aka.ms/vs/17/release/vc_redist.x64.exe) (2019+ release) installed. Most Windows machines have it already. Next, you need to install the [.NET SDK](https://dotnet.microsoft.com/en-us/download), currently 8.0 LTS. Some IDEs, like Visual Studio Code or JetBrains Rider can also help you in setting this up.
+You'll need the [VC++ redist](https://aka.ms/vs/17/release/vc_redist.x64.exe) (2022+ release) installed. Most Windows machines have it already. Next, you need to install the [.NET SDK](https://dotnet.microsoft.com/en-us/download), currently 8.0 LTS. Some IDEs, like Visual Studio Code or JetBrains Rider can also help you in setting this up.
 
 Clone/download the repository, open `src\SyncTrayzor.sln` in your IDE, and compile. If you've compiled .NET programs before, this should be familiar.
 
