@@ -106,7 +106,7 @@
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="BouncyCastle.Cryptography">
-            <Version>2.6.1</Version>
+            <Version>2.6.2</Version>
         </PackageReference>
         <PackageReference Include="CefSharp.Wpf.NETCore">
             <Version>138.0.170</Version>
