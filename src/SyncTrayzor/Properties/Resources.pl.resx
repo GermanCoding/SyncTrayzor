@@ -938,4 +938,7 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
   <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>OK</value>
   </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Plik usunięty]</value>
+  </data>
 </root>

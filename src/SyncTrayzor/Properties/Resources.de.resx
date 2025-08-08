@@ -124,7 +124,7 @@ Dann bitte ich Sie, an meiner Spendenkampagne für wohltätige Zwecke teilzunehm
     <value>Abweisen</value>
   </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
-    <value>{0:p:Das folgende Gerät wurde|Die folgenden Geräte wurden} pausiert, da {0:p:es|sie} über eine getaktete Verbindung vebunden {0:p:ist|sind}: {0:list:{}|, }.</value>
+    <value>{0:p:Das folgende Gerät wurde|Die folgenden Geräte wurden} pausiert, da {0:p:es|sie} über eine getaktete Verbindung verbunden {0:p:ist|sind}: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
   </data>
   <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
@@ -256,7 +256,7 @@ Dadurch besteht die Gefahr, dass die Datenbank von Syncthing beschädigt wird. D
   <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
     <value>Syncthing konnte nicht gestartet werden.
 
-Bitte das Logfile lesen, um die Ursache festzustellen.
+Bitte die Logdatei lesen, um die Ursache festzustellen.
 
 Wenn eine Meldung „FATAL: Cannot open database“ erscheint, bitte überprüfen, ob keine anderen Instanzen von Syncthing auf diesem Computer laufen. Falls SyncTrayzor zuvor abgestürzt ist, können noch unbeaufsichtigte Prozesse laufen. In diesem Fall bitte alle Prozesse über das Syncthing-Menü beenden. Danach Syncthing einfach erneut starten.</value>
     <comment>Content of the dialog shown when Syncthing couldn't be started (and exited with an error). Instructs the user on how to proceed.
@@ -322,14 +322,14 @@ Bitte die Einstellung entsprechend anpassen bzw. „{1}“ in die Whitelist eint
     <comment>{0}: a value such as '1.2kb'</comment>
   </data>
   <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
-    <value>Keine kürzlichen Datei-Downloads</value>
+    <value>Keine kürzlichen Dateidownloads</value>
   </data>
   <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
     <value>Ausgehend: {0}/s</value>
     <comment>{0}: a value such as '1.2kb'</comment>
   </data>
   <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
-    <value>Verzeichnis: {0}
+    <value>Ordner: {0}
 Pfad: {1}</value>
   </data>
   <data name="Generic_Copy" xml:space="preserve">
@@ -407,10 +407,10 @@ Pfad: {1}</value>
     <value>Meldungen werden in der oberen Leiste von SyncTrayzor und in der Taskleiste mit einem Warndreieck in dem Benachrichtigungssymbol dargestellt.</value>
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
-    <value>Quickinfos auf dem „Ordner“-Tab komplett deaktivieren</value>
+    <value>QuickInfos auf dem „Ordner“-Tab komplett deaktivieren</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
-    <value>Animiere Symbol im Infobereich:</value>
+    <value>Symbol im Infobereich animieren:</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
     <value>Die Autostart-Einstellungen konnten nicht gespeichert werden. Dies liegt wahrscheinlich an einem Antivirusprogramm.</value>
@@ -429,7 +429,7 @@ Pfad: {1}</value>
     <value>Bei Dateikonflikten warnen</value>
   </data>
   <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
-    <value>Warne mich bei fehlgeschlagenen Dateiübertragungen</value>
+    <value>Warnung bei fehlgeschlagenen Dateiübertragungen</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
     <value>Info (Standard)</value>
@@ -444,7 +444,7 @@ Pfad: {1}</value>
     <comment>Text on button which will open Explorer at the location of Syncthing's log file</comment>
   </data>
   <data name="SettingsView_MeteredNetworks" xml:space="preserve">
-    <value>Geräte anhalten, die über ein Netzwerk ohne Flatrate verbunden sind</value>
+    <value>Geräte anhalten, die über ein getaktetes Netzwerk verbunden sind</value>
   </data>
   <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
     <value>Sie müssen Windows 8 oder neuer verwenden, um diese Funktion zu nutzen.</value>
@@ -480,7 +480,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <comment>Section header for advanced settings</comment>
   </data>
   <data name="SettingsView_Section_Alerts" xml:space="preserve">
-    <value>Meldungen</value>
+    <value>Warnmeldungen</value>
   </data>
   <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
     <value>Volumentarif</value>
@@ -528,7 +528,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <value>Benutzerdefiniertes Syncthing-Stammverzeichnis:</value>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
-    <value>Ändert das Verzeichnis, in welchem sich Syncthings Datenbank und Konfiguration befinden</value>
+    <value>Ändert den Pfad, in welchem sich Syncthings Datenbank und Konfiguration befinden</value>
   </data>
   <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Benutzerdefinierter Pfad für Syncthing</value>
@@ -577,7 +577,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <value>Synchronisierung</value>
   </data>
   <data name="SettingsView_UseComputerCulture" xml:space="preserve">
-    <value>Die Systemssprache verwenden, falls verfügbar</value>
+    <value>Die Systemsprache verwenden, falls verfügbar</value>
   </data>
   <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
     <value>Muss die Form „host:port“ haben, z. B. „localhost:8384“</value>
@@ -591,7 +591,7 @@ Soll Syncthing jetzt neu gestartet werden?</value>
     <value>Die Option {0} darf nicht angegeben werden</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
-    <value>Kommandozeilen-Argumente müssen mit „-“ beginnen</value>
+    <value>Befehlszeilenparameter müssen mit „-“ beginnen</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
     <value>Muss im Format „-option“, „-option=wert“ oder „-option="wert mit leerzeichen"“ sein</value>
@@ -622,17 +622,17 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>Überwacht</value>
   </data>
   <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
-    <value>Verzeichnis nicht verfügbar. Bitte Syncthing starten</value>
+    <value>Ordner nicht verfügbar. Bitte Syncthing starten</value>
   </data>
   <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
-    <value>Syncthing Kommandozeilen-Optionen</value>
+    <value>Syncthing Kommandozeilenparameter</value>
   </data>
   <data name="ShellView_Donate" xml:space="preserve">
     <value>Spenden</value>
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
   </data>
   <data name="ShellView_Menu_File" xml:space="preserve">
-    <value>_Datei</value>
+    <value>Datei</value>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
     <value>Konfliktlöser</value>
@@ -671,7 +671,7 @@ Benachrichtigungen: Es wird eine QuickInfo „Synchronisiert“ angezeigt, wenn 
     <value>Ansicht</value>
   </data>
   <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
-    <value>Syncthing-_Konsole</value>
+    <value>Syncthing-Konsole</value>
   </data>
   <data name="ShellView_Menu_Zoom" xml:space="preserve">
     <value>Browser zoomen</value>
@@ -800,16 +800,16 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
 {1}: File that was updated</comment>
   </data>
   <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
-    <value>Das Gerät {0} möchte den Ordner {1} teilen. SyncTrayzor öffnen um den neuen Ordner hinzuzufügen</value>
+    <value>Das Gerät {0} möchte den Ordner {1} teilen. SyncTrayzor öffnen, um den neuen Ordner hinzuzufügen</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
   </data>
   <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
-    <value>Verzeichnis teilen?</value>
+    <value>Ordner teilen?</value>
   </data>
   <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
-    <value>_In den Infobereich minimieren</value>
+    <value>In den Infobereich minimieren</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
@@ -821,7 +821,7 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
-    <value>_Alle Ordner neu scannen</value>
+    <value>Alle Ordner neu scannen</value>
     <comment>Menu option available when right-clicking the tray icon. Allows the user to re-scan all folders</comment>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
@@ -845,15 +845,15 @@ Details zu jeder Komponente und deren Lizenztexte werden unten angezeigt.</value
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to stop Syncthing. Only available if Syncthing is running</comment>
   </data>
   <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
-    <value>Hoppla! Irgendwas ist schief gelaufen.
+    <value>Hoppla! Irgendetwas ist schief gelaufen.
 SyncTrayzor wird nun geschlossen. Entschuldigung</value>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
-    <value>Es wird eventuell nach einer Protokolldatei gefragt.</value>
+    <value>Es wird eventuell nach einer Logdatei gefragt.</value>
     <comment>When an unhandled exception occurs, the user is informed that they may have to provide a log file</comment>
   </data>
   <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
-    <value>SyncTrayzors Protokolldateien befinden sich hier.</value>
+    <value>SyncTrayzors Logdateien befinden sich hier.</value>
     <comment>Clickable text to open the location of the log file</comment>
   </data>
   <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
@@ -901,7 +901,7 @@ SyncTrayzor wird nun geschlossen. Entschuldigung</value>
     <value>Verfolgen</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Aktivitäts-Popup geöffnet lassen (Popup per Rechtsklick schließen)</value>
+    <value>Aktivitäten-Popup geöffnet lassen (Popup per Rechtsklick schließen)</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
@@ -932,5 +932,8 @@ SyncTrayzor wird nun geschlossen. Entschuldigung</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Datei gelöscht]</value>
   </data>
 </root>

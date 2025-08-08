@@ -937,4 +937,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser.</value>
   <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
   </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Fichier supprimé]</value>
+  </data>
 </root>

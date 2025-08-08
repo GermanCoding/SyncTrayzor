@@ -564,13 +564,13 @@ Lütfen hayır kurumu bağış toplama kampanyama bağış yapın.</value>
     <value>Tepsi simgesini hareketlendir:</value>
   </data>
   <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
-    <value>Herhangi bir veri aktarımı</value>
+    <value>Herhangi bir veri aktarımında</value>
   </data>
   <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
     <value>Asla</value>
   </data>
   <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
-    <value>Eşitleniyor</value>
+    <value>Eşitlenirken</value>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
     <value>Syncthing Özel Ana Yol:</value>
@@ -794,5 +794,8 @@ Syncthing'i şimdi yeniden başlatmak istiyor musunuz?</value>
   </data>
   <data name="TimeAgo_Years" xml:space="preserve">
     <value>{0:p:1 yıl|{} yıl} önce</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Dosya Silindi]</value>
   </data>
 </root>
