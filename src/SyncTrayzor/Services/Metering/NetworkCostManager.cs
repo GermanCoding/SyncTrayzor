@@ -48,16 +48,24 @@ namespace SyncTrayzor.Services.Metering
 
         private async Task<bool> IsConnectionMeteredUnsafe(IPAddress address)
         {
-            var profile = await NetworkUtils.GetNetworkProfileForIpAddress(address);
-            if (profile == null)
+            try
             {
+                var profile = await NetworkUtils.GetNetworkProfileForIpAddress(address);
+                if (profile == null)
+                {
+                    return false;
+                }
+
+                var cost = profile.GetConnectionCost();
+                // A network is "metered" if it is not unrestricted or unknown:
+                return cost.NetworkCostType != NetworkCostType.Unrestricted &&
+                       cost.NetworkCostType != NetworkCostType.Unknown;
+            }
+            catch (Exception exception)
+            {
+                Logger.Warn(exception, $"Unable to retrieve network profile for IP {address}");
                 return false;
             }
-
-            var cost = profile.GetConnectionCost();
-            // A network is "metered" if it is not unrestricted or unknown:
-            return cost.NetworkCostType != NetworkCostType.Unrestricted &&
-                   cost.NetworkCostType != NetworkCostType.Unknown;
         }
 
         private void NetworkStatusChanged(object sender)

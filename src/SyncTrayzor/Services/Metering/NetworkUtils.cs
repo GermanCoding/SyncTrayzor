@@ -106,24 +106,31 @@ public static class NetworkUtils
         foreach (NetworkInterface networkInterface in NetworkInterface.GetAllNetworkInterfaces())
         {
             var ipProperties = networkInterface.GetIPProperties();
-            switch (remoteAddress.AddressFamily)
+            try
             {
-                case AddressFamily.InterNetwork:
-                    if (ipProperties.GetIPv4Properties().Index == interfaceIndex)
-                    {
-                        return networkInterface;
-                    }
+                switch (remoteAddress.AddressFamily)
+                {
+                    case AddressFamily.InterNetwork:
+                        if (ipProperties.GetIPv4Properties().Index == interfaceIndex)
+                        {
+                            return networkInterface;
+                        }
 
-                    break;
-                case AddressFamily.InterNetworkV6:
-                    if (ipProperties.GetIPv6Properties().Index == interfaceIndex)
-                    {
-                        return networkInterface;
-                    }
+                        break;
+                    case AddressFamily.InterNetworkV6:
+                        if (ipProperties.GetIPv6Properties().Index == interfaceIndex)
+                        {
+                            return networkInterface;
+                        }
 
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(remoteAddress));
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(nameof(remoteAddress));
+                }
+            }
+            catch (NetworkInformationException)
+            {
+                // Interface does not support the IP address, ignore
             }
         }
 
@@ -133,6 +140,7 @@ public static class NetworkUtils
     public static async Task<ConnectionProfile?> GetNetworkProfileForIpAddress(IPAddress remoteAddress)
     {
         var networkInterface = GetBestNetworkInterface(remoteAddress);
+
         var networkInterfaceGuid = Guid.Parse(networkInterface.Id);
         var adapters = NetworkInformation.GetConnectionProfiles()
             .Select(existingProfile => existingProfile.NetworkAdapter).Distinct();
