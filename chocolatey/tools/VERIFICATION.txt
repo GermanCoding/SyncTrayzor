@@ -1,0 +1,24 @@
+﻿
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The setup binary is identical to the binaries published in official releases, available at:
+https://github.com/GermanCoding/SyncTrayzor/releases/
+All binaries are accompanied by a PGP signed checksum file. How to verify the full signature
+is explained in the security README:
+https://github.com/GermanCoding/SyncTrayzor/blob/main/security/README.md
+
+If you trust your HTTPS connection to GitHub, a simpler method is also available:
+
+1. Navigate to the corresponding GitHub release, e.g.
+    https://github.com/GermanCoding/SyncTrayzor/releases/tag/v{version}
+2. Copy the checksum of the SyncTrayzorSetup-x64.exe file as displayed by GitHub on the assets tab
+3. Compute the SHA-256 checksum of the setup file included with choco, e.g.
+    $ (Get-FileHash SyncTrayzorSetup-x64.exe -Algorithm SHA256).Hash.ToLower()
+4. Verify hashes from step 2 and 3 are identical
+
+This package is published by the developer of SyncTrayzor v2, directly from the automated
+release workflow that also creates the GitHub releases.
+
+File 'LICENSE.txt' is a direct copy of the license file from the GitHub repository.

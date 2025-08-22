@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <version>filled by automation script</version>
+    <id>synctrayzor</id>
+    <packageSourceUrl>https://github.com/GermanCoding/SyncTrayzor/tree/main/chocolatey</packageSourceUrl>
+    <owners>GermanCoding</owners>
+    <!-- ============================== -->
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>SyncTrayzor v2</title>
+    <authors>GermanCoding, Antony Male</authors>
+    <projectUrl>https://github.com/GermanCoding/SyncTrayzor</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/GermanCoding/SyncTrayzor/v2.0.0/SyncTrayzor.png</iconUrl>
+    <copyright>Copyright (c) 2015-2021 Antony Male, Copyright (c) 2025 GermanCoding</copyright>
+    <licenseUrl>https://rawcdn.githack.com/GermanCoding/SyncTrayzor/v2.0.0/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/GermanCoding/SyncTrayzor</projectSourceUrl>
+    <docsUrl>https://github.com/GermanCoding/SyncTrayzor/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/GermanCoding/SyncTrayzor/issues</bugTrackerUrl>
+    <tags>synctrayzor syncthing synchronization admin</tags>
+    <summary>Windows tray utility / launcher for Syncthing</summary>
+    <description>SyncTrayzor is a little tray utility for [Syncthing](http://syncthing.net/) on Windows.
+It hosts and wraps Syncthing, making it behave more like a native Windows application and less like a command-line utility with a web browser interface.
+
+## Features
+
+- Has a built-in web browser, so you don't need to fire up an external browser.
+- Optionally starts on login, so you don't need to set up Syncthing as a service.
+- Has drop-box style file download / progress window
+- Tray icon indicates when synchronization is occurring.
+- Alerts you when:
+  - You have file conflicts
+  - One of your folders is out of sync
+  - Folders finish syncing
+  - Devices connect / disconnect
+- Has a tool to help you resolve file conflicts
+- Contains translations for many languages
+
+## Information
+
+- This chocolatey package has recently changed maintainership from canton7 to GermanCoding (SyncTrayzor v2 fork).
+- Homepage: https://github.com/GermanCoding/SyncTrayzor (source code, discussions, issues)
+
+## Uninstallation
+
+- When uninstalling, SyncTrayzor can optionally remove syncthing configuration as well. As this is a potentially destructive action, it is not performed by default. To enable it, use the following command:
+
+  ```powershell
+  choco uninstall synctrayzor --params /DeleteAll
+  ```
+
+  Without this argument, your syncthing binary, configuration and database are kept on the machine (which allows for safe re-installs).
+
+ </description>
+    <releaseNotes>filled by automation script</releaseNotes>
+    <!-- =============================== -->
+    <!-- chocolatey-core.extension - https://community.chocolatey.org/packages/chocolatey-core.extension -->
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

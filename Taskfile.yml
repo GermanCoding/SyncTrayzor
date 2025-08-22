@@ -46,6 +46,11 @@ tasks:
               variant: "Installed"
          - powershell -ExecutionPolicy Bypass -File scripts/build-inno-setup.ps1
       platforms: [windows]
+   build-choco-package:
+      desc: "Create Chocolatey package"
+      cmds:
+         - powershell -ExecutionPolicy Bypass -File scripts/build-choco-package.ps1
+      run: once
    sign-release:
       desc: "Sign release files in ./release folder"
       cmds:
