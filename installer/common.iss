@@ -246,6 +246,20 @@ begin
    end;
 end;
 
+// From https://stackoverflow.com/a/14415103
+function CmdLineParamExists(const Value: string): Boolean;
+var
+  I: Integer;
+begin
+  Result := False;
+  for I := 1 to ParamCount do
+    if CompareText(ParamStr(I), Value) = 0 then
+    begin
+      Result := True;
+      Exit;
+    end;
+end;
+
 // We won't be able to find keys for users other than the one running the installer, but try and do
 // a best-effort attempt to cleaning ourselves up.
 procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
@@ -258,7 +272,11 @@ begin
   case CurUninstallStep of
       usPostUninstall:
         begin
-          mres := MsgBox('Remove all syncthing configuration, metadata, folders, device ID? This cannot be undone.', mbConfirmation, MB_YESNO or MB_DEFBUTTON2)
+            if CmdLineParamExists('/DELETEALL') then
+              mres := IDYES
+            else
+              mres := SuppressibleMsgBox('Remove all syncthing configuration, metadata, folders, device ID? This cannot be undone.', mbConfirmation, MB_YESNO or MB_DEFBUTTON2, IDNO);
+
             if mres = IDYES then
             begin
               DelTree(ExpandConstant('{userappdata}\{#AppDataFolder}'), True, True, True);
