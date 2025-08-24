@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:schema id="root">
-    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"></xs:import>
     <xs:element ns1:IsDataSet="true" name="root">
       <xs:complexType>
         <xs:choice maxOccurs="unbounded">
           <xs:element name="metadata">
             <xs:complexType>
               <xs:sequence>
-                <xs:element minOccurs="0" name="value" type="xsd:string" />
+                <xs:element minOccurs="0" name="value" type="xsd:string"></xs:element>
               </xs:sequence>
-              <xs:attribute name="name" type="xsd:string" use="required" />
-              <xs:attribute name="type" type="xsd:string" />
-              <xs:attribute name="mimetype" type="xsd:string" />
-              <xs:attribute ref="xml:space" />
+              <xs:attribute name="name" type="xsd:string" use="required"></xs:attribute>
+              <xs:attribute name="type" type="xsd:string"></xs:attribute>
+              <xs:attribute name="mimetype" type="xsd:string"></xs:attribute>
+              <xs:attribute ref="xml:space"></xs:attribute>
             </xs:complexType>
           </xs:element>
           <xs:element name="assembly">
             <xs:complexType>
-              <xs:attribute name="alias" type="xsd:string" />
-              <xs:attribute name="name" type="xsd:string" />
+              <xs:attribute name="alias" type="xsd:string"></xs:attribute>
+              <xs:attribute name="name" type="xsd:string"></xs:attribute>
             </xs:complexType>
           </xs:element>
           <xs:element name="data">
             <xs:complexType>
               <xs:sequence>
-                <xs:element ns1:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
-                <xs:element ns1:Ordinal="2" minOccurs="0" name="comment" type="xsd:string" />
+                <xs:element ns1:Ordinal="1" minOccurs="0" name="value" type="xsd:string"></xs:element>
+                <xs:element ns1:Ordinal="2" minOccurs="0" name="comment" type="xsd:string"></xs:element>
               </xs:sequence>
-              <xs:attribute ns1:Ordinal="1" name="name" type="xsd:string" use="required" />
-              <xs:attribute ns1:Ordinal="3" name="type" type="xsd:string" />
-              <xs:attribute ns1:Ordinal="4" name="mimetype" type="xsd:string" />
-              <xs:attribute ref="xml:space" />
+              <xs:attribute ns1:Ordinal="1" name="name" type="xsd:string" use="required"></xs:attribute>
+              <xs:attribute ns1:Ordinal="3" name="type" type="xsd:string"></xs:attribute>
+              <xs:attribute ns1:Ordinal="4" name="mimetype" type="xsd:string"></xs:attribute>
+              <xs:attribute ref="xml:space"></xs:attribute>
             </xs:complexType>
           </xs:element>
           <xs:element name="resheader">
             <xs:complexType>
               <xs:sequence>
-                <xs:element ns1:Ordinal="1" minOccurs="0" name="value" type="xsd:string" />
+                <xs:element ns1:Ordinal="1" minOccurs="0" name="value" type="xsd:string"></xs:element>
               </xs:sequence>
-              <xs:attribute name="name" type="xsd:string" use="required" />
+              <xs:attribute name="name" type="xsd:string" use="required"></xs:attribute>
             </xs:complexType>
           </xs:element>
         </xs:choice>
@@ -415,7 +415,7 @@
     <value>Предупреждать о неудачной передаче файлов</value>
   </data>
   <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
-    <value>Уровень логирования</value>
+    <value>Уровень логирования:</value>
     <comment>Label shown before SyncTrayzor logging level ComboBox</comment>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
@@ -643,7 +643,7 @@
     <value>О программе</value>
   </data>
   <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
-    <value>Убить все процессы Syncthing</value>
+    <value>Завершить все процессы Syncthing</value>
   </data>
   <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
     <value>Открыть во внешнем браузере</value>
@@ -907,5 +907,8 @@ SyncTrayzor закрывается. Извините.</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Удалённый файл]</value>
   </data>
 </root>
