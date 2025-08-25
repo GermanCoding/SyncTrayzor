@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -58,4 +58,292 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>由 Antony Male 製作。</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>開啟下載頁面</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>關閉</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>說明</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>結束所有 Syncthing 程序</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>依照 MIT License 發行。</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>顯示開源許可證</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>可用新版本：{0}</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Syncthing 版本：{0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>版本：{0}</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>於外部瀏覽器中開啟</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>重新整理</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>啟動</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>最小化至工具列</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>關閉至工具列</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>啟動時最小化</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>登入時啟動</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>登入時自動啟動</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>SyncTrayzor 啟動時啟動 Syncthing</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>不要再提醒我</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>開啟下載頁面</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>稍後提醒我</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>「不要再提醒我」將關閉此版本的提醒。您可以在選項裡永久關閉新版本通知。於「說明」-&gt;「關於」可以手動檢查新版本。</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>混淆記錄視窗中的裝置 ID</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>只在關閉時顯示工具列圖示</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>SyncTrayzor 有可用更新</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>SyncTrayzor 可用版本 {0} ！</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>更新日誌：</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>SyncTrayzor 有新版本可用時通知</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>關閉至工具列</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>結束</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>開啟 SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>啟動 Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>停止 Syncthing</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Syncthing 環境變數：</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>錯誤！</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing 啟動中…</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing 已停止</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>請回報錯誤於</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>並請提供以下資訊：</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>您可能會被要求提供記錄檔。</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>工具列圖示</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>裝置已連線</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} 已連線</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} 已斷線</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>裝置已斷線</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>重新啟動 Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>重新啟動</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>檢視</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>立即安裝</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>檢視記錄檔</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>瀏覽器縮放</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>放大</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>縮小</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>重設</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>剪下</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>貼上</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>（已刪除）</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>記錄層級：</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>除錯</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>訊息（預設）</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>追蹤</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>再次捐款</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>捐款</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>檔案</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>資料夾</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>最後修改</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>原始檔案</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>修改裝置</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>掃描中…</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>未發現衝突，太棒了！</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>尚未發現衝突…</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>衝突檔案名稱</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>衝突建立日期</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>選擇</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing 未啟動，請啟動 Syncthing 。</value>
+  </data>
 </root>
