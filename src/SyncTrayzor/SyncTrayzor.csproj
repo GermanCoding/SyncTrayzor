@@ -161,7 +161,7 @@
         </PackageReference>
         <PackageReference Include="System.Management" Version="9.0.8"/>
         <PackageReference Include="System.Reactive">
-            <Version>6.0.1</Version>
+            <Version>6.0.2</Version>
         </PackageReference>
         <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.8"/>
     </ItemGroup>
