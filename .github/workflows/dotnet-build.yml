@@ -121,3 +121,26 @@ jobs:
           append_body: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install Chocolatey Extensions
+        run: choco install chocolatey-community-validation.extension -y
+        shell: powershell
+
+      - name: Build Chocolatey Package
+        run: task build-choco-package
+        env:
+          SYNCTRAYZOR_VERSION: ${{ steps.changelog_reader.outputs.version }}
+          SYNCTRAYZOR_RELEASE_NOTES: ${{ steps.changelog_reader.outputs.changes }}
+
+      - name: Upload choco package
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          path: ./release/synctrayzor*.nupkg
+
+      - name: Push Chocolatey Package
+        if: steps.changelog_reader.outputs.status != 'prereleased' && steps.changelog_reader.outputs.status != 'unreleased'
+        run: |
+          $packagePath = Get-ChildItem "${{ github.workspace }}/release" -Filter "synctrayzor*.nupkg" | Select-Object -ExpandProperty FullName
+          choco apikey --key ${{ secrets.CHOCO_API_KEY }} --source https://push.chocolatey.org/
+          choco push $packagePath --source https://push.chocolatey.org/
+        shell: powershell
