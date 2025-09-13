@@ -342,7 +342,4 @@ Dacă apare „FATAL: nu se poate deschide baza de date”, închide alte instan
   <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>Ok</value>
   </data>
-  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
-    <value></value>
-  </data>
 </root>
