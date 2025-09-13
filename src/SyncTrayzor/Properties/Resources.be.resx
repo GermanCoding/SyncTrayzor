@@ -160,4 +160,28 @@
   <data name="SettingsView_Section_Advanced" xml:space="preserve">
     <value>Пашыраныя</value>
   </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Запускаць пры ўваходзе ў сыстэму</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Запускаць згарнутым</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Аўтаматычна запускаць пры ўваходзе ў сыстэму</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>У дазволе адмоўлена. Каліласка запусціце SyncTrayzor за правамі Адміністатара кабы змяніць гэтыя налады.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>Запускаць Syncthing разам з SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>Адрас для падкючэння да інтэрфэйса:</value>
+  </data>
 </root>
