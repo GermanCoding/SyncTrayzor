@@ -91,7 +91,9 @@ namespace SyncTrayzor.Pages
         {
             lock (cultureLock)
             {
-                culture = configuration.UseComputerCulture ? CultureInfo.CurrentUICulture : CultureInfo.GetCultureInfoByIetfLanguageTag("en-US");
+                culture = configuration.UseComputerCulture
+                    ? CultureInfo.CurrentUICulture
+                    : CultureInfo.GetCultureInfoByIetfLanguageTag("en-US");
             }
         }
 
@@ -135,10 +137,29 @@ namespace SyncTrayzor.Pages
                     {
                         // CefSharp 139+ may set this by default, ignore if unable to set the flag.
                     }
+
                     settings.CefCommandLineArgs.Add("disable-application-cache");
                 }
 
-                Cef.Initialize(settings);
+                Cef.AssertIsWindows10OrGreater();
+                try
+                {
+                    if (!Cef.Initialize(settings, performDependencyCheck: true))
+                    {
+                        throw new InvalidOperationException("CEF not initialized");
+                    }
+                }
+                catch (InvalidOperationException)
+                {
+                    // TODO: Should probably log this.
+                    if (configuration.DisableHardwareRendering) throw;
+
+                    // Try one more time without hardware rendering, maybe CEF doesn't like the GPU drivers on this machine.
+                    configuration.DisableHardwareRendering = true;
+                    configurationProvider.Save(configuration);
+                    OnInitialActivate();
+                    return;
+                }
             }
 
             var webBrowser = new ChromiumWebBrowser();
