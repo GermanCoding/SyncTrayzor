@@ -911,7 +911,4 @@ SyncTrayzor закрывается. Извините.</value>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Удалённый файл]</value>
   </data>
-  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
-    <value></value>
-  </data>
 </root>
