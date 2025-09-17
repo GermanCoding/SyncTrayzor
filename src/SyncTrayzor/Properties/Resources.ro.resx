@@ -342,4 +342,13 @@ Dacă apare „FATAL: nu se poate deschide baza de date”, închide alte instan
   <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>Ok</value>
   </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Falsifică ID-ul dispozitivului în vizualizarea jurnalului</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>Oprește actualizarea automată a aplicației Syncthing</value>
+  </data>
 </root>
