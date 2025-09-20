@@ -202,7 +202,7 @@
   <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
     <value>İzlenen: Klasör değişiklikler için izlenecek, yani Syncthing'de daha uzun bir yoklama aralığı ayarlayabilirsiniz.
 
-Bildirimler: Bu klasördeki dosyalar güncellendiğinde, 'Eşitlendi' balon iletileri alacaksınız.</value>
+Bildirimler: Bu klasördeki dosyalar güncellendiğinde, 'Eşitlendi' balon iletilerini alacaksınız.</value>
   </data>
   <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
     <value>SyncTrayzor, Syncthing'in yapılandırmasında belirtilen "GKA Dinleme Adresi"ni geçersiz kılar. Ancak, burada istediğiniz değere ayarlayabilirsiniz.</value>
@@ -546,7 +546,7 @@ Lütfen hayır kurumu bağış toplama kampanyama bağış yapın.</value>
     <value>Harika! Bağış yaptığınız için teşekkürler.</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
-    <value>"Yeni Cihaz / Klasör Ekle" balon iletileri göster</value>
+    <value>"Yeni Cihaz / Klasör Ekle" balon iletilerini göster</value>
   </data>
   <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
     <value>{0} ({1}) cihazı bağlanmak istiyor. Yeni cihaz eklemek için SyncTrayzor'u açın</value>
