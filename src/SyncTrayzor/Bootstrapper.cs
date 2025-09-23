@@ -94,10 +94,6 @@ namespace SyncTrayzor
         {
             LogManager.Setup().LoadConfigurationFromFile();
 
-            options = Container.Get<CommandLineOptionsParser>();
-            if (!options.Parse(Args))
-                Environment.Exit(0);
-
             var pathTransformer = Container.Get<IPathTransformer>();
 
             // Have to set the log path before anything else
@@ -107,9 +103,15 @@ namespace SyncTrayzor
             AppDomain.CurrentDomain.UnhandledException += (o, e) => OnAppDomainUnhandledException(e);
 
             var logger = LogManager.GetCurrentClassLogger();
+
             var assembly = Container.Get<IAssemblyProvider>();
             logger.Info("SyncTrazor version {0} ({1}) started at {2} (.NET version: {3})", assembly.FullVersion,
                 assembly.ProcessorArchitecture, assembly.Location, assembly.FrameworkDescription);
+            logger.Debug("Launched with command line {Args}", Args);
+
+            options = Container.Get<CommandLineOptionsParser>();
+            if (!options.Parse(Args))
+                Environment.Exit(0);
 
             // This needs to happen before anything which might cause the unhandled exception stuff to be shown, as that wants to know
             // where to find the log file.

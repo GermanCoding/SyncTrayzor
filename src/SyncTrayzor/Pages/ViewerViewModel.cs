@@ -122,6 +122,12 @@ namespace SyncTrayzor.Pages
                     Locale = language
                 };
 
+                // CEF will attempt de-elevating the process when launched as admin. This is done by relaunching
+                // the current process in unprivileged mode. However, we're not equipped to handle such a
+                // process restart cleanly, so ask CEF to not relaunch. Running as admin is not ideal for security,
+                // but the user wants it...
+                settings.CefCommandLineArgs.Add("do-not-de-elevate");
+
                 // System proxy settings (which also specify a proxy for localhost) shouldn't affect us
                 settings.CefCommandLineArgs.Add("no-proxy-server", "1");
                 settings.CefCommandLineArgs.Add("disable-cache", "1");
