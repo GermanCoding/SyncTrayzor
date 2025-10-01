@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Antony Male tərəfindən yaradıldı.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Yükləmə Səhifəsini açın</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Yeni versiya mövcuddur: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>MIT lisenziyası ilə buraxılmışdır.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Açıq Mənbə Lisenziyalarını Göstər</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Sinxronlaşdırma Versiyası: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Versiya: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Ləğv et</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Bağla</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Yadda Saxla</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Fayl</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Çıx</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Kömək</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>Haqqında</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Bütün Sinxronlaşdırma proseslərini dayandır</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Xarici brauzerdə aç</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Brauzeri yeniləyin</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Dayandır</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Mənə bir daha xatırlatma</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>Yükləmə Səhifəsini Aç</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Mənə Sonra Xatırlat</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Dəyişiklik Jurnalı:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>'Mənə bir daha xatırlatma' bu buraxılış üçün xatırlatmaları susduracaq. Siz Parametrlər səhifəsindən yeni buraxılış xəbərdarlığını həmişəlik deaktiv edə bilərsiniz. Yeni buraxılışı əl ilə yoxlamaq üçün Yardım -&gt; Haqqında daxil olun.</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>SyncTrayzor {0} versiyası mövcuddur!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>SyncTrayzor Təzə Versiyasl Mövcuddur</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Synctrayzor-un təzə versiyası mövcud olduqda xəbərdarlıq edin</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Məcməyə bağla</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Məcməyə simvol vəziyyətində kiçilt</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Jurnal görünüşündə cihaz identifikatorlarını gizlət</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Məcməyi simvolunu sadəcə bağlananda göstər</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>İnkişaf etmiş</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Başlanğıcda Başlat</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Məcməyi vəziyyətində başlat</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Giriş zamanı avtomatik olaraq başlat</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>İcazə rədd edildi. Bu parametrləri dəyişmək üçün Synctrayzor-u Administrator olaraq işə salın.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>SyncTrayzor başlayanda Sinxronlaşdırma'nı başlat</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>Qİİ Dinləmə Ünvanı:</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor, Sinxronlaşdırma konfiqurasiyasında göstərilən "Gİİ Dinləmə Ünvanını" ləğv edir. Bununla belə, burada istədiyiniz dəyəri təyin edə bilərsiniz.</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Sinxronlaşdırma Ətraf Mühit Dəyişənləri:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>Baxıldı: Qovluq dəyişikliklərə görə izləniləcək, bu o deməkdir ki, Sinxronlaşdırma'da daha uzun sorğu intervalı təyin edə bilərsiniz.
+
+Bildirişlər: Bu qovluqdakı fayllar yeniləndikdə siz "Sinxronlaşdırıldı" balon mesajları alacaqsınız.</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Qovluqlar mövcud deyil. Zəhmət olmasa Sinxronlaşdırma'nı başladın</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Bilinmir</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>SyncTrayzor tərəfindən idarə olunmayanlar da daxil olmaqla, bütün Sinxronlaşdırma proseslərini ləğv etmək istədiyinizə əminsiniz?
+
+Bu, Sinxronlaşdırma məlumat bazasını korlamaq riski daşıyır. Bunu yalnız Sinxronlaşdırma'ya başlaya bilmirsinizsə edin, çünki hazırda başqa Sinxronlaşdırma prosesi işləyir.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Doğrudanmı?</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı başlatmaq alınmadı.
+
+Səbəbi müəyyən etmək üçün jurnalı oxuyun.
+
+Əgər "VACİB: Məlumat bazasını açmaq mümkün deyil" görünsə, zəhmət olmasa, hər hansı digər açıq Sinxronlaşdırma nümunələrini bağlayın. SyncTrayzor əvvəllər xəta veribsə, yararsız Sinxronlaşdırma prosesləri hələ də aktiv ola bilər. Zəhmət olmasa, onları dayandırmaq üçün "Sinxronlaşdırma -&gt; Bütün Sinxronlaşdırma proseslərini dayandır" menyusundan istifadə edin, sonra Sinxronlaşdırma'ya yenidən başlamaq üçün "Sinxronlaşdırma -&gt; Başlat" seçimindən istifadə edin.</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı başlamaq alınmadı</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Sinxronlaşdırma başlamır: {0}
+
+Bunun səbəbi Windows-un faylların AppData-da işləməsini qadağan etmək üçün konfiqurasiya edilməsi və ya sizdə faylların AppData-da işləməsinin qarşısını alan zərərli proqram əleyhinə proqramın (məsələn, CryptoPrevent) yüklü olması ola bilər.
+
+'{1}' faylının icrasına icazə vermək üçün parametrlərinizi/ağ siyahılarınızı tənzimləyin</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı başladıqda xəta baş verdi</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>'host:b.dot' formatına malik olmalıdır, məs. 'localhost: 8384'</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Boş olmamalıdır</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Təsvir:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Ana Səhifə:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Lisenziya:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Lisenziya Mətni:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Ad:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Qeydlər:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor bir çox açıq mənbə komponentlərindən istifadə etməklə qurulub və onlarsız mövcud olmazdı.
+Hər bir komponent və onun lisenziya mətni haqqında təfərrüatlar aşağıda göstərilmişdir.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Üçüncü Tərəf Komponentləri</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Sinxronlaşdırma Tamamlandı</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma Tamamlandı</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Məcməyə Bağla</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Çıxış</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>SyncTrayzor'u Aç</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı Başlat</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı Dayandır</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Vay! Nəsə pis getdi.
+SyncTrayzor bağlanmalı olacaq. Bunun üçün üzr istəyirik</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Sizdən log faylı təqdim etməyiniz xahiş oluna bilər.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>və aşağıdakı məlumatları daxil edin:</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Zəhmət olmasa bu ünvanda bir problem mövzusu açın</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Xəta!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Sinxronlaşdırma Başladılır...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Sinxronlaşdırma Dayandırıldı</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Xeyir</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>Yaxşı</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Bəli</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>Azərbaycan dilinə tərcümə edən Miryusif Rəhimov</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Məcməyi Simvolu</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>"Cihaz qoşuldu/bağlantısız" balon mesajlarını göstər</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} qoşuldu</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Cihaz Qoşuldu</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} əlaqə kəsildi</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Cihaz Ayrıldı</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Təzədən Başlat</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı Təzədən Başlat</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>Sinxronlaşdırma'nın avtomatik təkmilləşdirməsini dayandır</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>Avtomatik təkmilləşdirmədən Sinxronlaşdırma'nı dayandırın. Əgər, Sinxronlaşdırma'nın təzə versiyası SyncTrayzor ilə uyğunluğu pozarsa, bu faydalıdır. SyncTrayzor-un konfiqurasiya qovluğunda syncthing.exe faylını alt versiyaya salmalı olacaqsınız</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Qovluğa Aç</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Qovluğu Aç</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı Başlat</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Mümkün olduqda kompüterimin dilindən istifadə edin</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Görünüş</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>Sinxronlaşdırma Konsolu</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>İndi Yüklə</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>Dəyişiklik Jurnalına Baxın</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>Brauzer'i Yaxınlaşdır</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Yaxınlaşdır</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Uzaqlaşdır</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Sıfırlayın</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>'VAR=value' və ya 'VAR="val1 val2"' formatında olmalıdır</value>
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
+    <value>SyncTrayzor versiyası {0} uğurla quraşdırıldı.</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor Yenilənib</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+    <value>Sinxronlaşdırma'nı işə salmaq mümkün deyil: {0}. Zəhmət olmasa əlavə məlumat üçün Sinxronlaşdırma'nın konsol çıxışına baxın.</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma düzgün başladılmadı</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Kəs</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Yapışdır</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>Yüklənir</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(silindi)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>{0}/{1} yüklənir</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Ən Son Yenilənən</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>Gələn: {0}/s</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Son fayl yüklənməyib</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Gedən: {0}/s</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 gün|{} gün} əvvəl</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 saat|{} saat} əvvəl</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Hal hazırda</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 dəqiqə|{} dəqiqə} əvvəl</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 il|{} il} əvvəl</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>{0}/{1} Yüklənir ({2}/s)</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Xəta: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Qovluq: {0}
+Tam Mənbəə: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>{0:p:1 fayl|{} fayl} silindi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: {1} silindi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: {1} yeniləndi</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>{0:p:1 fayl|{} fayl} yeniləndi</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>Heç bir fayl yenilənməsə belə, "Sinxronlaşdırılmış" balon mesajlarını göstər</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Aparat renderini deaktiv edin</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>Bu parametrlərin qüvvəyə minməsi üçün Sinxronlaşdırma'nı təzədən başlatmalısınız.
+
+İndi Sinxronlaşdırma'nı indi təzədən başlatmaq istəyirsiniz?</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma təzədən başladılsın?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>Bu parametrlərin qüvvəyə minməsi üçün SyncTrayzor'u təzədən başlatmalısınız.
+
+İndi SyncTrayzor'u təzədən başlatmaq istəyirsiniz?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>SyncTrayzor təzədən başladılsın?</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>Qovluq</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>Bildirişlər</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>İzlənən</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+    <value>Siz {0} işarəsini göstərə bilməzsiniz</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+    <value>Komanda xətti bayraqları '-' ilə başlamalıdır</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+    <value>'-bayraq' və ya '-bayraq=dəyər' və ya '-bayraq="boşluqlarla dəyər"' formatında olmalıdır</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>Qovluqlar</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>Sinxronlaşdırma Prosesinin Prioriteti:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>Normaldan Yuxarı</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>Normaldan Aşağı</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 fayl|{} fayl} silindi ({1:p:1 uğursuz|{} alınmadı})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: {1} faylını silmək alınmadı ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: {1} faylını yeniləmək alınmadı ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 fayl|{} fayl} yeniləndi ({1:p:1 uğursuz|{} uğursuz})</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>Təmizlə</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>Saxlat</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>Sinxronlaşdırma Konsolu</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Jurnallaşdırma</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>Parametrlər</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>SyncTrayzor jurnalının faylını burada tapa bilərsiniz.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>Sinxronlaşdırma Günlük Faylını Göstərin</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>SyncTrayzor Giriş Faylını Göstərin</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>Münaqişə Yarandı</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>Münaqişəli Fayl Adı</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>Fayl</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>Qovluq</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>Son Dəyişiklik</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>Orijinal Fayl</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>Tərəfindən Dəyişdirildi</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>Ləğv et</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>Skan edilir...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>Heç bir münaqişə tapılmadı. Əla!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>Heç bir münaqişə tapılmadı (hələ)...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Sinxronlaşdırma işləmir. Zəhmət olmasa Sinxronlaşdırma'nı başladın.</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>Münaqişə Həlledici</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>Münaqişə Həlledici</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>Bu münaqişəni həll etmək alınmadı: {0}</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>Əməliyyat Uğursuz Oldu</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>Sizdə {0:p:1 ziddiyyətli fayllar|{} ziddiyyətli fayllar} var.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>İndi həll et.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>Məni ziddiyyətli fayllar haqqında xəbərdar edin</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+    <value>Aşağıdakı {0:p:qovluqlar|qovluqlar} fayl köçürmələri uğursuz oldu: {0:list:{}|, }.</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+    <value>Zəhmət olmasa əlavə məlumat üçün Sinxronlaşdırma'nın qrafik interfeysinə və ya konsoluna baxın.</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>Xəbərdarlıqlar SyncTrayzor-un yuxarısındakı çubuqda göstərilir və məcməyi ikonasında xəbərdarlıq üçbucağı göstərilir.</value>
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+    <value>Uğursuz fayl ötürülməsi xəbərdarlığı</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>Xəbərdarlıqlar</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>Qovluqda Göstər</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>İndi ianə edin</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>SyncTrayzor-u faydalı hesab etdinizmi?
+Xahiş edirəm, mənim xeyriyyə vəsait toplama kampaniyama ianə edin.</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>Silinmiş faylları həmişəlik silmək əvəzinə zibil qutusuna köçürün</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>Ölçü</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>Zəhmət olmasa, saxlamaq istədiyiniz faylın versiyasını seçin. Digər versiyalar silinəcək.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>Aşağıdakı {0:p:cihaz fasiləyə alınıb|cihazlar fasiləyə alınıblar}, çünki {0:p:o|onlar} ölçülən şəbəkə üzərindən qoşulub: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>Ölçülü şəbəkə üzərindən qoşulmuş cihazları dayandırın</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>Bu funksiyadan istifadə etmək üçün Windows 8 və ya daha yuxarı versiyalardan istifadə etməlisiniz.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>Ölçülü Şəbəkələr</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>'Qovluqlar' vərəqində balon mesajlarını tamamilə deaktiv et</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>Bax</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>Davam etdir</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>Əla! Etdiyiniz ianaya görə təşəkkür edirik.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>"Yeni Cihaz / Qovluq Əlavə Et" balon mesajlarını göstər</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>Qovluq paylaşılsın?</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>{0} {1} qovluğunu paylaşmaq istəyir. Yeni qovluq əlavə etmək üçün SyncTrayzor-u açın</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>Cihaz qoşulsun?</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>{0} ({1}) cihazı qoşulmaq istəyir. Yeni cihaz əlavə etmək üçün SyncTrayzor-u açın</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>Məcməyi nişanını hərəkətə gətir:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>İstənilən məlumat ötürülməsində</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>Əsla</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>Sinxronizasiya zamanı</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+    <value>Sinxronlaşdırılma Fərdi Əsas Yol:</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>Əgər quraşdırılıbsa, Sinxronlaşdırılma məlumat bazası və konfiqurasiyası üçün standart yolu ləğv edir</value>
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+    <value>Syncthing Əmr Sətiri Bayraqları</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value>Ən Təzə Toqquşmanı Seç</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value>Ən son yaranan toqquşmanı seçir</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>Ən Təzəsini Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>'Son dəyişdirilmə' tarixi ən təzədirsə və ya ən son yaranan toqquşmadırsa, 'Orijinal' faylı seçir</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>Orijinal Seçin</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>'Orijinal' faylı hər toqquşmadan götürür və bütün toqquşan faylları silir</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>{0} toqquşma seçdiniz. Bunları necə həll etmək istədiyinizi seçin. Digər versiyalar silinəcək.</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>Təkrar ianə et</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>İanə et</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Günlük səviyyəsi:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Səhv Düzəltmə</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>Məlumat (Əvvəlcədən təyin olunmuş)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>İzləmə</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>Sinxronlaşdırma'da bir və ya bir neçə qovluq üçün fayl sistemi izləyiciləri aktivləşdirilib, buna görə də SyncTrayzor-da müvafiq izləyicilər deaktiv edilib.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>Qeyd:</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>Birdən çox elementi seçmək üçün Shift / Control düymələrindən istifadə edin</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>Avtomatik başlama parametrlərinizi təyin etmək mümkün olmadı. Bu, çox güman ki, antivirus proqramı səbəbindən baş verir.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>Avtomatik başlatma aktiv edilə bilmədi</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value>Sinxronlaşdırma Xüsusi Yolu</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>Bütün Qovluqları Təzədən Skan Et</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>Intel Xe qrafik kartlarından istifadə edərkən aşağıdakı sahə boş ola bilər. Bu problemə rast gəlsəniz, Zəhmət olmasa Fayl -&gt; Parametrlər altında aparat təsvirini deaktiv edin.</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>Rədd et</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Fəaliyyət bildirişini açıq saxla (bağlamaq üçün bildiriş üzərində sağ klik edin)</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Fayl Silindi]</value>
+  </data>
+</root>
