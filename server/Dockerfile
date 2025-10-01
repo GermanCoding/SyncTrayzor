@@ -1,4 +1,4 @@
-FROM php:8.4-apache@sha256:fc535e6bf80041c11d99380d2a5a3ff4ceaafac7efbd4f8d53c876ca4751c7c2
+FROM php:8.4-apache@sha256:f75d6b8ab2288b46bb5a8b654487f873117f279531dbf33a6c4bff136dfdb340
 RUN a2enmod rewrite
 RUN rm -f /var/www/html/index.html
 COPY version-check.php /var/www/html/version-check.php
