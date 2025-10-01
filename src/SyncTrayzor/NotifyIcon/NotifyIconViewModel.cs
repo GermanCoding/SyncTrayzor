@@ -1,4 +1,11 @@
-﻿using Stylet;
+﻿using System;
+using System.Linq;
+using System.Windows.Input;
+
+using Hardcodet.Wpf.TaskbarNotification;
+
+using Stylet;
+
 using SyncTrayzor.Pages.Settings;
 using SyncTrayzor.Pages.Tray;
 using SyncTrayzor.Services;
@@ -6,9 +13,6 @@ using SyncTrayzor.Services.Config;
 using SyncTrayzor.Syncthing;
 using SyncTrayzor.Syncthing.Folders;
 using SyncTrayzor.Utils;
-using System;
-using System.Linq;
-using System.Windows.Input;
 
 namespace SyncTrayzor.NotifyIcon
 {
@@ -18,13 +22,13 @@ namespace SyncTrayzor.NotifyIcon
         private readonly IFocusWindowProvider focusWindowProvider;
         private readonly ISyncthingManager syncthingManager;
         private readonly Func<SettingsViewModel> settingsViewModelFactory;
+        private readonly Func<PopupViewModel> popupViewModelFactory;
         private readonly IProcessStartProvider processStartProvider;
         private readonly IAlertsManager alertsManager;
         private readonly IConfigurationProvider configurationProvider;
 
         public bool Visible { get; set; }
         public bool MainWindowVisible { get; set; }
-        public bool KeepActivityPopupOpen { get; set; }
         public BindableCollection<FolderViewModel> Folders { get; private set; }
         public FileTransfersTrayViewModel FileTransfersViewModel { get; private set; }
 
@@ -49,6 +53,7 @@ namespace SyncTrayzor.NotifyIcon
             IFocusWindowProvider focusWindowProvider,
             ISyncthingManager syncthingManager,
             Func<SettingsViewModel> settingsViewModelFactory,
+            Func<PopupViewModel> popupViewModelFactory,
             IProcessStartProvider processStartProvider,
             IAlertsManager alertsManager,
             FileTransfersTrayViewModel fileTransfersViewModel,
@@ -58,6 +63,7 @@ namespace SyncTrayzor.NotifyIcon
             this.focusWindowProvider = focusWindowProvider;
             this.syncthingManager = syncthingManager;
             this.settingsViewModelFactory = settingsViewModelFactory;
+            this.popupViewModelFactory = popupViewModelFactory;
             this.processStartProvider = processStartProvider;
             this.alertsManager = alertsManager;
             FileTransfersViewModel = fileTransfersViewModel;
@@ -76,7 +82,6 @@ namespace SyncTrayzor.NotifyIcon
             this.configurationProvider.ConfigurationChanged += ConfigurationChanged;
             var configuration = this.configurationProvider.Load();
             iconAnimationmode = configuration.IconAnimationMode;
-            KeepActivityPopupOpen = configuration.KeepActivityPopupOpen;
         }
 
         private void StateChanged(object sender, SyncthingStateChangedEventArgs e)
@@ -120,9 +125,17 @@ namespace SyncTrayzor.NotifyIcon
         private void ConfigurationChanged(object sender, ConfigurationChangedEventArgs e)
         {
             iconAnimationmode = e.NewConfiguration.IconAnimationMode;
-            KeepActivityPopupOpen = e.NewConfiguration.KeepActivityPopupOpen;
             // Reset, just in case
             SyncthingSyncing = false;
+        }
+
+        public void Click()
+        {
+            if (!focusWindowProvider.TryFocus<PopupViewModel>())
+            {
+                var vm = popupViewModelFactory();
+                windowManager.ShowWindow(vm);
+            }
         }
 
         public void DoubleClick()

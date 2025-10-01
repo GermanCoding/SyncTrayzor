@@ -73,6 +73,7 @@ namespace SyncTrayzor.Pages.Tray
             Update(this.syncthingManager.TotalConnectionStats);
             this.syncthingManager.TotalConnectionStatsChanged += TotalConnectionStatsChanged;
             this.syncthingManager.StateChanged += SyncthingStateChanged;
+            ShowGraph = this.syncthingManager.State == SyncthingState.Running;
         }
 
         protected override void OnActivate()

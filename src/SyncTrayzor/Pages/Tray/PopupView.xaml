@@ -1,0 +1,17 @@
+﻿<Window x:Class="SyncTrayzor.Pages.Tray.PopupView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:s="https://github.com/canton7/Stylet"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SyncTrayzor.Pages"
+        mc:Ignorable="d"
+        Title="PopupView" MinHeight="240" MinWidth="200" Width="300" Height="350"
+        WindowStartupLocation="Manual"
+        WindowStyle="ToolWindow"
+        Left="0"
+        Top="0"
+        Topmost="True"
+        >
+        <ContentControl s:View.Model="{Binding FileTransfersViewModel}"/>
+</Window>
