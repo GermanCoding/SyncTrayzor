@@ -1003,7 +1003,7 @@ Please donate to my charity fundraising campaign.</value>
     <value>Dismiss</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Keep activity popup open (right-click the popup to close)</value>
+    <value>Keep activity popup open</value>
     <comment>Description for checkbox in settings menu</comment>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
