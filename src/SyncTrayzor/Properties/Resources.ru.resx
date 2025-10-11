@@ -366,7 +366,7 @@
     <value>Список изменений:</value>
   </data>
   <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
-    <value>'Не напоминать больше' работает только для этой версии. Навсегда отключить напоминания можно на странице Настройки. Для ручной проверки обновлений восользуйтесь меню Помощь -&gt; О программе.</value>
+    <value>'Не напоминать больше' работает только для этой версии. Навсегда отключить напоминания можно на странице Настройки. Для ручной проверки обновлений воспользуйтесь меню Помощь -&gt; О программе.</value>
     <comment>When a new version is available, the user receives a prompt. This message tells the user how to permanently disable new version prompts. 'The Settings page' corresponds to ShellView_Menu_File. 'Help -&gt;About' corresponds to ShellView_Menu_Help_About.</comment>
   </data>
   <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
@@ -808,11 +808,11 @@
     <value>Поделиться папкой?</value>
   </data>
   <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
-    <value>_Свернуть в трей</value>
+    <value>Свернуть в трей</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to minimize itself to the tray</comment>
   </data>
   <data name="TrayIcon_Menu_Exit" xml:space="preserve">
-    <value>_Выход</value>
+    <value>Выход</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
@@ -828,11 +828,11 @@
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restart</comment>
   </data>
   <data name="TrayIcon_Menu_Restore" xml:space="preserve">
-    <value>_Открыть SyncTrayzor</value>
+    <value>Открыть SyncTrayzor</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
-    <value>_Настройки</value>
+    <value>Настройки</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
