@@ -1,13 +1,14 @@
 ﻿namespace SyncTrayzor.Pages.Tray
 {
+    using System;
     using System.ComponentModel;
     using System.Windows;
 
+    using Services.Config;
+
     using Stylet;
 
-    using SyncTrayzor.Services.Config;
-
-    public partial class PopupViewModel : Screen
+    public class PopupViewModel : Screen, IDisposable
     {
         private const int PopupOffsetX = -80;
         private readonly IConfigurationProvider configurationProvider;
@@ -26,8 +27,7 @@
             keepOpen = configuration.KeepActivityPopupOpen;
 
             FileTransfersViewModel = fileTransfersViewModel;
-            FileTransfersViewModel.ActivateWith(this);
-            FileTransfersViewModel.DeactivateWith(this);
+            FileTransfersViewModel.ConductWith(this);
 
             DisplayName = "SyncTrayzor";
 
