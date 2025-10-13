@@ -135,5 +135,11 @@
             }
             w.Activate();
         }
+
+        public void Dispose()
+        {
+            Activated -= ViewModel_Activated;
+            Deactivated -= ViewModel_Deactivated;
+        }
     }
 }

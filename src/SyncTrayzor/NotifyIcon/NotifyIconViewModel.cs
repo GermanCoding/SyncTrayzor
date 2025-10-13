@@ -221,6 +221,8 @@ namespace SyncTrayzor.NotifyIcon
             alertsManager.AlertsStateChanged -= AlertsStateChanged;
 
             configurationProvider.ConfigurationChanged -= ConfigurationChanged;
+
+            popupViewModel?.Dispose();
         }
     }
 
