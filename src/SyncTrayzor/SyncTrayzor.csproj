@@ -34,75 +34,75 @@
         <EmbeddedResource Include="..\..\security\synctrayzor_releases_cert.asc">
             <Link>Resources\synctrayzor_releases_cert.asc</Link>
         </EmbeddedResource>
-        <AppDesigner Include="Properties\"/>
+        <AppDesigner Include="Properties\" />
     </ItemGroup>
     <ItemGroup>
-        <Resource Include="FodyWeavers.xml"/>
-        <Resource Include="Icons\stopped.ico"/>
-        <Resource Include="Icons\default_tray.ico"/>
-        <Resource Include="Icons\syncing_2.ico"/>
-        <Resource Include="Icons\syncing_3.ico"/>
-        <Resource Include="Icons\syncing_4.ico"/>
+        <Resource Include="FodyWeavers.xml" />
+        <Resource Include="Icons\stopped.ico" />
+        <Resource Include="Icons\default_tray.ico" />
+        <Resource Include="Icons\syncing_2.ico" />
+        <Resource Include="Icons\syncing_3.ico" />
+        <Resource Include="Icons\syncing_4.ico" />
     </ItemGroup>
     <ItemGroup>
-        <Resource Include="Icons\default.ico"/>
+        <Resource Include="Icons\default.ico" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Syncthing.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Syncthing.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Stylet.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Stylet.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\CefSharp.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\CefSharp.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\CEF.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\CEF.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\NLog.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\NLog.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\RestEase.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\RestEase.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\NotifyIcon.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\NotifyIcon.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Json.NET.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Json.NET.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Fody.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Fody.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\FluentValidation.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\FluentValidation.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\SmartFormat.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\SmartFormat.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\BouncyCastle.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\BouncyCastle.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Mono.Options.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Mono.Options.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\ListViewLayoutManager.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\ListViewLayoutManager.txt" />
     </ItemGroup>
     <ItemGroup>
-        <Resource Include="Icons\alert_tray.ico"/>
+        <Resource Include="Icons\alert_tray.ico" />
     </ItemGroup>
     <ItemGroup>
-        <Resource Include="Icons\paused_tray.ico"/>
+        <Resource Include="Icons\paused_tray.ico" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\WindowsAPICodePack.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\WindowsAPICodePack.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\Rx.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\Rx.txt" />
     </ItemGroup>
     <ItemGroup>
-        <EmbeddedResource Include="Resources\Licenses\OxyPlot.txt"/>
+        <EmbeddedResource Include="Resources\Licenses\OxyPlot.txt" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="BouncyCastle.Cryptography">
@@ -128,7 +128,7 @@
         <PackageReference Include="Microsoft-WindowsAPICodePack-Shell">
             <Version>1.1.5</Version>
         </PackageReference>
-        <PackageReference Include="Microsoft.CSharp" Version="4.7.0"/>
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
         <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf">
             <Version>1.1.135</Version>
         </PackageReference>
@@ -163,13 +163,14 @@
         <PackageReference Include="System.Reactive">
             <Version>6.0.2</Version>
         </PackageReference>
-        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10"/>
+        <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10" />
+        <PackageReference Include="WpfScreenHelper" Version="2.1.1" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Remove="Utils\SynchronizedEventSubscriber.cs"/>
+        <Compile Remove="Utils\SynchronizedEventSubscriber.cs" />
     </ItemGroup>
     <ItemGroup>
-        <None Remove="NLog.config"/>
+        <None Remove="NLog.config" />
         <Content Include="NLog.config">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
@@ -182,14 +183,14 @@
     <Target Name="PublishProcessRunner" BeforeTargets="Build;Publish">
         <!-- Publish only if output doesn't exist or is stale -->
         <Exec Command="dotnet publish &quot;$(ProcessRunnerProject)&quot; -c $(Configuration) /p:PublishSingleFile=true /p:SelfContained=true /p:DebugType=None /p:DebugSymbols=false -o &quot;$(ProcessRunnerOutputDir)&quot;"
-              Condition="!Exists('$(ProcessRunnerExe)') OR '@(Compile->'%(ModifiedTime)')' != '@(LastBuildState->'%(ModifiedTime)')'"/>
+              Condition="!Exists('$(ProcessRunnerExe)') OR '@(Compile->'%(ModifiedTime)')' != '@(LastBuildState->'%(ModifiedTime)')'" />
     </Target>
     <Target Name="CopyProcessRunnerBuild" AfterTargets="Build">
         <!-- Copy to main app output -->
-        <Copy SourceFiles="$(ProcessRunnerExe)" DestinationFolder="$(OutputPath)"/>
+        <Copy SourceFiles="$(ProcessRunnerExe)" DestinationFolder="$(OutputPath)" />
     </Target>
     <Target Name="CopyProcessRunnerPublish" AfterTargets="Publish">
         <!-- Copy to main app output -->
-        <Copy SourceFiles="$(ProcessRunnerExe)" DestinationFolder="$(PublishDir)"/>
+        <Copy SourceFiles="$(ProcessRunnerExe)" DestinationFolder="$(PublishDir)" />
     </Target>
 </Project>

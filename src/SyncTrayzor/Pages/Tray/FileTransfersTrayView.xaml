@@ -9,7 +9,7 @@
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              x:Name="RootObject"
-             Height="350"
+             MinHeight="200"
              d:DesignWidth="300"
              d:DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=FileTransfersTrayViewModel}">
     <UserControl.Resources>
@@ -28,22 +28,21 @@
             <Setter Property="BorderBrush" Value="LightGray"/>
         </Style>
     </UserControl.Resources>
-    <Border CornerRadius="6" BorderThickness="2" BorderBrush="Gray" Background="White">
+    <Border CornerRadius="6" BorderThickness="0" Background="White">
         <DockPanel>
             <Border DockPanel.Dock="Top" BorderBrush="Gray" BorderThickness="0,0,0,1">
-                <DockPanel Margin="5,8,5,0" LastChildFill="False">
-                    <TextBlock DockPanel.Dock="Left" Height="25" FontSize="15" FontWeight="Bold">SyncTrayzor</TextBlock>
-                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Visibility="{Binding OutConnectionRate, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
-                        <Line X2="10" Stroke="Green" StrokeThickness="2" VerticalAlignment="Center" />
-                        <TextBlock VerticalAlignment="Center" Margin="5,0,0,0"
-                                   Text="{l:Loc FileTransfersTrayView_OutConnectionRate, ValueBinding={Binding OutConnectionRate}}"/>
-                    </StackPanel>
-                    <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" Visibility="{Binding InConnectionRate, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
+                <StackPanel Margin="5,8,5,8" Orientation="Horizontal">
+                    <StackPanel Margin="0,0,10,0" Orientation="Horizontal" Visibility="{Binding InConnectionRate, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
                         <Line X2="10" Stroke="Red" StrokeThickness="2" VerticalAlignment="Center" />
                         <TextBlock DockPanel.Dock="Right" VerticalAlignment="Center" Margin="5,0,10,0"
                                    Text="{l:Loc FileTransfersTrayView_InConnectionRate, ValueBinding={Binding InConnectionRate}}"/>
                     </StackPanel>
-                </DockPanel>
+                    <StackPanel Orientation="Horizontal" Visibility="{Binding OutConnectionRate, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
+                        <Line X2="10" Stroke="Green" StrokeThickness="2" VerticalAlignment="Center" />
+                        <TextBlock VerticalAlignment="Center" Margin="5,0,0,0"
+                                   Text="{l:Loc FileTransfersTrayView_OutConnectionRate, ValueBinding={Binding OutConnectionRate}}"/>
+                    </StackPanel>
+                </StackPanel>
             </Border>
 
             <ContentControl DockPanel.Dock="Top" s:View.Model="{Binding NetworkGraph}"/>
@@ -111,7 +110,7 @@
                                                     </Style.Triggers>
                                                 </Style>
                                             </Grid.Style>
-                                            
+
                                             <DockPanel Margin="5">
                                                 <TextBlock DockPanel.Dock="Bottom" Margin="5,5,0,0" Foreground="Red" FontWeight="Bold"
                                                        TextWrapping="Wrap"

@@ -1,6 +1,9 @@
-﻿using Microsoft.Win32;
-using System;
+﻿using System;
 using System.Windows;
+
+using Microsoft.Win32;
+
+using SyncTrayzor.Pages;
 
 namespace SyncTrayzor.Services
 {
@@ -48,7 +51,7 @@ namespace SyncTrayzor.Services
             }
         }
 
-        public bool HasMainWindow => application.MainWindow != null;
+        public bool HasMainWindow => application.MainWindow is ShellView;
 
         public object FindResource(object resourceKey)
         {
