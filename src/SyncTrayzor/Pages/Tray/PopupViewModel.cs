@@ -18,7 +18,10 @@
 
         public FileTransfersTrayViewModel FileTransfersViewModel { get; private set; }
 
-        public PopupViewModel(IConfigurationProvider configurationProvider, FileTransfersTrayViewModel fileTransfersViewModel)
+        public PopupViewModel(
+            IConfigurationProvider configurationProvider,
+            Func<FileTransfersTrayViewModel> fileTransfersViewModelFactory
+        )
         {
             initialPopupPosition = WpfScreenHelper.MouseHelper.MousePosition; // Get initial mouse position as early as possible
 
@@ -26,7 +29,7 @@
             var configuration = configurationProvider.Load();
             keepOpen = configuration.KeepActivityPopupOpen;
 
-            FileTransfersViewModel = fileTransfersViewModel;
+            FileTransfersViewModel = fileTransfersViewModelFactory();
             FileTransfersViewModel.ConductWith(this);
 
             DisplayName = "SyncTrayzor";
@@ -140,6 +143,7 @@
         {
             Activated -= ViewModel_Activated;
             Deactivated -= ViewModel_Deactivated;
+            FileTransfersViewModel.Dispose();
         }
     }
 }

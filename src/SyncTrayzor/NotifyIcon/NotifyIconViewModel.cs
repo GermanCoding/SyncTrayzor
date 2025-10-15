@@ -145,10 +145,17 @@ namespace SyncTrayzor.NotifyIcon
                 return;
             }
             popupViewModel = popupViewModelFactory();
-            popupViewModel.Closed += (s, e) => popupViewModel = null;
+            popupViewModel.Closed += this.PopupViewModel_Closed;
             popupViewModel.SetPopupPosition(popupPosition);
             windowManager.ShowWindow(popupViewModel);
             popupViewModel.BringToFront();
+        }
+
+        private void PopupViewModel_Closed(object sender, CloseEventArgs e)
+        {
+            popupViewModel.Closed -= this.PopupViewModel_Closed;
+            popupViewModel.Dispose();
+            popupViewModel = null;
         }
 
         public void DoubleClick()
