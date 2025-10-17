@@ -140,7 +140,7 @@ Per favore dona alla mia campagna di raccolta fondi per beneficenza.</value>
     <value>Scegli la versione da conservare. Le altre verranno cancellate.</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
-    <value>Seleziona prossimo conflitto</value>
+    <value>Seleziona Prossimo Conflitto</value>
   </data>
   <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
     <value>Sceglie il conflitto creato più recentemente</value>
@@ -595,7 +595,7 @@ Notifiche: Riceverai una notifica 'Sincronizzato' quando i file in questa direct
     <comment>Shown in the top right of the menu bar, if the user hasn't yet donated</comment>
   </data>
   <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
-    <value>_Risolutore conflitti</value>
+    <value>Risolutore conflitti</value>
   </data>
   <data name="ShellView_Menu_File_Exit" xml:space="preserve">
     <value>Esci</value>
@@ -780,7 +780,7 @@ I dettagli di ogni componente e la sua licenza sono indicati di seguito.</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to exit</comment>
   </data>
   <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
-    <value>Apri _directory</value>
+    <value>Apri Cartella</value>
     <comment>Menu option available when right-clicking the tray icon. Is a header for a list of folders, each of which can be clicked to open it in Explorer</comment>
   </data>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
@@ -796,7 +796,7 @@ I dettagli di ogni componente e la sua licenza sono indicati di seguito.</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to restore itself from the tray, and be visible to the user</comment>
   </data>
   <data name="TrayIcon_Menu_Settings" xml:space="preserve">
-    <value>_Impostazioni</value>
+    <value>Impostazioni</value>
     <comment>Menu option available when right-clicking the tray icon. Instructs SyncTrayzor to show the Settings dialog</comment>
   </data>
   <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
@@ -890,5 +890,17 @@ Se viene visualizzato il messaggio "FATAL: Cannot open database", chiudere tutte
   </data>
   <data name="ShellView_Menu_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[File eliminato]</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Pagina iniziale:</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>Disattiva completamente i messaggi a fumetto nel tab "Cartelle"</value>
   </data>
 </root>
