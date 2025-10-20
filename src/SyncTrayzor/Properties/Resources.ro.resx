@@ -351,4 +351,77 @@ Dacă apare „FATAL: nu se poate deschide baza de date”, închide alte instan
   <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
     <value>Oprește actualizarea automată a aplicației Syncthing</value>
   </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Deschide dosarul</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Deschide dosarul</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Pornește Syncthing</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Folosește limba computerului, acolo unde este posibil</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Vizualizare</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>Instalează acum</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Mărește</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Micșorează</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Resetează</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor actualizat</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Copiază</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Decupare</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Lipește</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>Se descarcă</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(șters)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>Se descarcă {0}/{1}</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Actualizat recent</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Nicio descărcare recentă de fișiere</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Acum</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>Se descarcă {0}/{1} ({2}/s)</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Eroare: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Dosar: {0}
+Cale deplină: {1}</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>Afișează notificarea „Sincronizat” chiar dacă nu au fost actualizate fișiere</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Dezactivează accelerarea hardware</value>
+  </data>
 </root>
