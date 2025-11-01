@@ -914,7 +914,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser</value>
     <value>Trace</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Garder la fenêtre d'activité ouverte (fermeture par clic-droit)</value>
+    <value>Garder la fenêtre d'activité ouverte</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Débogage</value>
