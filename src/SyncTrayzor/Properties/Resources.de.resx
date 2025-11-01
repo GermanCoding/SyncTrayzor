@@ -901,7 +901,7 @@ SyncTrayzor wird nun geschlossen. Entschuldigung</value>
     <value>Verfolgen</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Aktivitäten-Popup geöffnet lassen (Popup per Rechtsklick schließen)</value>
+    <value>Aktivitäten-Popup geöffnet lassen</value>
   </data>
   <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
     <value>Debug</value>
