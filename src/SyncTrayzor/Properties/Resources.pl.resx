@@ -906,7 +906,7 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Pozostaw otwarte okno podręczne aktywności (kliknij prawym przyciskiem myszy okno podręczne, aby je zamknąć)</value>
+    <value>Pozostaw otwarte okienko aktywności</value>
   </data>
   <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
