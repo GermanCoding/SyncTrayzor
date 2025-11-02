@@ -938,7 +938,7 @@ SyncTrayzor 将不得不关闭。很抱歉</value>
     <value>SyncTrayzor</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>保持活动弹窗打开（右键单击弹窗即可关闭）</value>
+    <value>保持活动弹窗打开</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[文件已删除]</value>
