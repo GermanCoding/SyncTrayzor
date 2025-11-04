@@ -933,7 +933,7 @@ SyncTrayzor se va a cerrar. Lo sentimos</value>
     <value>Trazas</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Mantener el popup de actividad abierto (clic derecho para cerrarlo)</value>
+    <value>Mantener el popup de actividad abierto</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Archivo eliminado]</value>
