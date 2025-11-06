@@ -939,6 +939,6 @@ SyncTrayzor gaat nu afsluiten. Onze excuses.</value>
     <value>Traceren</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Activiteit-popup open houden (rechtsklikken op de popup om te sluiten)</value>
+    <value>Activiteit-popup open houden</value>
   </data>
 </root>
