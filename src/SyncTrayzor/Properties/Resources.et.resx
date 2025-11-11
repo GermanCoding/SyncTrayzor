@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,589 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Algne autor: Antony Male.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Ava allalaadimisleht</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Saadaval on uus versioon: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>Avaldatud MIT litsentsi alusel.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Näita kasutatud avatud lähtekoodiga tarkvara litsentse</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Syncthingi versioon: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Versioon: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Katkesta</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Sulge</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Salvesta</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Välju</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Seadistused</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Abiteave</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>Rakenduse teave</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Lõpeta kõikide Syncthingi protsesside töö</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Ava välise brauseriga</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Uuenda andmeid brauseris</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Alusta</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Lõpeta</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Ära tuleta mulle uuesti meelde</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>Ava allalaadimisleht</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Tuleta mulle hiljem meelde</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Muudatuste logi:</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>Saadaval on SyncTrayzori uuendus</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Anna teada, kui SyncTrayzori uus versioon on saadaval</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Sulge süsteemisalve</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Minimeeri süsteemisalve</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Hägusta logivaates seadmete tunnused</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Näita sulgemisel süsteemisalve ikooni</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>Täiendavad seadistused</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Käivita sisselogimisel</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Käivita minimeerituna</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Käivita sisselogimisel automaatselt</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>Õigused on puudu. Nende seadistuste muutmiseks käivita SyncTrayzor peakasutaja õigustes.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>SyncTrayzori käivitumisel käivita ka Syncthing</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>Aadress, mida kasutajaliides kuulab:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Kirjeldus:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Avaleht:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Litsents:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Litsentsi tekst:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Nimi:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Märkmed:</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>Sobib</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Jah</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>eesti keelde tõlkis Priit Jõerüüt</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Süsteemisalve ikoon</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Seadistused</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Pole teada</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Kas oled kindel?</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Välju</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>Seadistused</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Viga!</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Käivita uuesti</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Vaade</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Lähtesta</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Kopeeri</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Lõika</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Aseta</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>Allalaadimisel</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(kustutatud)</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>Kaust</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>Teavitused</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>Vaadatud</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>Kaustad</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>Madal</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Tavaline</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>Tühjenda</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>Peata</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Logimine</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>Seadistused</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>Vali</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>Fail</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>Kaust</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>Katkesta</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>Skaneerin...</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>Hoiatused</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>Suurus</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>Sirvi</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>Jätka</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>Mitte kunagi</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>Sünkroniseerin</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>Toeta meid rahaliselt</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Veaotsing</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>Koodijälitus</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>Märkus:</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>Loobu</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Sünkroonimine on lõppenud</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>Ava SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Käivita SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Lõpeta SyncTrayzori töö</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing käivitub...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing on lõpetanud töö</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} on ühendatud</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Seade on ühendatud</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} ühendus on katkenud</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Seadme ühendus on katkenud</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Käivita Syncthing uuesti</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Ava kaust</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Ava kaust</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Käivita Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>Syncthingi konsool</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>Paiglada nüüd</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>Vaata muudatuste logi</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Suumi sisse</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Suumi välja</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor on uuendatud</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>Allalaadimisel {0}/{1}</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Hiljuti uuendatud</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>Allalaadimiskiirus: {0}/s</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Üleslaadimiskiirus: {0}/s</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Hetk tagasi</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Viga: {0}</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Kas käivitame Syncthingi uuesti?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>Kas käivitame SyncTrayzori uuesti?</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>Suurem, kui tavaline</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>Väiksem, kui tavaline</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>Syncthingi konsool</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>Viimati muudetud</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>Algfail</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>Muudetud seadmes</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>Failikonflikti tekkimine</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>Konfliktse faili nimi</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>Selleks, et need muudatused jõustuksid, pead Syncthingi uuesti käivitama.
+
+Kas tahad seda kohe teha?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>Selleks, et need muudatused jõustuksid, pead SyncTrayzori uuesti käivitama.
+
+Kas tahad seda kohe teha?</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Syncthing ei käivitunud korrektselt</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Kui võimalik, siis kasuta minu arvuti keelt</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Vaat, kus lops! Midagi läks korralikult viltu.
+SyncTrayzor peab oma töö lõpetama. Vabandust, et nüüd sedaviisi läks</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Kaustad pole saadava. Palun käivita Syncthing</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Viga Syncthingi käivitamisel</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>Peab olema vormingus „host:port“, nt. „localhost:8384“</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>Saadaval on SyncTrayzori versioon {0}!</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor võib sürjutada Syncthingi seadistuse „Aadress, mida kasutajaliides kuulab“. Olemuselt võid siia kirjutada sulle sobivaid väärtusi.</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Sünkroonimine on lõppenud</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Sulge süsteemisalve</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Fail on kustutatud]</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Logimise tase:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>Info (vaikimisi)</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>Väga meeldiv! Tänud toetuse eest.</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>Failikonflikte ei leidu. See on nüüd küll tore!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>Failikonflikte ei leidu (veel)...</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>Syncthingi protsessi prioriteet:</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Hiljutisi failide allalaadimisi pole</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 päeva|{} päeva} eest</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 tund|{} tundi} tagasi</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 minut|{} minutit} tagasi</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 aasta|{} aasta} eest</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>Allalaadimisel {0}/{1} ({2}/s)</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Kaust: {0}
+Täisasukoht: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>Kustutasin {0:p:1 faili|{} faili}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: {1} on kustutatud</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: {1} on uuendatud</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>Uuendasin {0:p:1 faili|{} faili}</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Lülita raudvaraline kiirendus välja</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: {1} faili kustutamine ei õnnestunud ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: {1} faili uuendamine ei õnnestunud ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>Uuendasin {0:p:1 faili|{} faili} (tekkis {1:p:1 viga|{} viga})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>Kustutasin {0:p:1 faili|{} faili} (tekkis {1:p:1 viga|{} viga})</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>SyncTrayzori logifaili leiad siit.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>Näita Syncthingi logifaili</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>Näita SyncTrayzori logifaili</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>Failikonflikti lahendaja</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>Failikonflikti lahendaja</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing ei tööta. Palun käivita Syncthing.</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>Selle failikonfliki lahendamine ei õnnestunud: {0}</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>Lahenda kohe.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>Sul on tekkinud {0:p:1 failikonflikt|{} failikonflikti}.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>Teavita mind konfliktsete failide puhul</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>Näita kaustas</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>Viska kustutatud failid pigem prügikasti ja ära kohe kustuta jäädavalt</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>Selle funktsionaalsuse kasutamiseks pead kasutama Windows 8-t või uuemat.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>Mahupõhised võrgud</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>Keela kaustade vahekaardilt jutumullidega sõnumid</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>Näita „Lisa uus seade“ või „Lisa uus kaust“ jutumulle</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>Seade tunnusega {0} ({1}) soovib luua ühendust. Uue seadme lisamiseks ava SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>Kas ühendad seadme?</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>Seade tunnusega {0} soovib jagada {1} kausta. Uue kausta lisamiseks ava SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>Kas jagad kausta?</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>Animeeritud ikoon süsteemisalves:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>Igasuguse andmete ülekande puhul</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>Toiming ei õnnestunud</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>Toeta kohe</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>Vali uusim</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>Vali algne</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>Toeta uuesti</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Ei tohiks jääda tühjaks</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>Skaneeri kõik kaustad uuesti</value>
+  </data>
 </root>
