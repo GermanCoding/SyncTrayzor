@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Created by Antony Male.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Open Download Page</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>New version available: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>Released under the MIT licence.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Show Open Source Licences</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Syncthing Version: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Version: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
 </root>
