@@ -416,7 +416,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>警报提示会显示在 SyncTrayzor 顶部栏，并在托盘图标上显示警告三角形。</value>
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
-    <value>在“文件夹”‌标签页上完全禁用提示消息</value>
+    <value>在“文件夹”标签页上完全禁用提示消息</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>托盘图标动画：</value>
@@ -438,7 +438,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>提醒我有冲突文件</value>
   </data>
   <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
-    <value>‌文件传输失败的警报</value>
+    <value>文件传输失败的警报</value>
   </data>
   <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
     <value>日志级别：</value>
@@ -507,7 +507,7 @@ The menu option "Syncthing -&gt;Kill all Syncthing processes" corresponds to She
     <value>按流量计费的网络</value>
   </data>
   <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
-    <value>‌登录时启动</value>
+    <value>登录时启动</value>
     <comment>Section header for settings to do with automatically starting SyncTrayzor when the user logs in</comment>
   </data>
   <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
