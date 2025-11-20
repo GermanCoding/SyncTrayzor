@@ -88,4 +88,7 @@
   <data name="Generic_Dialog_Save" xml:space="preserve">
     <value>Save</value>
   </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>File</value>
+  </data>
 </root>
