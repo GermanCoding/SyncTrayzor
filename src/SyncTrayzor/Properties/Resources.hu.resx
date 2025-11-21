@@ -934,9 +934,12 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
     <value>SyncTrayzor</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Az aktivitásablak nyitva marad (jobb kattintással zárható)</value>
+    <value>Aktivitásablak nyitva hagyása</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Törölt fájl]</value>
   </data>
 </root>

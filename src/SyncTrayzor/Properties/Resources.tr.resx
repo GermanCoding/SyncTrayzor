@@ -645,7 +645,7 @@ Lütfen hayır kurumu bağış toplama kampanyama bağış yapın.</value>
     <value>Vazgeç</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Etkinlik açılır penceresini açık tut (kapatmak için açılır pencereye sağ tıklayın)</value>
+    <value>Etkinlik açılır penceresini açık tut</value>
   </data>
   <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
     <value>Syncthing'i Yeniden Başlat</value>
