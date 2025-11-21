@@ -109,7 +109,7 @@
 {0}: The number of conflicts</comment>
   </data>
   <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
-    <value>Разобраться</value>
+    <value>Разрешить.</value>
     <comment>Clickable link shown next to ConflictsAlertView_AlertText, allowing the user to resolve the conflicts.</comment>
   </data>
   <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
@@ -219,7 +219,7 @@
     <comment>Text shown in the main body of the window when we're scanning for conflicts, but haven't yet found any</comment>
   </data>
   <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
-    <value>Syncthing не запущен. Запустите Syncthing</value>
+    <value>Syncthing не запущен. Запустите Syncthing.</value>
     <comment>Text shown in the main body of the window when Syncthing isn't running (which means that we can't start scanning for conflicts)</comment>
   </data>
   <data name="ConflictResolutionView_Title" xml:space="preserve">
@@ -393,7 +393,7 @@
     <value>Предупреждения показываются в верхней части SyncTrayzor, и предупреждающим треугольником в трее.</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
-    <value>Анимированная инконка в трее</value>
+    <value>Анимировать иконку в трее:</value>
   </data>
   <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
     <value>Невозможно установить параметры автоматического запуска. Вероятно, это связано с антивирусным программным обеспечением.</value>
@@ -456,6 +456,7 @@
   </data>
   <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
     <value>Нужно перезапустить SyncTrayzor для вступления настроек в силу.
+
 Перезапустить SyncTrayzor сейчас?</value>
   </data>
   <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
@@ -463,6 +464,7 @@
   </data>
   <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
     <value>Нужно перезапустить Syncthing для вступления настроек в силу.
+
 Перезапустить Syncthing сейчас?</value>
   </data>
   <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
@@ -492,7 +494,7 @@
     <value>Показывать сообщения "Добавление нового устройства/папки"</value>
   </data>
   <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
-    <value>Показывать оповещение о синхронизации даже если не было изменений в файлах.</value>
+    <value>Показывать оповещение о синхронизации, даже если не было изменений в файлах</value>
   </data>
   <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Запускать свернутым</value>
@@ -518,7 +520,7 @@
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
-    <value>Задать путь к домашней директории Syncthing</value>
+    <value>Путь к домашней папке Syncthing:</value>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
     <value>Если задан переопределяет путь по умолчанию к база данных и конфигурационным файлам Syncthing</value>
@@ -530,7 +532,7 @@
     <value>Остановить автообновления Syncthing</value>
   </data>
   <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
-    <value>Остановить автообновления Syncthing. Использовать если новая версия Syncthing несовместима с SyncTrayzor. Вам нужно разместить старую версию syncthing.exe в папке настроек SyncTrayzor.</value>
+    <value>Остановить автообновления Syncthing. Использовать если новая версия Syncthing несовместима с SyncTrayzor. Вам нужно разместить старую версию syncthing.exe в папке настроек SyncTrayzor</value>
   </data>
   <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
     <value>Переменные окружения Syncthing:</value>
@@ -799,7 +801,7 @@
 {1}: File that was updated</comment>
   </data>
   <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
-    <value>{0} хочет поделиться папкой {1}.  Откройте SyncTrayzor для добавления папки</value>
+    <value>{0} хочет поделиться папкой {1}. Откройте SyncTrayzor для добавления папки</value>
     <comment>Balloon shown when folder is rejected.
 {0}: Device name
 {1}: Folder ID</comment>
@@ -903,12 +905,34 @@ SyncTrayzor закрывается. Извините.</value>
     <value>Нет недавно загруженных файлов</value>
   </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
-    <value>Держать всплывающее окно активности открытым (щелкните его правой кнопкой мыши, чтобы закрыть)</value>
+    <value>Держать всплывающее окно активности открытым</value>
   </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
     <value>{0}: {1:list:{}|; }</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Удалённый файл]</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Не удалось запустить Syncthing.
+
+Пожалуйста, прочтите журнал, чтобы определить причину.
+
+Если появляется сообщение "FATAL: Cannot open database", закройте все другие открытые экземпляры Syncthing. Если SyncTrayzor ранее выходил из строя, возможно, все еще запущены процессы-зомби Syncthing. Пожалуйста, используйте пункт меню "Syncthing -&gt; Убить все процессы Syncthing", чтобы остановить их, затем используйте "Syncthing -&gt; Запустить", чтобы снова запустить Syncthing.</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
   </data>
 </root>
