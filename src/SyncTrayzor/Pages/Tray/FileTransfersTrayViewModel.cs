@@ -59,7 +59,7 @@ namespace SyncTrayzor.Pages.Tray
 
         protected override void OnActivate()
         {
-            foreach (var completedTransfer in syncthingManager.TransferHistory.CompletedTransfers.Reverse())
+            foreach (var completedTransfer in syncthingManager.TransferHistory.CompletedTransfers)
             {
                 AddCompletedTransfer(new FileTransferViewModel(completedTransfer));
             }
