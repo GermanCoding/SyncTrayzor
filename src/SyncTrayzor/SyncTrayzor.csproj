@@ -112,7 +112,7 @@
             <Version>141.0.110</Version>
         </PackageReference>
         <PackageReference Include="FluentValidation">
-            <Version>12.0.0</Version>
+            <Version>12.1.1</Version>
         </PackageReference>
         <PackageReference Include="Fody">
             <Version>6.9.3</Version>
