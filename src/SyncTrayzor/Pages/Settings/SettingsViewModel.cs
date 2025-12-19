@@ -71,6 +71,9 @@ namespace SyncTrayzor.Pages.Settings
         public SettingItem<bool> ShowDeviceConnectivityBalloons { get; }
         public SettingItem<bool> ShowDeviceOrFolderRejectedBalloons { get; }
         public SettingItem<bool> KeepActivityPopupOpen { get; }
+        public SettingItem<bool> KeepActivityPopupOnTop { get; }
+        public SettingItem<int> ActivityPopupWidth { get; }
+        public SettingItem<int> ActivityPopupHeight { get; }
 
         public BindableCollection<LabelledValue<IconAnimationMode>> IconAnimationModes { get; }
         public SettingItem<IconAnimationMode> IconAnimationMode { get; }
@@ -143,6 +146,9 @@ namespace SyncTrayzor.Pages.Settings
             ShowDeviceConnectivityBalloons = CreateBasicSettingItem(x => x.ShowDeviceConnectivityBalloons);
             ShowDeviceOrFolderRejectedBalloons = CreateBasicSettingItem(x => x.ShowDeviceOrFolderRejectedBalloons);
             KeepActivityPopupOpen = CreateBasicSettingItem(x => x.KeepActivityPopupOpen);
+            KeepActivityPopupOnTop = CreateBasicSettingItem(x => x.KeepActivityPopupOnTop);
+            ActivityPopupWidth = CreateBasicSettingItem(x => x.ActivityPopupWidth);
+            ActivityPopupHeight = CreateBasicSettingItem(x => x.ActivityPopupHeight );
 
             IconAnimationModes = new BindableCollection<LabelledValue<IconAnimationMode>>()
             {

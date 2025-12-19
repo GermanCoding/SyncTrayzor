@@ -1006,6 +1006,10 @@ Please donate to the syncthing project.</value>
     <value>Keep activity popup open</value>
     <comment>Description for checkbox in settings menu</comment>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Keep activity popup on top</value>
+    <comment>Description for checkbox in settings menu</comment>
+  </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[File Deleted]</value>
     <comment>When the base file for a conflict is not found, this placeholder is shown instead of the actual file name</comment>

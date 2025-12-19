@@ -29,6 +29,9 @@ namespace SyncTrayzor.Services.Config
         public bool ShowDeviceOrFolderRejectedBalloons { get; set; }
         public bool ShowSynchronizedBalloonEvenIfNothingDownloaded { get; set; }
         public bool KeepActivityPopupOpen { get; set; }
+        public bool KeepActivityPopupOnTop { get; set; }
+        public int ActivityPopupWidth { get; set; }
+        public int ActivityPopupHeight { get; set; }
         public string SyncthingAddress { get; set; }
         public bool StartSyncthingAutomatically { get; set; }
 
@@ -112,6 +115,9 @@ namespace SyncTrayzor.Services.Config
             ShowFileInFolderCommand = "explorer.exe /select, \"{0}\"";
             LogLevel = LogLevel.Info;
             KeepActivityPopupOpen = false;
+            KeepActivityPopupOnTop = true;
+            ActivityPopupWidth = 300;
+            ActivityPopupHeight = 350;
         }
 
         public Configuration(Configuration other)
@@ -151,6 +157,9 @@ namespace SyncTrayzor.Services.Config
             ShowFileInFolderCommand = other.ShowFileInFolderCommand;
             LogLevel = other.LogLevel;
             KeepActivityPopupOpen = other.KeepActivityPopupOpen;
+            KeepActivityPopupOnTop = other.KeepActivityPopupOnTop;
+            ActivityPopupWidth = other.ActivityPopupWidth;
+            ActivityPopupHeight = other.ActivityPopupHeight;
         }
 
         public override string ToString()
@@ -170,7 +179,10 @@ namespace SyncTrayzor.Services.Config
                 $"ConflictResolverDeletesToRecycleBin={ConflictResolverDeletesToRecycleBin} PauseDevicesOnMeteredNetworks={PauseDevicesOnMeteredNetworks} " +
                 $"HaveDonated={HaveDonated} IconAnimationMode={IconAnimationMode} OpenFolderCommand={OpenFolderCommand} ShowFileInFolderCommand={ShowFileInFolderCommand}" +
                 $"LogLevel={LogLevel}" +
-                $"KeepActivityPopupOpen={KeepActivityPopupOpen}>";
+                $"KeepActivityPopupOpen={KeepActivityPopupOpen}>" +
+                $"KeepActivityPopupOnTop={KeepActivityPopupOnTop}>" +
+                $"ActivityPopupWindowWidth={ActivityPopupWidth}>"+
+                $"ActivityPopupWindowHeight={ActivityPopupHeight}>";
         }
     }
 }
