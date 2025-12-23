@@ -72,7 +72,7 @@
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Понравился SyncTrayzor?
-Пожалуйста, поддержите мой проект.</value>
+Пожалуйста, сделайте пожертвование в проект syncthing.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Открыть страницу загрузки</value>
