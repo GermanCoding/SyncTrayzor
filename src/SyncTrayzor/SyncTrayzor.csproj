@@ -109,7 +109,7 @@
             <Version>2.6.2</Version>
         </PackageReference>
         <PackageReference Include="CefSharp.Wpf.NETCore">
-            <Version>141.0.110</Version>
+            <Version>143.0.90</Version>
         </PackageReference>
         <PackageReference Include="FluentValidation">
             <Version>12.1.1</Version>
