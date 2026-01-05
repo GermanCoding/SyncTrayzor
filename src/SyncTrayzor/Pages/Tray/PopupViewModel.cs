@@ -12,9 +12,9 @@
     {
         private const int PopupOffsetX = -80;
         private readonly IConfigurationProvider configurationProvider;
-        private bool keepOpen;
         private bool isClosing;
         private Point initialPopupPosition;
+        private Configuration configuration;
 
         public FileTransfersTrayViewModel FileTransfersViewModel { get; private set; }
 
@@ -26,8 +26,7 @@
             initialPopupPosition = WpfScreenHelper.MouseHelper.MousePosition; // Get initial mouse position as early as possible
 
             this.configurationProvider = configurationProvider;
-            var configuration = configurationProvider.Load();
-            keepOpen = configuration.KeepActivityPopupOpen;
+            configuration = configurationProvider.Load();
 
             FileTransfersViewModel = fileTransfersViewModelFactory();
             FileTransfersViewModel.ConductWith(this);
@@ -45,7 +44,8 @@
 
         protected override void OnActivate()
         {
-            SetViewStartPosition();
+            LoadViewSettings();
+            SetViewBounds();
             base.OnActivate();
         }
 
@@ -80,7 +80,8 @@
 
         private void View_Deactivated(object sender, System.EventArgs e)
         {
-            if (keepOpen)
+            SaveViewSettings();
+            if (configuration.KeepActivityPopupOpen)
             {
                 return;
             }
@@ -91,16 +92,59 @@
             RequestClose();
         }
 
-        private void ConfigurationChanged(object sender, ConfigurationChangedEventArgs e)
+        private void LoadViewSettings()
         {
-            keepOpen = e.NewConfiguration.KeepActivityPopupOpen;
-            if (!keepOpen && IsActive)
+            if (View is not Window w)
             {
-                RequestClose();
+                return;
             }
+            w.ShowInTaskbar = configuration.KeepActivityPopupOpen;
+            w.Topmost = configuration.KeepActivityPopupOnTop;
+            w.Width = configuration.ActivityPopupWidth;
+            w.Height = configuration.ActivityPopupHeight;
         }
 
-        private void SetViewStartPosition()
+        private void SaveViewSettings()
+        {
+            if (View is not Window w)
+            {
+                return;
+            }
+
+            var viewWidth = (int)w.Width;
+            var viewHeight = (int)w.Height;
+            if (
+                viewWidth == configuration.ActivityPopupWidth
+                && viewHeight == configuration.ActivityPopupHeight
+            )
+            {
+                return;
+            }
+
+            // save view settings to config
+            configurationProvider.AtomicLoadAndSave( config =>
+            {
+                config.ActivityPopupWidth = viewWidth;
+                config.ActivityPopupHeight = viewHeight;
+            } );
+        }
+
+        private void ConfigurationChanged(object sender, ConfigurationChangedEventArgs e)
+        {
+            configuration = e.NewConfiguration;
+            if (!configuration.KeepActivityPopupOpen && IsActive)
+            {
+                RequestClose();
+                return;
+            }
+            if (View is not Window w)
+            {
+                return;
+            }
+            w.Topmost = configuration.KeepActivityPopupOnTop;
+        }
+
+        private void SetViewBounds()
         {
             if (View is not Window w)
             {
