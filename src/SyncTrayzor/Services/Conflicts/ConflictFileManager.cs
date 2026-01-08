@@ -109,7 +109,7 @@ namespace SyncTrayzor.Services.Conflicts
 
         private static readonly Regex conflictRegex =
             new(
-                @"^(?<prefix>.*).sync-conflict-(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})-(?<hours>\d{2})(?<mins>\d{2})(?<secs>\d{2})(-(?<device>[a-zA-Z0-9]+))?(?<suffix>.*)(?<extension>\..*)$");
+                @"^(?<prefix>.*)\.sync-conflict-(?<year>\d{4})(?<month>\d{2})(?<day>\d{2})-(?<hours>\d{2})(?<mins>\d{2})(?<secs>\d{2})-(?<device>[a-zA-Z0-9]+)?(?<suffix>.*(?=\.))?(?<extension>\..*)?$");
 
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         private const int maxSearchDepth = 255; // Loosely based on the max path length (a bit over)
