@@ -798,4 +798,7 @@ Syncthing'i şimdi yeniden başlatmak istiyor musunuz?</value>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Dosya Silindi]</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Etkinlik açılır penceresini en üstte tut</value>
+  </data>
 </root>
