@@ -940,4 +940,7 @@ SyncTrayzor doit se fermer. Veuillez nous excuser</value>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Fichier supprimé]</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Conserver la popup d'activité au premier plan</value>
+  </data>
 </root>
