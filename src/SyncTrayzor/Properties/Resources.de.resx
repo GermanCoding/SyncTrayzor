@@ -936,4 +936,7 @@ SyncTrayzor wird nun geschlossen. Entschuldigung</value>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Datei gelöscht]</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Aktivitäten-Popup im Vordergrund halten</value>
+  </data>
 </root>
