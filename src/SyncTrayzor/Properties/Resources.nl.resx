@@ -941,4 +941,7 @@ SyncTrayzor gaat nu afsluiten. Onze excuses.</value>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Activiteit-popup open houden</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Beschrijving voor selectievakje in instellingenmenu</value>
+  </data>
 </root>
