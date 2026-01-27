@@ -71,8 +71,8 @@
     <value>Faire un don</value>
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
-    <value>Vous aimez SyncTrayzor ?
-N'hésitez pas à faire un don.</value>
+    <value>Vous aimez SyncTrayzor ?
+Merci de faire un don au projet syncthing.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Accéder à la page de téléchargement</value>
@@ -939,5 +939,8 @@ SyncTrayzor doit se fermer. Veuillez nous excuser</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Fichier supprimé]</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Conserver la popup d'activité au premier plan</value>
   </data>
 </root>

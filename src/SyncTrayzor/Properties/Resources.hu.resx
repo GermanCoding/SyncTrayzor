@@ -942,4 +942,7 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Törölt fájl]</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Aktivitásablak mindig legfelül</value>
+  </data>
 </root>

@@ -72,7 +72,7 @@
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>SyncTrayzor jest Ci przydatny?
-Wesprzyj finansowo moją zbiórkę charytatywną.</value>
+Wesprzyj finansowo projekt Syncthing.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Otwórz stronę pobierania</value>
@@ -940,5 +940,8 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Plik usunięty]</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Utrzymuj okienko aktywności na wierzchu</value>
   </data>
 </root>

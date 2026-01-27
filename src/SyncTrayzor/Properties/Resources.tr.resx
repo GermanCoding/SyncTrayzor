@@ -510,7 +510,7 @@ Tam Yol: {1}</value>
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>SyncTrayzor'u yararlı buldunuz mu?
-Lütfen hayır kurumu bağış toplama kampanyama bağış yapın.</value>
+Lütfen syncthing projesine bağış yapın.</value>
   </data>
   <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
     <value>Silinen dosyaları kalıcı olarak silmek yerine geri dönüşüm kutusuna taşı</value>
@@ -797,5 +797,8 @@ Syncthing'i şimdi yeniden başlatmak istiyor musunuz?</value>
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Dosya Silindi]</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Etkinlik açılır penceresini en üstte tut</value>
   </data>
 </root>

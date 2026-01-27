@@ -643,4 +643,47 @@ Täisasukoht: {1}</value>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>Skaneeri kõik kaustad uuesti</value>
   </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Syncthingi keskkonnamuutujad:</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Syncthingi käivitamine ei õnnestunud</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Kolmandate osapoolte komponendid</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Ilmselt me palume sinult ka logifaili lisamist.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>ja lisa järgnev teave:</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Palun koosta veateade teenuses</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>Kas SyncTrayzor on sinu jaoks kasulik?
+Palun toeta syncthing projekti tööd.</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>Palun vali faili versioon, mille tahad alles jätta. Kõik muud versioonid kustutatakse.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>{0:p:Järgneva seadme|Järgnevate seadmete} töö on peatatud, sest {0:p:ta|nad} nad on ühendatud mahupõhise võrguühendusega: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>Kui seade kasutab mahupõhist võrguühendust, siis peata tema töö</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>Mitme objekti valimissks kasuta Shift või Ctrl klahvi</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>Automaatset käivitamist ei õnnestu seadistada. See võis vabalt juhtuda viirusetõrjetarkvara tegevuse tõttu.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>Automaatset käivitamist ei õnnestu seadistada</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Jäta töötamise hüpikaken avatuks</value>
+  </data>
 </root>
