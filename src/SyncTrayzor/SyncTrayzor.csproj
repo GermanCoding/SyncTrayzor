@@ -130,7 +130,7 @@
         </PackageReference>
         <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
         <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf">
-            <Version>1.1.135</Version>
+            <Version>1.1.141</Version>
         </PackageReference>
         <PackageReference Include="Mono.Options">
             <Version>6.12.0.148</Version>
