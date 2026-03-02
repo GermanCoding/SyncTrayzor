@@ -91,4 +91,34 @@
   <data name="ShellView_Menu_File" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Kill all Syncthing processes</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Open in external browser</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Refresh browser</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
 </root>
