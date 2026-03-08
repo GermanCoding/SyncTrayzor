@@ -215,7 +215,7 @@ Merci de faire un don au projet syncthing.</value>
     <value>Utiliser Shift / Control pour sélectionner plusieurs éléments</value>
   </data>
   <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
-    <value>Aucun conflit trouvés. Bon travail !</value>
+    <value>Aucun conflit détecté. Bien joué !</value>
     <comment>Text shown in the main body of the window when we've finished scanning for conflicts, and didn't find any</comment>
   </data>
   <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
