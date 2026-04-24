@@ -72,7 +72,7 @@
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Tyckte du att SyncTrayzor var användbart?
-Donera till min välgörenhetsinsamlingskampanj.</value>
+Donera till  syncthingprojektet.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Öppna hämtningssidan</value>
@@ -931,5 +931,8 @@ Om "FATAL: Cannot open database" visas, stäng alla andra öppna instanser av Sy
   </data>
   <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
     <value>[Fil borttagen]</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Behåll aktivitetspopup överst</value>
   </data>
 </root>
