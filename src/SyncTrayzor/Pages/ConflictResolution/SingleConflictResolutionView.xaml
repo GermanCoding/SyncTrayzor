@@ -12,43 +12,49 @@
     <DockPanel Margin="5">
         <TextBlock DockPanel.Dock="Top" Margin="0,0,0,10" TextWrapping="Wrap" Text="{l:Loc ConflictResolutionView_ChooseDescription}"/>
 
-        <Grid DockPanel.Dock="Top">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="{Binding View.Columns[0].ActualWidth, ElementName=SelectConflictOptions}"/>
-                <ColumnDefinition Width="{Binding View.Columns[1].ActualWidth, ElementName=SelectConflictOptions}"/>
-                <ColumnDefinition Width="{Binding View.Columns[2].ActualWidth, ElementName=SelectConflictOptions}"/>
-                <ColumnDefinition Width="{Binding View.Columns[3].ActualWidth, ElementName=SelectConflictOptions}"/>
-                <ColumnDefinition Width="{Binding View.Columns[4].ActualWidth, ElementName=SelectConflictOptions}"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.Resources>
-                <Style x:Key="Header" TargetType="TextBlock">
-                    <Setter Property="FontWeight" Value="Bold"/>
-                    <Setter Property="Margin" Value="0,0,0,5"/>
-                </Style>
-                <Style x:Key="Value" TargetType="FrameworkElement">
-                    <Setter Property="Margin" Value="7,0,0,0"/>
-                </Style>
-            </Grid.Resources>
+        <ScrollViewer x:Name="DetailsScrollViewer"
+                      DockPanel.Dock="Top"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Disabled"
+                      CanContentScroll="False">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="{Binding View.Columns[0].ActualWidth, ElementName=SelectConflictOptions}"/>
+                    <ColumnDefinition Width="{Binding View.Columns[1].ActualWidth, ElementName=SelectConflictOptions}"/>
+                    <ColumnDefinition Width="{Binding View.Columns[2].ActualWidth, ElementName=SelectConflictOptions}"/>
+                    <ColumnDefinition Width="{Binding View.Columns[3].ActualWidth, ElementName=SelectConflictOptions}"/>
+                    <ColumnDefinition Width="{Binding View.Columns[4].ActualWidth, ElementName=SelectConflictOptions}"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.Resources>
+                    <Style x:Key="Header" TargetType="TextBlock">
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="Margin" Value="0,0,0,5"/>
+                    </Style>
+                    <Style x:Key="Value" TargetType="FrameworkElement">
+                        <Setter Property="Margin" Value="7,0,0,0"/>
+                    </Style>
+                </Grid.Resources>
 
-            <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_OriginalFile}"/>
-            <TextBlock Grid.Row="0" Grid.Column="1" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_LastModified}"/>
-            <TextBlock Grid.Row="0" Grid.Column="2" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_Size}"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_OriginalFile}"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_LastModified}"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Style="{StaticResource Header}" Text="{l:Loc ConflictResolutionView_Header_Size}"/>
 
-            <TextBlock Grid.Row="1" Grid.Column="0" Style="{StaticResource Value}" Text="{Binding Conflict.DisplayName}"/>
-            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource Value}" Text="{Binding Conflict.LastModified}"/>
-            <TextBlock Grid.Row="1" Grid.Column="2" Style="{StaticResource Value}" Text="{Binding Conflict.Size}"/>
-            
-            <Button Grid.Row="1" Grid.Column="4"
-                                HorizontalAlignment="Left"
-                                Style="{StaticResource Value}"
-                                Padding="5,0"
-                                Command="{s:Action ChooseOriginal}"
-                                Content="{l:Loc ConflictResolutionView_Button_Choose}"/>
-        </Grid>
+                <TextBlock Grid.Row="1" Grid.Column="0" Style="{StaticResource Value}" Text="{Binding Conflict.DisplayName}"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource Value}" Text="{Binding Conflict.LastModified}"/>
+                <TextBlock Grid.Row="1" Grid.Column="2" Style="{StaticResource Value}" Text="{Binding Conflict.Size}"/>
+                
+                <Button Grid.Row="1" Grid.Column="4"
+                                    HorizontalAlignment="Left"
+                                    Style="{StaticResource Value}"
+                                    Padding="5,0"
+                                    Command="{s:Action ChooseOriginal}"
+                                    Content="{l:Loc ConflictResolutionView_Button_Choose}"/>
+            </Grid>
+        </ScrollViewer>
 
         <Button DockPanel.Dock="Bottom" Margin="0,8,0,5" Padding="7,2"
                         HorizontalAlignment="Left"
@@ -58,6 +64,7 @@
                           ItemsSource="{Binding Conflict.ConflictOptions}"
                           Style="{StaticResource BoringListViewStyle}"
                           BorderThickness="0"
+                          ScrollViewer.HorizontalScrollBarVisibility="Auto"
                           ScrollViewer.VerticalScrollBarVisibility="Disabled">
             <ListView.View>
                 <GridView>
@@ -69,7 +76,7 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                     <GridViewColumn Header="{l:Loc ConflictResolutionView_Header_ConflictCreated}"
-                                            DisplayMemberBinding="{Binding DateCreated}"/>
+                                                DisplayMemberBinding="{Binding DateCreated}"/>
                     <GridViewColumn Header="{l:Loc ConflictResolutionView_Header_Size}">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
