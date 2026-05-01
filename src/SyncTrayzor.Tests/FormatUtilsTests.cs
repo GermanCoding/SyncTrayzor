@@ -1,3 +1,4 @@
+using System.Globalization;
 using SyncTrayzor.Utils;
 using Xunit;
 
@@ -8,24 +9,27 @@ namespace SyncTrayzor.Tests
         // ── BytesToHuman ────────────────────────────────────────────────────
 
         [Theory]
-        [InlineData(0,    0, "0B")]
-        [InlineData(1,    0, "1B")]
+        [InlineData(0, 0, "0B")]
+        [InlineData(1, 0, "1B")]
         [InlineData(1023, 0, "1023B")]
         [InlineData(1024, 0, "1KiB")]
-        [InlineData(1536, 0, "2KiB")]          // 1.5 KiB rounds to 2 with 0 decimal places
-        [InlineData(1048576, 0, "1MiB")]        // 1 MiB
-        [InlineData(1073741824, 0, "1GiB")]     // 1 GiB
+        [InlineData(1536, 0, "2KiB")] // 1.5 KiB rounds to 2 with 0 decimal places
+        [InlineData(1048576, 0, "1MiB")] // 1 MiB
+        [InlineData(1073741824, 0, "1GiB")] // 1 GiB
         public void BytesToHuman_DefaultDecimalPlaces(double bytes, int decimalPlaces, string expected)
         {
             Assert.Equal(expected, FormatUtils.BytesToHuman(bytes, decimalPlaces));
         }
 
         [Theory]
-        [InlineData(1536,    1, "1.5KiB")]      // exactly 1.5 KiB
-        [InlineData(1024,    2, "1.00KiB")]
+        [InlineData(1536, 1, "1.5KiB")] // exactly 1.5 KiB
+        [InlineData(1024, 2, "1.00KiB")]
         [InlineData(1048576, 1, "1.0MiB")]
         public void BytesToHuman_WithDecimalPlaces(double bytes, int decimalPlaces, string expected)
         {
+            // Some countries may be using other characters (,) instead of . for decimal separation
+            var systemNumberSeparator = CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
+            expected = expected.Replace(".", systemNumberSeparator);
             Assert.Equal(expected, FormatUtils.BytesToHuman(bytes, decimalPlaces));
         }
 
