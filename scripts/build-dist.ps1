@@ -4,7 +4,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$dotnetTargetSyncTrayzor = "net8.0-windows10.0.17763.0"
+$dotnetTargetSyncTrayzor = "net10.0-windows10.0.17763.0"
 . "$PSScriptRoot\helpers\get-arch.ps1"
 $arch = Get-Arch
 $dotnetArch = switch ($arch) {

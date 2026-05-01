@@ -25,7 +25,7 @@ jobs:
     - name: Install .NET Core
       uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: 10.0.x
         
     - name: Install Task
       uses: arduino/setup-task@v2
@@ -74,7 +74,7 @@ jobs:
       - name: Install .NET Core
         uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5
         with:
-          dotnet-version: 8.0.x
+          dotnet-version: 10.0.x
 
       - name: Install Task
         uses: arduino/setup-task@v2
