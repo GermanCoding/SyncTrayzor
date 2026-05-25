@@ -43,6 +43,12 @@ Installation
 
 SyncTrayzor is packaged as both an installer and standalone zip. It will run on Windows 10 or newer.
 
+Additionally, SyncTrayzor is available on several package managers:
+
+* **winget** - `winget install GermanCoding.SyncTrayzor`
+* **chocolatey** - `choco install synctrayzor`
+* **scoop** - `scoop install extras/synctrayzor`
+
 ### Installer
 
 [Download `SyncTrayzorSetup-x64.exe` or `SyncTrayzorSetup-arm64.exe`](https://github.com/GermanCoding/SyncTrayzor/releases/latest) and run it.
