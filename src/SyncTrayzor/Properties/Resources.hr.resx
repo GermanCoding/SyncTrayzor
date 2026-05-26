@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,747 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Kreirao Antony Male.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Otvori stranicu za preuzimanje</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Dostupna nova verzija: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>Objavljeno pod MIT licencom.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Prikaži open source licence</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Verzija Syncthinga: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Verzija: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Zatvori</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Spremi</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Pomoć</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>O programu</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Zaustavi sve Syncthing procese</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Otvori u vanjskom pregledniku</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Osvježi preglednik</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Pokreni</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Zaustavi</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Ne podsjećaj me više</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>Otvori stranicu za preuzimanje</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Podsjeti me kasnije</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Changelog:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>'Ne podsjećaj me više' će utišati podsjetnik za ovu verziju. Možete trajno onemogućiti obavještenja o novim verzijama na stranici Postavke. Posjetite Pomoć -&gt; O programu za ručnu provjeru nove verzije.</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>Dostupna je verzija SyncTrayzor {0}!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>Dostupno ažuriranje za SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Upozori ako je dostupna nova verzija SyncTrayzora</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Zatvori u sistemsku traku</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Minimiziraj u sistemsku traku</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Prikrij ID-ove uređaja u prikazu zapisa</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Prikaži ikonu u sistemskoj traci samo pri zatvaranju</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>Napredno</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Pokretanje pri prijavi</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Pokreni minimizirano</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Automatski pokreni pri prijavi</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>Pristup odbijen. Pokrenite SyncTrayzor kao Administrator da promijenite ove postavke.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>Pokreni Syncthing kada se pokrene SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>GUI adresa za slušanje:</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor nadjačava "GUI adresu za slušanje" navedenu u Syncthingovoj konfiguraciji. Međutim, ovdje možete postaviti bilo koju željenu vrijednost.</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Syncthing varijable okruženja:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>Praćeno: Mapa će biti praćena za izmjene, što znači da možete postaviti duži interval provjere u Syncthing.
+
+Obavještenja: Primit ćete balon-poruke 'Sinkronizirano' kada se datoteke u ovoj mapi ažuriraju.</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Mape nisu dostupne. Molimo pokrenite Syncthing</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Nepoznato</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>Da li ste sigurni da želite zaustaviti sve Syncthing procese, uključujući i one koje SyncTrayzor ne upravlja?
+
+Ovo može oštetiti Syncthing bazu podataka. Radite ovo SAMO ako ne možete pokrenuti Syncthing jer je drugi Syncthing proces već pokrenut.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Jeste li sigurni?</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Pokretanje Syncthinga nije uspjelo.
+
+Molimo pregledajte zapise da utvrdite uzrok.
+
+Ako se pojavi "FATAL: Cannot open database", zatvorite sve ostale pokrenute instance Syncthinga. Ako se SyncTrayzor prethodno srušio, možda su još uvijek aktivni zombie Syncthing procesi. Koristite opciju menija "Syncthing -&gt; Zaustavi sve Syncthing procese" da ih zaustavite, a zatim "Syncthing -&gt; Pokreni" da ponovo pokrenete Syncthing.</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Syncthing nije uspio da se pokrene</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Nije moguće pokrenuti Syncthing: {0}
+
+Razlog može biti to što je Windows podešen da zabrani izvršavanje datoteka u AppData direktoriju, ili što imate instaliran anti-malware program (npr. CryptoPrevent) koji sprječava izvršavanje datoteka u AppData direktoriju.
+
+Molimo prilagodite postavke / bijelu listu (whitelist) kako biste dozvolili izvršavanje '{1}'</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Greška pri pokretanju Syncthinga</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>Mora biti u obliku 'host:port', npr. 'localhost:8384'</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Ne smije biti prazno</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Opis:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Web stranica:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Licenca:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Tekst licence:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Naziv:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Napomene:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor je izgrađen koristeći mnoge open-source komponente, bez kojih ne bi postojao.
+Detalji o svakoj komponenti i tekst njene licence su prikazani ispod.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Komponente trećih strana</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Sinkronizacija završena</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Sinkronizacija završena</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Zatvori u sistemsku traku</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Izlaz</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>Otvori SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Pokreni Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Zaustavi Syncthing</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Ups! Nešto je ozbiljno pošlo po krivu.
+SyncTrayzor mora biti zatvoren. Žao nam je zbog toga</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Možda će se od vas tražiti da dostavite datoteku zapisa.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>i priložite sljedeće informacije:</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Molimo otvorite issue na</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Greška!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing se pokreće...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing je zaustavljen</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>Hrvatski prijevod od SGG Localization</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Ikona u sistemskoj traci</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>Prikaži balon-poruke 'Uređaj spojen/odspojen'</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} spojen</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Uređaj spojen</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} odspojen</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Uređaj odspojen</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Ponovo pokreni</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Ponovo pokreni Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>Onemogući automatsko ažuriranje Syncthinga</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>Spriječi automatsko ažuriranje Syncthinga. Korisno ako nova verzija Syncthinga naruši kompatibilnost sa SyncTrayzorom. Morat ćete izvršiti downgrade syncthing.exe datoteke u config mapi SyncTrayzora</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Otvori mapu</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Otvori mapu</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Pokreni Syncthing</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Koristi jezik mog računara, ako je dostupan</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Prikaz</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>Syncthing konzola</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>Instaliraj odmah</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>Pogledaj changelog</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>Zoom preglednik</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Povećaj</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Smanji</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Resetuj</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>Mora biti u formatu 'VAR=vrijednost' ili 'VAR="val1 val2"'</value>
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
+    <value>Verzija SyncTrayzor {0} je uspješno instalirana.</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor je ažuriran</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+    <value>Nije moguće pokrenuti Syncthing: {0}. Molimo pogledajte konzolni izlaz Syncthinga za više informacija.</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Syncthing se nije ispravno pokrenuo</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Kopiraj</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Izreži</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Zalijepi</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>Preuzimanje</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(obrisano)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>Preuzimanje {0}/{1}</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Nedavno ažurirano</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>Ulazno: {0}/s</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Nema nedavnih preuzimanja datoteka</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Izlazno: {0}/s</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 dan|{} dana} nazad</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 sat|{} sata|{} sati} nazad</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Upravo sada</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 minut|{} minuta} nazad</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 godina|{} godine|{} godina} nazad</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>Preuzimanje {0}/{1} ({2}/s)</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Greška: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Mapa: {0}
+Puna putanja: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>Obrisano {0:p:1 datoteka|{} datoteke|{} datoteka}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: Obrisan {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: Ažuriran {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>Ažurirano {0:p:1 datoteka|{} datoteke|{} datoteka}</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>Prikaži balon-poruku 'Sinkronizirano' čak i ako nisu ažurirane datoteke</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Onemogući hardversko renderiranje</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>Morate ponovo pokrenuti Syncthing da bi ove postavke stupile na snagu.
+
+Želite li odmah ponovo pokrenuti Syncthing?</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Ponovo pokrenuti Syncthing?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>Morate ponovo pokrenuti SyncTrayzor da bi ove postavke stupile na snagu.
+
+Želite li odmah ponovo pokrenuti SyncTrayzor?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>Ponovo pokrenuti SyncTrayzor?</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>Obavještenja</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>Praćeno</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+    <value>Ne smijete koristiti zastavicu {0}</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+    <value>Zastavice komandne linije moraju počinjati s '-'</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+    <value>Mora biti u formatu '-zastavica' ili '-zastavica=vrijednost' ili '-zastavica="vrijednost s razmacima"'</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>Mape</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>Prioritet Syncthing procesa:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>Iznad normalnog</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>Ispod normalnog</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>Nizak</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Normalan</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>Obrisano {0:p:1 datoteka|{} datoteke|{} datoteka} ({1:p:1 greška|{} greške|{} grešaka})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: Brisanje {1} nije uspjelo ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: Ažuriranje {1} nije uspjelo ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>Ažurirano {0:p:1 datoteka|{} datoteke|{} datoteka} ({1:p:1 greška|{} greške|{} grešaka})</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>Očisti</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>Pauziraj</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>Syncthing konzola</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Zapisivanje</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>Ovdje možete pronaći datoteku zapisa SyncTrayzora.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>Prikaži datoteku zapisa Syncthinga</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>Prikaži datoteku zapisa SyncTrayzora</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>Odaberi</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>Konflikt kreiran</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>Naziv datoteke u konfliktu</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>Datoteka</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>Zadnja izmjena</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>Originalna datoteka</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>Izmijenio</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>Odustani</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>Skeniranje...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>Nisu pronađeni konflikti. Odlično!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>Nema konflikata (zasad)...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing nije pokrenut. Molimo pokrenite Syncthing.</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>Rješavač konflikata</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>Rješavač konflikata</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>Rješavanje ovog konflikta nije uspjelo: {0}</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>Operacija nije uspjela</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>Imate {0:p:1 datoteku u konfliktu|{} datoteke u konfliktu|{} datoteka u konfliktu}.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>Riješi sada.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>Upozori me o datotekama u konfliktu</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+    <value>{0:p:Sljedeća|Sljedeće|Sljedećih} {0:p:mapa ima|mape imaju|mapa imaju} neuspješne transfere datoteka: {0:list:{}|, }.</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+    <value>Molimo pogledajte Syncthing GUI ili konzolu za više informacija.</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>Upozorenja se prikazuju u traci na vrhu SyncTrayzora i pokazuju trokut upozorenja na ikoni u sistemskoj traci.</value>
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+    <value>Upozori o neuspjelim transferima datoteka</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>Upozorenja</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>Prikaži u mapi</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>Doniraj sada</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>Smatrate li SyncTrayzor korisnim?
+Molimo donirajte Syncthing projektu.</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>Premjesti obrisane datoteke u smeće, umjesto trajnog brisanja</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>Veličina</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>Molimo odaberite verziju datoteke koju želite zadržati. Ostale verzije će biti obrisane.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>{0:p:Sljedeći|Sljedeća|Sljedećih} {0:p:uređaj je|uređaja su|uređaja su} pauziran{0:p:|a|i} jer {0:p:se spojio|su se spojila|su se spojili} putem mreže s naplatom: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>Pauziraj uređaje koji se spajaju putem mreže s naplatom</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>Za korištenje ove funkcije morate koristiti Windows 8 ili noviji.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>Mreže s naplatom</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>Onemogući balon-poruke u potpunosti na kartici 'Mape'</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>Pretraži</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>Nastavi</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>Odlično! Hvala na donaciji.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>Prikaži balon-poruke 'Dodaj novi uređaj / mapu'</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>Uređaj {0} ({1}) želi se spojiti. Otvorite SyncTrayzor da dodate novi uređaj</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>Spojiti uređaj?</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>{0} želi dijeliti mapu {1}. Otvorite SyncTrayzor da dodate novu mapu</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>Dijeliti mapu?</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>Animiraj ikonu u sistemskoj traci:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>Bilo koji prijenos podataka</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>Nikad</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>Sinkronizacija</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+    <value>Prilagođena Syncthing home putanja:</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>Ako je postavljeno, nadjačava zadanu putanju za Syncthing bazu podataka i konfiguraciju</value>
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+    <value>Syncthing zastavice komandne linije</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value>Odaberi najnoviji konflikt</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value>Odabire konflikt koji je najskorije kreiran</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>Odaberi najnoviji</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>Odabire 'Originalnu' datoteku ako mu je datum 'Zadnje izmjene' najsvježiji, ili konflikt koji je najskorije kreiran</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>Odaberi originalnu</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>Uzima 'Originalnu' datoteku iz svakog konflikta i briše sve datoteke u konfliktu</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>Odabrali ste {0} konflikata. Odaberite kako ih želite riješiti. Ostale verzije će biti obrisane.</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>Doniraj ponovo</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>Doniraj</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Nivo zapisa:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>Info (Default)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>Trace</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>Omogućili ste filesystem watcher za jednu ili više mapa u Syncthingu, pa su odgovarajući watcheri u SyncTrayzoru onemogućeni.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>Napomena:</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>Koristite shift / control za odabir više stavki</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>Nije moguće postaviti postavke automatskog pokretanja. Ovo je vjerojatno uzrokovano antivirusnim softverom.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>Nije moguće postaviti automatsko pokretanje</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value>Prilagođena Syncthing putanja</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>Reskenuj sve mape</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>Područje ispod može biti prazno kada se koriste Intel Xe grafičke kartice. Molimo onemogućite hardversko renderiranje u Datoteku -⁠&gt; Postavke ako naiđete na ovaj problem.</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>Odbaci</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Drži popup aktivnosti otvoren</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Drži popup aktivnosti na vrhu</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Datoteka obrisana]</value>
+  </data>
 </root>
