@@ -319,7 +319,7 @@ SyncTrayzor mora biti zatvoren. Žao nam je zbog toga</value>
     <value>Da</value>
   </data>
   <data name="TranslatorAttributation" xml:space="preserve">
-    <value>Bosanski prijevod: &lt;SGG Localization&gt;</value>
+    <value>Bosanski prijevod od SGG Localization</value>
   </data>
   <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
     <value>Ikona u sistemskoj traci</value>
