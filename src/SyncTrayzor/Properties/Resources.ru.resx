@@ -935,4 +935,7 @@ SyncTrayzor закрывается. Извините.</value>
   <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
     <value>Syncthing</value>
   </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Всегда отображать окно с активностью</value>
+  </data>
 </root>
