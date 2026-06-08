@@ -746,4 +746,59 @@ Palun toeta syncthing projekti tööd.</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Hoia tegevuste hüpikaken kõige peal</value>
   </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>Jälgimine: Kausta muudatusi jälgitakse, mis tähendab, et saad Syncthingis määrata pikema uuendamisvälba.
+
+Teated: Kui selles kaustas olevaid faile uuendatakse, kuvatakse sulle hüpikaknas teade „Sünkroonitud“.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>Kas oled kindel, et soovid lõpetada kõik Syncthingi protsessid, ka need, mida SyncTrayzor ei halda?
+
+See võib kahjustada Syncthingi andmebaasi. Tee seda AINULT juhul, kui sa ei suuda Syncthingi käivitada, kuna mõni teine Syncthingi protsess on hetkel töös.</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Syncthingi käivitamine ei õnnestu.
+
+Põhjuse väljaselgitamiseks palun loe logifaili.
+
+Kui kuvatakse teade „FATAL: Cannot open database“, sulge kõik teised avatud Syncthingi protsessid. Kui SyncTrayzor on varem kokku jooksnud, võivad mõned Syncthingi protsessid endiselt töötada. Palun kasuta menüüvalikut „Syncthing → Lõpeta kõikide Syncthingi protsesside töö“, et need peatada, ja seejärel kasuta „Syncthing → Käivita“, et Syncthing uuesti käivitada.</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Syncthingi käivitamine ei õnnestunu: {0}
+
+See võib olla tingitud sellest, et Windows on seadistatud keelama AppData kausta failide käivitamist või sellest, et sul on paigaldatud pahavara-tõrjeprogramm (nt CryptoPrevent), mis takistab AppData kausta failide käivitamist.
+
+Palun muuda oma seadistusi ja/või lubatud rakenduste loendeid nii, et „{1}“ käivitamine toimiks</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor on loodud paljude avatud lähtekoodiga komponentide abil ning ilma nendeta ei oleks seda rakendust olemas.
+Allpool on esitatud üksikasjad iga komponendi kohta ning vastavad litsentsitingimused.</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>Keela Syncthingi automaatne uuendamine. See on kasulik juhul, kui Syncthingi uus versioon rikub ühilduvust SyncTrayzoriga. Selleks pead SyncTrayzori seadistuste kaustas asuva syncthing.exe faili vanemale versioonile tagasi viima</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>Peab olema vormingus 'VAR=väärtus' või 'VAR="vrt1 vrt2"'</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>Hoiatused on pikemalt näidatud SyncTrayzori ülaribal ning kollase hoiatuskolmnurgana süsteemisalve ikoonil.</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>Kui see eelistus on lisatud, siis ta sürjutab Syncthingi seadistuste ja andmebaasi vaikimisi asukoha</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>Eelistab algset faili, kui selle viimase muutmise kuupäev on kõige hilisem või seotud on viimasena tekkinud failikonflikt</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>Võtab iga failikonflikti puhul algse faili ja kustutab kõik konfliktsed failid</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>Sa oled valinud {0} failikonflikti. Otsusta, kuidas tahad neid lahendada. Kõik muud failiversioonid kustutatakse.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>Oled Syncthingis lülitanud sisse failisüsteemi jälgijad ühe või mitme kausta jaoks, mistõttu on vastavad jälgijad SyncTrayzoris on lülitatud välja.</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>Kui sinu arvutis on kasutusel Intel Xe graafikakaart, siis alljärgnev võib jääda tühjaks. Kui nii juhtub, siis palun lülita raudvaraline esitusvalmendus välja valikust „Fail“ → „Seadistused“.</value>
+  </data>
 </root>
