@@ -75,7 +75,7 @@
 Por favor, doe para minha campanha de angariação de fundos de caridade.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
-    <value>Abrir página de download</value>
+    <value>Abrir página de descargas</value>
     <comment>Clickable link allowing the user to download the latest version of SyncTrayzor</comment>
   </data>
   <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
@@ -295,7 +295,7 @@ Por favor, ajuste sua configuração ou listas de permissão para permitir a exe
     <value>Syncthing não iniciou corretamente</value>
   </data>
   <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
-    <value>Baixando</value>
+    <value>A descarregar</value>
     <comment>Header for section containing downloading files</comment>
   </data>
   <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
@@ -303,14 +303,14 @@ Por favor, ajuste sua configuração ou listas de permissão para permitir a exe
     <comment>Show after the 'x minutes ago' text if the update was a deletion</comment>
   </data>
   <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
-    <value>Baixando {0}/{1} ({2}/s)</value>
+    <value>A descarregar {0}/{1} ({2}/s)</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download
 {2}: The current download rate, e.g. 2.0MB</comment>
   </data>
   <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
-    <value>Baixando {0}/{1}</value>
+    <value>A descarregar {0}/{1}</value>
     <comment>Displayed when a large file is downloaded
 {0}: amount downloaded so far (inserted as e.g. 4KB)
 {1}: The total amount to download</comment>
@@ -371,7 +371,7 @@ Caminho completo: {1}</value>
     <comment>When a new version is available, the user receives a prompt. This button allows the user to say they want want to be prompted to upgrade to this particular version again</comment>
   </data>
   <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
-    <value>Abrir página de download</value>
+    <value>Abrir página de descargas</value>
     <comment>When a new version is available, the user receives a prompt. This button allows them to download the new version</comment>
   </data>
   <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
