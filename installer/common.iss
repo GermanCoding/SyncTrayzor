@@ -113,6 +113,26 @@ begin
   end;
 end;
 
+function StopRunningSyncTrayzorProcesses(): Boolean;
+var
+  ResultCode: Integer;
+begin
+  Result := True;
+
+  if not Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM SyncTrayzor.exe /F /T', '', SW_HIDE, ewWaitUntilTerminated, ResultCode) then
+  begin
+    Log('Failed to launch taskkill for SyncTrayzor.exe processes; continuing setup');
+  end
+  else if ResultCode = 0 then
+  begin
+    Log('Requested termination of SyncTrayzor.exe processes');
+  end
+  else
+  begin
+    Log('taskkill exited with code ' + IntToStr(ResultCode) + '; continuing setup');
+  end;
+end;
+
 procedure RestoreAutostartRegistry();
 var
   NewValue: string;
@@ -399,6 +419,8 @@ end;
 function InitializeSetup(): Boolean;
 begin
   Result := True;
+  StopRunningSyncTrayzorProcesses();
+
   if not EnsureNoLegacyX86() then
   begin
     Result := False;
