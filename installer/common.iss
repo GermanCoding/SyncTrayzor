@@ -350,6 +350,26 @@ begin
   end;
 end;
 
+function StopRunningSyncTrayzorProcesses(): Boolean;
+var
+  ResultCode: Integer;
+begin
+  Result := True;
+
+  if not Exec(ExpandConstant('{sys}\taskkill.exe'), '/IM SyncTrayzor.exe /F /T', '', SW_HIDE, ewWaitUntilTerminated, ResultCode) then
+  begin
+    Log('Failed to launch taskkill for SyncTrayzor.exe processes; continuing setup');
+  end
+  else if ResultCode = 0 then
+  begin
+    Log('Requested termination of SyncTrayzor.exe processes');
+  end
+  else
+  begin
+    Log('taskkill exited with code ' + IntToStr(ResultCode) + '; continuing setup');
+  end;
+end;
+
 // -------------------------------------------------------------------
 // APPDATA BACKUP  ----------------------------------------------------
 // -------------------------------------------------------------------
@@ -399,6 +419,7 @@ end;
 function InitializeSetup(): Boolean;
 begin
   Result := True;
+
   if not EnsureNoLegacyX86() then
   begin
     Result := False;
@@ -441,17 +462,18 @@ begin
 
   if Assigned(InfoPage) and (CurPageID = InfoPage.ID) and OldVersionDetected then
   begin
-    // 1) Backup
+    // 1) Ensure SyncTrayzor is stopped (versions < 1.1.29 did not handle this gracefully)
+    StopRunningSyncTrayzorProcesses();
+    // 2) Backup
     if not PgCheckbox.Checked then
     begin
       BackupAppData();
       BackupAutostartRegistry();
     end;
-
-    // 2) Run uninstaller
+    // 3) Run uninstaller
     if (Exec('>', OldUninstString, '', SW_SHOWNORMAL, ewWaitUntilTerminated, ResultCode)) then
     begin
-      // 3) Restore
+      // 4) Restore
       if not PgCheckbox.Checked then
         RestoreAppData();
     end
