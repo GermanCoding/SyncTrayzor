@@ -261,9 +261,9 @@ Esto conlleva el riesgo de corromper la base de datos de Syncthing. Haz esto SOL
   <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
     <value>Fallo al arrancar Syncthing.
 
-Por favor, consulta el log para determinar la causa.
+Por favor, consulta el registro para determinar la causa.
 
-Si aparece "FATAL: No se puede abrir la base de datos", por favor cierra cualquier otra instancia de Syncthing. Si SyncTrayzor ha fallado previamente, puede haber procesos zombies de Syncthing que estén aún ejecutándose. Por favor, usa la opción del menú "Syncthing -&gt; Eliminar todos los procesos Syncthing" para pararlos, después usa "Syncthing -&gt; Iniciar" para iniciar Syncthing de nuevo.</value>
+Si aparece «FATAL: No se puede abrir la base de datos», por favor cierra cualquier otra instancia de Syncthing. Si SyncTrayzor ha fallado previamente, puede haber procesos zombies de Syncthing que estén aún ejecutándose. Usa la opción del menú «Syncthing -&gt; Eliminar todos los procesos Syncthing» para pararlos, después usa «Syncthing -&gt; Iniciar» para iniciar Syncthing de nuevo.</value>
     <comment>Content of the dialog shown when Syncthing couldn't be started (and exited with an error). Instructs the user on how to proceed.
 
 "FATAL: Cannot Open Database" should remain in English
@@ -405,7 +405,7 @@ Path completo: {1}</value>
     <value>Las alertas se muestran en una barra en la parte superior de SyncTrayzor y con un triángulo de aviso en la bandeja de notificaciones.</value>
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
-    <value>Deshabilitar mensajes flotantes en la pestaña "Carpetas"</value>
+    <value>Deshabilitar mensajes flotantes en la pestaña «Carpetas»</value>
   </data>
   <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
     <value>Icono animado de notificación:</value>
@@ -495,13 +495,13 @@ Path completo: {1}</value>
     <value>Icono del área de notificaciónes</value>
   </data>
   <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
-    <value>Mostrar mensajes de "Dispositivos Conectados/Desconectados"</value>
+    <value>Mostrar mensajes emergentes de «Dispositivos Conectados/Desconectados»</value>
   </data>
   <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
-    <value>Mostrar mensajes de "Añadir Nuevo Dispositivo / Carpeta"</value>
+    <value>Mostrar mensajes emergentes de «Añadir nuevo dispositivo / carpeta»</value>
   </data>
   <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
-    <value>Mostrar mensajes de "Sincronizado", incluso si no se actualizó ningún archivo</value>
+    <value>Mostrar mensajes de «Sincronizado», incluso si no se actualizó ningún archivo</value>
   </data>
   <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Iniciar minimizado</value>
@@ -523,7 +523,7 @@ Path completo: {1}</value>
     <value>Dirección de escucha del GUI:</value>
   </data>
   <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
-    <value>SyncTrayzor ignora la "Dirección de escucha del GUI" definida en la configuración de Syncthing. Sin embargo, puedes especificar aquí el valor que desees.</value>
+    <value>SyncTrayzor ignora la «Dirección de la interfaz gráfica» definida en la configuración de Syncthing. Sin embargo, puedes especificar aquí el valor que desees.</value>
     <comment>ToolTip shown when a user hovers over the SettingsView_SyncthingAddress text input. This shows more information on the input.</comment>
   </data>
   <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
@@ -593,7 +593,7 @@ Path completo: {1}</value>
     <value>Puedes no especificar la opción {0}</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
-    <value>Las opciones de línea de comando deben empezar por "-"</value>
+    <value>Las opciones de línea de comando deben empezar por «-»</value>
   </data>
   <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
     <value>Debe estar en el formato '-opcion' u '-opcion=valor' u '-opcion="valor con espacios"'</value>

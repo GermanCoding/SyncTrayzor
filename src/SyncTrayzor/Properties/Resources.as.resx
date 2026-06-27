@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,106 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>এণ্টনী মেলৰ দ্বাৰা সৃষ্টি কৰা হৈছে।</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>ডাউনল'ড পৃষ্ঠা খোলক</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>নতুন সংস্কৰণ উপলব্ধ: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>এমআইটি অনুজ্ঞাপত্ৰৰ অধীনত মুকলি কৰা হয়।</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>মুক্ত উৎসৰ অনুজ্ঞাপত্ৰ প্ৰদৰ্শন কৰা হ'ব</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>সংমিহলি সংস্কৰণ: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>সংস্কৰণ: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>বাতিল কৰা</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>বন্ধ কৰক</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>সংৰক্ষণ কৰক</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>ফাইল</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>প্ৰস্থান কৰক</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>সংহতিসমূহ</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>সহায়</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>ইয়াৰ বিষয়ে</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>সংমিহলি</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>সকলো সংমিহলি প্ৰক্ৰিয়া বন্ধ কৰক</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>বহিৰ্তম ব্ৰাউছাৰত খোলক</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>ব্ৰাউজাৰ সতেজ কৰক</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>আৰম্ভ কৰক</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>বন্ধ কৰক</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>মোক পুনৰ মনত পেলাই নিদিবা</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>ডাউনল'ড পৃষ্ঠা খোলক</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>মোক পিছত মনত পেলাই দিবা</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>পৰিবৰ্তনলগ:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>'মোক পুনৰ মনত পেলাই নিদিব'-এ এই সংস্কৰণৰ বাবে স্মাৰকবোৰ নীৰৱ কৰিব। আপুনি ছেটিংছ পৃষ্ঠাৰ পৰা নতুন সংস্কৰণ এলাৰ্টসমূহ স্থায়ীভাৱে অক্ষম কৰিব পাৰে৷ সহায় -&gt; সাক্ষাৎ কৰক নতুন সংস্কৰণ এটাৰ বাবে মেনুৱেলী পৰীক্ষা কৰিবলৈ ওলাইছে।</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>SyncTrayzor সংস্কৰণ {0} উপলভ্য!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>SyncTrayzor আপডেইট উপলব্ধ</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>SyncTrayzor ৰ এটা নতুন সংস্কৰণ উপলব্ধ হ'লে সতৰ্কবাণী</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>ট্ৰেৰ ওচৰত</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>ট্ৰেত মিনিমাইজ কৰক</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>লগ দৰ্শনত ডিভাইচ ID সমূহ অস্পষ্ট কৰক</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>কেৱল বন্ধত ট্ৰে আইকন দেখুৱাওক</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>উন্নত</value>
+  </data>
 </root>
