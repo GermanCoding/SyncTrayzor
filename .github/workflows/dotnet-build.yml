@@ -28,7 +28,7 @@ jobs:
         dotnet-version: 10.0.x
         
     - name: Install Task
-      uses: arduino/setup-task@v2
+      uses: arduino/setup-task@c0bc642852239c2689f73f4ea6459c29405f3c52 # v3.0.0
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -77,7 +77,7 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Install Task
-        uses: arduino/setup-task@v2
+        uses: arduino/setup-task@c0bc642852239c2689f73f4ea6459c29405f3c52 # v3.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
