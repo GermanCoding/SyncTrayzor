@@ -944,4 +944,10 @@ Program SyncTrayzor zostanie zamknięty. Przepraszamy!</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Utrzymuj okienko aktywności na wierzchu</value>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor wykrył, że inna instancja jest aktualnie uruchomiona z tą samą konfiguracją. Zatrzymaj wszystkie inne instancje SyncTrayzor lub uruchom ponownie system, aby je zamknąć.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Wykryto konflikt procesów SyncTrayzor</value>
+  </data>
 </root>
