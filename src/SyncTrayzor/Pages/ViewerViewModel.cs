@@ -7,20 +7,22 @@ using System.Globalization;
 using CefSharp;
 using CefSharp.Wpf;
 using SyncTrayzor.Services.Config;
+using System.IO;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using SyncTrayzor.Services;
 using SyncTrayzor.Properties;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using CefSharp.Handler;
-using PropertyChanged;
+using SyncTrayzor.Localization;
 
 namespace SyncTrayzor.Pages
 {
     public class ViewerViewModel : Screen, IResourceRequestHandlerFactory, ILifeSpanHandler, IContextMenuHandler,
         IDisposable
     {
+        private const int ErrorSharingViolation = unchecked((int)0x80070020);
+
         private readonly IWindowManager windowManager;
         private readonly ISyncthingManager syncthingManager;
         private readonly IProcessStartProvider processStartProvider;
@@ -30,6 +32,7 @@ namespace SyncTrayzor.Pages
         private readonly CustomResourceRequestHandler customResourceRequestHandler;
 
         private readonly object cultureLock = new(); // This can be read from many threads
+        private readonly Lock _initLock = new();
         private CultureInfo? culture;
         private double zoomLevel;
 
@@ -109,58 +112,83 @@ namespace SyncTrayzor.Pages
                     language = culture!.Name;
                 }
 
-                var cefLogFile = pathsProvider.LogFilePath + @"\cef.log";
-                var settings = new CefSettings()
+                lock (_initLock)
                 {
-                    RemoteDebuggingPort = AppSettings.Instance.CefRemoteDebuggingPort,
-                    // We really only want to set the LocalStorage path, but we don't have that level of control....
-                    CachePath = pathsProvider.CefCachePath,
-                    LogFile = cefLogFile,
-                    IgnoreCertificateErrors = true,
-                    LogSeverity = LogSeverity.Warning,
-                    AcceptLanguageList = language,
-                    Locale = language
-                };
-
-                // CEF will attempt de-elevating the process when launched as admin. This is done by relaunching
-                // the current process in unprivileged mode. However, we're not equipped to handle such a
-                // process restart cleanly, so ask CEF to not relaunch. Running as admin is not ideal for security,
-                // but the user wants it...
-                settings.CefCommandLineArgs.Add("do-not-de-elevate");
-
-                // System proxy settings (which also specify a proxy for localhost) shouldn't affect us
-                settings.CefCommandLineArgs.Add("no-proxy-server", "1");
-                settings.CefCommandLineArgs.Add("disable-cache", "1");
-                settings.CefCommandLineArgs.Add("disable-extensions", "1");
-
-                if (configuration.DisableHardwareRendering)
-                {
-                    settings.CefCommandLineArgs.Add("disable-gpu");
-                    settings.CefCommandLineArgs.Add("disable-gpu-vsync");
+                    // It may happen that we have another SyncTrazyor instance using the same CEF cache path
+                    // This will cause a generic CEF initialization failure. Try to catch this early
+                    // by acquiring the log file.
+                    var cefCachePath = pathsProvider.CefCachePath;
+                    var cefLock = cefCachePath + @"\lockfile";
                     try
                     {
-                        settings.CefCommandLineArgs.Add("disable-gpu-compositing");
+                        using var lockFile = new FileStream(cefLock, FileMode.OpenOrCreate, FileAccess.ReadWrite,
+                            FileShare.None);
                     }
-                    catch (ArgumentException)
+                    catch (IOException e) when (e.HResult == ErrorSharingViolation)
                     {
-                        // CefSharp 139+ may set this by default, ignore if unable to set the flag.
+                        var msg = Localizer.Translate("ViewerView_CefCacheLocked", cefCachePath);
+                        var title = Localizer.Translate("ViewerView_CefCacheLocked_Title");
+                        windowManager.ShowMessageBox(msg, title, MessageBoxButton.OK, MessageBoxImage.Error);
+                        Environment.Exit(1);
+                    }
+                    catch (Exception)
+                    {
+                        // Ignore potentially unrelated errors
                     }
 
-                    settings.CefCommandLineArgs.Add("disable-application-cache");
-                }
-
-                try
-                {
-                    if (!Cef.Initialize(settings))
+                    var cefLogFile = pathsProvider.LogFilePath + @"\cef.log";
+                    var settings = new CefSettings()
                     {
-                        throw new InvalidOperationException("Unable to initialize CEF.");
+                        RemoteDebuggingPort = AppSettings.Instance.CefRemoteDebuggingPort,
+                        // We really only want to set the LocalStorage path, but we don't have that level of control....
+                        CachePath = cefCachePath,
+                        LogFile = cefLogFile,
+                        IgnoreCertificateErrors = true,
+                        LogSeverity = LogSeverity.Warning,
+                        AcceptLanguageList = language,
+                        Locale = language
+                    };
+
+                    // CEF will attempt de-elevating the process when launched as admin. This is done by relaunching
+                    // the current process in unprivileged mode. However, we're not equipped to handle such a
+                    // process restart cleanly, so ask CEF to not relaunch. Running as admin is not ideal for security,
+                    // but the user wants it...
+                    settings.CefCommandLineArgs.Add("do-not-de-elevate");
+
+                    // System proxy settings (which also specify a proxy for localhost) shouldn't affect us
+                    settings.CefCommandLineArgs.Add("no-proxy-server", "1");
+                    settings.CefCommandLineArgs.Add("disable-cache", "1");
+                    settings.CefCommandLineArgs.Add("disable-extensions", "1");
+
+                    if (configuration.DisableHardwareRendering)
+                    {
+                        settings.CefCommandLineArgs.Add("disable-gpu");
+                        settings.CefCommandLineArgs.Add("disable-gpu-vsync");
+                        try
+                        {
+                            settings.CefCommandLineArgs.Add("disable-gpu-compositing");
+                        }
+                        catch (ArgumentException)
+                        {
+                            // CefSharp 139+ may set this by default, ignore if unable to set the flag.
+                        }
+
+                        settings.CefCommandLineArgs.Add("disable-application-cache");
                     }
-                }
-                catch (InvalidOperationException e)
-                {
-                    throw new AggregateException(
-                        $"SyncTrayzor was unable to initialize its embedded browser.\nWhen reporting this issue, please attach the CEF logfile @ \n{cefLogFile}\n in addition to this message and the normal SyncTrayzor logfile.",
-                        e);
+
+                    try
+                    {
+                        if (!Cef.Initialize(settings))
+                        {
+                            throw new InvalidOperationException("Unable to initialize CEF.");
+                        }
+                    }
+                    catch (InvalidOperationException e)
+                    {
+                        throw new AggregateException(
+                            $"SyncTrayzor was unable to initialize its embedded browser.\nWhen reporting this issue, please attach the CEF logfile @ \n{cefLogFile}\n in addition to this message and the normal SyncTrayzor logfile.",
+                            e);
+                    }
                 }
             }
 

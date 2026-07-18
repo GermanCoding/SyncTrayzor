@@ -1014,4 +1014,12 @@ Please donate to the syncthing project.</value>
     <value>[File Deleted]</value>
     <comment>When the base file for a conflict is not found, this placeholder is shown instead of the actual file name</comment>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor detected that another instance is currently running using the same configuration. Please stop any other SyncTrayzor instances, or restart your system to close them.</value>
+    <comment>Shown when the embedded browser cannot acquire exclusive access to its cache folder, because another SyncTrayzor instance is running in a different location.</comment>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Conflicting SyncTrayzor processes detected</value>
+    <comment>Title of the window when the ViewerView_CefCacheLocked message is displayed</comment>
+  </data>
 </root>
