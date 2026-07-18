@@ -273,9 +273,16 @@ namespace SyncTrayzor.Syncthing
             processRunner.KillAllSyncthingProcesses();
         }  
 
-        public Task ScanAsync(string folderId, string subPath)
+        public async Task ScanAsync(string folderId, string subPath)
         {
-            return apiClient.Value.ScanAsync(folderId, subPath);
+            try
+            {
+                await apiClient.Value.ScanAsync(folderId, subPath);
+            }
+            catch (Exception e) when (e is HttpRequestException or TaskCanceledException)
+            {
+                logger.Error(e, "Error scanning folder {folderId} with path {subPath}", folderId, subPath);
+            }
         }
 
         private void SetState(SyncthingState state)
