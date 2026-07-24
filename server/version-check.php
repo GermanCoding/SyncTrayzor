@@ -69,7 +69,7 @@ function get_with_wildcard($src, $value, $default = null)
 }
 
 $versions = [
-   '2.1.0' => [
+   '2.2.0' => [
       'base_url' => 'https://github.com/GermanCoding/SyncTrayzor/releases/download',
       'installed' => [
          'direct_download_url' => [
@@ -85,11 +85,12 @@ $versions = [
       ],     
       'sha512sum_download_url' => "{base_url}/v{version}/sha512sum.txt.asc",
       'release_page_url' => 'https://github.com/GermanCoding/SyncTrayzor/releases/tag/v{version}',
-      'release_notes' => "Reworked the tray activity popup to be draggable and resizable. Fixed minor bugs.",
+      'release_notes' => "Several bug fixes, dependency upgrades and improvements to the conflict finder and activity popup. See https://github.com/GermanCoding/SyncTrayzor/releases/tag/v2.2.0 for the full changelog.",
    ]
 ];
 
 $upgrades = [
+   '2.1.0' => ['to' => 'latest', 'formatter' => '5'],
    '2.0.4' => ['to' => 'latest', 'formatter' => '5'],
    '2.0.3' => ['to' => 'latest', 'formatter' => '5'],
    '2.0.2' => ['to' => 'latest', 'formatter' => '5'],
