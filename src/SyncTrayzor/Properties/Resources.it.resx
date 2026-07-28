@@ -903,4 +903,7 @@ Se viene visualizzato il messaggio "FATAL: Cannot open database", chiudere tutte
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>Disattiva completamente i messaggi a fumetto nel tab "Cartelle"</value>
   </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>Scegliere il file 'Originale' se la sua data 'Ultima Modifica' è più recente, o il conflitto che è stato creato più recentemente</value>
+  </data>
 </root>
