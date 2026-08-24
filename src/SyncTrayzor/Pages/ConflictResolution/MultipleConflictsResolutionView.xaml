@@ -23,7 +23,7 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Grid.Resources>
-                <Style TargetType="Button">
+                <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
                     <Setter Property="VerticalAlignment" Value="Top"/>
                     <Setter Property="Padding" Value="5,3"/>
                     <Setter Property="Margin" Value="0,0,0,5"/>

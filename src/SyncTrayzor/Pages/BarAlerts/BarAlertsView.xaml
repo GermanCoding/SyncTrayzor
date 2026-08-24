@@ -11,7 +11,7 @@
     <ItemsControl ItemsSource="{Binding Items}">
         <ItemsControl.ItemTemplate>
             <DataTemplate>
-                <Border BorderBrush="LightGray" BorderThickness="0,0,0,1"
+                <Border BorderBrush="{DynamicResource AppBorderBrush}" BorderThickness="0,0,0,1"
                         Background="{Binding Severity, Converter={x:Static local:AlertSeverityToBackgroundColorConverter.Instance}}">
                     <ContentControl Margin="8,5" s:View.Model="{Binding}"/>
                 </Border>
