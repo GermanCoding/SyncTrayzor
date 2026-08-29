@@ -1,5 +1,6 @@
 ﻿using SyncTrayzor.Utils;
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Collections.Generic;
 
@@ -13,7 +14,8 @@ namespace SyncTrayzor.Services
         FileStream Open(string path, FileMode fileMode, FileAccess fileAccess, FileShare fileShare);
         FileStream CreateAtomic(string path);
         FileStream OpenRead(string path);
-        void Copy(string from, string to);
+        void Copy(string from, string to, bool overwrite = false);
+        Version GetFileVersion(string path);
         void MoveFile(string from, string to);
         void CreateDirectory(string path);
         void DeleteFile(string path);
@@ -48,7 +50,13 @@ namespace SyncTrayzor.Services
 
         public FileStream OpenRead(string path) => File.OpenRead(path);
 
-        public void Copy(string from, string to) => File.Copy(from, to);
+        public void Copy(string from, string to, bool overwrite = false) => File.Copy(from, to, overwrite);
+
+        public Version GetFileVersion(string path)
+        {
+            var fileVersion = FileVersionInfo.GetVersionInfo(path).FileVersion?.Trim();
+            return Version.TryParse(fileVersion, out var version) ? version : null;
+        }
 
         public void MoveFile(string from, string to) => File.Move(from, to);
 

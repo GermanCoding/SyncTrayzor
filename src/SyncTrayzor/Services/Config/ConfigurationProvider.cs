@@ -116,7 +116,8 @@ namespace SyncTrayzor.Services.Config
             }
 
             // This is duplicated between here and ConfigurationApplicator, and it's ugly.
-            var expandedSyncthingPath = string.IsNullOrWhiteSpace(currentConfig.SyncthingCustomPath) ?
+            var usingDefaultSyncthingPath = string.IsNullOrWhiteSpace(currentConfig.SyncthingCustomPath);
+            var expandedSyncthingPath = usingDefaultSyncthingPath ?
                 paths.DefaultSyncthingPath :
                 pathTransformer.MakeAbsolute(currentConfig.SyncthingCustomPath);
 
@@ -134,6 +135,20 @@ namespace SyncTrayzor.Services.Config
 
                 filesystem.Copy(paths.SyncthingBackupPath, expandedSyncthingPath);
                 SyncthingInstalled = true;
+            }
+            else if (usingDefaultSyncthingPath &&
+                     !String.Equals(Path.GetFullPath(expandedSyncthingPath), Path.GetFullPath(paths.SyncthingBackupPath), StringComparison.OrdinalIgnoreCase) &&
+                     filesystem.FileExists(paths.SyncthingBackupPath))
+            {
+                var installedVersion = filesystem.GetFileVersion(expandedSyncthingPath);
+                var bundledVersion = filesystem.GetFileVersion(paths.SyncthingBackupPath);
+                if (installedVersion != null && bundledVersion != null && bundledVersion > installedVersion)
+                {
+                    logger.Info("Updating the default Syncthing binary at {Path} from {InstalledVersion} to bundled version {BundledVersion}",
+                        expandedSyncthingPath, installedVersion, bundledVersion);
+                    filesystem.Copy(paths.SyncthingBackupPath, expandedSyncthingPath, overwrite: true);
+                    SyncthingInstalled = true;
+                }
             }
 
             if (updateConfigInstallCount)
