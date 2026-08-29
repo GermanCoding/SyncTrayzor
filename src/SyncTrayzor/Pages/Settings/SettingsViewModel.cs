@@ -12,6 +12,7 @@ using System.Linq.Expressions;
 using System.Windows;
 using System.IO;
 using SyncTrayzor.Services.Metering;
+using SyncTrayzor.Services.Theming;
 
 namespace SyncTrayzor.Pages.Settings
 {
@@ -60,6 +61,8 @@ namespace SyncTrayzor.Pages.Settings
         public SettingItem<bool> ObfuscateDeviceIDs { get; }
         public SettingItem<bool> UseComputerCulture { get; }
         public SettingItem<bool> DisableHardwareRendering { get; }
+        public BindableCollection<LabelledValue<ApplicationTheme>> ApplicationThemes { get; }
+        public SettingItem<ApplicationTheme> Theme { get; }
         public SettingItem<bool> EnableConflictFileMonitoring { get; }
         public SettingItem<bool> EnableFailedTransferAlerts { get; }
 
@@ -135,6 +138,13 @@ namespace SyncTrayzor.Pages.Settings
             UseComputerCulture.RequiresSyncTrayzorRestart = true;
             DisableHardwareRendering = CreateBasicSettingItem(x => x.DisableHardwareRendering);
             DisableHardwareRendering.RequiresSyncTrayzorRestart = true;
+            ApplicationThemes = new BindableCollection<LabelledValue<ApplicationTheme>>()
+            {
+                LabelledValue.Create(Resources.SettingsView_Theme_System, ApplicationTheme.System),
+                LabelledValue.Create(Resources.SettingsView_Theme_Light, ApplicationTheme.Light),
+                LabelledValue.Create(Resources.SettingsView_Theme_Dark, ApplicationTheme.Dark),
+            };
+            Theme = CreateBasicSettingItem(x => x.Theme);
             EnableConflictFileMonitoring = CreateBasicSettingItem(x => x.EnableConflictFileMonitoring);
             EnableFailedTransferAlerts = CreateBasicSettingItem(x => x.EnableFailedTransferAlerts);
 
