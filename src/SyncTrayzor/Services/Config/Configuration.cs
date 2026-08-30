@@ -64,7 +64,6 @@ namespace SyncTrayzor.Services.Config
         public string SyncthingCustomPath { get; set; }
         public string SyncthingCustomHomePath { get; set; }
         public bool DisableHardwareRendering { get; set; }
-        public bool HideIntelXeWarningMessage { get; set; }
         public bool EnableFailedTransferAlerts { get; set; }
         public bool EnableConflictFileMonitoring { get; set; }
 
@@ -104,7 +103,6 @@ namespace SyncTrayzor.Services.Config
             SyncthingCustomPath = null;
             SyncthingCustomHomePath = null;
             DisableHardwareRendering = false;
-            HideIntelXeWarningMessage = false;
             EnableFailedTransferAlerts = true;
             EnableConflictFileMonitoring = true;
             ConflictResolverDeletesToRecycleBin = true;
@@ -146,7 +144,6 @@ namespace SyncTrayzor.Services.Config
             SyncthingCustomPath = other.SyncthingCustomPath;
             SyncthingCustomHomePath = other.SyncthingCustomHomePath;
             DisableHardwareRendering = other.DisableHardwareRendering;
-            HideIntelXeWarningMessage = other.HideIntelXeWarningMessage;
             EnableFailedTransferAlerts = other.EnableFailedTransferAlerts;
             EnableConflictFileMonitoring = other.EnableConflictFileMonitoring;
             ConflictResolverDeletesToRecycleBin = other.ConflictResolverDeletesToRecycleBin;
@@ -174,7 +171,7 @@ namespace SyncTrayzor.Services.Config
                 $"ObfuscateDeviceIDs={ObfuscateDeviceIDs} UseComputerCulture={UseComputerCulture} SyncthingConsoleHeight={SyncthingConsoleHeight} WindowPlacement={WindowPlacement} " +
                 $"SyncthingWebBrowserZoomLevel={SyncthingWebBrowserZoomLevel} LastSeenInstallCount={LastSeenInstallCount} SyncthingCustomPath={SyncthingCustomPath} " +
                 $"SyncthingCustomHomePath={SyncthingCustomHomePath} ShowSynchronizedBalloonEvenIfNothingDownloaded={ShowSynchronizedBalloonEvenIfNothingDownloaded} " +
-                $"DisableHardwareRendering={DisableHardwareRendering} HideIntelXeWarningMessage={HideIntelXeWarningMessage} EnableFailedTransferAlerts={EnableFailedTransferAlerts} " +
+                $"DisableHardwareRendering={DisableHardwareRendering} EnableFailedTransferAlerts={EnableFailedTransferAlerts} " +
                 $"EnableConflictFileMonitoring={EnableConflictFileMonitoring} " +
                 $"ConflictResolverDeletesToRecycleBin={ConflictResolverDeletesToRecycleBin} PauseDevicesOnMeteredNetworks={PauseDevicesOnMeteredNetworks} " +
                 $"HaveDonated={HaveDonated} IconAnimationMode={IconAnimationMode} OpenFolderCommand={OpenFolderCommand} ShowFileInFolderCommand={ShowFileInFolderCommand}" +

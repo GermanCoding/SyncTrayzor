@@ -121,13 +121,6 @@ Merci de faire un don au projet syncthing.</value>
     <value>Veuillez consulter l'interface de Syncthing ou la console pour plus d'information.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>La zone ci-dessous peut être vide lors de l'utilisation d'une carte graphique Intel Xe. Merci de désactiver le rendu matériel dans Fichiers -&gt; Paramètres, si vous rencontrez ce problème.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Rejeter</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>{0:p:L'appareil suivant a|Les appareils suivants ont} été mis en pause car le réseau auquel {0:p:il est connecté|ils sont connectés} n'est pas illimité : {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>

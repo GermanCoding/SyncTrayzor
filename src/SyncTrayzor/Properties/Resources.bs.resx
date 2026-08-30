@@ -786,12 +786,6 @@ Molimo donirajte Syncthing projektu.</value>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>Reskenuj sve foldere</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Područje ispod može biti prazno kada se koriste Intel Xe grafičke kartice. Molimo onemogućite hardversko renderiranje u Fajl -⁠&gt; Postavke ako naiđete na ovaj problem.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Odbaci</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Drži popup aktivnosti otvoren</value>
   </data>

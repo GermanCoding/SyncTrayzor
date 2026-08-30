@@ -121,13 +121,6 @@ Kérem, adakozzon a jótékonysági kampányomhoz.</value>
     <value>További adatok a Syncthing ablakban vagy konzolon.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Intel Xe monitorvezérlő használata esetén az alábbi terület üres lehet. Ilyen esetben tiltsa le a hardveres gyorsítást a Fájl -⁠&gt; Beállítások menüben.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Bezárás</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>A következő {0:p:eszköz leállt|eszközök leálltak}, mert forgalmi díjas hálózaton {0:p:üzemel|üzemelnek}: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>

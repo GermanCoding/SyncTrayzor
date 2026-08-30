@@ -121,13 +121,6 @@ Doe dan een donatie aan het syncthing-project.</value>
     <value>Zie de Syncthing-GUI of -console voor aanwijzingen.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Het gebied hieronder kan leeg zijn bij gebruik van een Intel Xe grafische kaart. Schakel hardware-rendering uit onder Bestand -&gt; Instellingen als u dit tegenkomt.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Verwerpen</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>{0:p:Het volgende apparaat is|De volgende apparaten zijn} gepauzeerd omdat {0:p:het verbonden is|ze verbonden zijn} via een verbinding met een datalimiet: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>

@@ -121,9 +121,6 @@
     <value>Смотрите интерфейс Syncthing или Консоль для информации.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Отклонить</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>{0:p:Устройство остановлено|Устройства остановлены} потому что {0:p:оно|они} подключены к платной сети: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
@@ -894,9 +891,6 @@ SyncTrayzor закрывается. Извините.</value>
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
     <value>Вы включили отслеживания файловой системы для одной или нескольких папок в Syncthing, и поэтому соответствующие отслеживания в SyncTrayzor были отключены.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>При использовании графических карт Intel Xe поле ниже может быть пустым. Пожалуйста, отключите аппаратный рендеринг в меню Файл -&gt; Настройки, если вы столкнетесь с этим.</value>
   </data>
   <data name="Generic_Dialog_OK" xml:space="preserve">
     <value>OK</value>

@@ -121,13 +121,6 @@ Wesprzyj finansowo projekt Syncthing.</value>
     <value>Podejrzyj konsolę albo wejdź na Syncthing GUI aby poszukać wskazówek.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Obszar poniżej może być pusty w przypadku korzystania z kart graficznych Intel Xe. Jeśli wystąpi taki problem, wyłącz renderowanie sprzętowe w menu Plik -&gt; Ustawienia.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Odrzuć</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>Następujące {0:p:urządzenie zostało|urządzenia zostały} zatrzymane ponieważ połączono ograniczonego połączenia: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>

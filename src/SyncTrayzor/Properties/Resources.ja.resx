@@ -121,13 +121,6 @@
     <value>手掛かりを探すには Syncthing GUI またはコンソールを確認してください。</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Intel Xe グラフィックス カードを使用している場合、下の領域が空白になることがあります。その場合は、[ファイル] -⁠&gt; [設定] からハードウェア レンダリングを無効にしてください。</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>閉じる</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>次の{0:p:デバイスは|デバイスは}、{0:p:それ|それら}が従量制課金接続のネットワークに接続されているため、一時停止されています: {0:list:{}|, }</value>
     <comment>{0}: List of paused devices</comment>

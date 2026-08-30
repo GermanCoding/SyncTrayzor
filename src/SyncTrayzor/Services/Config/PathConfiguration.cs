@@ -8,7 +8,7 @@ namespace SyncTrayzor.Services.Config
         public string LogFilePath { get; set; }
         public string ConfigurationFilePath { get; set; }
         public string ConfigurationFileBackupPath { get; set; }
-        public string CefCachePath { get; set; }
+        public string WebView2DataPath { get; set; }
         public string SyncthingPath { get; set; }
         public string SyncthingHomePath { get; set; }
 
@@ -17,7 +17,7 @@ namespace SyncTrayzor.Services.Config
             LogFilePath = @"logs";
             ConfigurationFilePath = @"data\config.xml";
             ConfigurationFileBackupPath = @"data\config-backups";
-            CefCachePath = @"data\cef\cache";
+            WebView2DataPath = @"data\webview2";
             SyncthingPath = @"data\syncthing.exe";
             SyncthingHomePath = @"data\syncthing";
         }

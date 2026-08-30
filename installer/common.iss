@@ -37,8 +37,8 @@ PrivilegesRequired=admin
 PrivilegesRequiredOverridesAllowed=dialog
 CloseApplications=yes
 RestartApplications=no
-; If we try and close CefSharp.BrowserSubprocess.exe we'll fail - it doesn't respond well
-; However if we close *just* SyncTrayzor, that will take care of shutting down CefSharp and syncthing
+; msedgewebview2.exe processes are shared with other applications and must not be closed by us
+; However if we close *just* SyncTrayzor, that will take care of shutting down WebView2 and syncthing
 CloseApplicationsFilter=SyncTrayzor.exe
 TouchDate=current
 WizardStyle=modern

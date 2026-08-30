@@ -638,12 +638,6 @@ Lütfen syncthing projesine bağış yapın.</value>
   <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
     <value>Syncthing Özel Yolu</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Intel Xe grafik kartları kullanılırken aşağıdaki alan boş olabilir. Lütfen bununla karşılaşırsanız Dosya -⁠&gt; Ayarlar altında donanım işlemeyi etkisizleştirin.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Vazgeç</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Etkinlik açılır penceresini açık tut</value>
   </data>
