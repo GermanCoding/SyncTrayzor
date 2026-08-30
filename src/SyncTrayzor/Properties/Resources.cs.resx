@@ -121,13 +121,6 @@ Přispějte prosím na mou charitativní kampaň.</value>
     <value>Prosím konzultujte Syncthing GUI nebo konzoli.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Oblast níže může být prázdná pokud používáte Intel Xe grafickou kartu. Prosím zakažte hardwarové vykreslování v "Soubor -&gt; Nastavení" pokud toto nastane.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Zrušit</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>Následující zařízení {0:p:je pozastaveno|jsou pozastavena}, protože {0:p:je připojeno k limitované síti|jsou připojena k limitovaným sítím} : {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>

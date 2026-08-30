@@ -920,12 +920,6 @@ Om "FATAL: Cannot open database" visas, stäng alla andra öppna instanser av Sy
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>Inaktivera ballongmeddelanden helt på fliken "Mappar"</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Området nedan kan vara tomt när du använder Intel Xe-grafikkort. Inaktivera hårdvarurendering under Arkiv -⁠&gt; Inställningar om du stöter på detta.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Avfärda</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Håll aktivitetspopupen öppen</value>
   </data>

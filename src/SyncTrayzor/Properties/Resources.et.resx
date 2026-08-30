@@ -334,9 +334,6 @@
   <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
     <value>Märkus:</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Loobu</value>
-  </data>
   <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
     <value>Sünkroonimine on lõppenud</value>
   </data>
@@ -797,8 +794,5 @@ Allpool on esitatud üksikasjad iga komponendi kohta ning vastavad litsentsiting
   </data>
   <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
     <value>Oled Syncthingis lülitanud sisse failisüsteemi jälgijad ühe või mitme kausta jaoks, mistõttu on vastavad jälgijad SyncTrayzoris on lülitatud välja.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Kui sinu arvutis on kasutusel Intel Xe graafikakaart, siis alljärgnev võib jääda tühjaks. Kui nii juhtub, siis palun lülita raudvaraline esitusvalmendus välja valikust „Fail“ → „Seadistused“.</value>
   </data>
 </root>

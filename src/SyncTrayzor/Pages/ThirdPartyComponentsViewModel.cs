@@ -55,21 +55,12 @@ namespace SyncTrayzor.Pages
                 },
                 new ThirdPartyComponent()
                 {
-                    Name = "CEF",
-                    Description = "Simple framework for embedding Chromium-based browsers in other applications",
-                    Homepage = "https://code.google.com/p/chromiumembedded",
-                    License = "Modified BSD License",
-                    Notes = "Browser component - used to display Syncthing UI",
-                    LicenseText = LoadLicense("CEF.txt")
-                },
-                new ThirdPartyComponent()
-                {
-                    Name = "CefSharp",
-                    Description = ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework",
-                    Homepage = "https://github.com/cefsharp/CefSharp",
+                    Name = "WebView2",
+                    Description = "Microsoft Edge WebView2 SDK, for embedding web content in native applications",
+                    Homepage = "https://developer.microsoft.com/microsoft-edge/webview2/",
                     License = "New BSD License",
-                    Notes = "WPF adapter for CEF",
-                    LicenseText = LoadLicense("CefSharp.txt")
+                    Notes = "Browser component - used to display Syncthing UI",
+                    LicenseText = LoadLicense("WebView2.txt")
                 },
                 new ThirdPartyComponent()
                 {

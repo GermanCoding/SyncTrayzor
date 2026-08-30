@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- Replace the embedded CefSharp/CEF browser with Microsoft Edge WebView2. The Syncthing UI is now rendered by
+  a real child window with GPU compositing, instead of being rasterised on the CPU and copied into a WPF
+  bitmap every frame, which makes scrolling and interaction dramatically smoother. This also removes roughly
+  150MB of CEF binaries from the distribution.
+- The embedded browser's data now lives in `data\webview2` (portable) or
+  `%LOCALAPPDATA%\SyncTrayzor\webview2` (installed). The old `cef\cache` folder can be deleted.
+
+### Removed
+
+- The Intel Xe graphics warning, and the CEF cache lockfile check that refused to start when a second
+  SyncTrayzor instance was running. Neither applies to WebView2. The "disable hardware rendering" setting
+  remains, and still applies to SyncTrayzor's own WPF interface.
+
+### Requirements
+
+- SyncTrayzor now requires the Microsoft Edge WebView2 Runtime. This ships with Windows 11 and is delivered to
+  Windows 10 via Microsoft Edge, so it is present on essentially all supported systems. If it is missing,
+  SyncTrayzor offers a link to the download page and continues to run Syncthing normally.
+
 ## [2.2.0] - 2026-07-18
 
 ### Added

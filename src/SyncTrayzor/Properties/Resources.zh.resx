@@ -121,13 +121,6 @@
     <value>请查看 Syncthing GUI 或控制台以获取线索。</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>使用 Intel Xe 显卡时，下方区域可能显示为空白。如果遇到这种情况，请在“文件”-⁠&gt;“设置”中禁用硬件渲染。</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>关闭</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>以下设备因使用按流量计费的网络连接已被暂停：{0:list:{}|、}。</value>
     <comment>{0}: List of paused devices</comment>

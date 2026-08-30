@@ -228,8 +228,8 @@ namespace SyncTrayzor
 
             RecycleBinDeleter.Logger = s => LogManager.GetLogger(typeof(RecycleBinDeleter).FullName).Error(s);
 
-            // Workaround for Intel Xe processors, which mess up CefSharp unless we disable hardware
-            // rendering for WPF. See #606.
+            // Escape hatch for machines whose drivers don't get on with WPF's hardware rendering. This no
+            // longer affects the embedded browser: WebView2 renders in its own process and is unaffected.
             if (configuration.DisableHardwareRendering)
             {
                 RenderOptions.ProcessRenderMode = RenderMode.SoftwareOnly;

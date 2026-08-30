@@ -923,12 +923,6 @@ SyncTrayzor ще трябва да се затвори.Извинявайте з
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>Повторно сканиране на всички папки</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Областта по-долу може да е празна при използване на Intel Xe графични карти.Моля, изключете хардуерното изобразяване от Файл -&gt; Настройки, ако срещнете този проблем.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Затвори</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Дръж изскачащия прозорец за активност отворен</value>
   </data>

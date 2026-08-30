@@ -786,12 +786,6 @@ Silakan donasi untuk proyek Syncthing.</value>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>Pindai Ulang Semua Folder</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Area di bawah mungkin kosong saat menggunakan kartu grafis Intel Xe. Harap nonaktifkan rendering perangkat keras melalui File -⁠&gt; Pengaturan jika Anda mengalami hal ini.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Tutup</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Biarkan popup aktivitas tetap terbuka</value>
   </data>

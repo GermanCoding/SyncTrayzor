@@ -12,7 +12,7 @@ namespace SyncTrayzor.Services.Config
         string ConfigurationFileBackupPath { get; }
         string UpdatesDownloadPath { get; }
         string InstallCountFilePath { get; }
-        string CefCachePath { get; }
+        string WebView2DataPath { get; }
         string DefaultSyncthingPath { get; }
         string DefaultSyncthingHomePath { get; }
 
@@ -31,7 +31,7 @@ namespace SyncTrayzor.Services.Config
         public string SyncthingBackupPath { get; private set; }
         public string ConfigurationFilePath { get; private set; }
         public string ConfigurationFileBackupPath { get; private set; }
-        public string CefCachePath { get; private set; }
+        public string WebView2DataPath { get; private set; }
         public string UpdatesDownloadPath { get; private set; }
         public string InstallCountFilePath { get; private set; }
         public string DefaultSyncthingPath { get; private set; }
@@ -54,7 +54,7 @@ namespace SyncTrayzor.Services.Config
             SyncthingBackupPath = pathTransformer.MakeAbsolute("syncthing.exe");
             ConfigurationFilePath = pathTransformer.MakeAbsolute(pathConfiguration.ConfigurationFilePath);
             ConfigurationFileBackupPath = pathTransformer.MakeAbsolute(pathConfiguration.ConfigurationFileBackupPath);
-            CefCachePath = pathTransformer.MakeAbsolute(pathConfiguration.CefCachePath);
+            WebView2DataPath = pathTransformer.MakeAbsolute(pathConfiguration.WebView2DataPath);
             UpdatesDownloadPath = Path.Combine(Path.GetTempPath(), "SyncTrayzor");
             InstallCountFilePath = pathTransformer.MakeAbsolute("InstallCount.txt");
             DefaultSyncthingPath = String.IsNullOrWhiteSpace(pathConfiguration.SyncthingPath) ?
@@ -69,7 +69,7 @@ namespace SyncTrayzor.Services.Config
             logger.Debug("SyncthingBackupPath: {0}", SyncthingBackupPath);
             logger.Debug("ConfigurationFilePath: {0}", ConfigurationFilePath);
             logger.Debug("ConfigurationFileBackupPath: {0}", ConfigurationFileBackupPath);
-            logger.Debug("CefCachePath: {0}", CefCachePath);
+            logger.Debug("WebView2DataPath: {0}", WebView2DataPath);
             logger.Debug("DefaultSyncthingPath: {0}", DefaultSyncthingPath);
             logger.Debug("DefaultSyncthingHomePath: {0}", DefaultSyncthingHomePath);
         }

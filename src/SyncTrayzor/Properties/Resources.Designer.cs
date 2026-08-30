@@ -206,24 +206,6 @@ namespace SyncTrayzor.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The area below may be blank when using Intel Xe graphics cards. Please disable hardware rendering under File -⁠&gt; Settings if you encounter this..
-        /// </summary>
-        public static string BarAlertsView_IntelXeGraphics_AlertText {
-            get {
-                return ResourceManager.GetString("BarAlertsView_IntelXeGraphics_AlertText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Dismiss.
-        /// </summary>
-        public static string BarAlertsView_IntelXeGraphics_DismissLink {
-            get {
-                return ResourceManager.GetString("BarAlertsView_IntelXeGraphics_DismissLink", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to The following {0:p:device has|devices have} been paused because {0:p:it|they} connected using a metered network: {0:list:{}|, }..
         /// </summary>
         public static string BarAlertsView_PausedDevicesFromMetering_AlertText {
@@ -2219,6 +2201,46 @@ namespace SyncTrayzor.Properties {
         public static string ViewerView_SyncthingStopped {
             get {
                 return ResourceManager.GetString("ViewerView_SyncthingStopped", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to SyncTrayzor needs the Microsoft Edge WebView2 Runtime to display Syncthing&apos;s web interface, but it doesn&apos;t appear to be installed. Syncthing itself will keep running normally.
+        ///
+        ///Would you like to open the download page?.
+        /// </summary>
+        public static string ViewerView_WebView2RuntimeMissing {
+            get {
+                return ResourceManager.GetString("ViewerView_WebView2RuntimeMissing", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to WebView2 Runtime not installed.
+        /// </summary>
+        public static string ViewerView_WebView2RuntimeMissing_Title {
+            get {
+                return ResourceManager.GetString("ViewerView_WebView2RuntimeMissing_Title", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to SyncTrayzor was unable to start its embedded browser, so Syncthing&apos;s web interface cannot be displayed. Syncthing itself will keep running normally.
+        ///
+        ///The error was: {0}.
+        /// </summary>
+        public static string ViewerView_BrowserInitializationFailed {
+            get {
+                return ResourceManager.GetString("ViewerView_BrowserInitializationFailed", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Unable to start the embedded browser.
+        /// </summary>
+        public static string ViewerView_BrowserInitializationFailed_Title {
+            get {
+                return ResourceManager.GetString("ViewerView_BrowserInitializationFailed_Title", resourceCulture);
             }
         }
     }

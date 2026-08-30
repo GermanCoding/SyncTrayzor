@@ -786,12 +786,6 @@ Xahiş edirəm, mənim xeyriyyə vəsait toplama kampaniyama ianə edin.</value>
   <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
     <value>Bütün Qovluqları Təzədən Skan Et</value>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>Intel Xe qrafik kartlarından istifadə edərkən aşağıdakı sahə boş ola bilər. Bu problemə rast gəlsəniz, Zəhmət olmasa Fayl -&gt; Parametrlər altında aparat təsvirini deaktiv edin.</value>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Rədd et</value>
-  </data>
   <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
     <value>Fəaliyyət bildirişini açıq saxla (bağlamaq üçün bildiriş üzərində sağ klik edin)</value>
   </data>

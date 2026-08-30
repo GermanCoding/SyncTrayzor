@@ -121,13 +121,6 @@ Por favor, doe para minha campanha de angariação de fundos de caridade.</value
     <value>Por favor veja a GUI do Syncthing ou o Console para mais dicas.</value>
     <comment>Text shown to the right of BarAlertsView_FailedTransfer_AlertText, in non-bold text</comment>
   </data>
-  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
-    <value>A área abaixo pode estar vazia se a placa gráfica Intel Xe estiver em uso. Por favor desabilite a renderização por harware em Arquivo -&gt; Configurações caso passe por isso.</value>
-    <comment>Warning shown at the top of a page if Intel Xe graphics are detected</comment>
-  </data>
-  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
-    <value>Dispensar</value>
-  </data>
   <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
     <value>{0:p:O dispositivo a seguir foi pausado|Os dispositivos a seguir foram pausados} porque se {0:p:se conectou|conectaram} usando uma rede com limite de dados: {0:list:{}|, }.</value>
     <comment>{0}: List of paused devices</comment>
