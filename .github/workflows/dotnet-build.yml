@@ -55,7 +55,7 @@ jobs:
   release:
     if: github.ref_type == 'tag'
     needs: build
-    runs-on: windows-2022
+    runs-on: windows-2025
     permissions:
       contents: write
       discussions: write
