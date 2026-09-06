@@ -6,8 +6,14 @@ $ErrorActionPreference = "Stop"
 $outdir = "syncthing"
 
 if (Test-Path "$outdir/syncthing.exe") {
-    Write-Host "Syncthing already downloaded in $outdir. Skipping download."
-    exit 0
+    $versionOutput = & "$outdir/syncthing.exe" version 2>$null | Select-Object -First 1
+    $currentVersion = ($versionOutput -split '\s+')[1]
+    if ($currentVersion -eq $Version) {
+        Write-Host "Syncthing $Version already downloaded in $outdir. Skipping download."
+        exit 0
+    }
+
+    Write-Host "Found Syncthing $currentVersion in $outdir; replacing it with $Version."
 }
 
 . "$PSScriptRoot\helpers\get-arch.ps1"
@@ -39,7 +45,7 @@ Expand-Archive -Path $zipPath -DestinationPath $outdir -Force
 # Optionally move binaries up from the nested folder
 $extractedRoot = Join-Path $outdir "syncthing-windows-$arch-$Version"
 if (Test-Path $extractedRoot) {
-    Move-Item -Path (Join-Path $extractedRoot '*') -Destination $outdir -Force
+    Copy-Item -Path (Join-Path $extractedRoot '*') -Destination $outdir -Recurse -Force
     Remove-Item $extractedRoot -Recurse -Force
 }
 
