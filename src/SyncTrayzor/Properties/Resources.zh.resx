@@ -946,4 +946,10 @@ SyncTrayzor 将不得不关闭。很抱歉</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>保持活动弹窗置顶显示</value>
   </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>检测到冲突的 SyncTrayzor 进程</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor 检测到另一个实例当前正在使用相同的配置运行。请停止任何其他 SyncTrayzor 实例，或重启系统以将其关闭。</value>
+  </data>
 </root>

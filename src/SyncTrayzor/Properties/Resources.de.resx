@@ -939,4 +939,10 @@ SyncTrayzor wird nun geschlossen. Entschuldigung</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Aktivitäten-Popup im Vordergrund halten</value>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor hat festgestellt, dass derzeit eine weitere Instanz mit derselben Konfiguration ausgeführt wird. Bitte alle anderen SyncTrayzor-Instanzen beenden oder das System neu starten, um sie zu schließen.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>SyncTrayzor-Prozesse mit Konflikten erkannt</value>
+  </data>
 </root>
