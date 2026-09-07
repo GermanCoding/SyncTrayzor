@@ -160,6 +160,10 @@ namespace SyncTrayzor.Pages
                     settings.CefCommandLineArgs.Add("disable-cache", "1");
                     settings.CefCommandLineArgs.Add("disable-extensions", "1");
 
+                    // SyncTrayzor hosts a single trusted local page. Chromium otherwise keeps a spare renderer
+                    // around, which adds roughly 50 MiB of idle memory without benefiting this single-view app.
+                    settings.CefCommandLineArgs.Add("renderer-process-limit", "1");
+
                     if (configuration.DisableHardwareRendering)
                     {
                         settings.CefCommandLineArgs.Add("disable-gpu");
