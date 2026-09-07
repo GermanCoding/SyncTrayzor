@@ -250,6 +250,18 @@
     <value>SyncTrayzor</value>
     <comment>Section header for settings to do with configuring SyncTrayzor</comment>
   </data>
+  <data name="SettingsView_Theme" xml:space="preserve">
+    <value>Theme:</value>
+  </data>
+  <data name="SettingsView_Theme_System" xml:space="preserve">
+    <value>Use system setting</value>
+  </data>
+  <data name="SettingsView_Theme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="SettingsView_Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
   <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Start Minimized</value>
     <comment>Setting allowing the user to specify that, when SyncTrayzor is started automatically on login, it should start in the tray, rather than being visible to the user</comment>

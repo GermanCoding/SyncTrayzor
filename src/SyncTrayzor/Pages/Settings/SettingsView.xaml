@@ -20,7 +20,7 @@
     </i:Interaction.Behaviors>
     <Window.Resources>
         <s:BoolToVisibilityConverter x:Key="InverseVisibilityConverter" TrueVisibility="Collapsed" FalseVisibility="Visible"/>
-        <Style TargetType="CheckBox">
+        <Style TargetType="CheckBox" BasedOn="{StaticResource {x:Type CheckBox}}">
             <Setter Property="ContentTemplate">
                 <Setter.Value>
                     <DataTemplate>
@@ -38,7 +38,7 @@
 
         <TabControl Background="Transparent" BorderThickness="0,1,0,0" SelectedIndex="{Binding SelectedTabIndex}">
             <TabControl.Resources>
-                <Style TargetType="GroupBox">
+                <Style TargetType="GroupBox" BasedOn="{StaticResource {x:Type GroupBox}}">
                     <Setter Property="Padding" Value="5"/>
                     <Setter Property="Margin" Value="0,5,0,5"/>
                 </Style>
@@ -55,6 +55,12 @@
                                 <CheckBox DockPanel.Dock="Top" IsChecked="{Binding CloseToTray.Value}" Content="{l:Loc SettingsView_CloseToTray}"/>
                                 <CheckBox DockPanel.Dock="Top" IsChecked="{Binding NotifyOfNewVersions.Value}" Content="{l:Loc SettingsView_AlertOnNewVersion}"/>
                                 <CheckBox DockPanel.Dock="Top" IsChecked="{Binding ObfuscateDeviceIDs.Value}" Content="{l:Loc SettingsView_ObfuscateDeviceIds}"/>
+                                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,2,0,4">
+                                    <Label Padding="0,0,8,0" Target="{Binding ElementName=ThemeSelect}" VerticalAlignment="Center"
+                                           Content="{l:Loc SettingsView_Theme}"/>
+                                    <ComboBox x:Name="ThemeSelect" MinWidth="140" ItemsSource="{Binding ApplicationThemes}"
+                                              SelectedValuePath="Value" SelectedValue="{Binding Theme.Value}"/>
+                                </StackPanel>
                                 <CheckBox DockPanel.Dock="Top" IsChecked="{Binding UseComputerCulture.Value}"
                                             Content="{l:Loc SettingsView_UseComputerCulture}"/>
                                 <CheckBox DockPanel.Dock="Top" IsChecked="{Binding DisableHardwareRendering.Value}"

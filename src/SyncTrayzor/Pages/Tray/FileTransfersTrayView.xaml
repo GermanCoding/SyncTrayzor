@@ -14,7 +14,7 @@
              d:DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=FileTransfersTrayViewModel}">
     <UserControl.Resources>
         <Style x:Key="SectionTitleStyle" TargetType="TextBlock">
-            <Setter Property="Foreground" Value="DimGray"/>
+            <Setter Property="Foreground" Value="{DynamicResource AppMutedForegroundBrush}"/>
             <Setter Property="Margin" Value="5,3,0,3"/>
             <Setter Property="FontSize" Value="14"/>
         </Style>
@@ -25,12 +25,12 @@
         </Style>
         <Style x:Key="ItemBorderStyle" TargetType="Border">
             <Setter Property="BorderThickness" Value="0,0,0,1"/>
-            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource AppBorderBrush}"/>
         </Style>
     </UserControl.Resources>
-    <Border CornerRadius="6" BorderThickness="0" Background="White">
+    <Border CornerRadius="6" BorderThickness="0" Background="{DynamicResource AppBackgroundBrush}">
         <DockPanel>
-            <Border DockPanel.Dock="Top" BorderBrush="Gray" BorderThickness="0,0,0,1">
+            <Border DockPanel.Dock="Top" BorderBrush="{DynamicResource AppBorderBrush}" BorderThickness="0,0,0,1">
                 <StackPanel Margin="5,8,5,8" Orientation="Horizontal">
                     <StackPanel Margin="0,0,10,0" Orientation="Horizontal" Visibility="{Binding InConnectionRate, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
                         <Line X2="10" Stroke="Red" StrokeThickness="2" VerticalAlignment="Center" />
@@ -54,7 +54,7 @@
 
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <DockPanel LastChildFill="False">
-                        <Border DockPanel.Dock="Top" BorderBrush="LightGray" BorderThickness="0,0,0,1"
+                        <Border DockPanel.Dock="Top" BorderBrush="{DynamicResource AppBorderBrush}" BorderThickness="0,0,0,1"
                             Visibility="{Binding HasInProgressTransfers, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
                             <TextBlock Style="{StaticResource SectionTitleStyle}" Text="{l:Loc FileTranfersTrayView_Header_Downloading}"/>
                         </Border>
@@ -66,7 +66,7 @@
                                             <Image DockPanel.Dock="Left" Style="{StaticResource IconStyle}"
                                                Source="{Binding Icon}"/>
                                             <TextBlock DockPanel.Dock="Top" Text="{Binding Path}" TextTrimming="CharacterEllipsis"/>
-                                            <TextBlock DockPanel.Dock="Top" Foreground="DimGray" Text="{Binding ProgressString}"/>
+                                            <TextBlock DockPanel.Dock="Top" Foreground="{DynamicResource AppMutedForegroundBrush}" Text="{Binding ProgressString}"/>
                                             <ProgressBar DockPanel.Dock="Top" Margin="0,4,0,0" Minimum="0" Maximum="100" Height="10"
                                                          Value="{Binding ProgressPercent, Mode=OneWay}"/>
                                         </DockPanel>
@@ -75,7 +75,7 @@
                             </ItemsControl.ItemTemplate>
                         </ItemsControl>
 
-                        <Border DockPanel.Dock="Top" BorderBrush="LightGray" BorderThickness="0,0,0,1"
+                        <Border DockPanel.Dock="Top" BorderBrush="{DynamicResource AppBorderBrush}" BorderThickness="0,0,0,1"
                             Visibility="{Binding HasCompletedTransfers, Converter={x:Static s:BoolToVisibilityConverter.Instance}}">
                             <TextBlock Style="{StaticResource SectionTitleStyle}" Text="{l:Loc FileTransfersTrayView_Header_RecentlyUpdated}"/>
                         </Border>
@@ -103,7 +103,7 @@
                                                                 <Condition Binding="{Binding WasDeleted}" Value="False"/>
                                                             </MultiDataTrigger.Conditions>
                                                             <MultiDataTrigger.Setters>
-                                                                <Setter Property="Background" Value="#F5F9FF"/>
+                                                                <Setter Property="Background" Value="{DynamicResource AppHoverBrush}"/>
                                                                 <Setter Property="Cursor" Value="Hand"/>
                                                             </MultiDataTrigger.Setters>
                                                         </MultiDataTrigger>
@@ -135,12 +135,12 @@
                                                     </TextBlock.ToolTip>
                                                 </TextBlock>
                                                 <StackPanel DockPanel.Dock="Top" Orientation="Horizontal">
-                                                    <TextBlock Foreground="DimGray" Text="{Binding CompletedTimeAgo}">
+                                                    <TextBlock Foreground="{DynamicResource AppMutedForegroundBrush}" Text="{Binding CompletedTimeAgo}">
                                                         <TextBlock.ToolTip>
                                                             <TextBlock Text="{xaml:CultureAwareBinding Completed, StringFormat={}{0:g}}"/>
                                                         </TextBlock.ToolTip>
                                                     </TextBlock>
-                                                    <TextBlock Foreground="DimGray" Margin="5,0,0,0" Text="{l:Loc FileTransfersTrayView_Deleted}"
+                                                    <TextBlock Foreground="{DynamicResource AppMutedForegroundBrush}" Margin="5,0,0,0" Text="{l:Loc FileTransfersTrayView_Deleted}"
                                                                Visibility="{Binding WasDeleted, Converter={x:Static s:BoolToVisibilityConverter.Instance}}"/>
                                                 </StackPanel>
                                             </DockPanel>

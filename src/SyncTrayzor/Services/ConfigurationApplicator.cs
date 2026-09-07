@@ -7,6 +7,7 @@ using System;
 using System.Linq;
 using SyncTrayzor.Services.Metering;
 using System.Collections.Generic;
+using SyncTrayzor.Services.Theming;
 
 namespace SyncTrayzor.Services
 {
@@ -24,6 +25,7 @@ namespace SyncTrayzor.Services
         private readonly IAlertsManager alertsManager;
         private readonly IMeteredNetworkManager meteredNetworkManager;
         private readonly IPathTransformer pathTransformer;
+        private readonly IThemeManager themeManager;
 
         public ConfigurationApplicator(
             IConfigurationProvider configurationProvider,
@@ -36,7 +38,8 @@ namespace SyncTrayzor.Services
             IConflictFileWatcher conflictFileWatcher,
             IAlertsManager alertsManager,
             IMeteredNetworkManager meteredNetworkManager,
-            IPathTransformer pathTransformer)
+            IPathTransformer pathTransformer,
+            IThemeManager themeManager)
         {
             this.configurationProvider = configurationProvider;
             this.configurationProvider.ConfigurationChanged += ConfigurationChanged;
@@ -51,6 +54,7 @@ namespace SyncTrayzor.Services
             this.alertsManager = alertsManager;
             this.meteredNetworkManager = meteredNetworkManager;
             this.pathTransformer = pathTransformer;
+            this.themeManager = themeManager;
 
             this.syncthingManager.Folders.FoldersChanged += FoldersChanged;
             this.updateManager.VersionIgnored += VersionIgnored;
@@ -116,6 +120,8 @@ namespace SyncTrayzor.Services
 
             alertsManager.EnableConflictedFileAlerts = configuration.EnableConflictFileMonitoring;
             alertsManager.EnableFailedTransferAlerts = configuration.EnableFailedTransferAlerts;
+
+            themeManager.Apply(configuration.Theme);
 
             SetLogLevel(configuration);
         }
