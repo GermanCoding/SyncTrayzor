@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,753 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>Автор: Antony Male.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>Відкрити сторінку завантаження</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>Доступна нова версія: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>Випущено за ліцензією MIT.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>Показати ліцензії відкритого ПЗ</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>Версія Syncthing: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>Версія: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>Довідка</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>Завершити всі процеси Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>Відкрити у зовнішньому браузері</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>Оновити браузер</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>Запустити</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>Зупинити</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>Більше не нагадувати</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>Відкрити сторінку завантаження</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>Нагадати пізніше</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>Журнал змін:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>«Більше не нагадувати» вимкне нагадування для цієї версії. Ви можете назавжди вимкнути сповіщення про нові версії на сторінці «Налаштування». Перейдіть у «Довідка» -&gt; «Про програму», щоб перевірити наявність нових версій вручну.</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>Доступна версія SyncTrayzor {0}!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>Доступне оновлення SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>Сповіщати про наявність нової версії SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>Закривати в область сповіщень</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>Згортати в область сповіщень</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>Приховувати ідентифікатори пристроїв у журналі</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>Показувати значок у лотку лише під час закриття</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>Додатково</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>Запуск під час входу</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>Запускати згорнутим</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>Автоматично запускати під час входу</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>У доступі відмовлено. Будь ласка, запустіть SyncTrayzor від імені адміністратора, щоб змінити ці налаштування.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>Запускати Syncthing під час запуску SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>Адреса прослуховування вебінтерфейсу:</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor замінює «Адресу прослуховування вебінтерфейсу», вказану в налаштуваннях Syncthing. Однак тут ви можете встановити для неї будь-яке значення.</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>Змінні середовища Syncthing:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>Відстеження: Папка відстежуватиметься на предмет змін, що дозволяє встановити більший інтервал опитування в Syncthing.
+
+Сповіщення: Ви отримуватимете спливаючі повідомлення «Синхронізовано» під час оновлення файлів у цій папці.</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>Папки недоступні. Будь ласка, запустіть Syncthing</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>Невідомо</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>Ви впевнені, що хочете завершити всі процеси Syncthing, навіть ті, якими не керує SyncTrayzor?
+
+Це створює ризик пошкодження бази даних Syncthing. РОБІТЬ ЦЕ ЛИШЕ в тому випадку, якщо ви не можете запустити Syncthing, оскільки зараз виконується інший процес Syncthing.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>Ви впевнені?</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>Не вдалося запустити Syncthing.
+
+Будь ласка, прочитайте журнал, щоб визначити причину.
+
+Якщо з’явиться повідомлення «FATAL: Cannot open database», закрийте всі інші відкриті екземпляри Syncthing. Якщо робота SyncTrayzor попередньо завершилася збоєм, можуть залишитися завислі («зомбі») процеси Syncthing. Будь ласка, скористайтеся опцією меню «Syncthing -&gt; Завершити всі процеси Syncthing», щоб зупинити їх, а потім скористайтеся «Syncthing -&gt; Запустити», щоб знову запустити Syncthing.</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>Не вдалося запустити Syncthing</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>Не вдалося запустити Syncthing: {0}
+
+Це може бути пов'язано з тим, що Windows налаштовано на заборону виконання файлів у папці AppData, або через встановлене антивірусне програмне забезпечення (наприклад, CryptoPrevent), яке забороняє виконання файлів в AppData.
+
+Будь ласка, змініть свої налаштування / білі списки, щоб дозволити виконання «{1}»</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>Помилка запуску Syncthing</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>Повинно мати формат «хост:порт», наприклад, «localhost:8384»</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>Не повинно бути порожнім</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>Опис:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>Домашня сторінка:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>Ліцензія:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>Текст ліцензії:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>Назва:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>Примітки:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor створено з використанням багатьох компонентів із відкритим вихідним кодом і не міг би існувати без них.
+Деталі про кожен компонент та текст його ліцензії наведено нижче.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>Сторонні компоненти</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: Синхронізацію завершено</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>Синхронізацію завершено</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>Закрити в лоток</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>Вийти</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>Відкрити SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>Запустити Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>Зупинити Syncthing</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>Ой! Щось пішло зовсім не так.
+SyncTrayzor доведеться закрити. Вибачте за це</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>Вас можуть попросити надати файл журналу.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>і додайте таку інформацію:</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>Будь ласка, створіть звіт про помилку (issue) на</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>Помилка!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Запуск Syncthing...</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing зупинено</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>Переклад українською</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>Значок у лотку</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>Показувати спливаючі повідомлення «Пристрій підключено/відключено»</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} підключено</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>Пристрій підключено</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} відключено</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>Пристрій відключено</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>Перезапустити</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>Перезапустити Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>Зупинити автоматичне оновлення Syncthing</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>Заборонити Syncthing оновлюватися автоматично. Це корисно, якщо нова версія Syncthing порушує сумісність із SyncTrayzor. Вам потрібно буде вручну знизити версію файлу syncthing.exe у папці конфігурації SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>Відкрити папку</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>Відкрити папку</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>Запустити Syncthing</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>Використовувати мову мого комп’ютера, де це можливо</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>Вигляд</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>Консоль Syncthing</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>Встановити зараз</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>Переглянути журнал змін</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>Масштаб браузера</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>Збільшити</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>Зменшити</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>Скинути</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>Повинно мати формат «VAR=значення» або «VAR="зн1 зн2"»</value>
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
+    <value>Версія SyncTrayzor {0} успішно встановлена.</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor оновлено</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+    <value>Не вдалося запустити Syncthing: {0}. Будь ласка, перегляньте вивід консолі Syncthing для пошуку причин.</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Syncthing не запустився належним чином</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>Копіювати</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>Вирізати</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>Вставити</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>Завантаження</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(видалено)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>Завантаження {0}/{1}</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>Нещодавно оновлені</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>Вхід.: {0}/с</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>Немає нещодавніх завантажень файлів</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>Вихід.: {0}/с</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 день|{} дні(в)} тому</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 годину|{} год.} тому</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>Щойно</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 хвилину|{} хв.} тому</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 рік|{} роки(ів)} тому</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>Завантаження {0}/{1} ({2}/с)</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>Помилка: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>Папка: {0}
+Повний шлях: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>Видалено {0:p:1 файл|{} файли(ів)}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: Видалено {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: Оновлено {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>Оновлено {0:p:1 файл|{} файли(ів)}</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>Показувати спливаючі повідомлення «Синхронізовано», навіть якщо жоден файл не було оновлено</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>Вимкнути апаратний рендеринг</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>Вам потрібно перезапустити Syncthing, щоб ці налаштування набули чинності.
+
+Бажаєте перезапустити Syncthing зараз?</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Перезапустити Syncthing?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>Вам потрібно перезапустити SyncTrayzor, щоб ці налаштування набули чинності.
+
+Бажаєте перезапустити SyncTrayzor зараз?</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>Перезапустити SyncTrayzor?</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>Сповіщення</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>Відстежується</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+    <value>Ви не можете вказувати прапорець {0}</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+    <value>Прапорці командного рядка повинні починатися з «-»</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+    <value>Повинно мати формат «-прапорець», «-прапорець=значення» або «-прапорець="значення з пробілами"»</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>Пріоритет процесу Syncthing:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>Вище за середній</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>Нижче за середній</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>Низький</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>Середній</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>Видалено {0:p:1 файл|{} файли(ів)} ({1:p:1 помилка|{} помилки(ок)})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: Не вдалося видалити {1} ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: Не вдалося оновити {1} ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>Оновлено {0:p:1 файл|{} файли(ів)} ({1:p:1 помилка|{} помилки(ок)})</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>Очистити</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>Призупинити</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>Консоль Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>Журналювання</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>Ви можете знайти файл журналу SyncTrayzor тут.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>Показати файл журналу Syncthing</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>Показати файл журналу SyncTrayzor</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>Конфлікт створено</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>Ім’я конфліктного файлу</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>Остання зміна</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>Оригінальний файл</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>Змінено</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>Скасувати</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>Сканування...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>Конфліктів не знайдено. Чудово!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>Конфліктів не знайдено (поки що)...</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing не запущено. Будь ласка, запустіть Syncthing.</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>Вирішення конфліктів</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>Вирішення конфліктів</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>Не вдалося вирішити цей конфлікт: {0}</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>Помилка операції</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>У вас {0:p:1 конфліктний файл|{} конфліктні(их) файли(ів)}.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>Вирішити зараз.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>Сповіщати мене про конфліктні файли</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+    <value>У {0:p:такій папці|таких папках} є невдалі передавання файлів: {0:list:{}|, }.</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+    <value>Будь ласка, перегляньте вебінтерфейс або консоль Syncthing для пошуку причин.</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>Сповіщення відображаються на панелі вгорі SyncTrayzor, а на значку в лотку з’являється попереджувальний трикутник.</value>
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+    <value>Сповіщати про невдалі передавання файлів</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>Сповіщення</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>Показати в папці</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>Пожертвувати зараз</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>SyncTrayzor став вам у пригоді?
+Будь ласка, підтримайте проєкт Syncthing фінансово.</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>Переміщувати видалені файли до кошика, а не видаляти назавжди</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>Розмір</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>Будь ласка, виберіть версію файлу, яку ви хочете залишити. Інші версії будуть видалені.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>{0:p:Цей пристрій було призупинено|Такі пристрої було призупинено}, оскільки {0:p:він підключився|вони підключилися} через мережу з лімітованим тарифом: {0:list:{}|, }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>Призупиняти пристрої, які підключаються через мережу з лімітованим тарифом</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>Вам потрібно використовувати Windows 8 або новішу версію, щоб користуватися цією функцією.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>Лімітовані мережі</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>Вимкнути спливаючі повідомлення повністю на вкладці «Папки»</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>Огляд</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>Відновити</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>Дякуємо! Ваша підтримка дуже важлива.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>Показувати спливаючі повідомлення «Додати новий пристрій / папку»</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>Пристрій {0} ({1}) хоче підключитися. Відкрийте SyncTrayzor, щоб додати новий пристрій</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>Підключити пристрій?</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>{0} хоче надати спільний доступ до папки {1}. Відкрийте SyncTrayzor, щоб додати нову папку</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>Надати доступ до папки?</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>Анімувати значок у лотку:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>Будь-яка передача даних</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>Ніколи</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>Синхронізація</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+    <value>Власний домашній шлях Syncthing:</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>Якщо встановлено, перевизначає типовий шлях для бази даних та конфігурації Syncthing</value>
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+    <value>Прапорці командного рядка Syncthing</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value>Вибрати найновіший конфлікт</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value>Вибирає конфлікт, створений останнім</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>Вибрати найновіший</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>Вибирає «Оригінальний» файл, якщо дата «Остання зміна» є найновішою, або конфлікт, який був створений останнім</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>Вибрати оригінал</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>Бере «Оригінальний» файл із кожного конфлікту та видаляє всі конфліктні файли</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>Ви вибрали {0} конфліктів. Виберіть, як ви хочете їх вирішити. Інші версії будуть видалені.</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>Пожертвувати ще раз</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>Підтримати</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>Рівень журналювання:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>Зневадження</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>Інформація (за замовчуванням)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>Трасування</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>Ви ввімкнули монітори файлової системи для однієї або кількох папок у Syncthing, тому відповідні монітори в SyncTrayzor були вимкнені.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>Примітка:</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>Використовуйте клавіші Shift / Ctrl, щоб вибрати кілька елементів</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>Не вдалося зберегти налаштування автозапуску. Ймовірно, це спричинено антивірусним програмним забезпеченням.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>Не вдалося налаштувати автозапуск</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value>Власний шлях Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>Пересканувати всі папки</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Тримати вікно активності відкритим</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Показувати вікно активності поверх інших вікон</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Файл видалено]</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor виявив, що зараз запущено інший екземпляр із такою ж конфігурацією. Будь ласка, зупиніть будь-які інші екземпляри SyncTrayzor або перезапустіть систему, щоб їх закрити.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Виявлено конфлікт процесів SyncTrayzor</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>Область нижче може бути порожньою, якщо використовуються відеокарти Intel Xe. Якщо ви зіткнулися з цим, вимкніть апаратний рендеринг у меню «Файл» -⁠&gt; «Налаштування».</value>
+  </data>
 </root>
