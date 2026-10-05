@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,753 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutView_CreatedByAuthor" xml:space="preserve">
+    <value>ساختهٔ Persian Boy.</value>
+  </data>
+  <data name="AboutView_DownloadNewVersion" xml:space="preserve">
+    <value>باز کردن صفحهٔ دانلود</value>
+  </data>
+  <data name="AboutView_NewAppVersionAvailable" xml:space="preserve">
+    <value>نسخهٔ جدید در دسترس است: {0}</value>
+  </data>
+  <data name="AboutView_ReleasedLicense" xml:space="preserve">
+    <value>منتشرشده تحت مجوز MIT.</value>
+  </data>
+  <data name="AboutView_ShowOtherLicenses" xml:space="preserve">
+    <value>نمایش مجوزهای متن‌باز</value>
+  </data>
+  <data name="AboutView_SyncthingVersion" xml:space="preserve">
+    <value>نسخهٔ Syncthing: {0}</value>
+  </data>
+  <data name="AboutView_Version" xml:space="preserve">
+    <value>نسخه: {0}</value>
+  </data>
+  <data name="Generic_Dialog_Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="Generic_Dialog_Close" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="Generic_Dialog_Save" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="ShellView_Menu_File" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="ShellView_Menu_File_Exit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="ShellView_Menu_File_Settings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="ShellView_Menu_Help" xml:space="preserve">
+    <value>راهنما</value>
+  </data>
+  <data name="ShellView_Menu_Help_About" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_KillAll" xml:space="preserve">
+    <value>کشتن همهٔ فرایندهای Syncthing</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_OpenExternal" xml:space="preserve">
+    <value>باز کردن در مرورگر خارجی</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Refresh" xml:space="preserve">
+    <value>بازخوانی مرورگر</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Start" xml:space="preserve">
+    <value>شروع</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Stop" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="NewVersionAlertView_Button_DontRemind" xml:space="preserve">
+    <value>دیگر یادآوری نکن</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Download" xml:space="preserve">
+    <value>باز کردن صفحهٔ دانلود</value>
+  </data>
+  <data name="NewVersionAlertView_Button_RemindLater" xml:space="preserve">
+    <value>بعداً یادآوری کن</value>
+  </data>
+  <data name="NewVersionAlertView_Changelog" xml:space="preserve">
+    <value>تغییرات:</value>
+  </data>
+  <data name="NewVersionAlertView_DontRemindMeExplanation" xml:space="preserve">
+    <value>گزینهٔ «دیگر یادآوری نکن» یادآوری‌ها را برای این نسخه خاموش می‌کند. می‌توانید هشدارهای نسخهٔ جدید را به‌طور دائمی از صفحهٔ تنظیمات غیرفعال کنید. برای بررسی دستی نسخهٔ جدید به راهنما -&gt; درباره مراجعه کنید.</value>
+  </data>
+  <data name="NewVersionAlertView_NewVersionAvailable" xml:space="preserve">
+    <value>نسخهٔ {0} SyncTrayzor در دسترس است!</value>
+  </data>
+  <data name="NewVersionAlertView_Title" xml:space="preserve">
+    <value>به‌روزرسانی SyncTrayzor در دسترس است</value>
+  </data>
+  <data name="SettingsView_AlertOnNewVersion" xml:space="preserve">
+    <value>هشدار در صورت وجود نسخهٔ جدید SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_CloseToTray" xml:space="preserve">
+    <value>بستن به سینی سیستم</value>
+  </data>
+  <data name="SettingsView_MinimizeToTray" xml:space="preserve">
+    <value>کوچک کردن به سینی سیستم</value>
+  </data>
+  <data name="SettingsView_ObfuscateDeviceIds" xml:space="preserve">
+    <value>مبهم کردن شناسه‌های دستگاه در نمایش گزارش</value>
+  </data>
+  <data name="SettingsView_OnlyShowTrayIconOnClose" xml:space="preserve">
+    <value>نمایش آیکون سینی فقط هنگام بستن</value>
+  </data>
+  <data name="SettingsView_Section_Advanced" xml:space="preserve">
+    <value>پیشرفته</value>
+  </data>
+  <data name="SettingsView_Section_StartOnLogin" xml:space="preserve">
+    <value>شروع هنگام ورود</value>
+  </data>
+  <data name="SettingsView_Section_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_StartMinimized" xml:space="preserve">
+    <value>شروع کوچک‌شده</value>
+  </data>
+  <data name="SettingsView_StartOnLogin" xml:space="preserve">
+    <value>شروع خودکار هنگام ورود</value>
+  </data>
+  <data name="SettingsView_StartOnLogin_PermissionDenied" xml:space="preserve">
+    <value>دسترسی رد شد. لطفاً برای تغییر این تنظیمات، SyncTrayzor را به‌عنوان مدیر اجرا کنید.</value>
+  </data>
+  <data name="SettingsView_StartSyncthingAutomatically" xml:space="preserve">
+    <value>شروع Syncthing هنگام شروع SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress" xml:space="preserve">
+    <value>نشانی گوش‌دادن رابط کاربری:</value>
+  </data>
+  <data name="SettingsView_SyncthingAddress_ToolTip" xml:space="preserve">
+    <value>SyncTrayzor «نشانی گوش‌دادن رابط کاربری» مشخص‌شده در پیکربندی Syncthing را بازنویسی می‌کند. با این حال، می‌توانید آن را در اینجا به هر مقداری که می‌خواهید تنظیم کنید.</value>
+  </data>
+  <data name="SettingsView_Title" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="SettingsView_SyncthingEnvironmentalVariables" xml:space="preserve">
+    <value>متغیرهای محیطی Syncthing:</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Explanation" xml:space="preserve">
+    <value>پایش‌شده: پوشه برای تغییرات پایش می‌شود، یعنی می‌توانید بازهٔ طولانی‌تری برای پیمایش در Syncthing تنظیم کنید.
+
+اعلان‌ها: هنگامی که فایل‌های این پوشه به‌روزرسانی شوند، پیام‌های حبابی «همگام‌سازی شد» دریافت خواهید کرد.</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Unavailable" xml:space="preserve">
+    <value>پوشه‌ها در دسترس نیستند. لطفاً Syncthing را اجرا کنید</value>
+  </data>
+  <data name="AboutView_UnknownVersion" xml:space="preserve">
+    <value>ناشناخته</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Message" xml:space="preserve">
+    <value>آیا مطمئن هستید که می‌خواهید همهٔ فرایندهای Syncthing را بکشید، حتی آن‌هایی که توسط SyncTrayzor مدیریت نمی‌شوند؟
+
+این کار خطر خرابی پایگاه دادهٔ Syncthing را دارد. فقط در صورتی این کار را انجام دهید که به‌دلیل در حال اجرا بودن فرایند Syncthing دیگری قادر به اجرای Syncthing نیستید.</value>
+  </data>
+  <data name="Dialog_ConfirmKillAllProcesses_Title" xml:space="preserve">
+    <value>واقعاً؟</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Message" xml:space="preserve">
+    <value>اجرای Syncthing ناموفق بود.
+
+لطفاً برای تشخیص علت، گزارش را بخوانید.
+
+اگر پیام «FATAL: Cannot open database» ظاهر شد، لطفاً هر نمونهٔ باز دیگری از Syncthing را ببندید. اگر SyncTrayzor قبلاً خراب شده است، ممکن است هنوز فرایندهای زامبی Syncthing زنده باشند. لطفاً از گزینهٔ منوی «Syncthing -&gt; کشتن همهٔ فرایندهای Syncthing» برای متوقف کردن آن‌ها استفاده کنید، سپس از «Syncthing -&gt; شروع» برای اجرای مجدد Syncthing استفاده کنید.</value>
+  </data>
+  <data name="Dialog_FailedToStartSyncthing_Title" xml:space="preserve">
+    <value>اجرای Syncthing ناموفق بود</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Message" xml:space="preserve">
+    <value>امکان اجرای Syncthing نیست: {0}
+
+این ممکن است به‌دلیل تنظیم ویندوز برای ممنوعیت اجرای فایل‌ها در AppData باشد، یا به‌دلیل نصب نرم‌افزار ضدبدافزار (مثلاً CryptoPrevent) که از اجرای فایل‌ها در AppData جلوگیری می‌کند.
+
+لطفاً تنظیمات / فهرست‌های سفید خود را طوری تغییر دهید که اجازهٔ اجرای «{1}» داده شود</value>
+  </data>
+  <data name="Dialog_SyncthingBlockedByGroupPolicy_Title" xml:space="preserve">
+    <value>خطا در اجرای Syncthing</value>
+  </data>
+  <data name="SettingsView_Validation_InvalidUrl" xml:space="preserve">
+    <value>باید به شکل «host:port» باشد، مثلاً «localhost:8384»</value>
+  </data>
+  <data name="SettingsView_Validation_NotShouldBeEmpty" xml:space="preserve">
+    <value>نباید خالی باشد</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentDescriptionLabel" xml:space="preserve">
+    <value>توضیحات:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentHomepageLabel" xml:space="preserve">
+    <value>صفحهٔ اصلی:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseLabel" xml:space="preserve">
+    <value>مجوز:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentLicenseTextLabel" xml:space="preserve">
+    <value>متن مجوز:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNameLabel" xml:space="preserve">
+    <value>نام:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_ComponentNotesLabel" xml:space="preserve">
+    <value>یادداشت‌ها:</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Intro" xml:space="preserve">
+    <value>SyncTrayzor با استفاده از بسیاری از اجزای متن‌باز ساخته شده است و بدون آن‌ها وجود نداشت.
+جزئیات هر جزء و متن مجوز آن در ادامه نشان داده شده است.</value>
+  </data>
+  <data name="ThirdPartyComponentsView_Title" xml:space="preserve">
+    <value>اجزای شخص ثالث</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Message" xml:space="preserve">
+    <value>{0}: همگام‌سازی به پایان رسید</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Title" xml:space="preserve">
+    <value>همگام‌سازی به پایان رسید</value>
+  </data>
+  <data name="TrayIcon_Menu_CloseToTray" xml:space="preserve">
+    <value>بستن به سینی سیستم</value>
+  </data>
+  <data name="TrayIcon_Menu_Exit" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="TrayIcon_Menu_Restore" xml:space="preserve">
+    <value>باز کردن SyncTrayzor</value>
+  </data>
+  <data name="TrayIcon_Menu_Settings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="TrayIcon_Menu_StartSyncthing" xml:space="preserve">
+    <value>شروع Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_StopSyncthing" xml:space="preserve">
+    <value>توقف Syncthing</value>
+  </data>
+  <data name="UnhandledExceptionView_IntroMessage" xml:space="preserve">
+    <value>اوه! مشکلی به‌شدت اشتباه پیش رفت.
+SyncTrayzor مجبور است بسته شود. بابت این موضوع متأسفیم</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Description" xml:space="preserve">
+    <value>ممکن است از شما خواسته شود فایل گزارشی ارائه دهید.</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Post" xml:space="preserve">
+    <value>و اطلاعات زیر را ضمیمه کنید:</value>
+  </data>
+  <data name="UnhandledExceptionView_PleaseOpenIssue_Pre" xml:space="preserve">
+    <value>لطفاً یک گزارش مشکل در اینجا باز کنید</value>
+  </data>
+  <data name="UnhandledExceptionView_Title" xml:space="preserve">
+    <value>خطا!</value>
+  </data>
+  <data name="ViewerView_SyncthingStarting" xml:space="preserve">
+    <value>Syncthing در حال شروع…</value>
+  </data>
+  <data name="ViewerView_SyncthingStopped" xml:space="preserve">
+    <value>Syncthing متوقف شد</value>
+  </data>
+  <data name="Generic_Dialog_No" xml:space="preserve">
+    <value>خیر</value>
+  </data>
+  <data name="Generic_Dialog_OK" xml:space="preserve">
+    <value>تأیید</value>
+  </data>
+  <data name="Generic_Dialog_Yes" xml:space="preserve">
+    <value>بله</value>
+  </data>
+  <data name="TranslatorAttributation" xml:space="preserve">
+    <value>ترجمهٔ &lt;LANGUAGE&gt; توسط &lt;YOUR NAME&gt;</value>
+  </data>
+  <data name="SettingsView_Section_TrayIcon" xml:space="preserve">
+    <value>آیکون سینی سیستم</value>
+  </data>
+  <data name="SettingsView_ShowDeviceConnectivityBalloons" xml:space="preserve">
+    <value>نمایش پیام‌های حبابی «دستگاه متصل/قطع شد»</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Message" xml:space="preserve">
+    <value>{0} متصل شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceConnected_Title" xml:space="preserve">
+    <value>دستگاه متصل شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Message" xml:space="preserve">
+    <value>{0} قطع شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceDisconnected_Title" xml:space="preserve">
+    <value>دستگاه قطع شد</value>
+  </data>
+  <data name="ShellView_Menu_Syncthing_Restart" xml:space="preserve">
+    <value>راه‌اندازی مجدد</value>
+  </data>
+  <data name="TrayIcon_Menu_RestartSyncthing" xml:space="preserve">
+    <value>راه‌اندازی مجدد Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_Syncthing" xml:space="preserve">
+    <value>Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_SyncTrayzor" xml:space="preserve">
+    <value>SyncTrayzor</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade" xml:space="preserve">
+    <value>توقف ارتقای خودکار Syncthing</value>
+  </data>
+  <data name="SettingsView_SyncthingDenyUpgrade_ToolTip" xml:space="preserve">
+    <value>از ارتقای خودکار Syncthing جلوگیری کنید. این کار در صورتی مفید است که نسخهٔ جدید Syncthing سازگاری با SyncTrayzor را از بین ببرد. باید فایل syncthing.exe را در پوشهٔ پیکربندی SyncTrayzor به نسخهٔ پایین‌تر برگردانید</value>
+  </data>
+  <data name="TrayIcon_Menu_OpenFolder" xml:space="preserve">
+    <value>باز کردن پوشه</value>
+  </data>
+  <data name="ViewerView_OpenFolder" xml:space="preserve">
+    <value>باز کردن پوشه</value>
+  </data>
+  <data name="ViewerView_StartSyncthing" xml:space="preserve">
+    <value>شروع Syncthing</value>
+  </data>
+  <data name="SettingsView_UseComputerCulture" xml:space="preserve">
+    <value>استفاده از زبان رایانهٔ من، در صورت وجود</value>
+  </data>
+  <data name="ShellView_Menu_View" xml:space="preserve">
+    <value>نما</value>
+  </data>
+  <data name="ShellView_Menu_View_SyncthingConsole" xml:space="preserve">
+    <value>کنسول Syncthing</value>
+  </data>
+  <data name="NewVersionAlertView_Button_Install" xml:space="preserve">
+    <value>همین حالا نصب کن</value>
+  </data>
+  <data name="NewVersionAlertView_ViewChangelog" xml:space="preserve">
+    <value>مشاهدهٔ تغییرات</value>
+  </data>
+  <data name="ShellView_Menu_Zoom" xml:space="preserve">
+    <value>بزرگ‌نمایی مرورگر</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_In" xml:space="preserve">
+    <value>بزرگ‌نمایی</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Out" xml:space="preserve">
+    <value>کوچک‌نمایی</value>
+  </data>
+  <data name="ShellView_Menu_Zoom_Reset" xml:space="preserve">
+    <value>بازنشانی</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingEnvironmentalVariablesMustHaveFormat" xml:space="preserve">
+    <value>باید به شکل «VAR=value» یا «VAR="val1 val2"» باشد</value>
+  </data>
+  <data name="NewVersionInstalledView_Message" xml:space="preserve">
+    <value>نسخهٔ {0} SyncTrayzor با موفقیت نصب شد.</value>
+  </data>
+  <data name="NewVersionInstalledView_Title" xml:space="preserve">
+    <value>SyncTrayzor به‌روزرسانی شد</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Message" xml:space="preserve">
+    <value>امکان اجرای Syncthing نیست: {0}. لطفاً برای یافتن سرنخ، خروجی کنسول Syncthing را ببینید.</value>
+  </data>
+  <data name="Dialog_SyncthingDidNotStart_Title" xml:space="preserve">
+    <value>Syncthing به‌درستی اجرا نشد</value>
+  </data>
+  <data name="Generic_Copy" xml:space="preserve">
+    <value>کپی</value>
+  </data>
+  <data name="Generic_Cut" xml:space="preserve">
+    <value>برش</value>
+  </data>
+  <data name="Generic_Paste" xml:space="preserve">
+    <value>جای‌گذاری</value>
+  </data>
+  <data name="FileTranfersTrayView_Header_Downloading" xml:space="preserve">
+    <value>در حال دانلود</value>
+  </data>
+  <data name="FileTransfersTrayView_Deleted" xml:space="preserve">
+    <value>(حذف‌شده)</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateUnknown" xml:space="preserve">
+    <value>در حال دانلود {0}/{1}</value>
+  </data>
+  <data name="FileTransfersTrayView_Header_RecentlyUpdated" xml:space="preserve">
+    <value>اخیراً به‌روزرسانی‌شده</value>
+  </data>
+  <data name="FileTransfersTrayView_InConnectionRate" xml:space="preserve">
+    <value>ورودی: {0}/s</value>
+  </data>
+  <data name="FileTransfersTrayView_NothingToShow" xml:space="preserve">
+    <value>دانلود فایل اخیری وجود ندارد</value>
+  </data>
+  <data name="FileTransfersTrayView_OutConnectionRate" xml:space="preserve">
+    <value>خروجی: {0}/s</value>
+  </data>
+  <data name="TimeAgo_Days" xml:space="preserve">
+    <value>{0:p:1 روز|{} روز} پیش</value>
+  </data>
+  <data name="TimeAgo_Hours" xml:space="preserve">
+    <value>{0:p:1 ساعت|{} ساعت} پیش</value>
+  </data>
+  <data name="TimeAgo_JustNow" xml:space="preserve">
+    <value>همین حالا</value>
+  </data>
+  <data name="TimeAgo_Minutes" xml:space="preserve">
+    <value>{0:p:1 دقیقه|{} دقیقه} پیش</value>
+  </data>
+  <data name="TimeAgo_Years" xml:space="preserve">
+    <value>{0:p:1 سال|{} سال} پیش</value>
+  </data>
+  <data name="FileTransfersTrayView_Downloading_RateKnown" xml:space="preserve">
+    <value>در حال دانلود {0}/{1} ({2}/s)</value>
+  </data>
+  <data name="FileTransfersTrayView_Error" xml:space="preserve">
+    <value>خطا: {0}</value>
+  </data>
+  <data name="FileTransfersTrayView_PathDetails" xml:space="preserve">
+    <value>پوشه: {0}
+مسیر کامل: {1}</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFile" xml:space="preserve">
+    <value>{0:p:1 فایل|{} فایل} حذف شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedSingleFile" xml:space="preserve">
+    <value>{0}: {1} حذف شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedSingleFile" xml:space="preserve">
+    <value>{0}: {1} به‌روزرسانی شد</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFile" xml:space="preserve">
+    <value>{0:p:1 فایل|{} فایل} به‌روزرسانی شد</value>
+  </data>
+  <data name="SettingsView_ShowSynchronizedBalloonIfNoFilesTransferred" xml:space="preserve">
+    <value>نمایش پیام‌های حبابی «همگام‌سازی شد» حتی اگر هیچ فایلی به‌روزرسانی نشده باشد</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_Multiple" xml:space="preserve">
+    <value>{0}: {1:list:{}|; }</value>
+  </data>
+  <data name="SettingsView_DisableHardwareRendering" xml:space="preserve">
+    <value>غیرفعال کردن رندر سخت‌افزاری</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Message" xml:space="preserve">
+    <value>برای اعمال این تنظیمات باید Syncthing را دوباره راه‌اندازی کنید.
+
+آیا می‌خواهید همین حالا Syncthing را دوباره راه‌اندازی کنید؟</value>
+  </data>
+  <data name="SettingsView_RestartSyncthing_Title" xml:space="preserve">
+    <value>Syncthing دوباره راه‌اندازی شود؟</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Message" xml:space="preserve">
+    <value>برای اعمال این تنظیمات باید SyncTrayzor را دوباره راه‌اندازی کنید.
+
+آیا می‌خواهید همین حالا SyncTrayzor را دوباره راه‌اندازی کنید؟</value>
+  </data>
+  <data name="SettingsView_RestartSyncTrayzor_Title" xml:space="preserve">
+    <value>SyncTrayzor دوباره راه‌اندازی شود؟</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Folder" xml:space="preserve">
+    <value>پوشه</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Notifications" xml:space="preserve">
+    <value>اعلان‌ها</value>
+  </data>
+  <data name="SettingsView_WatchedFolders_Header_Watched" xml:space="preserve">
+    <value>پایش‌شده</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagIsNotAllowed" xml:space="preserve">
+    <value>شما مجاز به تعیین پرچم {0} نیستید</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustBeginWithHyphen" xml:space="preserve">
+    <value>پرچم‌های خط فرمان باید با '-' شروع شوند</value>
+  </data>
+  <data name="SettingsView_Validation_SyncthingCommandLineFlagsMustHaveFormat" xml:space="preserve">
+    <value>باید به شکل «-flag» یا «-flag=value» یا «-flag="value with spaces"» باشد</value>
+  </data>
+  <data name="SettingsView_Tab_Folders" xml:space="preserve">
+    <value>پوشه‌ها</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority" xml:space="preserve">
+    <value>اولویت فرایند Syncthing:</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_AboveNormal" xml:space="preserve">
+    <value>بالاتر از معمول</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_BelowNormal" xml:space="preserve">
+    <value>پایین‌تر از معمول</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Idle" xml:space="preserve">
+    <value>کم</value>
+  </data>
+  <data name="SettingsView_Syncthing_ProcessPriority_Normal" xml:space="preserve">
+    <value>معمول</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_DeletedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 فایل|{} فایل} حذف شد ({1:p:1 خطا|{} خطا})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToDeleteSingleFile" xml:space="preserve">
+    <value>{0}: حذف {1} ناموفق بود ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_FailedToUpdateSingleFile" xml:space="preserve">
+    <value>{0}: به‌روزرسانی {1} ناموفق بود ({2})</value>
+  </data>
+  <data name="TrayIcon_Balloon_FinishedSyncing_UpdatedFileWithFailures" xml:space="preserve">
+    <value>{0:p:1 فایل|{} فایل} به‌روزرسانی شد ({1:p:1 خطا|{} خطا})</value>
+  </data>
+  <data name="ConsoleView_ClearButton" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="ConsoleView_PauseButton" xml:space="preserve">
+    <value>توقف موقت</value>
+  </data>
+  <data name="ConsoleView_Title" xml:space="preserve">
+    <value>کنسول Syncthing</value>
+  </data>
+  <data name="SettingsView_Tab_Logging" xml:space="preserve">
+    <value>ثبت گزارش</value>
+  </data>
+  <data name="ConsoleView_SettingsButton" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="UnhandledExceptionView_LogFileLocation_Link" xml:space="preserve">
+    <value>می‌توانید فایل گزارش SyncTrayzor را اینجا پیدا کنید.</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncthingLog" xml:space="preserve">
+    <value>نمایش فایل گزارش Syncthing</value>
+  </data>
+  <data name="SettingsView_Logging_ShowSyncTrayzorLog" xml:space="preserve">
+    <value>نمایش فایل گزارش SyncTrayzor</value>
+  </data>
+  <data name="ConflictResolutionView_Button_Choose" xml:space="preserve">
+    <value>انتخاب</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictCreated" xml:space="preserve">
+    <value>تعارض ایجاد شد</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ConflictingFileName" xml:space="preserve">
+    <value>نام فایل متعارض</value>
+  </data>
+  <data name="ConflictResolutionView_Header_File" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Folder" xml:space="preserve">
+    <value>پوشه</value>
+  </data>
+  <data name="ConflictResolutionView_Header_LastModified" xml:space="preserve">
+    <value>آخرین تغییر</value>
+  </data>
+  <data name="ConflictResolutionView_Header_OriginalFile" xml:space="preserve">
+    <value>فایل اصلی</value>
+  </data>
+  <data name="ConflictResolutionView_Header_ModifiedBy" xml:space="preserve">
+    <value>تغییر یافته توسط</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_CancelButton" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="ConflictResolutionView_Scanning_Label" xml:space="preserve">
+    <value>در حال پیمایش…</value>
+  </data>
+  <data name="ConflictResolutionView_Status_NoConflicts" xml:space="preserve">
+    <value>هیچ تعارضی یافت نشد. کار خوبی کردی!</value>
+  </data>
+  <data name="ConflictResolutionView_Status_Scanning" xml:space="preserve">
+    <value>هنوز هیچ تعارضی یافت نشده…</value>
+  </data>
+  <data name="ConflictResolutionView_Status_SyncthingNotRunning" xml:space="preserve">
+    <value>Syncthing در حال اجرا نیست. لطفاً Syncthing را اجرا کنید.</value>
+  </data>
+  <data name="ConflictResolutionView_Title" xml:space="preserve">
+    <value>حل‌کنندهٔ تعارض</value>
+  </data>
+  <data name="ShellView_Menu_File_ConflictResolver" xml:space="preserve">
+    <value>حل‌کنندهٔ تعارض</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Message" xml:space="preserve">
+    <value>حل این تعارض ناموفق بود: {0}</value>
+  </data>
+  <data name="ConflictResolutionView_Dialog_Failed_Title" xml:space="preserve">
+    <value>عملیات ناموفق بود</value>
+  </data>
+  <data name="BarAlertsView_Conflict_AlertText" xml:space="preserve">
+    <value>شما {0:p:1 فایل متعارض|{} فایل متعارض} دارید.</value>
+  </data>
+  <data name="BarAlertsView_Conflict_ResolveLink" xml:space="preserve">
+    <value>همین حالا حل کن.</value>
+  </data>
+  <data name="SettingsView_EnableConflictFileMonitoring" xml:space="preserve">
+    <value>مرا از فایل‌های متعارض باخبر کن</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_AlertText" xml:space="preserve">
+    <value>{0:p:پوشهٔ زیر|پوشه‌های زیر} انتقال فایل ناموفق دارند: {0:list:{}|، }.</value>
+  </data>
+  <data name="BarAlertsView_FailedTransfer_Details" xml:space="preserve">
+    <value>لطفاً برای یافتن سرنخ، رابط کاربری یا کنسول Syncthing را ببینید.</value>
+  </data>
+  <data name="SettingsView_Alerts_Description" xml:space="preserve">
+    <value>هشدارها در نواری در بالای SyncTrayzor نمایش داده می‌شوند و یک مثلث هشدار روی آیکون سینی سیستم نشان می‌دهند.</value>
+  </data>
+  <data name="SettingsView_EnableFailedTransferAlerts" xml:space="preserve">
+    <value>هشدار انتقال فایل‌های ناموفق</value>
+  </data>
+  <data name="SettingsView_Section_Alerts" xml:space="preserve">
+    <value>هشدارها</value>
+  </data>
+  <data name="ConflictResolutionView_Button_ShowInFolder" xml:space="preserve">
+    <value>نمایش در پوشه</value>
+  </data>
+  <data name="AboutView_Donate_Link" xml:space="preserve">
+    <value>همین حالا اهدا کنید</value>
+  </data>
+  <data name="AboutView_Donate_Text" xml:space="preserve">
+    <value>SyncTrayzor را مفید می‌دانید؟
+لطفاً به پروژهٔ Syncthing اهدا کنید.</value>
+  </data>
+  <data name="ConflictResolutionView_DeleteToRecycleBin" xml:space="preserve">
+    <value>انتقال فایل‌های حذف‌شده به سطل بازیافت، به‌جای حذف دائمی</value>
+  </data>
+  <data name="ConflictResolutionView_Header_Size" xml:space="preserve">
+    <value>اندازه</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseDescription" xml:space="preserve">
+    <value>لطفاً نسخه‌ای از فایل را که می‌خواهید نگه دارید انتخاب کنید. سایر نسخه‌ها حذف خواهند شد.</value>
+  </data>
+  <data name="BarAlertsView_PausedDevicesFromMetering_AlertText" xml:space="preserve">
+    <value>{0:p:دستگاه زیر|دستگاه‌های زیر} به‌دلیل اتصال از طریق شبکهٔ محدود (metered) موقتاً متوقف شده‌اند: {0:list:{}|، }.</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks" xml:space="preserve">
+    <value>توقف موقت دستگاه‌هایی که از شبکهٔ محدود متصل می‌شوند</value>
+  </data>
+  <data name="SettingsView_MeteredNetworks_NotSupported" xml:space="preserve">
+    <value>برای استفاده از این ویژگی باید از ویندوز ۸ یا بالاتر استفاده کنید.</value>
+  </data>
+  <data name="SettingsView_Section_MeteredNetworks" xml:space="preserve">
+    <value>شبکه‌های محدود</value>
+  </data>
+  <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
+    <value>غیرفعال کردن کامل پیام‌های حبابی در زبانهٔ «پوشه‌ها»</value>
+  </data>
+  <data name="ViewerView_BrowseToFolder" xml:space="preserve">
+    <value>مرور</value>
+  </data>
+  <data name="ConsoleView_ResumeButton" xml:space="preserve">
+    <value>ادامه</value>
+  </data>
+  <data name="AboutView_DonateThanks" xml:space="preserve">
+    <value>سلامتی! ممنون از اهدای شما.</value>
+  </data>
+  <data name="SettingsView_ShowDeviceOrFolderRejectedBalloons" xml:space="preserve">
+    <value>نمایش پیام‌های حبابی «افزودن دستگاه / پوشهٔ جدید»</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Message" xml:space="preserve">
+    <value>دستگاه {0} ({1}) می‌خواهد متصل شود. برای افزودن دستگاه جدید، SyncTrayzor را باز کنید</value>
+  </data>
+  <data name="TrayIcon_Balloon_DeviceRejected_Title" xml:space="preserve">
+    <value>دستگاه متصل شود؟</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Message" xml:space="preserve">
+    <value>{0} می‌خواهد پوشهٔ {1} را به اشتراک بگذارد. برای افزودن پوشهٔ جدید، SyncTrayzor را باز کنید</value>
+  </data>
+  <data name="TrayIcon_Balloon_FolderRejected_Title" xml:space="preserve">
+    <value>پوشه به اشتراک گذاشته شود؟</value>
+  </data>
+  <data name="SettingsView_AnimateTrayIcon" xml:space="preserve">
+    <value>انیمیشن آیکون سینی:</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_DataTransferring" xml:space="preserve">
+    <value>هر انتقال داده</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Disabled" xml:space="preserve">
+    <value>هرگز</value>
+  </data>
+  <data name="SettingsView_TrayIconAnimation_Syncing" xml:space="preserve">
+    <value>در حال همگام‌سازی</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath" xml:space="preserve">
+    <value>مسیر خانهٔ سفارشی Syncthing:</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomHomePath_ToolTip" xml:space="preserve">
+    <value>در صورت تنظیم، مسیر پیش‌فرض پایگاه داده و پیکربندی Syncthing را بازنویسی می‌کند</value>
+  </data>
+  <data name="Settings_SyncthingCommandLineFlags" xml:space="preserve">
+    <value>پرچم‌های خط فرمان Syncthing</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Button" xml:space="preserve">
+    <value>انتخاب جدیدترین تعارض</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewestConflict_Text" xml:space="preserve">
+    <value>تعارضی را انتخاب می‌کند که اخیراً ایجاد شده است</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Button" xml:space="preserve">
+    <value>انتخاب جدیدترین</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>اگر تاریخ «آخرین تغییر» فایل «اصلی» جدیدترین باشد، آن را انتخاب می‌کند، وگرنه تعارضی را که اخیراً ایجاد شده است</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Button" xml:space="preserve">
+    <value>انتخاب اصلی</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseOriginal_Text" xml:space="preserve">
+    <value>فایل «اصلی» را از هر تعارض می‌گیرد و همهٔ فایل‌های متعارض را حذف می‌کند</value>
+  </data>
+  <data name="ConfliectResolutionView_ChooseMultipleDescription" xml:space="preserve">
+    <value>شما {0} تعارض را انتخاب کرده‌اید. انتخاب کنید که چگونه می‌خواهید آن‌ها را حل کنید. سایر نسخه‌ها حذف خواهند شد.</value>
+  </data>
+  <data name="AboutView_DonateAgain_Link" xml:space="preserve">
+    <value>دوباره اهدا کنید</value>
+  </data>
+  <data name="ShellView_Donate" xml:space="preserve">
+    <value>اهدا</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel" xml:space="preserve">
+    <value>سطح گزارش:</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Debug" xml:space="preserve">
+    <value>اشکال‌زدایی</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Info" xml:space="preserve">
+    <value>اطلاعات (پیش‌فرض)</value>
+  </data>
+  <data name="SettingsView_Logging_LogLevel_Trace" xml:space="preserve">
+    <value>ردیابی</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing" xml:space="preserve">
+    <value>شما پایشگرهای سیستم فایل را برای یک یا چند پوشه در Syncthing فعال کرده‌اید، بنابراین پایشگرهای متناظر در SyncTrayzor غیرفعال شده‌اند.</value>
+  </data>
+  <data name="SettingsView_WatchedFolderEnabledInSyncthing_Note" xml:space="preserve">
+    <value>توجه:</value>
+  </data>
+  <data name="ConflictResolutionView_SelectMultiple" xml:space="preserve">
+    <value>برای انتخاب چند مورد از shift / control استفاده کنید</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Message" xml:space="preserve">
+    <value>امکان تنظیم تنظیمات شروع خودکار وجود ندارد. این موضوع احتمالاً به‌دلیل نرم‌افزار ضدویروس است.</value>
+  </data>
+  <data name="SettingsView_CannotSetAutoStart_Title" xml:space="preserve">
+    <value>امکان تنظیم شروع خودکار نیست</value>
+  </data>
+  <data name="SettingsView_SyncthingCustomPath" xml:space="preserve">
+    <value>مسیر سفارشی Syncthing</value>
+  </data>
+  <data name="TrayIcon_Menu_RescanAllFolders" xml:space="preserve">
+    <value>پیمایش مجدد همهٔ پوشه‌ها</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_DismissLink" xml:space="preserve">
+    <value>رد کردن</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>باز نگه‌داشتن پنجرهٔ فعالیت</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>نگه‌داشتن پنجرهٔ فعالیت در بالاترین لایه</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[فایل حذف شد]</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor تشخیص داد که نمونهٔ دیگری در حال اجرا با همان پیکربندی است. لطفاً سایر نمونه‌های SyncTrayzor را متوقف کنید، یا سیستم خود را دوباره راه‌اندازی کنید تا بسته شوند.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>فرایندهای متعارض SyncTrayzor شناسایی شد</value>
+  </data>
+  <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
+    <value>ناحیهٔ زیر ممکن است هنگام استفاده از کارت‌های گرافیک Intel Xe خالی باشد. اگر با این مشکل مواجه شدید، لطفاً رندر سخت‌افزاری را از مسیر «فایل -&gt; تنظیمات» غیرفعال کنید.</value>
+  </data>
 </root>
