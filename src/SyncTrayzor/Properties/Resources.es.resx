@@ -941,4 +941,10 @@ SyncTrayzor se va a cerrar. Lo sentimos</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Popup de actividad encima</value>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor ha detectado que ya hay otra instancia en ejecución usando la misma configuración. Cierra cualquier otra instancia de SyncTrayzor o reinicia el sistema para cerrarlas.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Detectados procesos de SyncTrayzor en conflicto</value>
+  </data>
 </root>

@@ -801,4 +801,10 @@ Syncthing'i şimdi yeniden başlatmak istiyor musunuz?</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Etkinlik açılır penceresini en üstte tut</value>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor, başka bir örneğin şu anda aynı yapılandırmayı kullanarak çalıştığını algıladı. Lütfen diğer SyncTrayzor örneklerini durdurun veya bunları kapatmak için sisteminizi yeniden başlatın.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Çakışan SyncTrayzor işlemleri algılandı</value>
+  </data>
 </root>
