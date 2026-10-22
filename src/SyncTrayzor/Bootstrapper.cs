@@ -25,6 +25,7 @@ using SyncTrayzor.Services.Metering;
 using System.Reflection;
 using SyncTrayzor.Localization;
 using SyncTrayzor.Services.Ipc;
+using SyncTrayzor.Services.Theming;
 using System.Net;
 using System.Runtime.Versioning;
 using System.Windows.Media;
@@ -79,6 +80,7 @@ namespace SyncTrayzor
             builder.Bind<IConnectedEventDebouncer>().To<ConnectedEventDebouncer>();
             builder.Bind<IDonationManager>().To<DonationManager>().InSingletonScope();
             builder.Bind<IInstallationHealthCheck>().To<InstallationHealthCheck>().InSingletonScope();
+            builder.Bind<IThemeManager>().To<ThemeManager>().InSingletonScope();
 
             if (AppSettings.Instance.Variant == SyncTrayzorVariant.Installed)
                 builder.Bind<IUpdateVariantHandler>().To<InstalledUpdateVariantHandler>();

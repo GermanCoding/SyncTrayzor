@@ -166,6 +166,18 @@
   <data name="SettingsView_Section_SyncTrayzor" xml:space="preserve">
     <value>SyncTrayzor</value>
   </data>
+  <data name="SettingsView_Theme" xml:space="preserve">
+    <value>Tema:</value>
+  </data>
+  <data name="SettingsView_Theme_System" xml:space="preserve">
+    <value>Sistem ayarını kullan</value>
+  </data>
+  <data name="SettingsView_Theme_Light" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="SettingsView_Theme_Dark" xml:space="preserve">
+    <value>Koyu</value>
+  </data>
   <data name="SettingsView_StartMinimized" xml:space="preserve">
     <value>Simge Durumunda başlat</value>
   </data>

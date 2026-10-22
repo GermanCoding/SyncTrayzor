@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
+using SyncTrayzor.Services.Theming;
 
 namespace SyncTrayzor.Services.Config
 {
@@ -75,6 +76,7 @@ namespace SyncTrayzor.Services.Config
         public string OpenFolderCommand { get; set; }
         public string ShowFileInFolderCommand { get; set; }
         public LogLevel LogLevel { get; set; }
+        public ApplicationTheme Theme { get; set; }
 
         public Configuration()
         {
@@ -114,6 +116,7 @@ namespace SyncTrayzor.Services.Config
             OpenFolderCommand = "explorer.exe \"{0}\"";
             ShowFileInFolderCommand = "explorer.exe /select, \"{0}\"";
             LogLevel = LogLevel.Info;
+            Theme = ApplicationTheme.System;
             KeepActivityPopupOpen = false;
             KeepActivityPopupOnTop = true;
             ActivityPopupWidth = 300;
@@ -156,6 +159,7 @@ namespace SyncTrayzor.Services.Config
             OpenFolderCommand = other.OpenFolderCommand;
             ShowFileInFolderCommand = other.ShowFileInFolderCommand;
             LogLevel = other.LogLevel;
+            Theme = other.Theme;
             KeepActivityPopupOpen = other.KeepActivityPopupOpen;
             KeepActivityPopupOnTop = other.KeepActivityPopupOnTop;
             ActivityPopupWidth = other.ActivityPopupWidth;
@@ -178,7 +182,7 @@ namespace SyncTrayzor.Services.Config
                 $"EnableConflictFileMonitoring={EnableConflictFileMonitoring} " +
                 $"ConflictResolverDeletesToRecycleBin={ConflictResolverDeletesToRecycleBin} PauseDevicesOnMeteredNetworks={PauseDevicesOnMeteredNetworks} " +
                 $"HaveDonated={HaveDonated} IconAnimationMode={IconAnimationMode} OpenFolderCommand={OpenFolderCommand} ShowFileInFolderCommand={ShowFileInFolderCommand}" +
-                $"LogLevel={LogLevel}" +
+                $"LogLevel={LogLevel} Theme={Theme}" +
                 $"KeepActivityPopupOpen={KeepActivityPopupOpen}>" +
                 $"KeepActivityPopupOnTop={KeepActivityPopupOnTop}>" +
                 $"ActivityPopupWindowWidth={ActivityPopupWidth}>"+

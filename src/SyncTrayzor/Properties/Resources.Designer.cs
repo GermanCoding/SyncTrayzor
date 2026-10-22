@@ -68,7 +68,7 @@ namespace SyncTrayzor.Properties {
                 return ResourceManager.GetString("AboutView_CreatedByAuthor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Donate now.
         /// </summary>
@@ -1171,6 +1171,30 @@ namespace SyncTrayzor.Properties {
         public static string SettingsView_Section_SyncTrayzor {
             get {
                 return ResourceManager.GetString("SettingsView_Section_SyncTrayzor", resourceCulture);
+            }
+        }
+
+        public static string SettingsView_Theme {
+            get {
+                return ResourceManager.GetString("SettingsView_Theme", resourceCulture);
+            }
+        }
+
+        public static string SettingsView_Theme_System {
+            get {
+                return ResourceManager.GetString("SettingsView_Theme_System", resourceCulture);
+            }
+        }
+
+        public static string SettingsView_Theme_Light {
+            get {
+                return ResourceManager.GetString("SettingsView_Theme_Light", resourceCulture);
+            }
+        }
+
+        public static string SettingsView_Theme_Dark {
+            get {
+                return ResourceManager.GetString("SettingsView_Theme_Dark", resourceCulture);
             }
         }
         
