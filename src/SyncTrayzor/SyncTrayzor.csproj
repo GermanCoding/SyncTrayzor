@@ -129,7 +129,7 @@
             <Version>1.1.5</Version>
         </PackageReference>
         <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf">
-            <Version>1.1.142</Version>
+            <Version>1.1.161</Version>
         </PackageReference>
         <PackageReference Include="Mono.Options">
             <Version>6.12.0.148</Version>
