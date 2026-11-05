@@ -945,4 +945,10 @@ A SyncTrayzor ki fog lépni. Bocsánat</value>
   <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
     <value>Aktivitásablak mindig legfelül</value>
   </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>A SyncTrayzor azt észlelte, hogy egy másik példány fut ugyanazzal a konfigurációval. Kérjük, állítsa le a többi SyncTrayzor-példányt, vagy indítsa újra a rendszert a bezárásukhoz.</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Ütköző SyncTrayzor-folyamatok észlelve</value>
+  </data>
 </root>
