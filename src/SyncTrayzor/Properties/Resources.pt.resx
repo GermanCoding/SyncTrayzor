@@ -897,4 +897,13 @@ SyncTrayzor terá de fechar. Sinto muito</value>
     <value>Syncthing parou</value>
     <comment>Text shown in the centre of the screen when Syncthing is stopped</comment>
   </data>
+  <data name="SettingsView_KeepActivityPopupOpen" xml:space="preserve">
+    <value>Manter a janela de actividade aberta</value>
+  </data>
+  <data name="SettingsView_KeepActivityPopupOnTop" xml:space="preserve">
+    <value>Manter a janela de actividade à frente</value>
+  </data>
+  <data name="ConflictResolutionView_FileName_FileDeleted" xml:space="preserve">
+    <value>[Ficheiro eliminado]</value>
+  </data>
 </root>

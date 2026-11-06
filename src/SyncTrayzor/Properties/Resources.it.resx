@@ -72,7 +72,7 @@
   </data>
   <data name="AboutView_Donate_Text" xml:space="preserve">
     <value>Hai trovato utile SyncTrayzor?
-Per favore dona alla mia campagna di raccolta fondi per beneficenza.</value>
+Per favore dona al progetto syncthing.</value>
   </data>
   <data name="AboutView_DownloadNewVersion" xml:space="preserve">
     <value>Apri Pagina download</value>
@@ -902,5 +902,8 @@ Se viene visualizzato il messaggio "FATAL: Cannot open database", chiudere tutte
   </data>
   <data name="SettingsView_Alerts_SeeFolders" xml:space="preserve">
     <value>Disattiva completamente i messaggi a fumetto nel tab "Cartelle"</value>
+  </data>
+  <data name="ConflictResolutionView_ChooseNewest_Text" xml:space="preserve">
+    <value>Scegliere il file 'Originale' se la sua data 'Ultima Modifica' è più recente, o il conflitto che è stato creato più recentemente</value>
   </data>
 </root>

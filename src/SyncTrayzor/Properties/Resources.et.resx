@@ -801,4 +801,10 @@ Allpool on esitatud üksikasjad iga komponendi kohta ning vastavad litsentsiting
   <data name="BarAlertsView_IntelXeGraphics_AlertText" xml:space="preserve">
     <value>Kui sinu arvutis on kasutusel Intel Xe graafikakaart, siis alljärgnev võib jääda tühjaks. Kui nii juhtub, siis palun lülita raudvaraline esitusvalmendus välja valikust „Fail“ → „Seadistused“.</value>
   </data>
+  <data name="ViewerView_CefCacheLocked_Title" xml:space="preserve">
+    <value>Rööpne SyncTrayzori protsess</value>
+  </data>
+  <data name="ViewerView_CefCacheLocked" xml:space="preserve">
+    <value>SyncTrayzor tuvastas, et samade seadistuste alusel tööta üks teine protsess. Palun sulge kõik muud SyncTrayzori protsessid või kasuta nende töö lõpetamiseks arvuti taaskäivitust.</value>
+  </data>
 </root>
