@@ -11,7 +11,7 @@ namespace SyncTrayzor.Services
         bool DirectoryExists(string path);
         FileStream Open(string path, FileMode mode);
         FileStream Open(string path, FileMode fileMode, FileAccess fileAccess, FileShare fileShare);
-        FileStream CreateAtomic(string path);
+        AtomicFileStream CreateAtomic(string path, string backupPath = null);
         FileStream OpenRead(string path);
         void Copy(string from, string to);
         void MoveFile(string from, string to);
@@ -44,7 +44,7 @@ namespace SyncTrayzor.Services
 
         public FileStream Open(string path, FileMode fileMode, FileAccess fileAccess, FileShare fileShare) => new(path, fileMode, fileAccess, fileShare);
 
-        public FileStream CreateAtomic(string path) => new AtomicFileStream(path);
+        public AtomicFileStream CreateAtomic(string path, string backupPath = null) => new(path, backupPath);
 
         public FileStream OpenRead(string path) => File.OpenRead(path);
 

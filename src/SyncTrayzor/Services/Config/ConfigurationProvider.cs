@@ -4,7 +4,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.ExceptionServices;
 using System.Threading;
+using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -37,9 +39,13 @@ namespace SyncTrayzor.Services.Config
 
     public class ConfigurationProvider : IConfigurationProvider
     {
-        // Together these come to half a second, which is probably sensible
+        // With a linear backoff, together these come to a bit over 2 seconds (long enough to ride out a brief lock by
+        // e.g. an antivirus scanner)
         private const int fileSaveRetryCount = 10;
         private const int fileSaveFailureDelayMs = 50;
+
+        // The previous version of config.xml is kept alongside it, to recover from if config.xml is found damaged
+        private const string LastGoodSuffix = ".lastgood";
 
         private static readonly Logger logger = LogManager.GetCurrentClassLogger();
         private static readonly XmlSerializer serializer = new(typeof(Configuration));
@@ -158,39 +164,111 @@ namespace SyncTrayzor.Services.Config
                 defaultConfig = XDocument.Load(ms);
             }
 
+            var path = paths.ConfigurationFilePath;
             Configuration configuration;
             try
             {
-                XDocument loadedConfig;
-                if (filesystem.FileExists(paths.ConfigurationFilePath))
+                if (filesystem.FileExists(path))
                 {
-                    logger.Debug("Found existing configuration at {0}", paths.ConfigurationFilePath);
-                    using (var stream = filesystem.OpenRead(paths.ConfigurationFilePath))
+                    logger.Debug("Found existing configuration at {0}", path);
+                    XDocument loadedConfig = null;
+                    XmlException readException = null;
+                    try
                     {
-                        loadedConfig = XDocument.Load(stream);
+                        loadedConfig = ReadXml(path);
                     }
-                    loadedConfig = MigrateConfiguration(loadedConfig);
+                    catch (XmlException e)
+                    {
+                        readException = e;
+                    }
 
-                    var merged = loadedConfig.Root.Elements().Union(defaultConfig.Root.Elements(), new XmlNodeComparer());
-                    loadedConfig.Root.ReplaceNodes(merged);
+                    if (readException == null)
+                        configuration = ParseConfiguration(loadedConfig, defaultConfig);
+                    else if (!TryRecoverFromLastGood(defaultConfig, readException, out configuration))
+                        ExceptionDispatchInfo.Capture(readException).Throw();
                 }
                 else
                 {
-                    logger.Info($"Configuration file {paths.ConfigurationFilePath} doesn't exist, so creating");
+                    logger.Info($"Configuration file {path} doesn't exist, so creating");
                     hadToCreate = true;
-                    loadedConfig = defaultConfig;
+                    configuration = (Configuration)serializer.Deserialize(defaultConfig.CreateReader());
                 }
-
-                configuration = (Configuration)serializer.Deserialize(loadedConfig.CreateReader());
             }
             catch (Exception e)
             {
-                throw new BadConfigurationException(paths.ConfigurationFilePath, e);
+                throw new BadConfigurationException(path, e);
             }
 
             SaveToFile(configuration);
 
             return configuration;
+        }
+
+        private Configuration ParseConfiguration(XDocument loadedConfig, XDocument defaultConfig)
+        {
+            loadedConfig = MigrateConfiguration(loadedConfig);
+
+            var merged = loadedConfig.Root.Elements().Union(defaultConfig.Root.Elements(), new XmlNodeComparer());
+            loadedConfig.Root.ReplaceNodes(merged);
+
+            return (Configuration)serializer.Deserialize(loadedConfig.CreateReader());
+        }
+
+        /// <summary>
+        /// Called when config.xml can't be parsed. If it looks like it was damaged by a crash or power loss (which
+        /// leaves NUL bytes where unwritten data should be), and the copy kept by the previous save loads fully,
+        /// recovers from that copy. Otherwise (e.g. a typo from hand-editing) returns false, so the user is told.
+        /// </summary>
+        private bool TryRecoverFromLastGood(XDocument defaultConfig, XmlException readException, out Configuration configuration)
+        {
+            configuration = null;
+            var path = paths.ConfigurationFilePath;
+            var lastGoodPath = ConfigurationFileLastGoodPath;
+
+            if (!LooksLikeCrashDamage(path) || !filesystem.FileExists(lastGoodPath))
+                return false;
+
+            try
+            {
+                configuration = ParseConfiguration(ReadXml(lastGoodPath), defaultConfig);
+            }
+            catch (Exception e)
+            {
+                logger.Warn(e, "Configuration file {0} is damaged, and the backup {1} couldn't be loaded either", path, lastGoodPath);
+                configuration = null;
+                return false;
+            }
+
+            logger.Warn(readException, "Configuration file {0} is damaged (probably by a crash or power loss), so recovered it from {1}", path, lastGoodPath);
+
+            // Move the damaged file aside (for diagnosis), so that the next save doesn't copy it over the backup
+            var damagedPath = path + ".damaged";
+            if (filesystem.FileExists(damagedPath))
+                filesystem.DeleteFile(damagedPath);
+            filesystem.MoveFile(path, damagedPath);
+
+            return true;
+        }
+
+        private bool LooksLikeCrashDamage(string path)
+        {
+            using var stream = filesystem.OpenRead(path);
+            if (stream.Length == 0)
+                return true;
+
+            int b;
+            while ((b = stream.ReadByte()) != -1)
+            {
+                if (b == 0)
+                    return true;
+            }
+            return false;
+        }
+
+        private XDocument ReadXml(string path)
+        {
+            using var stream = filesystem.OpenRead(path);
+            return XDocument.Load(stream);
         }
 
         private XDocument MigrateConfiguration(XDocument configuration)
@@ -413,6 +491,8 @@ namespace SyncTrayzor.Services.Config
             OnConfigurationChanged(newConfig);
         }
 
+        private string ConfigurationFileLastGoodPath => paths.ConfigurationFilePath + LastGoodSuffix;
+
         private void SaveToFile(Configuration config)
         {
             Exception lastException = null;
@@ -420,20 +500,21 @@ namespace SyncTrayzor.Services.Config
             {
                 try
                 {
-                    using var stream = filesystem.CreateAtomic(paths.ConfigurationFilePath);
+                    using var stream = filesystem.CreateAtomic(paths.ConfigurationFilePath, ConfigurationFileLastGoodPath);
                     serializer.Serialize(stream, config);
-                    break;
+                    stream.Commit();
+                    return;
                 }
-                catch (System.IO.IOException e)
+                catch (Exception e) when (e is IOException || e is UnauthorizedAccessException)
                 {
+                    // UnauthorizedAccessException: e.g. replacing a file which another process has open
                     lastException = e;
-                    logger.Warn("Unable to save config file: maybe someone else has locked it. Trying again shortly", e);
-                    Thread.Sleep(fileSaveFailureDelayMs);
+                    logger.Warn(e, "Unable to save config file: maybe someone else has locked it. Trying again shortly");
+                    Thread.Sleep(fileSaveFailureDelayMs * (i + 1));
                 }
             }
 
-            if (lastException != null)
-                throw new CouldNotSaveConfigurationExeption(paths.ConfigurationFilePath, lastException);
+            throw new CouldNotSaveConfigurationExeption(paths.ConfigurationFilePath, lastException);
         }
 
         private void OnConfigurationChanged(Configuration newConfiguration)
