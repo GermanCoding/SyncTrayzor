@@ -34,10 +34,14 @@ if ($LASTEXITCODE -ne 0) {
 if (!(Test-Path $outdir)) { New-Item -ItemType Directory -Path $outdir | Out-Null }
 
 Write-Host "Extracting to $outdir..."
-Expand-Archive -Path $zipPath -DestinationPath $outdir -Force
+$extractedRoot = Join-Path $outdir "syncthing-windows-$arch-$Version"
+# Left over from an interrupted run? ExtractToDirectory doesn't overwrite.
+if (Test-Path $extractedRoot) { Remove-Item $extractedRoot -Recurse -Force }
+# Expand-Archive fails on GitHub's Windows runners ("Cannot find an overload for ExtractToDirectory"), so use .NET directly
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+[System.IO.Compression.ZipFile]::ExtractToDirectory((Resolve-Path $zipPath).Path, (Resolve-Path $outdir).Path)
 
 # Optionally move binaries up from the nested folder
-$extractedRoot = Join-Path $outdir "syncthing-windows-$arch-$Version"
 if (Test-Path $extractedRoot) {
     Move-Item -Path (Join-Path $extractedRoot '*') -Destination $outdir -Force
     Remove-Item $extractedRoot -Recurse -Force
